@@ -1,0 +1,2721 @@
+question_number,question,answer,model,num_ctx,prompt_eval_count,eval_count,total_duration,load_duration,prompt_eval_duration,eval_duration
+1,"Show all ""Tier 1/2"" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.","Here are the Tier 1/2 suppliers in Georgia along with their EV Supply Chain Roles and Products/Services:
+
+1. **Company:** Nidec Elesys Americas Corp.
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Seating systems
+
+2. **Company:** Novelis Inc.
+   - **EV Supply Chain Role:** Thermal Management
+   - **Product / Service:** Acoustic and thermally effective automotive components
+
+3. **Company:** Novelis Inc.
+   - **EV Supply Chain Role:** Materials
+   - **Product / Service:** Engineered steel systems mounted in motor vehicles
+
+4. **Company:** Novelis Inc.
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Motor vehicle transmissions
+
+5. **Company:** Novelis Inc.
+   - **EV Supply Chain Role:** Materials
+   - **Product / Service:** Seat, interior, and precision metal stamping
+
+6. **Company:** NIFCO KTW America Corp.
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Inventory management for Kia
+
+7. **Company:** Neaton Rome Inc.
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Automotive seating and interior electronics
+
+8. **Company:** Nisshinbo Automotive Manufacturing Inc.
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Braking and suspension products
+
+9. **Company:** Nile Automotive
+   - **EV Supply Chain Role:** General Automotive
+   - **Product / Service:** Window regulators and door frames
+
+10. **Company:** Nidec Elesys Americas Corp.
+    - **EV Supply Chain Role:** General Automotive
+    - **Product / Service:** Seating systems
+
+11. **Company:** NIFCO KTW America Corp.
+    - **EV Supply Chain Role:** General Automotive
+    - **Product / Service:** Inventory management for Kia
+
+12. **Company:** Neaton Rome Inc.
+    - **EV Supply Chain Role:** General Automotive
+    - **Product / Service:** Automotive seating and interior electronics
+
+13. **Company:** Nisshinbo Automotive Manufacturing Inc.
+    - **EV Supply Chain Role:** General Automotive
+    - **Product / Service:** Braking and suspension products
+
+14. **Company:** Nile Automotive
+    - **EV Supply Chain Role:** General Automotive
+    - **Product / Service:** Window regulators and door frames
+
+These are the Tier 1/2 suppliers in Georgia with their respective EV supply chain roles and product/services as listed.",qwen2.5:14b,65536,32768.0,543.0,49529893320.0,2865298984.0,26696046021.0,18913147070.0
+2,"Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?","Here are the Georgia companies that are classified under Battery Cell or Battery Pack roles along with their respective tiers:
+
+1. **SK Battery America**
+   - Tier: Tier 1
+   - Role: Materials (also listed as Vehicle Assembly in another entry)
+   
+2. **Hyundai Motor Group**
+   - Tier: OEM
+   - Role: Vehicle Assembly
+
+3. **Thermal Ceramics Inc.**
+   - Tier: OEM
+   - Role: Vehicle Assembly
+   
+4. **Novelis Inc.**
+   - Tiers: Tier 1 (listed multiple times with different roles)
+   - Roles:
+     - General Automotive
+     - Materials
+     - Thermal Management
+
+5. **Nidec Elesys Americas Corp.**
+   - Tier: Tier 1
+   - Role: General Automotive
+   
+6. **Panduit Corp.**
+   - Tier: Tier 1
+   - Role: General Automotive
+   
+7. **Peerless-Winsmith Inc.**
+   - Tier: Tier 1
+   - Role: General Automotive
+
+8. **PHA Body Systems LLC**
+   - Tier: Tier 1
+   - Role: Materials
+
+9. **Pirelli Tire North America LLC**
+   - Tier: Tier 1
+   - Role: General Automotive
+   
+10. **PPG Industries Inc.**
+    - Tier: Tier 1
+    - Role: General Automotive
+    
+11. **Propex Operating Co. LLC**
+    - Tier: Tier 1
+    - Role: General Automotive
+
+12. **Racemark International LLC**
+    - Tier: Tier 1
+    - Role: Manufacturing and R&D engine parts for EV (listed as General Automotive in another entry)
+
+13. **Sewon America Inc.**
+    - Tiers: Tier 1 (listed multiple times with different roles)
+    - Roles:
+     - General Automotive
+     - Motor vehicle engines and parts
+     - Fire truck bodies
+
+14. **SKF USA Inc.**
+    - Tier: Tier 1
+    - Role: General Automotive
+    
+15. **Solvay Specialty Polymers USA LLC**
+    - Tier: Tier 1
+    - Role: General Automotive
+   
+16. **Southern Switches Corp.**
+    - Tier: Tier 1
+    - Role: Commercial truck bodies
+
+17. **SRG Global Inc.**
+    - Tier: Tier 1
+    - Role: Products for marine, mobile home, and other industries (listed as General Automotive in another entry)
+
+18. **Stryten Energy**
+    - Tier: Tier 1
+    - Role: Automotive fiber padding
+
+19. **Superior Essex Inc.**
+    - Tier: OEM
+    - Role: Electric vehicles and batteries
+    
+20. **Suzuki Manufacturing of America Corp.**
+    - Tier: OEM
+    - Role: Electric vehicle assembly plant
+
+21. **TCI Powder Coatings**
+    - Tier: OEM
+    - Role: Automotive assembly plant (listed as Vehicle Assembly in another entry)
+
+22. **Teklas USA**
+    - Tier: OEM
+    - Role: Golf carts and all-terrain vehicles (listed as Vehicle Assembly in another entry)
+    
+23. **Thermal Ceramics Inc.**
+    - Tier: OEM
+    - Role: Electric vehicle batteries
+
+24. **Thomson Plastics Inc.**
+    - Tier: OEM
+    - Role: Electric vertical takeoff and landing (eVTOL) aircraft manufacturing
+    
+25. **Voestalpine Automotive Body Parts Inc.**
+    - Tier: OEM Supply Chain
+    - Role: EV and ICE powertrain and HVAC components
+
+26. **Vista Metals Corp.**
+    - Tier: OEM Supply Chain
+    - Role: EV and ICE component manufacturing
+
+27. **Wabash National Corp.**
+    - Tier: OEM Supply Chain
+    - Role: Interior and exterior plastic parts
+
+28. **Woodbridge Foam Corp.**
+    - Tier: OEM Supply Chain
+    - Role: Automotive wiring harnesses & electrical distribution systems
+
+29. **Yamaha Motor Manufacturing Corp.**
+    - Tier: OEM Supply Chain
+    - Role: Advanced electrical architecture for EVs
+
+30. **Yazaki North America**
+    - Tier: OEM Footprint
+    - Role: Power electronics, sensors, and EV systems
+
+31. **ZF Gainesville LLC**
+    - Tiers: OEM Supply Chain (listed multiple times with different roles)
+    - Roles:
+     - EV body, powertrain, and thermal components
+     - EV thermal management and power electronics
+     - EV thermal systems and electronics
+
+Note that some companies are listed under multiple tiers or roles. The primary focus here is on Battery Cell or Battery Pack roles, but these companies may have additional roles as well.",qwen2.5:14b,65536,32768.0,1009.0,65536638255.0,163109100.0,27625356186.0,35925143713.0
+3,Map all Thermal Management suppliers in Georgia and show which Primary OEMs they are linked to.,"Here is a list of Thermal Management suppliers in Georgia along with the primary Original Equipment Manufacturers (OEMs) they are linked to:
+
+1. **Peerless-Winsmith Inc.**
+   - Location: Flowery Branch, Hall County
+   - Address: 4510 Cantrell Road, Flowery Branch, GA 30542
+   - Latitude/Longitude: 34.1933557356756, -83.9074650474823
+   - Primary OEMs: Multiple OEMs
+
+2. **Propex Operating Co. LLC**
+   - Location: Pooler, Bryan County
+   - Address: 490 Chatham Pkwy, Pooler, GA 31322
+   - Latitude/Longitude: 32.0941218, -81.1629908
+   - Primary OEMs: Multiple OEMs
+
+3. **Solvay Specialty Polymers USA LLC**
+   - Location: Augusta, Elbert County
+   - Address: 600 Patterson Ave, Augusta, GA 30901
+   - Latitude/Longitude: 34.1033951, -82.8532769
+   - Primary OEMs: Multiple OEMs
+
+These suppliers provide thermal management solutions for various automotive manufacturers in Georgia.",qwen2.5:14b,65536,32768.0,309.0,39982768763.0,146754033.0,28121548912.0,11069123377.0
+4,"List every Georgia company classified under Power Electronics or Charging Infrastructure, along with their Employment size.","Here is the list of companies in Georgia that are classified under Power Electronics or Charging Infrastructure, along with their employment sizes:
+
+1. **Nidec Elesys Americas Corp.**
+   - Location: Suwanee, Forsyth County
+   - Employment Size: 300
+
+2. **Peerless-Winsmith Inc.**
+   - Location: Athens, Clarke County
+   - Employment Size: 150
+
+3. **PHA Body Systems LLC**
+   - Location: Bloomingdale, Bryan County
+   - Employment Size: 145
+
+4. **Porsche Cars North America Inc.**
+   - Location: Atlanta, Fulton County
+   - Employment Size: 125
+
+5. **Solvay Specialty Polymers USA LLC**
+   - Location: Augusta, Elbert County
+   - Employment Size: 70
+
+6. **Superior Essex Inc.**
+   - Location: Kennesaw, Cobb County
+   - Employment Size: 8100
+
+7. **Teklas USA**
+   - Location: Calhoun, Gordon County
+   - Employment Size: 1800
+
+8. **Thomson Plastics Inc.**
+   - Location: Monroe, Walton County
+   - Employment Size: 1000
+
+9. **Valeo**
+   - Employment Size: 269
+
+10. **Voestalpine Automotive Body Parts Inc.**
+    - Location: Cartersville, Bartow County
+    - Employment Size: 1300
+
+11. **Woodbridge Foam Corp.**
+    - Location: Lithonia, Rockdale County
+    - Employment Size: 1657
+
+12. **Yazaki North America**
+    - Location: Griffin, Spalding County
+    - Employment Size: 230000
+
+13. **ZF Gainesville LLC**
+    - Location: Gainesville, Hall County
+    - Employment Size: 17500",qwen2.5:14b,65536,32768.0,422.0,44265052436.0,136783121.0,28157029843.0,15131286902.0
+5,"Which companies are classified as Direct Manufacturer, and what EV Supply Chain Roles do they cover?","The following companies are classified as Direct Manufacturers (OEMs) and their corresponding EV Supply Chain Roles are listed below:
+
+1. **Superior Essex Inc.**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+2. **Suzuki Manufacturing of America Corp.**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+3. **TCI Powder Coatings**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+4. **TDK Components USA Inc.**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+5. **TE Connectivity**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+6. **Teklas USA**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+7. **Textron Specialized Vehicles**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+8. **Thermal Ceramics Inc.**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+9. **Thomson Plastics Inc.**
+   - **EV Supply Chain Role:** Vehicle Assembly
+
+These companies are involved in the direct manufacturing of vehicles, with a focus on vehicle assembly for both electric and internal combustion engine (ICE) vehicles as indicated by their EV Supply Chain Roles.",qwen2.5:14b,65536,32768.0,244.0,37621502563.0,128983462.0,28186200421.0,8758610121.0
+6,"What locations does Novelis Inc. operate in, and what primary facility types are associated with each location?","Novelis Inc. operates in multiple locations within Georgia, each with a different primary facility type:
+
+1. **Atlanta, Fulton County**
+   - **Address:** 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - **Primary Facility Type:** Manufacturing Plant
+
+Novelis Inc. has three entries in the provided data with different primary facility types and roles at this location:
+
+- One entry is for seat, interior, and precision metal stamping (Primary Facility Type: Manufacturing Plant).
+- Another entry is for acoustic and thermally effective automotive components (Primary Facility Type: Manufacturing Plant).
+- The third entry is for motor vehicle transmissions (Primary Facility Type: Manufacturing Plant).
+
+2. **Atlanta, Fulton County**
+   - **Address:** 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - **Primary Facility Types:**
+     - Manufacturing Plant (for seat, interior, and precision metal stamping)
+     - Manufacturing Plant (for acoustic and thermally effective automotive components)
+     - Manufacturing Plant (for motor vehicle transmissions)
+
+In summary, Novelis Inc. operates a single location in Atlanta with multiple manufacturing plants that serve different purposes within the automotive supply chain.",qwen2.5:14b,65536,32768.0,268.0,38566418694.0,139690104.0,28200090845.0,9617232649.0
+7,"In Gwinnett County, which company has the highest Employment and what is its EV Supply Chain Role?","In Gwinnett County, the company with the highest employment is **Superior Essex Inc.** with 8100 employees. Its EV Supply Chain Role is ""Vehicle Assembly"". The address of Superior Essex Inc. in Gwinnett County is:
+
+- Address: 3600 Cobb International Blvd NW, Kennesaw, GA 30152 (Note that the location provided is in Kennesaw which is in Cobb County but it's listed as part of the relevant footprint for Gwinnett County context).
+
+However, if we strictly consider companies located within Gwinnett County itself based on the data given:
+
+The company with the highest employment in Gwinnett County is **TI Fluid Systems** with 80 employees. Its EV Supply Chain Role is ""Vehicle safety systems OEM (EV + ICE)"". The address of TI Fluid Systems in Gwinnett County is:
+
+- Address: 2 Swisher Dr, Cartersville, GA 30120 (Note that the location provided is in Cartersville which is in Bartow County but it's listed as part of the relevant footprint for Gwinnett County context).
+
+If we strictly adhere to companies located within Gwinnett County boundaries:
+
+- **Wabash National Corp.** has a facility in Ellenwood, Clayton County (which borders Gwinnett County), with 20 employees and its EV Supply Chain Role is ""Interior and exterior plastic parts"".
+
+Since there are no other companies listed specifically for Gwinnett County itself, TI Fluid Systems would be the most relevant answer based on proximity and context. However, if we strictly adhere to companies located within Gwinnett County boundaries, Wabash National Corp. would be the highest employment company with 20 employees.
+
+Given the data provided, **TI Fluid Systems** is the best fit for your query as it has a significant presence in the region (Bartow and potentially influencing Gwinnett County) and its role is clearly defined within the EV supply chain context.",qwen2.5:14b,65536,32768.0,410.0,43959287380.0,146649835.0,28198147643.0,14711720804.0
+8,Which county have the highest total Employment among Tier 1 suppliers only?,"To determine which county has the highest total employment among Tier 1 suppliers only, I'll follow these steps:
+
+1. Identify all Tier 1 suppliers in the list.
+2. Sum up the employment numbers for each county where Tier 1 suppliers are located.
+
+Tier 1 Suppliers:
+- Novelis Inc.
+- Nidec Elesys Americas Corp.
+- Neaton Rome Inc.
+- Nile Automotive
+- NIFCO KTW America Corp.
+- Nisshinbo Automotive Manufacturing Inc.
+- NVH Korea
+- Oeda Corp.
+- Oneda Corp.
+- OTR Wheel Engineering Inc.
+- Paccar
+- PAI Industries Inc.
+- Panasonic Automotive Systems Co. (2 locations)
+- Peerless-Winsmith Inc.
+- PHA Body Systems LLC
+- Piedmont Automotive Products Inc.
+- PIOLAX Corp.
+- Pirelli Tire North America LLC
+- Propex Operating Co. LLC
+- Rivian Automotive
+- Robert Bosch LLC
+- Sejong Georgia LLC
+- Seohan Auto USA
+- Seoyon E-Hwa Interior Systems
+- Sewon America Inc. (3 locations)
+- SHIROKI North America Inc.
+- SK Battery America
+- SKF USA Inc.
+- Solvay Specialty Polymers USA LLC
+- Southern Switches Corp.
+- SRG Global Inc.
+- Stryten Energy
+- Suhner Manufacturing Corp.
+
+Now, I'll sum up employment numbers for each county:
+
+1. Cobb County: 205 (Nidec Elesys Americas) + 300 (Neaton Rome) = 505
+2. Hall County: 200 (Oeda Corp.) + 200 (Oneda Corp.) = 400
+3. Forsyth County: 170 (Nile Automotive)
+4. Clayton County: 120 (Paccar) + 85 (SHIROKI North America Inc.) = 205
+5. Newton County: 300 (Nisshinbo Automotive Manufacturing Inc.)
+6. Franklin County: 300 (PHA Body Systems LLC)
+7. Clarke County: 150 (Peerless-Winsmith Inc.)
+8. Habersham County: 140 (Piedmont Automotive Products Inc.)
+9. Floyd County: 200 (PIOLAX Corp.) + 165 (Panasonic Automotive Systems Co., Peachtree City) = 365
+10. Elbert County: 70 (Solvay Specialty Polymers USA LLC)
+11. Dawson County: 68 (Southern Switches Corp.)
+12. Walker County: 110 (RealTruck)
+13. Jones County: 120 (Remarc International LLC)
+14. Troup County: 90 (Sejong Georgia LLC) + 85 (Seohan Auto USA) + 80 (Seoyon E-Hwa Interior Systems) = 255
+15. Harris County: 100 (SAFT America Inc.)
+16. Lamar County: 85 (Seohan Auto USA)
+17. Grady County: 145 (PHA Body Systems LLC)
+18. Walker County: 110 (RealTruck)
+
+The county with the highest total employment among Tier 1 suppliers is Cobb County with a total of 505 employees from Nidec Elesys Americas Corp. and Neaton Rome Inc.",qwen2.5:14b,65536,32768.0,732.0,56010787146.0,138815438.0,28215055624.0,26306208251.0
+9,"Which county has the highest total employment across all companies, and what is the combined employment in that county?","To determine which county has the highest total employment across all companies listed, I'll sum up the employment numbers for each company located in a specific county.
+
+Let's start by identifying counties with multiple entries:
+
+1. **Fulton County**:
+   - Superior Essex Inc.: 8100 employees
+   - Volvo Cars USA: 456 employees
+   - TI Fluid Systems (North American Headquarters): 19600 employees
+
+2. **Cobb County**:
+   - Suzuki Manufacturing of America Corp.: 7500 employees
+   - Yazaki North America: 230000 employees
+   - ZF Gainesville LLC (Engineering / Operations): 106100 employees
+
+3. **Troup County**:
+   - SK Battery America: 75 employees
+   - Seohan Auto USA: 85 employees
+   - Seoyon E-Hwa Interior Systems: 80 employees
+   - SHIROKI North America Inc.: 75 employees
+   - Sewon America Inc. (3 entries): 80 + 75 + 75 = 230 employees
+
+4. **Hall County**:
+   - ZF Gainesville LLC (Engineering / Operations, Manufacturing, and Manufacturing): 
+     - Engineering / Operations: 106100
+     - Manufacturing: 170000 + 17500 = 187500
+
+Now let's sum up the employment numbers for each county:
+
+- **Fulton County**:
+   - Total Employment: 8100 (Superior Essex Inc.) + 456 (Volvo Cars USA) + 19600 (TI Fluid Systems) = 28,156
+
+- **Cobb County**:
+   - Total Employment: 7500 (Suzuki Manufacturing of America Corp.) + 230000 (Yazaki North America) + 106100 (ZF Gainesville LLC Engineering / Operations) = 343,600
+
+- **Troup County**:
+   - Total Employment: 75 + 85 + 80 + 230 = 470
+
+- **Hall County**:
+   - Total Employment: 106100 (Engineering / Operations) + 187500 (Manufacturing) = 293,600
+
+Based on the calculations above:
+
+The county with the highest total employment is Cobb County with a combined employment of **343,600** employees.",qwen2.5:14b,65536,32768.0,554.0,49350302876.0,145475566.0,28220525878.0,19921055467.0
+10,Identify all Vehicle Assembly facilities in Georgia and list the corresponding Primary OEM associated with each facility.,"Based on the provided data, here are the Vehicle Assembly facilities in Georgia along with their corresponding Primary OEMs:
+
+1. **Superior Essex Inc.**
+   - Location: Kennesaw, Cobb County
+   - Address: 3600 Cobb International Blvd NW, Kennesaw, GA 30152
+   - Primary OEM: Hyundai Motor Group
+
+2. **Suzuki Manufacturing of America Corp.**
+   - Location: Rome, Cobb County
+   - Address: 1000 McIntosh Trail SW, Rome, GA 30165
+   - Primary OEM: Rivian Automotive
+
+3. **TCI Powder Coatings**
+   - Location: Ellaville, Schley County
+   - Address: 610 Dixon Dr, Ellaville, GA 31806
+   - Primary OEM: Kia Georgia Inc.
+
+4. **Thermal Ceramics Inc.**
+   - Location: Augusta, Columbia County
+   - Address: 2190 N Leg Rd, Augusta, GA 30909
+   - Primary OEM: SK Battery America
+
+5. **Thomson Plastics Inc.**
+   - Location: Monroe, Walton County
+   - Address: 1440 H D Atha Rd, Monroe, GA 30656
+   - Primary OEM: Archer Aviation Inc.
+
+These are the Vehicle Assembly facilities listed in Georgia with their respective primary OEMs.",qwen2.5:14b,65536,32768.0,306.0,40031218071.0,136290496.0,28241290193.0,11000153270.0
+11,Identify the primary products and services associated with Sewon America Inc. across its different operational sites in Georgia.,"Sewon America Inc. operates at multiple locations in LaGrange, Troup County, Georgia, providing various automotive parts and services. Here are the primary products and services associated with each site:
+
+1. **210 Sewon Dr, LaGrange, GA 30241**
+   - **Motor vehicle engines and parts**: This includes a range of components used in motor vehicles.
+   - **Automotive aftermarket parts**: These are replacement or additional parts for existing vehicles.
+
+2. **210 Sewon Dr, LaGrange, GA 30241** (different service)
+   - **Fluid-carrying systems**: Systems designed to transport fluids within automotive applications.
+
+3. **210 Sewon Dr, LaGrange, GA 30241** (another different service)
+   - **Fire truck bodies**: Custom-made cargo trailers and possibly other specialized vehicle bodies for fire trucks.
+
+In summary, Sewon America Inc.'s primary products and services include motor vehicle engines and parts, automotive aftermarket parts, fluid-carrying systems, and fire truck bodies.",qwen2.5:14b,65536,32768.0,228.0,37110133441.0,127648150.0,28231827703.0,8189836224.0
+12,List all Tier 2/3 companies in Georgia with primary involvement in the electric vehicle or battery supply chain and specify their respective roles.,"Here is a list of Tier 2/3 companies in Georgia that have primary involvement in the electric vehicle (EV) or battery supply chain, along with their specific roles:
+
+1. **SungEel Recycling Park Georgia**
+   - **Role:** Materials
+   - **Description:** Recycles various materials for automotive use.
+
+2. **SK Battery America**
+   - **Role:** Materials
+   - **Description:** Engages in engineered steel systems mounted in motor vehicles, indirectly supporting EV and battery manufacturing.
+
+3. **TDK Components USA Inc.**
+   - **Role:** Vehicle Assembly (HQ)
+   - **Description:** Headquarters for auto manufacturer operations, though primarily classified as OEM footprint here.
+
+4. **Superior Essex Inc.**
+   - **Role:** Vehicle Assembly
+   - **Description:** Electric vehicle and battery assembly plant.
+
+5. **Nidec Elesys Americas Corp.**
+   - **Role:** General Automotive (Seating Systems)
+   - **Description:** Seating systems, indirectly supporting EV manufacturing.
+
+6. **Novelis Inc.**
+   - **Role:** Thermal Management
+   - **Description:** Acoustic and thermally effective automotive components for thermal management in EVs.
+
+7. **NIFCO KTW America Corp.**
+   - **Role:** General Automotive (Inventory Management)
+   - **Description:** Inventory management services for Kia, indirectly supporting EV manufacturing.
+
+8. **Neaton Rome Inc.**
+   - **Role:** General Automotive (Seating and Interior Electronics)
+   - **Description:** Seating systems and interior electronics, indirectly supporting EV manufacturing.
+
+9. **Nile Automotive**
+   - **Role:** General Automotive (Window Regulators and Door Frames)
+   - **Description:** Window regulators and door frames for automotive use, indirectly supporting EV manufacturing.
+
+10. **Nisshinbo Automotive Manufacturing Inc.**
+    - **Role:** General Automotive (Braking and Suspension Products)
+    - **Description:** Braking and suspension products, indirectly supporting EV manufacturing.
+
+11. **Nidec Elesys Americas Corp.**
+    - **Role:** General Automotive (Seating Systems)
+    - **Description:** Seating systems for automotive use, indirectly supporting EV manufacturing.
+
+12. **Novelis Inc.**
+    - **Role:** Materials
+    - **Description:** Engineered steel systems mounted in motor vehicles, indirectly supporting EV and battery manufacturing.
+
+13. **Nidec Elesys Americas Corp.**
+    - **Role:** General Automotive (Seating Systems)
+    - **Description:** Seating systems for automotive use, indirectly supporting EV manufacturing.
+
+14. **Novelis Inc.**
+    - **Role:** Thermal Management
+    - **Description:** Acoustic and thermally effective automotive components for thermal management in EVs.
+
+15. **NIFCO KTW America Corp.**
+    - **Role:** General Automotive (Inventory Management)
+    - **Description:** Inventory management services for Kia, indirectly supporting EV manufacturing.
+
+These companies play significant roles in the EV supply chain through their specific products and services that support various aspects of electric vehicle production and maintenance.",qwen2.5:14b,65536,32768.0,641.0,52612105621.0,132320746.0,28219305614.0,23037172238.0
+13,"Show the full supplier network linked to Rivian Automotive in Georgia, broken down by tier and EV Supply Chain Role.","Certainly! Below is a breakdown of the suppliers linked to Rivian Automotive in Georgia, categorized by Tier level and their respective roles within the Electric Vehicle (EV) supply chain.
+
+### Tier 1 Suppliers
+
+#### Materials
+- **Company**: SK Battery America  
+  - Location: Ellabell, Bryan County  
+  - Address: 700 Hyundai Blvd, Ellabell, GA 31308  
+  - Latitude/Longitude: 32.159233, -81.502963  
+  - Employment: 75  
+  - Product/Service: Engineered steel systems mounted in motor vehicles  
+  - EV Supply Chain Role: Materials  
+
+#### General Automotive
+- **Company**: Nidec Elesys Americas Corp.  
+  - Location: Suwanee, Forsyth County  
+  - Address: 3900 Lakefield Ct, Suwanee, GA 30024  
+  - Latitude/Longitude: 34.064876, -84.156737  
+  - Employment: 300  
+  - Product/Service: Seating systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Paccar  
+  - Location: Morrow, Clayton County  
+  - Address: 6853 Southlake Pkwy, Morrow, GA 30260  
+  - Latitude/Longitude: 33.567598, -84.338734  
+  - Employment: 200  
+  - Product/Service: Semi-trailers  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peerless-Winsmith Inc.  
+  - Location: Athens, Clarke County  
+  - Address: 600 Old Hull Road, Athens, GA 30601  
+  - Latitude/Longitude: 33.986534, -83.341034  
+  - Employment: 150  
+  - Product/Service: Precision turned parts for the automotive industry  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peterson Spring  
+  - Location: Athens, Clarke County  
+  - Address: 600 Old Hull Road, Athens, GA 30601  
+  - Latitude/Longitude: 33.986534, -83.341034  
+  - Employment: 150  
+  - Product/Service: Precision turned parts for the automotive industry  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Pirelli Tire North America LLC  
+  - Location: Albany, Dougherty County  
+  - Address: 2819 Old Dawson Rd, Albany, GA 31707  
+  - Latitude/Longitude: 31.613596, -84.222285  
+  - Employment: 130  
+  - Product/Service: Motor vehicle windshield wiper systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: PPG Industries Inc.  
+  - Location: Calhoun, Whitfield County  
+  - Address: 500 Enterprise Dr, Calhoun, GA 30701  
+  - Latitude/Longitude: 34.699451, -84.948505  
+  - Employment: 120  
+  - Product/Service: Muffler and exhaust systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: RealTruck  
+  - Location: Peachtree City, Walker County  
+  - Address: 1656 Airport Rd N, Peachtree City, GA 30269  
+  - Latitude/Longitude: 34.588242, -85.288323  
+  - Employment: 110  
+  - Product/Service: Automotive lighting and electronics  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Rivian Automotive  
+  - Location: Atlanta, Fulton County  
+  - Address: 1090 Roberts Dr NW, Atlanta, GA 30318  
+  - Latitude/Longitude: 33.720227, -84.370567  
+  - Employment: 105  
+  - Product/Service: Custom metal components  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Robert Bosch LLC  
+  - Location: Flowery Branch, Forsyth County  
+  - Address: 6330 W Broad St, Flowery Branch, GA 30542  
+  - Latitude/Longitude: 34.106237, -84.032686  
+  - Employment: 100  
+  - Product/Service: Automotive powertrain systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SAFT America Inc.  
+  - Location: Cataula, Harris County  
+  - Address: 15621 Hopewell Church Rd, Cataula, GA 31804  
+  - Latitude/Longitude: 32.821762, -84.956328  
+  - Employment: 100  
+  - Product/Service: Arm and head rests  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Seohan Auto USA  
+  - Location: LaGrange, Lamar County  
+  - Address: 850 Lamar St, LaGrange, GA 30240  
+  - Latitude/Longitude: 33.052884, -84.161602  
+  - Employment: 85  
+  - Product/Service: Custom made cargo trailers Ben  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Seoyon E-Hwa Interior Systems  
+  - Location: West Point, Troup County  
+  - Address: 200 Seoyon E-HWA Blvd, West Point, GA 31833  
+  - Latitude/Longitude: 32.877253, -85.159941  
+  - Employment: 80  
+  - Product/Service: Fluid-carrying systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Sewon America Inc.  
+  - Location: LaGrange, Troup County  
+  - Address: 210 Sewon Dr, LaGrange, GA 30241  
+  - Latitude/Longitude: 33.0501, -85.008963  
+  - Employment: 75  
+  - Product/Service: Motor vehicle engines and parts  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SHIROKI North America Inc  
+  - Location: LaGrange, Clayton County  
+  - Address: 100 Shiroki Way, LaGrange, GA 30241  
+  - Latitude/Longitude: 33.558724, -84.44865  
+  - Employment: 75  
+  - Product/Service: Exhaust and emission systems for trucks, buses, vans and industrial vehicles  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SKF USA Inc.  
+  - Location: Ringgold, Catoosa County  
+  - Address: 301 David Fletcher Dr, Ringgold, GA 30736  
+  - Latitude/Longitude: 34.907514, -85.043812  
+  - Employment: 70  
+  - Product/Service: Exhaust systems and parts  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Solvay Specialty Polymers USA LLC  
+  - Location: Augusta, Elbert County  
+  - Address: 600 Patterson Ave, Augusta, GA 30901  
+  - Latitude/Longitude: 34.103395, -82.853277  
+  - Employment: 70  
+  - Product/Service: Automotive wire harnesses  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Southern Switches Corp.  
+  - Location: Dahlonega, Dawson County  
+  - Address: 715 Happy Hollow Rd, Dahlonega, GA 30533  
+  - Latitude/Longitude: 34.529891, -83.998415  
+  - Employment: 68  
+  - Product/Service: Commercial truck bodies  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SRG Global Inc.  
+  - Location: Covington, Newton County  
+  - Address: 10116 Industrial Blvd NE, Covington, GA 30014  
+  - Latitude/Longitude: 33.613021, -83.835589  
+  - Employment: 60  
+  - Product/Service: Products for marine, mobile home, and other industries  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Stryten Energy  
+  - Location: Alpharetta, Forsyth County  
+  - Address: 5925 Cabot Pkwy, Alpharetta, GA 30005  
+  - Latitude/Longitude: 34.118711, -84.205887  
+  - Employment: 50  
+  - Product/Service: Automotive fiber padding  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Suhner Manufacturing Corp.  
+  - Location: Rome, Floyd County  
+  - Address: 43 Anderson Rd SW, Rome, GA 30161  
+  - Latitude/Longitude: 34.208597, -85.189928  
+  - Employment: 50  
+  - Product/Service: Truck trailers  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: TI Fluid Systems  
+  - Location: Cartersville, Bartow County  
+  - Address: 2 Swisher Dr, Cartersville, GA 30120  
+  - Latitude/Longitude: 34.144688, -84.794858  
+  - Employment: 80  
+  - Product/Service: School bus seating, seat belts, and occupant restraint systems  
+  - EV Supply Chain Role: Vehicle safety systems OEM (EV + ICE)  
+
+### Tier 2 Suppliers
+
+#### General Automotive
+- **Company**: Nivel Parts & Manufacturing Co. LLC  
+  - Location: Cairo, Grady County  
+  - Address: 2051 2nd Ave NE, Cairo, GA 39828  
+  - Latitude/Longitude: 30.879609, -84.184908  
+  - Employment: 275  
+  - Product/Service: Industrial trailers and truck bodies  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Novelis Inc.  
+  - Location: Atlanta, Fulton County  
+  - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326  
+  - Latitude/Longitude: 33.854164, -84.362820  
+  - Employment: 200  
+  - Product/Service: Acoustic and thermally effective automotive components  
+  - EV Supply Chain Role: Thermal Management  
+
+- **Company**: Novelis Inc.  
+  - Location: Atlanta, Fulton County  
+  - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326  
+  - Latitude/Longitude: 33.854164, -84.362820  
+  - Employment: 205  
+  - Product/Service: Seat, interior, and precision metal stamping  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Novelis Inc.  
+  - Location: Atlanta, Fulton County  
+  - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326  
+  - Latitude/Longitude: 33.854164, -84.362820  
+  - Employment: 260  
+  - Product/Service: Motor vehicle transmissions  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: NVH Korea  
+  - Location: Locust Grove, Henry County  
+  - Address: 120 Colvin Drive, Locust Grove, GA 30248  
+  - Latitude/Longitude: 33.369034, -84.120730  
+  - Employment: 200  
+  - Product/Service: Automotive stampings  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: OTR Wheel Engineering Inc.  
+  - Location: Rome, Floyd County  
+  - Address: 6 Riverside Industrial Park, Rome, GA 30161  
+  - Latitude/Longitude: 34.280512, -85.164888  
+  - Employment: 200  
+  - Product/Service: Single axle trailers  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Panasonic Automotive Systems Co.  
+  - Location: Peachtree City, Fayette County  
+  - Address: 1 Panasonic Way, Peachtree City, GA 30269  
+  - Latitude/Longitude: 33.358668, -84.559307  
+  - Employment: 180  
+  - Product/Service: Axle bearings  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Panasonic Automotive Systems Co.  
+  - Location: Peachtree City, Fayette County  
+  - Address: 1 Panasonic Way, Peachtree City, GA 30269  
+  - Latitude/Longitude: 33.354032, -84.554643  
+  - Employment: 175  
+  - Product/Service: Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems  
+  - EV Supply Chain Role: Materials  
+
+- **Company**: Paccar  
+  - Location: Morrow, Clayton County  
+  - Address: 6853 Southlake Pkwy, Morrow, GA 30260  
+  - Latitude/Longitude: 33.567598, -84.338734  
+  - Employment: 200  
+  - Product/Service: Semi-trailers  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: PAI Industries Inc.  
+  - Location: Mableton, Cobb County  
+  - Address: 2125 Clay Drive, Mableton, GA 30126  
+  - Latitude/Longitude: 33.923405, -84.546700  
+  - Employment: 198  
+  - Product/Service: Brake pads  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Panduit Corp.  
+  - Location: Cumming, Forsyth County  
+  - Address: 1819 Atlanta Hwy, Cumming, GA 30040  
+  - Latitude/Longitude: 34.166172, -84.165447  
+  - Employment: 170  
+  - Product/Service: Truck bodies and parts  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peerless-Winsmith Inc.  
+  - Location: Dahlonega, Dawson County  
+  - Address: 715 Happy Hollow Rd, Dahlonega, GA 30533  
+  - Latitude/Longitude: 34.529891, -83.998415  
+  - Employment: 68  
+  - Product/Service: Commercial truck bodies  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: PPG Industries Inc.  
+  - Location: Calhoun, Whitfield County  
+  - Address: 500 Enterprise Dr, Calhoun, GA 30701  
+  - Latitude/Longitude: 34.699451, -84.948505  
+  - Employment: 120  
+  - Product/Service: Muffler and exhaust systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Pirelli Tire North America LLC  
+  - Location: Albany, Dougherty County  
+  - Address: 2819 Old Dawson Rd, Albany, GA 31707  
+  - Latitude/Longitude: 31.613596, -84.222285  
+  - Employment: 130  
+  - Product/Service: Motor vehicle windshield wiper systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peterson Spring  
+  - Location: Athens, Clarke County  
+  - Address: 600 Old Hull Road, Athens, GA 30601  
+  - Latitude/Longitude: 33.986534, -83.341034  
+  - Employment: 150  
+  - Product/Service: Precision turned parts for the automotive industry  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peerless-Winsmith Inc.  
+  - Location: Dahlonega, Dawson County  
+  - Address: 715 Happy Hollow Rd, Dahlonega, GA 30533  
+  - Latitude/Longitude: 34.529891, -83.998415  
+  - Employment: 68  
+  - Product/Service: Commercial truck bodies  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: PPG Industries Inc.  
+  - Location: Calhoun, Whitfield County  
+  - Address: 500 Enterprise Dr, Calhoun, GA 30701  
+  - Latitude/Longitude: 34.699451, -84.948505  
+  - Employment: 120  
+  - Product/Service: Muffler and exhaust systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Pirelli Tire North America LLC  
+  - Location: Albany, Dougherty County  
+  - Address: 2819 Old Dawson Rd, Albany, GA 31707  
+  - Latitude/Longitude: 31.613596, -84.222285  
+  - Employment: 130  
+  - Product/Service: Motor vehicle windshield wiper systems  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Peterson Spring  
+  - Location: Athens, Clarke County  
+  - Address: 600 Old Hull Road, Athens, GA 30601  
+  - Latitude/Longitude: 33.986534, -83.341034  
+  - Employment: 150  
+  - Product/Service: Precision turned parts for the automotive industry  
+  - EV Supply Chain Role: General Automotive  
+
+### Tier 3 Suppliers
+
+#### Materials
+- **Company**: Suhner Manufacturing Corp.  
+  - Location: Rome, Floyd County  
+  - Address: 43 Anderson Rd SW, Rome, GA 30161  
+  - Latitude/Longitude: 34.208597, -85.189928  
+  - Employment: 50  
+  - Product/Service: Truck trailers  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SKF USA Inc.  
+  - Location: Ringgold, Catoosa County  
+  - Address: 301 David Fletcher Dr, Ringgold, GA 30736  
+  - Latitude/Longitude: 34.907514, -85.043812  
+  - Employment: 70  
+  - Product/Service: Exhaust systems and parts  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Solvay Specialty Polymers USA LLC  
+  - Location: Augusta, Elbert County  
+  - Address: 600 Patterson Ave, Augusta, GA 30901  
+  - Latitude/Longitude: 34.103395, -82.853277  
+  - Employment: 70  
+  - Product/Service: Automotive wire harnesses  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Southern Switches Corp.  
+  - Location: Dahlonega, Dawson County  
+  - Address: 715 Happy Hollow Rd, Dahlonega, GA 30533  
+  - Latitude/Longitude: 34.529891, -83.998415  
+  - Employment: 68  
+  - Product/Service: Commercial truck bodies  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: SRG Global Inc.  
+  - Location: Covington, Newton County  
+  - Address: 10116 Industrial Blvd NE, Covington, GA 30014  
+  - Latitude/Longitude: 33.613021, -83.835589  
+  - Employment: 60  
+  - Product/Service: Products for marine, mobile home, and other industries  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: Stryten Energy  
+  - Location: Alpharetta, Forsyth County  
+  - Address: 5925 Cabot Pkwy, Alpharetta, GA 30005  
+  - Latitude/Longitude: 34.118711, -84.205887  
+  - Employment: 50  
+  - Product/Service: Automotive fiber padding  
+  - EV Supply Chain Role: General Automotive  
+
+- **Company**: TI Fluid Systems  
+  - Location: Cartersville, Bartow County  
+  - Address: 2 Swisher Dr, Cartersville, GA 30120  
+  - Latitude/Longitude: 34.144688, -84.794858  
+  - Employment: 80  
+  - Product/Service: School bus seating, seat belts, and occupant restraint systems  
+  - EV Supply Chain Role: Vehicle safety systems OEM (EV + ICE)  
+
+### Summary
+This list provides a comprehensive view of the suppliers linked to Rivian Automotive in Georgia, categorized by Tier level and their roles within the EV supply chain. The breakdown includes both direct and indirect suppliers that support various aspects of vehicle manufacturing and assembly.",qwen2.5:14b,65536,32768.0,5097.0,219827631292.0,2862111454.0,26997165518.0,182886593500.0
+14,"Which Georgia companies produce battery materials such as anodes, cathodes, electrolytes, or copper foil, and what tier are they classified as?","Based on the provided data, here are the Georgia companies that produce battery materials like anodes, cathodes, electrolytes, or copper foil:
+
+1. **SK Battery America**
+   - Tier: 1 (Tier 1)
+   - Location: Ellabell, Bryan County
+   - Address: 700 Hyundai Blvd, Ellabell, GA 31308
+   - EV Supply Chain Role: Materials
+   - Employment: 75
+
+2. **SungEel Recycling Park Georgia**
+   - Tier: 2/3 (Tier 2/3)
+   - Location: Duluth, Gwinnett County
+   - Address: 3237 Satellite Blvd, Suite 175, Duluth, GA 30096
+   - EV Supply Chain Role: Materials
+
+Additionally, there are a few other companies that produce materials relevant to battery manufacturing but not specifically listed as producing anodes, cathodes, electrolytes, or copper foil:
+
+- **Nidec Elesys Americas Corp.**
+  - Tier: 1 (Tier 1)
+  - Location: Suwanee, Forsyth County
+  - Address: 3900 Lakefield Ct, Suwanee, GA 30024
+
+- **Novelis Inc.**
+  - Tier: 1 (Tier 1)
+  - Location: Atlanta, Fulton County
+  - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+  - EV Supply Chain Role: Materials
+
+- **Seoyon E-Hwa Interior Systems**
+  - Tier: 1 (Tier 1)
+  - Location: West Point, Troup County
+  - Address: 200 Seoyon E-HWA Blvd, West Point, GA 31833
+  - EV Supply Chain Role: Materials
+
+- **Seohan Auto USA**
+  - Tier: 1 (Tier 1)
+  - Location: LaGrange, Lamar County
+  - Address: 850 Lamar St, LaGrange, GA 30240
+  - EV Supply Chain Role: Materials
+
+However, the primary companies producing battery materials such as anodes, cathodes, electrolytes, or copper foil are **SK Battery America** and **SungEel Recycling Park Georgia**, with SK Battery America being a Tier 1 company.",qwen2.5:14b,65536,32768.0,516.0,48033296122.0,144605848.0,28291451451.0,18583051161.0
+15,Identify all Georgia companies with an EV Supply Chain Role related to wiring harnesses and show their Primary OEMs.,"Based on the provided data, there is one company in Georgia that has an EV Supply Chain Role related to wiring harnesses:
+
+1. **Woodbridge Foam Corp.**
+   - **Location:** Lithonia, Rockdale County
+   - **Address:** 2399 S Stone Mountain Lithonia Rd, Lithonia, GA 30058
+   - **Primary Facility Type:** Manufacturing
+   - **EV Supply Chain Role:** HV and LV wiring harnesses for EVs and ICE vehicles
+   - **Primary OEMs:** Not specified in the data provided
+
+This company is involved in manufacturing automotive wiring harnesses and electrical distribution systems relevant to both electric vehicles (EV) and internal combustion engine (ICE) vehicles.",qwen2.5:14b,65536,32768.0,150.0,34227321550.0,152413945.0,28261489131.0,5387271632.0
+16,Find Georgia-based Tier 1 or Tier 1/2 suppliers capable of producing battery electrolytes or lithium-ion battery materials with existing OEM contracts.,"Based on the provided data, there are a few companies in Georgia that fit your criteria:
+
+### 1. **Woory Industrial Co.**
+- **Category:** OEM Supply Chain
+- **Industry Group:** Electrical connectors and sensors
+- **Location:** Dublin, Johnson County
+- **Address:** 404 Kellam Rd, Dublin, GA 31021
+- **Primary Facility Type:** Manufacturing / Engineering
+- **EV Supply Chain Role:** High-voltage EV connectors and electronics
+- **Employment:** 87,000
+
+Woory Industrial Co. is a large supplier with extensive capabilities in electrical components, including high-voltage connectors and electronics. However, it does not explicitly mention battery electrolytes or lithium-ion battery materials.
+
+### 2. **Yazaki North America**
+- **Category:** OEM Footprint
+- **Industry Group:** Automotive electronics and systems
+- **Location:** Griffin, Spalding County
+- **Address:** 375 Airport Rd, Griffin, Georgia
+- **Primary Facility Type:** Engineering / Operations
+- **EV Supply Chain Role:** Power electronics, sensors, and EV systems
+- **Employment:** 230,000
+
+Yazaki North America is a major automotive supplier with extensive capabilities in power electronics and EV systems. However, it does not explicitly mention battery electrolytes or lithium-ion battery materials.
+
+### 3. **Neaton Rome Inc.**
+- **Category:** Tier 1
+- **Industry Group:** Transportation Equipment
+- **Location:** Rome, Cobb County
+- **Address:** 1 Neaton Dr, Rome, GA 30161
+- **Primary Facility Type:** Manufacturing Plant
+- **EV Supply Chain Role:** General Automotive
+- **Employment:** 300
+
+Neaton Rome Inc. is a Tier 1 supplier with capabilities in automotive seating and interior electronics but does not explicitly mention battery electrolytes or lithium-ion battery materials.
+
+### 4. **Nidec Elesys Americas Corp.**
+- **Category:** Tier 1
+- **Industry Group:** Transportation Equipment
+- **Location:** Suwanee, Forsyth County
+- **Address:** 3900 Lakefield Ct, Suwanee, GA 30024
+- **Primary Facility Type:** Manufacturing Plant
+- **EV Supply Chain Role:** General Automotive
+- **Employment:** 300
+
+Nidec Elesys Americas Corp. is a Tier 1 supplier with capabilities in seating systems but does not explicitly mention battery electrolytes or lithium-ion battery materials.
+
+### 5. **Racemark International LLC**
+- **Category:** Tier 1
+- **Industry Group:** Transportation Equipment
+- **Location:** Gray, Jones County
+- **Address:** 152 Racemark Dr, Gray, GA 31032
+- **Primary Facility Type:** R&D
+- **EV Supply Chain Role:** General Automotive
+- **Employment:** 120
+
+Racemark International LLC is a Tier 1 supplier with capabilities in manufacturing and R&D of engine parts for EVs. However, it does not explicitly mention battery electrolytes or lithium-ion battery materials.
+
+### Conclusion:
+None of the companies listed above explicitly state that they produce battery electrolytes or lithium-ion battery materials. Therefore, based on the provided data, there are no Georgia-based Tier 1 or Tier 1/2 suppliers capable of producing battery electrolytes or lithium-ion battery materials with existing OEM contracts. You may need to look into other specialized companies focused specifically on these components for a more precise match.
+
+If you have additional information about specific companies that might fit this criteria, please provide it so I can help further refine the search.",qwen2.5:14b,65536,32768.0,772.0,57589224200.0,128111687.0,28238662427.0,27765057120.0
+17,Which Georgia companies manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms?,"Based on the provided data, here are some Georgia companies that manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms:
+
+1. **Woodbridge Foam Corp.**
+   - **Location:** Lithonia, Rockdale County
+   - **Address:** 2399 S Stone Mountain Lithonia Rd, Lithonia, GA 30058
+   - **Primary Facility Type:** Manufacturing
+   - **EV Supply Chain Role:** EV wiring harnesses and power distribution
+   - **Product / Service:** Automotive wiring harnesses & electrical distribution systems
+
+2. **WIKA USA**
+   - **Location:** Lawrenceville, Gwinnett County
+   - **Address:** 1000 Wiegand Blvd, Lawrenceville, GA 30043
+   - **Primary Facility Type:** Manufacturing / Engineering
+   - **EV Supply Chain Role:** HV and LV wiring harnesses for EVs and ICE vehicles
+   - **Product / Service:** Vehicle power & data solutions; wiring harnesses and connectors
+
+These companies are involved in manufacturing high-voltage wiring harnesses and electrical distribution systems suitable for BEV platforms.",qwen2.5:14b,65536,32768.0,240.0,37588207537.0,157643883.0,28240243425.0,8620613371.0
+18,Identify Georgia Tier 2/3 companies in the Electronic and Electrical Equipment industry group that could be upgraded to supply EV power electronics.,"Based on the provided data, there are several Tier 2/3 companies in Georgia within the Electronic and Electrical Equipment industry group that have the potential to upgrade their capabilities to supply EV power electronics:
+
+1. **Nidec Elesys Americas Corp.**
+   - **Location:** Suwanee, Forsyth County
+   - **Address:** 3900 Lakefield Ct, Suwanee, GA 30024
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive
+   - **Employment:** 300
+
+2. **Panasonic Automotive Systems Co.**
+   - **Location:** Peachtree City, Fayette County
+   - **Address:** 1 Panasonic Way, Peachtree City, GA 30269
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials (Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems)
+   - **Employment:** 175
+
+3. **Robert Bosch LLC**
+   - **Location:** Flowery Branch, Forsyth County
+   - **Address:** 6330 W Broad St, Flowery Branch, GA 30542
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Automotive powertrain systems)
+   - **Employment:** 100
+
+These companies already have a presence in automotive electronics and manufacturing, which could be leveraged to expand into EV-specific components such as power electronics. They may need to invest in R&D or partner with existing EV component manufacturers to upgrade their capabilities.
+
+Additionally, the following company has an indirect role that might indicate potential for expansion:
+
+4. **Solvay Specialty Polymers USA LLC**
+   - **Location:** Augusta, Elbert County
+   - **Address:** 600 Patterson Ave, Augusta, GA 30901
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Automotive wire harnesses)
+   - **Employment:** 70
+
+While Solvay's current role is more general automotive, their expertise in polymers and materials could be valuable for developing components used in EV power electronics.
+
+These companies have the foundational capabilities that can be expanded to support the growing demand for EV power electronics. They should consider strategic investments or partnerships to enhance their offerings in this area.",qwen2.5:14b,65536,32768.0,512.0,47786847227.0,158992216.0,28225342562.0,18401487675.0
+19,Find Georgia-based companies that manufacture copper foil or electrodeposited materials suitable for EV battery current collectors.,"Based on the provided data, there is one company in Georgia that manufactures copper foil or electrodeposited materials suitable for EV battery current collectors:
+
+- **Company:** TDK Components USA Inc.
+  - **Location:** Silver Creek, Floyd County
+  - **Address:** 4058 Rockmart Rd, Silver Creek, GA 30173
+  - **Latitude & Longitude:** 34.1773552, -85.1488486
+  - **Primary Facility Type:** Manufacturing Plant
+  - **EV Supply Chain Role:** Materials (specifically copper foil or electrodeposited materials suitable for EV battery current collectors)
+  - **Employment:** 1000
+
+TDK Components USA Inc. is involved in manufacturing components that are relevant to the production of electric vehicles, including materials used as current collectors in batteries. This company's role in providing such critical materials makes it a key player in Georgia’s EV supply chain.",qwen2.5:14b,65536,32768.0,205.0,36231191855.0,142482559.0,28219446417.0,7362069766.0
+20,"Which Georgia Tier 1/2 companies produce engineered plastics, polymers, or composite materials applicable to EV structural or thermal components?","Based on the provided data, there are a few Tier 1/2 companies in Georgia that could be involved in producing engineered plastics, polymers, or composite materials relevant to EV structural or thermal components:
+
+1. **Solvay Specialty Polymers USA LLC**
+   - **Location:** Augusta, Elbert County
+   - **Address:** 600 Patterson Ave, Augusta, GA 30901
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Indirect)
+   - **Product / Service:** Automotive wire harnesses
+
+While Solvay is listed as producing automotive wire harnesses, the company specializes in engineered polymers and composites which are highly relevant to EV structural components. 
+
+2. **PPG Industries Inc.**
+   - **Location:** Calhoun, Whitfield County
+   - **Address:** 500 Enterprise Dr, Calhoun, GA 30701
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (No)
+   - **Product / Service:** Muffler and exhaust systems
+
+PPG Industries is a large materials company that produces various engineered plastics and composites. While their listed product here does not directly indicate involvement in EV structural or thermal components, PPG's broader portfolio includes materials suitable for such applications.
+
+3. **Valeo**
+   - **Location:** Not specified
+   - **Address:** Not specified
+   - **Primary Facility Type:** Manufacturing plant
+   - **EV Supply Chain Role:** Tier 1 automotive components (Yes)
+   - **Product / Service:** Automotive body/stamped metal assemblies
+
+Although Valeo is listed as producing stamped metal assemblies, the company also has a significant presence in thermal management systems and other materials that could be relevant to EV structural or thermal components.
+
+4. **Vista Metals Corp.**
+   - **Location:** Adairsville, Bartow County
+   - **Address:** 800 Martin Luther King Jr Dr, Adairsville, GA 30103
+   - **Primary Facility Type:** Manufacturing plant
+   - **EV Supply Chain Role:** EV and ICE component manufacturing (Yes)
+   - **Product / Service:** Automotive modules/powertrain components; parts supply
+
+Vista Metals Corp. produces automotive modules and powertrain components which often involve engineered plastics, polymers, or composite materials.
+
+5. **Voestalpine Automotive Body Parts Inc.**
+   - **Location:** Cartersville, Bartow County
+   - **Address:** 4334 Highway 20 SE, Cartersville, GA 30121
+   - **Primary Facility Type:** Manufacturing plant
+   - **EV Supply Chain Role:** EV and ICE powertrain and HVAC components (Yes)
+   - **Product / Service:** Automotive components manufacturing group (compressors/automotive parts)
+
+Voestalpine produces automotive components including compressors, which often involve engineered plastics or composites.
+
+While these companies are not explicitly listed as producing engineered plastics, polymers, or composite materials for EV structural or thermal components, their broader product portfolios and industry roles suggest they could be involved in such applications. For more specific information, it would be beneficial to review detailed company profiles or contact the respective organizations directly.",qwen2.5:14b,65536,32768.0,685.0,54223640476.0,137922348.0,28217168758.0,24641843905.0
+21,Find Georgia suppliers with existing Hyundai Kia contracts that could be expanded to support Hyundai Metaplant's EV battery production ramp-up.,"To identify Georgia-based suppliers with existing Hyundai-Kia contracts that could potentially expand their operations to support the EV battery production ramp-up at Hyundai MetaPlant, we need to filter through the provided data for companies meeting these criteria:
+
+1. **Existing Contracts with Hyundai or Kia**: The supplier should have an established relationship with either Hyundai or Kia.
+2. **Geographic Location in Georgia**.
+
+Based on this criteria, here are some relevant suppliers from the list:
+
+### Tier 1 Suppliers
+1. **NIFCO KTW America Corp.**
+   - **Location:** Toccoa, Franklin County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **EV / Battery Relevant:** No
+
+2. **Seohan Auto USA**
+   - **Location:** LaGrange, Lamar County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **EV / Battery Relevant:** No
+
+3. **Sewon America Inc.**
+   - **Location:** LaGrange, Troup County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **EV / Battery Relevant:** Indirect
+
+4. **SHIROKI North America Inc**
+   - **Location:** LaGrange, Clayton County
+   - **Primary OEMs:** Blue Bird (indirectly related to Hyundai-Kia through other contracts)
+   - **EV / Battery Relevant:** Indirect
+
+5. **SKF USA Inc.**
+   - **Location:** Ringgold, Catoosa County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **EV / Battery Relevant:** No
+
+6. **SungEel Recycling Park Georgia**
+   - **Location:** Duluth, Gwinnett County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **Product / Service:** Various fasteners for automotive seating and interior
+   - **EV / Battery Relevant:** Indirect
+
+### Tier 2/3 Suppliers
+1. **SungEel Recycling Park Georgia**
+   - **Location:** Duluth, Gwinnett County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **Product / Service:** Various fasteners for automotive seating and interior
+   - **EV / Battery Relevant:** Indirect
+
+2. **Nidec Elesys Americas Corp.**
+   - **Location:** Suwanee, Forsyth County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **Product / Service:** Seating systems
+   - **EV / Battery Relevant:** No
+
+3. **Panduit Corp.**
+   - **Location:** Cumming, Forsyth County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **Product / Service:** Truck bodies and parts
+   - **EV / Battery Relevant:** No
+
+4. **Peerless-Winsmith Inc.**
+   - **Location:** Athens, Clarke County
+   - **Primary OEMs:** Multiple OEMs (including Hyundai-Kia)
+   - **Product / Service:** Precision turned parts for the automotive industry
+   - **EV / Battery Relevant:** Indirect
+
+5. **Panduit Corp.**
+   - **Location:** Cumming, Forsyth County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **Product / Service:** Truck bodies and parts
+   - **EV / Battery Relevant:** No
+
+### OEM Supply Chain (Hyundai-Kia Supplier Footprint)
+1. **Valeo**
+   - **Industry Group:** Automotive body/stamped metal assemblies
+   - **Primary OEMs:** Kia/Hyundai supply chain
+   - **Product / Service:** Automotive body/stamped metal assemblies
+   - **EV / Battery Relevant:** Yes
+
+2. **Yazaki North America**
+   - **Location:** Griffin, Spalding County
+   - **Primary Facility Type:** Engineering / Operations
+   - **Product / Service:** Automotive supplier division (mobility solutions: ADAS, powertrain, electronics)
+   - **EV / Battery Relevant:** Yes
+
+3. **YKK USA Inc.**
+   - **Location:** Marietta, Cobb County
+   - **Primary Facility Type:** Engineering / Operations
+   - **Product / Service:** Automotive technologies (ADAS, braking, connectivity, tires & components)
+   - **EV / Battery Relevant:** Yes
+
+4. **ZF Gainesville LLC**
+   - **Location:** Gainesville, Hall County
+   - **Primary Facility Type:** Manufacturing
+   - **Product / Service:** Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive)
+   - **EV / Battery Relevant:** Yes
+
+### Summary:
+The above companies have existing contracts with Hyundai or Kia and are located in Georgia. They could potentially expand their operations to support the EV battery production ramp-up at Hyundai MetaPlant by leveraging their current expertise and supply chain relationships.
+
+- **NIFCO KTW America Corp., Seohan Auto USA, Sewon America Inc., SHIROKI North America Inc., SKF USA Inc., SungEel Recycling Park Georgia** have existing contracts with Hyundai-Kia but may need to expand into EV battery-related components.
+  
+- **Valeo, Yazaki North America, YKK USA Inc., ZF Gainesville LLC** already supply critical automotive parts and systems that could be expanded to include EV-specific components.
+
+These companies should be prioritized for further engagement to explore potential expansion opportunities in the context of Hyundai MetaPlant's EV battery production ramp-up.",qwen2.5:14b,65536,32768.0,1161.0,72223582409.0,127932437.0,28226942648.0,41751790539.0
+22,"Identify Georgia companies producing DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains and what tier is each assigned?","Based on the provided data, here are the Georgia companies that produce DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains:
+
+1. **TI Fluid Systems**
+   - **Tier**: OEM (Footprint)
+   - **Category**: Vehicle safety systems OEM (EV + ICE)
+   - **Location**: Cartersville, Bartow County
+   - **Address**: 2 Swisher Dr, Cartersville, GA 30120
+   - **Primary Facility Type**: Manufacturing / OEM operations
+   - **Product/Service**: School bus seating, seat belts, and occupant restraint systems
+
+While TI Fluid Systems is listed as an OEM producing vehicle safety systems, it does not directly produce DC-to-DC converters, capacitors, or power electronics components. However, its presence in the EV supply chain suggests that it may be part of a broader network involved in such components.
+
+2. **Valeo**
+   - **Tier**: Tier 1 automotive components
+   - **Category**: OEM Supply Chain
+   - **Location**: Not specified (likely international)
+   - **Address**: Not specified
+   - **Primary Facility Type**: Manufacturing plant
+   - **Product/Service**: Automotive body/stamped metal assemblies (Kia/Hyundai supply chain)
+
+Valeo is a Tier 1 supplier but does not directly produce the components you are asking about.
+
+3. **Yazaki North America**
+   - **Tier**: OEM Footprint
+   - **Category**: Automotive electronics and systems
+   - **Location**: Griffin, Spalding County
+   - **Address**: 375 Airport Rd, Griffin, Georgia
+   - **Primary Facility Type**: Engineering / Operations
+   - **Product/Service**: Automotive supplier division (mobility solutions: ADAS, powertrain, electronics)
+
+Yazaki North America is an OEM footprint company that provides automotive electronics and systems. While it does not directly produce DC-to-DC converters or capacitors in Georgia, its presence suggests involvement with such components.
+
+4. **ZF Gainesville LLC**
+   - **Tier**: OEM Supply Chain
+   - **Category**: Automotive thermal and electronics systems
+   - **Location**: Gainesville, Hall County
+   - **Address**: 1261 Palmour Dr SW, Gainesville, GA 30501
+   - **Primary Facility Type**: Manufacturing
+   - **Product/Service**: Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive)
+
+ZF Gainesville LLC is involved in contract manufacturing and automotive systems. While it does not directly produce DC-to-DC converters or capacitors, its involvement with power electronics suggests relevance to EV drivetrains.
+
+5. **Wabash National Corp.**
+   - **Tier**: OEM Supply Chain
+   - **Category**: Automotive plastic components
+   - **Location**: Ellenwood, Clayton County
+   - **Address**: 2620 Campbell Blvd, Ellenwood, GA 30294
+   - **Primary Facility Type**: Manufacturing plant
+   - **Product/Service**: Automotive parts contract manufacturing (assemblies/components)
+
+Wabash National Corp. is involved in automotive parts contract manufacturing but does not directly produce DC-to-DC converters or capacitors.
+
+6. **Woodbridge Foam Corp.**
+   - **Tier**: OEM Supply Chain
+   - **Category**: Automotive electrical systems
+   - **Location**: Lithonia, Rockdale County
+   - **Address**: 2399 S Stone Mountain Lithonia Rd, Lithonia, GA 30058
+   - **Primary Facility Type**: Manufacturing
+   - **Product/Service**: Automotive wiring harnesses & electrical distribution systems
+
+Woodbridge Foam Corp. produces automotive wiring harnesses and electrical distribution systems but does not directly produce DC-to-DC converters or capacitors.
+
+7. **YKK USA Inc.**
+   - **Tier**: OEM Footprint
+   - **Category**: Automotive electronics and safety systems
+   - **Location**: Marietta, Cobb County
+   - **Address**: 1300 Cobb Industrial Dr, Marietta, GA 30066
+   - **Primary Facility Type**: Engineering / Operations
+   - **Product/Service**: Automotive technologies (ADAS, braking, connectivity, tires & components)
+
+YKK USA Inc. is involved in automotive technologies but does not directly produce DC-to-DC converters or capacitors.
+
+### Summary:
+None of the companies listed explicitly produce DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains within Georgia. However, several companies are part of the broader supply chain and may be indirectly involved in such components through their primary products and services. 
+
+If you need more specific information on companies producing these exact components, further research into Tier 2/3 suppliers would be necessary.",qwen2.5:14b,65536,32768.0,1001.0,66169034664.0,161090637.0,28244347061.0,36045872272.0
+23,"Which Georgia companies provide powder coating-related products or services, and what tier are they classified under?","Based on the information provided in the table, there is one company that provides powder coating-related products or services:
+
+- **Company:** TCI Powder Coatings**
+  - **Tier Classification:** OEM (Original Equipment Manufacturer)
+  - **Industry Group:** Transportation Equipment
+  - **Location:** Ellaville, Schley County
+  - **Address:** 610 Dixon Dr, Ellaville, GA 31806
+  - **Primary Facility Type:** Manufacturing Plant
+  - **EV Supply Chain Role:** Vehicle Assembly
+  - **Employment:** 3000
+
+TCI Powder Coatings is classified as an OEM and operates a manufacturing plant that provides automotive assembly services. While the company's primary role appears to be vehicle assembly rather than powder coating specifically, it falls under the broader category of transportation equipment which may include various manufacturing processes such as powder coating for parts or components.
+
+However, if you are looking strictly for companies focused on providing powder coating products or services, TCI Powder Coatings is not listed with that specific focus. It's possible there might be other companies in Georgia specializing in powder coating but they are not included in this list.",qwen2.5:14b,65536,32768.0,240.0,37596687429.0,135774556.0,28258302862.0,8633521199.0
+24,"Which Georgia companies manufacture battery parts or enclosure systems and are classified as Tier 1/2, making them ready for direct OEM engagement and show which Primary OEMs they are linked to.","Based on the provided data, here are the Georgia companies that manufacture battery parts or enclosure systems and are classified as Tier 1/2:
+
+1. **SK Battery America**
+   - **Location:** Ellabell, Bryan County
+   - **Address:** 700 Hyundai Blvd, Ellabell, GA 31308
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials
+   - **Primary OEMs:** Multiple OEMs (Hyundai Motor Group)
+   - **Supplier or Affiliation Type:** Automotive supply chain participant
+   - **Employment:** 75
+
+2. **Thermal Ceramics Inc.**
+   - **Location:** Augusta, Columbia County
+   - **Address:** 2190 N Leg Rd, Augusta, GA 30909
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Vehicle Assembly (Electric vehicle batteries)
+   - **Primary OEMs:** SK Battery America
+   - **Supplier or Affiliation Type:** Original Equipment Manufacturer
+   - **Employment:** 3000
+
+These companies are classified as Tier 1/2 and manufacture battery parts or enclosure systems, making them ready for direct OEM engagement. They are linked to Hyundai Motor Group and SK Battery America respectively.",qwen2.5:14b,65536,32768.0,276.0,38926462965.0,135117105.0,28243624378.0,9927737377.0
+25,Find Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.,"Based on the provided data, here are the Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive and produce components potentially transferable to EV platforms:
+
+1. **SungEel Recycling Park Georgia**
+   - **Location:** Duluth, Gwinnett County
+   - **Employment:** 650
+   - **EV / Battery Relevant:** Indirect
+
+2. **Nidec Elesys Americas Corp.**
+   - **Location:** Suwanee, Forsyth County
+   - **Employment:** 310
+   - **EV / Battery Relevant:** Indirect (though slightly below the employment threshold of 300)
+
+While Nidec Elesys is just under the employment threshold with 310 employees, it's included due to its proximity and relevance.
+
+These companies are involved in general automotive components that can be adapted for use in EV platforms. For instance, SungEel Recycling Park Georgia focuses on recycling which includes materials used in both traditional vehicles and EVs, while Nidec Elesys provides electronic systems that have applications across various vehicle types including electric vehicles.",qwen2.5:14b,65536,32768.0,240.0,37570398375.0,138537273.0,28233288049.0,8621979521.0
+26,Identify Georgia Tier 2/3 companies in the Chemicals and Allied Products industry group and list their products.,"Based on the provided data, there are no Tier 2/3 companies listed under the Chemicals and Allied Products industry group in Georgia. The closest matches are some companies that fall into other industry groups such as Miscellaneous Manufacturing Industries or Transportation Equipment, but none specifically fit the criteria of being a Tier 2/3 company within the Chemicals and Allied Products industry group.
+
+However, there is one entry related to chemicals which might be relevant:
+
+- **Company:** SungEel Recycling Park Georgia
+  - **Industry Group:** Miscellaneous Manufacturing Industries
+  - **Products:** Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware
+
+If you are looking specifically for chemical products or companies in the chemicals industry group, there may be additional sources or updates needed to provide more accurate information.",qwen2.5:14b,65536,32768.0,177.0,37952411963.0,153967353.0,30987494110.0,6364739892.0
+27,"Which EV Supply Chain Roles in Georgia are served by only a single company, creating a single-point-of-failure risk for the state's EV ecosystem?","To identify which EV Supply Chain Roles in Georgia are served by only a single company, I'll go through the list and count how many companies serve each role. Here is the analysis:
+
+1. **Materials**
+   - SK Battery America (Ellabell, Bryan County)
+   
+2. **Thermal Management**
+   - Peerless-Winsmith Inc. (Flowery Branch, Hall County)
+
+3. **General Automotive**
+   - Many companies are listed under this category but none of them appear to be the sole provider for a specific sub-role.
+
+4. **Vehicle Assembly**
+   - Hyundai Motor Group (Peachtree City, Fayette County)
+   - Mercedes-Benz USA LLC (Atlanta, Fulton County)
+   - Kia Georgia Inc. (Ellaville, Schley County)
+
+5. **Powertrain and HVAC components**
+   - Voestalpine Automotive Body Parts Inc. (Cartersville, Bartow County)
+
+6. **Plastic parts manufacturing**
+   - Volvo Cars USA (Mahwah, NJ) [Note: This is not in Georgia]
+
+7. **Stamped metal components for OEMs**
+   - Volvo Group North America (Greensboro, NC) [Note: This is not in Georgia]
+
+8. **Interior and exterior plastic parts**
+   - Wabash National Corp. (Ellenwood, Clayton County)
+
+9. **Metal stamping/pressing for automotive components**
+   - Wheelabrator Group Inc. (LaGrange, Troup County)
+
+10. **Vehicle power & data solutions; wiring harnesses and connectors**
+    - WIKA USA (Lawrenceville, Gwinnett County)
+   
+11. **Automotive wiring harnesses & electrical distribution systems**
+    - Woodbridge Foam Corp. (Lithonia, Rockdale County)
+
+12. **High-voltage EV connectors and electronics**
+    - Woory Industrial Co. (Dublin, Johnson County)
+
+13. **Automotive seating and E-Systems (electrical distribution)**
+    - Yachiyo Manufacturing of America LLC (Carrollton, Carroll County)
+   
+14. **Advanced electrical architecture for EVs**
+    - Yamaha Motor Manufacturing Corp. (Newnan, Coweta County)
+
+15. **Power electronics, sensors, and EV systems**
+    - Yazaki North America (Griffin, Spalding County)
+
+16. **EV sensors, braking, and control systems**
+    - YKK USA Inc. (Marietta, Cobb County)
+   
+17. **EV body, powertrain, and thermal components**
+    - ZF Gainesville LLC (Gainesville, Hall County)
+
+18. **EV thermal management and power electronics**
+    - ZF Gainesville LLC (Gainesville, Hall County)
+
+Based on the above analysis, the roles served by only a single company in Georgia are:
+
+- **Materials**: SK Battery America
+- **Thermal Management**: Peerless-Winsmith Inc.
+- **Vehicle Assembly**: Hyundai Motor Group, Mercedes-Benz USA LLC, Kia Georgia Inc. (multiple companies but each serves as a single point of failure for their respective roles)
+- **Powertrain and HVAC components**: Voestalpine Automotive Body Parts Inc.
+
+Therefore, the EV Supply Chain Roles in Georgia that are served by only one company include:
+
+1. Materials: SK Battery America
+2. Thermal Management: Peerless-Winsmith Inc.
+3. Vehicle Assembly (each OEM serves as a single point of failure for their respective roles):
+   - Hyundai Motor Group
+   - Mercedes-Benz USA LLC
+   - Kia Georgia Inc.
+
+These companies create single-point-of-failure risks for the state's EV ecosystem if they were to experience significant disruptions or failures.",qwen2.5:14b,65536,32768.0,756.0,56857491299.0,159262267.0,28206041775.0,27222369960.0
+28,"Which Georgia Battery Cell or Battery Pack suppliers are sole-sourced by a specific OEM, indicating high dependency risk?","To identify which Georgia-based battery cell or battery pack suppliers have a sole-source relationship with a specific OEM, we need to look for companies that provide these components and indicate they supply only one OEM. Here's the information from the provided data:
+
+1. **SK Battery America**
+   - Location: Ellabell, Bryan County
+   - Address: 700 Hyundai Blvd, Ellabell, GA 31308
+   - Latitude: 32.159233
+   - Longitude: -81.502963
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: Materials
+   - Primary OEMs: Multiple OEMs (Hyundai Motor Group)
+   - Supplier or Affiliation Type: Automotive supply chain participant
+   - Employment: 75
+   - Product / Service: Engineered steel systems mounted in motor vehicles
+   - EV / Battery Relevant: Indirect
+
+2. **Thermal Ceramics Inc.**
+   - Location: Augusta, Columbia County
+   - Address: 2190 N Leg Rd, Augusta, GA 30909
+   - Latitude: 33.4565319
+   - Longitude: -82.0665715
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: Vehicle Assembly
+   - Primary OEMs: SK Battery America (Hyundai Motor Group)
+   - Supplier or Affiliation Type: Original Equipment Manufacturer
+   - Employment: 3000
+   - Product / Service: Electric vehicle batteries
+   - EV / Battery Relevant: Yes
+
+From the above information, **Thermal Ceramics Inc.** appears to be a sole-source supplier for SK Battery America (which is part of Hyundai Motor Group). This indicates high dependency risk as Thermal Ceramics Inc. seems to supply electric vehicle batteries specifically for SK Battery America.
+
+Therefore, **Thermal Ceramics Inc.** is the Georgia-based battery pack supplier with a sole-source relationship with an OEM, indicating high dependency risk.",qwen2.5:14b,65536,32768.0,435.0,44801392332.0,147514620.0,28218038091.0,15653969020.0
+29,"For Hyundai Metaplant, how many of its Georgia-based EV component suppliers have fewer than 200 employees, flagging potential capacity fragility?","To determine the number of EV component suppliers for Hyundai's manufacturing plant in Georgia that have fewer than 200 employees, we need to identify relevant suppliers from the provided data and filter them based on their employment numbers.
+
+From the list, the following companies are flagged as EV component suppliers for Hyundai with less than 200 employees:
+
+1. **Nisshinbo Automotive Manufacturing Inc.**
+   - Location: Covington, Newton County
+   - Employment: 300 (This is above 200, so it does not qualify)
+
+2. **SungEel Recycling Park Georgia**
+   - Location: Duluth, Gwinnett County
+   - Employment: 650 (This is above 200, so it does not qualify)
+
+3. **Seohan Auto USA**
+   - Location: LaGrange, Lamar County
+   - Employment: 85
+
+4. **SHIROKI North America Inc**
+   - Location: LaGrange, Troup County
+   - Employment: 75
+
+5. **Sewon America Inc.** (Multiple entries)
+   - Location: LaGrange, Troup County
+   - Employment: 80, 75, and 75 (All are below 200)
+
+6. **SHIROKI North America Inc**
+   - Location: LaGrange, Clayton County
+   - Employment: 75
+
+After reviewing the data:
+
+- Seohan Auto USA has 85 employees.
+- SHIROKI North America Inc in both locations has 75 employees each.
+- Sewon America Inc. has three entries with 80, 75, and 75 employees.
+
+Thus, there are **4 distinct suppliers** (Seohan Auto USA, SHIROKI North America Inc., and two instances of Sewon America Inc.) that have fewer than 200 employees:
+
+1. Seohan Auto USA
+2. SHIROKI North America Inc.
+3. Sewon America Inc. (LaGrange, Troup County)
+4. Sewon America Inc. (LaGrange, Clayton County)
+
+Therefore, there are **4 EV component suppliers** for Hyundai's Georgia-based manufacturing plant that have fewer than 200 employees and could be flagged as potentially fragile in terms of capacity.",qwen2.5:14b,65536,32768.0,481.0,46638124470.0,164088696.0,28207874641.0,17274303231.0
+30,"Identify Georgia Tier 2/3 suppliers that are EV Relevant, classified as General Automotive, and provide materials to Battery Cell or Battery Pack companies, suggesting supply chain misalignment risk.","Based on the provided data, here are the Tier 2/3 suppliers in Georgia that meet your criteria:
+
+1. **SungEel Recycling Park Georgia**
+   - **Category:** Tier 2/3
+   - **Industry Group:** Miscellaneous Manufacturing Industries
+   - **Location:** Duluth, Gwinnett County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials
+   - **Supplier or Affiliation Type:** Automotive supply chain participant
+   - **Employment:** 650
+   - **Product / Service:** Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware
+   - **EV Relevant:** Indirect
+   - **Classification Method:** Supplier
+
+This company is classified as General Automotive and provides materials to Battery Cell or Battery Pack companies. This suggests a potential supply chain misalignment risk.
+
+No other Tier 2/3 suppliers in the provided list meet all of these criteria exactly, so SungEel Recycling Park Georgia appears to be the only one that fits your specified conditions.",qwen2.5:14b,65536,32768.0,235.0,37356276555.0,131212430.0,28223295075.0,8441241615.0
+31,Identify all Georgia-based Tier 1/2 automotive suppliers that maintain a diversified customer base (serving 'Multiple OEMs').,"Based on the provided data, here are the Georgia-based Tier 1/2 automotive suppliers that serve multiple Original Equipment Manufacturers (OEMs):
+
+1. **Nidec Elesys Americas Corp.**
+   - Location: Suwanee, Forsyth County
+   - Address: 3900 Lakefield Ct, Suwanee, GA 30024
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 300
+
+2. **NIFCO KTW America Corp.**
+   - Location: Toccoa, Franklin County
+   - Address: 100 Nifco Way, Toccoa, GA 30577
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 300
+
+3. **Nile Automotive**
+   - Location: Cumming, Forsyth County
+   - Address: 4490 Alicia Lane, Cumming, GA 30028
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 300
+
+4. **Nisshinbo Automotive Manufacturing Inc.**
+   - Location: Covington, Newton County
+   - Address: 14187 Nisshinbo Drive, Covington, GA 30014
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 300
+
+5. **Nivel Parts & Manufacturing Co. LLC**
+   - Location: Cairo, Grady County
+   - Address: 2051 2nd Ave NE, Cairo, GA 39828
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 275
+
+6. **Novelis Inc.**
+   - Location: Atlanta, Fulton County
+   - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 260
+
+7. **Novelis Inc.**
+   - Location: Atlanta, Fulton County
+   - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: Materials
+   - Employment: 205
+
+8. **Novelis Inc.**
+   - Location: Atlanta, Fulton County
+   - Address: 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: Thermal Management
+   - Employment: 200
+
+9. **NVH Korea**
+   - Location: Locust Grove, Henry County
+   - Address: 120 Colvin Drive, Locust Grove, GA 30248
+   - Primary Facility Type: Manufacturing Plant
+   - EV Supply Chain Role: General Automotive
+   - Employment: 200
+
+10. **Paccar**
+    - Location: Morrow, Clayton County
+    - Address: 6853 Southlake Pkwy, Morrow, GA 30260
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 200
+
+11. **Panduit Corp.**
+    - Location: Cumming, Forsyth County
+    - Address: 1819 Atlanta Hwy, Cumming, GA 30040
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 170
+
+12. **Peerless-Winsmith Inc.**
+    - Location: Flowery Branch, Hall County
+    - Address: 4510 Cantrell Road, Flowery Branch, GA 30542
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: Thermal Management
+    - Employment: 160
+
+13. **PHA Body Systems LLC**
+    - Location: Clarkesville, Habersham County
+    - Address: 1058 Rocky Branch Rd, Clarkesville, GA 30523
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 140
+
+14. **PIOLAX Corp.**
+    - Location: Canton, Cherokee County
+    - Address: 139 Etowah Industrial Court, Canton, GA 30114
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 130
+
+15. **Pirelli Tire North America LLC**
+    - Location: Albany, Dougherty County
+    - Address: 2819 Old Dawson Rd, Albany, GA 31707
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 130
+
+16. **Porsche Cars North America Inc.**
+    - Location: Atlanta, Fulton County
+    - Address: 1 Porsche Dr, Atlanta, GA 30328
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 125
+
+17. **PPG Industries Inc.**
+    - Location: Calhoun, Whitfield County
+    - Address: 500 Enterprise Dr, Calhoun, GA 30701
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 120
+
+18. **Propex Operating Co. LLC**
+    - Location: Pooler, Bryan County
+    - Address: 490 Chatham Pkwy, Pooler, GA 31322
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 120
+
+19. **QSR Inc.**
+    - Location: LaGrange, Clayton County
+    - Address: 135 QSR Rd, LaGrange, GA 30240
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 120
+
+20. **RealTruck**
+    - Location: Peachtree City, Walker County
+    - Address: 1656 Airport Rd N, Peachtree City, GA 30269
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 110
+
+21. **Rivian Automotive**
+    - Location: Atlanta, Fulton County
+    - Address: 1090 Roberts Dr NW, Atlanta, GA 30318
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 105
+
+22. **Robert Bosch LLC**
+    - Location: Flowery Branch, Forsyth County
+    - Address: 6330 W Broad St, Flowery Branch, GA 30542
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 100
+
+23. **SAFT America Inc.**
+    - Location: Cataula, Harris County
+    - Address: 15621 Hopewell Church Rd, Cataula, GA 31804
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 100
+
+24. **Seohan Auto USA**
+    - Location: LaGrange, Lamar County
+    - Address: 850 Lamar St, LaGrange, GA 30240
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 85
+
+25. **Seoyon E-Hwa Interior Systems**
+    - Location: West Point, Troup County
+    - Address: 200 Seoyon E-HWA Blvd, West Point, GA 31833
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 80
+
+26. **Sewon America Inc.**
+    - Location: LaGrange, Troup County
+    - Address: 210 Sewon Dr, LaGrange, GA 30241
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 80
+
+27. **Sewon America Inc.**
+    - Location: LaGrange, Troup County
+    - Address: 210 Sewon Dr, LaGrange, GA 30241
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 75
+
+28. **SHIROKI North America Inc**
+    - Location: LaGrange, Clayton County
+    - Address: 100 Shiroki Way, LaGrange, GA 30241
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 75
+
+29. **SKF USA Inc.**
+    - Location: Ringgold, Catoosa County
+    - Address: 301 David Fletcher Dr, Ringgold, GA 30736
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 70
+
+30. **Solvay Specialty Polymers USA LLC**
+    - Location: Augusta, Elbert County
+    - Address: 600 Patterson Ave, Augusta, GA 30901
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 70
+
+31. **Southern Switches Corp.**
+    - Location: Dahlonega, Dawson County
+    - Address: 715 Happy Hollow Rd, Dahlonega, GA 30533
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 68
+
+32. **SRG Global Inc.**
+    - Location: Covington, Newton County
+    - Address: 10116 Industrial Blvd NE, Covington, GA 30014
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 60
+
+33. **Stryten Energy**
+    - Location: Alpharetta, Forsyth County
+    - Address: 5925 Cabot Pkwy, Alpharetta, GA 30005
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: General Automotive
+    - Employment: 50
+
+34. **SungEel Recycling Park Georgia**
+    - Location: Duluth, Gwinnett County
+    - Address: 3237 Satellite Blvd, Suite 175, Duluth, GA 30096
+    - Primary Facility Type: Manufacturing Plant
+    - EV Supply Chain Role: Materials
+    - Employment: 650
+
+These companies serve multiple OEMs and are categorized as Tier 1 or Tier 2 suppliers in Georgia.",qwen2.5:14b,65536,32768.0,2556.0,124749124747.0,143897779.0,28214555799.0,91969010264.0
+32,Identify Georgia companies in the Thermal Management or Power Electronics role with fewer than 200 employees - their small scale may limit surge production capacity.,"Based on your criteria, here are the companies in Georgia that have a role in Thermal Management or Power Electronics and employ fewer than 200 people:
+
+1. **Peerless-Winsmith Inc.**
+   - **Location:** Flowery Branch, Hall County
+   - **Address:** 4510 Cantrell Road, Flowery Branch, GA 30542
+   - **Latitude/Longitude:** 34.1933557356756, -83.9074650474823
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Thermal Management
+   - **Employment:** 160
+
+2. **Nidec Elesys Americas Corp.**
+   - **Location:** Suwanee, Forsyth County
+   - **Address:** 3900 Lakefield Ct, Suwanee, GA 30024
+   - **Latitude/Longitude:** 34.064876, -84.156737
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Power Electronics
+   - **Employment:** 300 (Note: This is slightly above the threshold of 200 employees but close to it)
+
+While Nidec Elesys Americas Corp. has more than 200 employees, it's worth noting that they are relatively small compared to other companies in this sector and could still face limitations on surge production capacity.
+
+Peerless-Winsmith Inc., however, clearly meets the criteria with fewer than 200 employees and is involved in Thermal Management.",qwen2.5:14b,65536,32768.0,361.0,42146973394.0,137336742.0,28263025998.0,12978987926.0
+33,Identify any EV-relevant Georgia companies classified as OEM Footprint or OEM Supply Chain?,"Certainly! Here are the EV-relevant Georgia companies that are classified as either OEM Footprint or OEM Supply Chain:
+
+1. **TI Fluid Systems**
+   - **Category**: OEM (Footprint)
+   - **Industry Group**: Passenger vehicles (EV + ICE)
+   - **Location**: Cartersville, Bartow County
+   - **Address**: 2 Swisher Dr, Cartersville, GA 30120
+   - **Primary Facility Type**: Manufacturing / OEM operations
+   - **EV Supply Chain Role**: Vehicle safety systems OEM (EV + ICE)
+   - **Employment**: 80
+
+2. **TI Fluid Systems**
+   - **Category**: OEM (Footprint)
+   - **Industry Group**: Passenger vehicles (EV + ICE)
+   - **Location**: Cartersville, Bartow County
+   - **Address**: 2 Swisher Dr, Cartersville, GA 30120
+   - **Primary Facility Type**: North American Headquarters
+   - **EV Supply Chain Role**: OEM corporate footprint influencing EV strategy
+   - **Employment**: 19600
+
+3. **Tie Down Engineering**
+   - **Category**: OEM (Footprint)
+   - **Industry Group**: Heavy-duty trucks
+   - **Location**: Atlanta, Fulton County
+   - **Address**: 605 Stonehill Dr SW, Atlanta, GA 30336
+   - **Primary Facility Type**: North American Headquarters
+   - **EV Supply Chain Role**: OEM corporate and engineering footprint (electrification)
+   - **Employment**: 2000
+
+4. **TN Americas Holding Inc.**
+   - **Category**: OEM (Footprint)
+   - **Industry Group**: Commercial vehicles and powertrains
+   - **Location**: Cumming, Forsyth County
+   - **Address**: 2200 Pendley Rd, Cumming, GA 30041
+   - **Primary Facility Type**: Corporate operations
+   - **EV Supply Chain Role**: OEM parent group footprint (EV + HD electrification)
+   - **Employment**: 19600
+
+5. **Toyota Industries Group (TACG-TICA)**
+   - **Category**: OEM (Footprint)
+   - **Industry Group**: Commercial vehicles and powertrains
+   - **Location**: Pendergrass, Hall County
+   - **Address**: 1000 Valentine Industrial Pkwy, Pendergrass, GA 30567
+   - **Primary Facility Type**: Corporate operations
+   - **EV Supply Chain Role**: OEM parent group footprint (electric truck strategy)
+   - **Employment**: 18100
+
+6. **Trenton Pressing Inc.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive precision components
+   - **Location**: Trenton, Dade County
+   - **Address**: 505 N Industrial Blvd, Trenton, GA 30752
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Machined components supporting EV and ICE vehicles
+   - **Employment**: 298
+
+7. **Valeo**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive parts manufacturing
+   - **Location**: (No specific address provided)
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Tier 1 automotive components
+   - **Employment**: 269
+
+8. **Vanguard National Trailer Corp.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive structural components
+   - **Location**: Trenton, Dade County
+   - **Address**: 8 Vanguard Dr, Trenton, GA 30752
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Body and chassis components for EV and ICE OEMs
+   - **Employment**: 630
+
+9. **Vernay**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive stamping and assemblies
+   - **Location**: Griffin, Spalding County
+   - **Address**: 804 Greenbelt Pkwy, Griffin, GA 30223
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: EV and ICE component manufacturing
+   - **Employment**: 1600
+
+10. **Vista Metals Corp.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive modules and components
+    - **Location**: Adairsville, Bartow County
+    - **Address**: 800 Martin Luther King Jr Dr, Adairsville, GA 30103
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: EV and ICE powertrain and HVAC components
+    - **Employment**: 1500
+
+11. **Voestalpine Automotive Body Parts Inc.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive components
+    - **Location**: Cartersville, Bartow County
+    - **Address**: 4334 Highway 20 SE, Cartersville, GA 30121
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: EV and ICE powertrain and HVAC components
+    - **Employment**: 1300
+
+12. **Volvo Cars USA**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive plastics
+    - **Location**: Mahwah, New Jersey (no specific Georgia address provided)
+    - **Address**: 1800 Volvo Place, Mahwah, NJ 07430
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: Plastic components for EV and ICE vehicles
+    - **Employment**: 456
+
+13. **Volvo Group North America**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Metal stamping and assemblies
+    - **Location**: Greensboro, North Carolina (no specific Georgia address provided)
+    - **Address**: 7900 National Service Rd, Greensboro, NC 27409
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: Stamped metal components for OEMs
+    - **Employment**: 251
+
+14. **Wabash National Corp.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive plastic components
+    - **Location**: Ellenwood, Clayton County
+    - **Address**: 2620 Campbell Blvd, Ellenwood, GA 30294
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: Interior and exterior plastic parts
+    - **Employment**: 20
+
+15. **Wheelabrator Group Inc.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive textiles and interiors
+    - **Location**: LaGrange, Troup County
+    - **Address**: 1606 Executive Dr, LaGrange, GA 30240
+    - **Primary Facility Type**: Manufacturing plant
+    - **EV Supply Chain Role**: Interior trim and textile components
+    - **Employment**: 51
+
+16. **WIKA USA**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive wiring systems
+    - **Location**: Lawrenceville, Gwinnett County
+    - **Address**: 1000 Wiegand Blvd, Lawrenceville, GA 30043
+    - **Primary Facility Type**: Manufacturing / Engineering
+    - **EV Supply Chain Role**: HV and LV wiring harnesses for EVs and ICE vehicles
+    - **Employment**: 250000
+
+17. **Woodbridge Foam Corp.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive electrical systems
+    - **Location**: Lithonia, Rockdale County
+    - **Address**: 2399 S Stone Mountain Lithonia Rd, Lithonia, GA 30058
+    - **Primary Facility Type**: Manufacturing
+    - **EV Supply Chain Role**: EV wiring harnesses and power distribution
+    - **Employment**: 1657
+
+18. **Woory Industrial Co.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Electrical connectors and sensors
+    - **Location**: Dublin, Johnson County
+    - **Address**: 404 Kellam Rd, Dublin, GA 31021
+    - **Primary Facility Type**: Manufacturing / Engineering
+    - **EV Supply Chain Role**: High-voltage EV connectors and electronics
+    - **Employment**: 87000
+
+19. **Yachiyo Manufacturing of America LLC**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive seating and E-systems
+    - **Location**: Carrollton, Carroll County
+    - **Address**: 565 Beulah Church Rd, Carrollton, GA 30117
+    - **Primary Facility Type**: Manufacturing
+    - **EV Supply Chain Role**: EV electrical distribution and interior systems
+    - **Employment**: 173700
+
+20. **Yamaha Motor Manufacturing Corp.**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive electronics
+    - **Location**: Newnan, Coweta County
+    - **Address**: 1000 Georgia Highway 34E, Newnan, GA
+    - **Primary Facility Type**: Engineering / Manufacturing
+    - **EV Supply Chain Role**: Advanced electrical architecture for EVs
+    - **Employment**: 190000
+
+21. **Yazaki North America**
+    - **Category**: OEM Footprint
+    - **Industry Group**: Automotive electronics and systems
+    - **Location**: Griffin, Spalding County
+    - **Address**: 375 Airport Rd, Griffin, Georgia
+    - **Primary Facility Type**: Engineering / Operations
+    - **EV Supply Chain Role**: Power electronics, sensors, and EV systems
+    - **Employment**: 230000
+
+22. **YKK USA Inc.**
+    - **Category**: OEM Footprint
+    - **Industry Group**: Automotive electronics and safety systems
+    - **Location**: Marietta, Cobb County
+    - **Address**: 1300 Cobb Industrial Dr, Marietta, GA 30066
+    - **Primary Facility Type**: Engineering / Operations
+    - **EV Supply Chain Role**: EV sensors, braking, and control systems
+    - **Employment**: 190159
+
+23. **ZF Gainesville LLC**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive systems and components
+    - **Location**: Gainesville, Hall County
+    - **Address**: 1261 Palmour Dr SW, Gainesville, GA 30501
+    - **Primary Facility Type**: Manufacturing
+    - **EV Supply Chain Role**: EV body, powertrain, and thermal components
+    - **Employment**: 170000
+
+24. **ZF Gainesville LLC**
+    - **Category**: OEM Supply Chain
+    - **Industry Group**: Automotive thermal and electronics systems
+    - **Location**: Gainesville, Hall County
+    - **Address**: 1261 Palmour Dr SW, Gainesville, GA 30501
+    - **Primary Facility Type**: Manufacturing
+    - **EV Supply Chain Role**: EV thermal management and power electronics
+    - **Employment**: 17500
+
+25. **ZF Gainesville LLC**
+    - **Category**: OEM Footprint
+    - **Industry Group**: Automotive powertrain and thermal systems
+    - **Location**: Gainesville, Hall County
+    - **Address**: 1261 Palmour Dr SW, Gainesville, GA 30501
+    - **Primary Facility Type**: Engineering / Operations
+    - **EV Supply Chain Role**: EV thermal systems and electronics
+    - **Employment**: 106100
+
+These companies are all involved in various aspects of the electric vehicle supply chain, from manufacturing components to providing engineering services for OEMs.",qwen2.5:14b,65536,32768.0,2671.0,129041159436.0,159860663.0,28227427390.0,96144434975.0
+34,"Top 10 Georgia companies based on employment size that supply both General Automotive and EV-specific components, indicating transition readiness?","To identify the top 10 Georgia companies based on employment size that supply both general automotive and EV-specific components, we need to filter the data for companies with significant employment numbers and those involved in both types of component manufacturing. Here are the top 10 such companies:
+
+### Top 10 Companies Based on Employment Size
+
+1. **Novelis Inc.**
+   - **Employment:** 260
+   - **Location:** Atlanta, Fulton County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Motor vehicle transmissions), Thermal Management (Acoustic and thermally effective automotive components)
+   - **Transition Readiness:** High
+
+2. **Nidec Elesys Americas Corp.**
+   - **Employment:** 300
+   - **Location:** Suwanee, Forsyth County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Seating systems)
+   - **Transition Readiness:** Moderate
+
+3. **Nisshinbo Automotive Manufacturing Inc.**
+   - **Employment:** 300
+   - **Location:** Covington, Newton County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Braking and suspension products)
+   - **Transition Readiness:** Moderate
+
+4. **NIFCO KTW America Corp.**
+   - **Employment:** 300
+   - **Location:** Toccoa, Franklin County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Inventory management for Kia)
+   - **Transition Readiness:** Moderate
+
+5. **Nile Automotive**
+   - **Employment:** 300
+   - **Location:** Cumming, Forsyth County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Window regulators and door frames)
+   - **Transition Readiness:** Moderate
+
+6. **Nisshinbo Automotive Manufacturing Inc.**
+   - **Employment:** 300
+   - **Location:** Covington, Newton County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Braking and suspension products)
+   - **Transition Readiness:** Moderate
+
+7. **Nivel Parts & Manufacturing Co. LLC**
+   - **Employment:** 275
+   - **Location:** Cairo, Grady County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Industrial trailers and truck bodies)
+   - **Transition Readiness:** Moderate
+
+8. **Nisshinbo Automotive Manufacturing Inc.**
+   - **Employment:** 300
+   - **Location:** Covington, Newton County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Braking and suspension products)
+   - **Transition Readiness:** Moderate
+
+9. **Nisshinbo Automotive Manufacturing Inc.**
+   - **Employment:** 300
+   - **Location:** Covington, Newton County
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Braking and suspension products)
+   - **Transition Readiness:** Moderate
+
+10. **Nisshinbo Automotive Manufacturing Inc.**
+    - **Employment:** 300
+    - **Location:** Covington, Newton County
+    - **Primary Facility Type:** Manufacturing Plant
+    - **EV Supply Chain Role:** General Automotive (Braking and suspension products)
+    - **Transition Readiness:** Moderate
+
+### Analysis:
+- Companies like Novelis Inc. stand out due to their significant employment numbers and involvement in both general automotive components and EV-specific thermal management systems.
+- Other companies such as Nidec Elesys Americas Corp., NIFCO KTW America Corp., Nile Automotive, and Nivel Parts & Manufacturing Co. LLC have substantial employee bases and are involved in various aspects of automotive manufacturing that can be leveraged for EV production.
+
+### Conclusion:
+These companies demonstrate a strong foundation in traditional automotive components while also showing readiness to transition into the EV market through their existing capabilities and large workforce.",qwen2.5:14b,65536,32768.0,895.0,62331306119.0,222382388.0,28253772562.0,32190133822.0
+35,"How many Georgia companies are now producing lithium-ion battery materials, cells, or electrolytes?","Based on the information provided in the table, there are three Georgia companies that produce lithium-ion battery materials, cells, or electrolytes:
+
+1. SK Battery America - Located in Ellabell, Bryan County. It is listed as a Tier 1 company producing materials for automotive supply chain participants.
+
+2. Novelis Inc. - Has multiple locations in Atlanta and Fulton County. One of its facilities produces thermal management components which would be relevant to battery cooling systems.
+
+3. Elesys America Corporation - Located in Suwanee, Forsyth County. It is listed as a Tier 1 company producing materials for automotive supply chain participants.
+
+However, only SK Battery America is explicitly mentioned as producing lithium-ion batteries or related materials (cells/electrolytes). The other two companies are more broadly involved in thermal management and general automotive components that could be relevant to battery systems but not specifically focused on battery production.
+
+So the direct answer based on the provided data is 1 company (SK Battery America) explicitly listed as producing lithium-ion battery materials or cells. Other companies may have related capabilities, but they are not specified as such in this dataset.",qwen2.5:14b,65536,32768.0,230.0,37281463705.0,189021304.0,28256525187.0,8266286331.0
+36,Which Georgia Tier 2/3 suppliers currently produce lightweight aluminum or composite materials and are growing their EV-specific customer base?,"Based on the provided data, there are a few Tier 2/3 suppliers in Georgia that produce lightweight aluminum or composite materials and appear to be expanding into EV-specific applications:
+
+1. **SGL Carbon** - While not explicitly listed as producing aluminum or composites, SGL Carbon is known for carbon fiber reinforced plastics (CFRP) which are used extensively in lightweighting efforts for electric vehicles.
+
+2. **Alcoa Inc.** - Alcoa produces aluminum products and has a significant presence in automotive applications. They would be expanding their EV-specific customer base as more automakers transition to aluminum-intensive vehicle designs for weight reduction, improving range and efficiency of electric vehicles.
+
+3. **Arconic Inc.** - Arconic is another major player in the production of lightweight materials including aluminum alloys used extensively in automotive manufacturing. As the demand for lighter materials increases with EV adoption, Arconic would be growing its customer base among EV manufacturers.
+
+4. **Constellium USA LLC** - Constellium produces advanced rolled products and sheet metal that are critical components in lightweighting efforts for both traditional vehicles and electric vehicles. They have been expanding their offerings to meet the demands of the growing EV market.
+
+5. **Novelis Inc.** - Novelis is a leading producer of aluminum automotive sheets used in body panels, closures, hoods, and other structural applications. As automakers shift towards more lightweight materials for EVs, Novelis would be seeing growth in its customer base among EV manufacturers.
+
+6. **Solvay Specialty Polymers USA LLC** - Solvay produces advanced polymers and composites used in automotive applications including lightweighting solutions suitable for electric vehicles. They are likely expanding their offerings to meet the growing demand from EV manufacturers.
+
+7. **PPG Industries Inc.** - PPG is involved in producing lightweight materials such as aluminum and composite parts, which are increasingly important in the production of electric vehicles due to weight reduction requirements.
+
+8. **Seoyon E-Hwa Interior Systems** - While primarily focused on interior components, Seoyon E-Hwa may also be expanding into lightweighting solutions for EVs as automakers seek ways to reduce vehicle mass and improve efficiency.
+
+9. **Sewon America Inc.** - Sewon produces automotive parts that could include lightweight materials used in both traditional vehicles and electric vehicles. As the demand for lighter components grows, Sewon would likely see an increase in its customer base among EV manufacturers.
+
+10. **Valeo** - Valeo is a Tier 1 supplier but also has significant Tier 2/3 operations producing automotive parts that could include lightweight materials used in both traditional and electric vehicles. They are expanding their offerings to meet the growing demand from EV manufacturers.
+
+These companies are well-positioned to benefit from the increasing demand for lightweight materials as automakers transition towards more efficient, battery-powered vehicles.",qwen2.5:14b,65536,32768.0,586.0,50518506138.0,149799066.0,28221072130.0,21095224818.0
+37,"Identify Georgia companies whose product descriptions include 'high-voltage', 'DC-to-DC', 'inverter', or 'motor controller' — these signal EV powertrain electronics growth.","Based on the provided data, there are no specific companies in Georgia that have product descriptions explicitly mentioning ""high-voltage,"" ""DC-to-DC,"" ""inverter,"" or ""motor controller."" However, some companies may be involved in manufacturing components related to electric vehicle (EV) powertrain electronics. Here are a few potential candidates based on their general roles and affiliations:
+
+1. **WIKA USA**:
+   - **Product / Service**: Vehicle power & data solutions; wiring harnesses and connectors.
+   - **EV Supply Chain Role**: HV and LV wiring harnesses for EVs and ICE vehicles.
+   - This company is involved in high-voltage systems, which are critical for EV powertrain electronics.
+
+2. **Woodbridge Foam Corp.**:
+   - **Product / Service**: Automotive wiring harnesses & electrical distribution systems.
+   - **EV Supply Chain Role**: EV wiring harnesses and power distribution.
+   - While not explicitly mentioning ""high-voltage,"" their involvement in wiring harnesses suggests they could be involved with high-voltage components.
+
+3. **Yazaki North America**:
+   - **Product / Service**: Automotive supplier division (mobility solutions: ADAS, powertrain, electronics).
+   - **EV Supply Chain Role**: Power electronics, sensors, and EV systems.
+   - Yazaki is likely to be involved in high-voltage components as part of their power electronics offerings.
+
+4. **YKK USA Inc.**:
+   - **Product / Service**: Automotive technologies (ADAS, braking, connectivity, tires & components).
+   - **EV Supply Chain Role**: EV sensors, braking, and control systems.
+   - While not explicitly mentioning ""high-voltage,"" YKK's involvement in automotive electronics suggests they could be involved with high-voltage systems.
+
+5. **ZF Gainesville LLC**:
+   - **Product / Service**: Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive).
+   - **EV Supply Chain Role**: EV body, powertrain, and thermal components.
+   - ZF is a major player in the automotive industry and likely involved in motor controllers and inverters as part of their powertrain solutions.
+
+While these companies do not explicitly mention ""high-voltage,"" ""DC-to-DC,"" ""inverter,"" or ""motor controller"" in their product descriptions, they are significant players in the EV supply chain and could be developing or manufacturing components related to those technologies. For a more precise identification, further research into specific products and services offered by these companies would be necessary.",qwen2.5:14b,65536,32768.0,517.0,47891615435.0,131439147.0,28223414575.0,18608846165.0
+38,"Which Georgia automotive companies employ over 1,000 workers but are currently categorized as only ""Indirectly Relevant"" to the EV sector, indicating a massive workforce pool ready for a strategic pivot?","Based on the provided data, there are several Georgia automotive companies that employ over 1,000 workers and are currently categorized as only ""Indirectly Relevant"" to the EV sector. Here are some of them:
+
+1. **Nisshinbo Automotive Manufacturing Inc.**
+   - Employment: 300
+   - EV/Battery Relevant: Indirect
+
+2. **Paccar**
+   - Employment: 200
+   - EV/Battery Relevant: No (Note: This company is not directly relevant to the EV sector, but it employs over 1,000 workers in total across multiple facilities.)
+
+3. **Peerless-Winsmith Inc.**
+   - Employment: 150
+   - EV/Battery Relevant: Indirect
+
+4. **PHA Body Systems LLC**
+   - Employment: 145
+   - EV/Battery Relevant: No (Note: This company is not directly relevant to the EV sector, but it employs over 1,000 workers in total across multiple facilities.)
+
+5. **Pirelli Tire North America LLC**
+   - Employment: 130
+   - EV/Battery Relevant: Indirect
+
+6. **PPG Industries Inc.**
+   - Employment: 120
+   - EV/Battery Relevant: No (Note: This company is not directly relevant to the EV sector, but it employs over 1,000 workers in total across multiple facilities.)
+
+7. **Propex Operating Co. LLC**
+   - Employment: 120
+   - EV/Battery Relevant: Indirect
+
+8. **SKF USA Inc.**
+   - Employment: 70
+   - EV/Battery Relevant: No (Note: This company is not directly relevant to the EV sector, but it employs over 1,000 workers in total across multiple facilities.)
+
+9. **Stryten Energy**
+   - Employment: 50
+   - EV/Battery Relevant: Indirect
+
+However, upon closer inspection, none of these companies individually employ more than 1,000 workers based on the provided data. But if we consider their parent companies or larger corporate footprints, there are several that could be relevant:
+
+- **Paccar** (8100 employees) and **Trenton Pressing Inc.** (298 employees) have a significant workforce but are not directly involved in EV manufacturing.
+
+If you're looking for companies with large workforces that are indirectly relevant to the EV sector, these could be potential candidates for strategic pivots:
+
+- **Paccar**: 7500 employees
+- **Trenton Pressing Inc.**: 298 employees (part of a larger PACCAR network)
+
+These companies have substantial employee bases and could potentially pivot towards more direct involvement in the EV sector with appropriate investment and retraining programs.
+
+For a comprehensive list, you might want to look into parent company footprints or larger corporate operations that are indirectly relevant but have significant workforce potential.",qwen2.5:14b,65536,32768.0,629.0,52213011502.0,152133710.0,28233284902.0,22614504159.0
+39,"Which three Georgia companies have the largest employment in EV thermal management, and how many employees does each have?","Based on the provided data, the three Georgia companies with the largest employment in EV thermal management are:
+
+1. **ZF Gainesville LLC** - 17,500 employees  
+   (Located at 1261 Palmour Dr SW, Gainesville, GA 30501)
+
+2. **WIKA USA** - 250,000 employees  
+   (Located at 1000 Wiegand Blvd, Lawrenceville, GA 30043)
+   
+   Note: WIKA USA's primary role is HV and LV wiring harnesses for EVs and ICE vehicles, but it also includes thermal management systems.
+
+3. **Thermal Ceramics Inc.** - 3,000 employees  
+   (Located at 2190 N Leg Rd, Augusta, GA 30909)
+
+These companies have significant roles in thermal management for electric vehicles and employ a large number of people in this field within Georgia.",qwen2.5:14b,65536,32768.0,205.0,36234001017.0,129952329.0,28240813061.0,7360969673.0
+40,"Which companies are involved in thermal-related products or services, and what roles and facility types are they associated with?","Here is a list of companies involved in thermal-related products or services along with their associated roles and facility types:
+
+1. **Thermal Ceramics Inc.**
+   - **Role:** Vehicle Assembly (Electric vehicle batteries)
+   - **Facility Type:** Manufacturing Plant
+   - **Location:** Augusta, Columbia County
+
+2. **Peerless-Winsmith Inc.**
+   - **Role:** Thermal Management
+   - **Facility Type:** Manufacturing Plant
+   - **Location:** Athens, Clarke County
+
+3. **ZF Gainesville LLC (Thermal and Electronics Systems)**
+   - **Role:** EV thermal management and power electronics
+   - **Facility Type:** Manufacturing
+   - **Location:** Gainesville, Hall County
+
+4. **WIKA USA**
+   - **Role:** HV and LV wiring harnesses for EVs and ICE vehicles
+   - **Facility Type:** Manufacturing / Engineering
+   - **Location:** Lawrenceville, Gwinnett County
+
+5. **Woodbridge Foam Corp.**
+   - **Role:** EV wiring harnesses and power distribution
+   - **Facility Type:** Manufacturing
+   - **Location:** Lithonia, Rockdale County
+
+6. **Yazaki North America**
+   - **Role:** Power electronics, sensors, and EV systems
+   - **Facility Type:** Engineering / Operations
+   - **Location:** Griffin, Spalding County
+
+7. **ZF Gainesville LLC (Powertrain and Thermal Systems)**
+   - **Role:** EV thermal systems and electronics
+   - **Facility Type:** Engineering / Operations
+   - **Location:** Gainesville, Hall County
+
+These companies are involved in various aspects of thermal management for electric vehicles, including battery manufacturing, thermal components, wiring harnesses, power distribution, and advanced electrical architecture.",qwen2.5:14b,65536,32768.0,370.0,42413360882.0,137740675.0,28224211094.0,13292677517.0
+41,Which Tier 1/2 Georgia companies listed under General Automotive suggest a gradual evolution toward EV-related products or markets?,"Based on the provided list of Tier 1 and Tier 2 companies in Georgia, several firms show signs of gradually evolving towards electric vehicle (EV)-related products or markets while primarily operating within the general automotive sector. Here are some examples:
+
+### Companies with Gradual Evolution Toward EV-Related Products
+
+1. **Nidec Elesys Americas Corp.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Seating systems
+   - **Employment:** 300
+   - **EV / Battery Relevant:** No
+
+2. **SungEel Recycling Park Georgia**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials (Currently)
+   - **Product / Service:** Various fasteners for automotive seating and interior
+   - **Employment:** 650
+   - **EV / Battery Relevant:** Indirect
+
+3. **Panduit Corp.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Truck bodies and parts
+   - **Employment:** 170
+   - **EV / Battery Relevant:** No
+
+4. **Peerless-Winsmith Inc.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Precision turned parts for the automotive industry
+   - **Employment:** 150
+   - **EV / Battery Relevant:** Indirect
+
+### Companies with Potential to Evolve Toward EV-Related Products
+
+1. **Paccar**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Semi-trailers
+   - **Employment:** 200
+   - **EV / Battery Relevant:** No
+
+2. **Panasonic Automotive Systems Co.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Axle bearings, Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems
+   - **Employment:** 180 & 175
+   - **EV / Battery Relevant:** No
+
+3. **Panduit Corp.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Truck bodies and parts
+   - **Employment:** 170
+   - **EV / Battery Relevant:** No
+
+4. **Peterson Spring**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Precision turned parts for the automotive industry
+   - **Employment:** 150
+   - **EV / Battery Relevant:** Indirect
+
+### Companies with Diverse Product Lines and Potential EV Relevance
+
+1. **Nidec Elesys Americas Corp.**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** General Automotive (Currently)
+   - **Product / Service:** Seating systems
+   - **Employment:** 300
+   - **EV / Battery Relevant:** No
+
+2. **SungEel Recycling Park Georgia**
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials (Currently)
+   - **Product / Service:** Various fasteners for automotive seating and interior
+   - **Employment:** 650
+   - **EV / Battery Relevant:** Indirect
+
+These companies are currently focused on general automotive products but have the potential to expand into EV-related markets due to their existing product lines, manufacturing capabilities, or strategic positioning within the broader automotive industry. As the demand for electric vehicles grows, these firms may gradually shift towards more specialized components and systems relevant to EVs.
+
+### Conclusion
+While many of these companies are currently focused on general automotive products, they have the potential to evolve into providing parts and services that support both traditional internal combustion engine (ICE) vehicles and electric vehicles. This gradual evolution can be driven by technological advancements, market demand, and strategic investments in new product lines or manufacturing processes tailored for EVs.",qwen2.5:14b,65536,32768.0,916.0,62816921969.0,148968026.0,28231629772.0,32987024598.0
+42,How is demand for thermal management solutions reflected in the number and employment size of Georgia Thermal Management suppliers?,"To assess how demand for thermal management solutions is reflected in the number and employment size of Georgia Thermal Management suppliers, we need to identify companies that specialize in or provide thermal management products and services. Based on the provided data, several companies are relevant:
+
+1. **Peerless-Winsmith Inc.**
+   - **Category:** Tier 1
+   - **Industry Group:** Transportation Equipment
+   - **Location:** Flowery Branch, Hall County
+   - **Address:** 4510 Cantrell Road, Flowery Branch, GA 30542
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Thermal Management
+   - **Employment:** 160
+
+Peerless-Winsmith Inc. is explicitly listed as providing thermal solutions for the automotive industry and has a specific role in thermal management.
+
+2. **Novelis Inc.**
+   - **Category:** Tier 1
+   - **Industry Group:** Transportation Equipment
+   - **Location:** Atlanta, Fulton County
+   - **Address:** 3560 Lenox Rd NE, Suite 2000, Atlanta, GA 30326
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Thermal Management
+   - **Employment:** 200
+
+Novelis Inc. also provides acoustic and thermally effective automotive components.
+
+### Analysis:
+- **Number of Suppliers**: There are at least two companies (Peerless-Winsmith Inc. and Novelis Inc.) that provide thermal management solutions.
+  
+- **Total Employment in Thermal Management**:
+  - Peerless-Winsmith Inc.: 160 employees
+  - Novelis Inc.: 200 employees
+
+The total employment for these suppliers is approximately 360 employees.
+
+### Conclusion:
+The presence of multiple companies (Peerless-Winsmith and Novelis) with a focus on thermal management solutions indicates that there is significant demand in Georgia for such products. The combined employment size of around 360 employees suggests that the market for thermal management solutions is substantial, as these companies are dedicated to providing specialized components and systems necessary for managing heat dissipation in both traditional internal combustion engine (ICE) vehicles and electric vehicles (EVs).
+
+This reflects a growing need within the automotive industry to address thermal challenges associated with electrification and advanced technologies. The employment numbers also suggest that there is ongoing investment and growth in this sector, likely driven by increasing demand from OEMs and Tier 1 suppliers who are developing more sophisticated thermal management systems for EVs and hybrid vehicles.",qwen2.5:14b,65536,32768.0,535.0,48699509136.0,137178409.0,28224381421.0,19210525248.0
+43,"Which Georgia companies are involved in battery recycling or second-life battery processing, reflecting the emerging circular economy trend?","Based on the provided data, there is one company in Georgia that appears to be involved in battery recycling or second-life battery processing:
+
+1. **SungEel Recycling Park Georgia**
+   - **Location:** Duluth, Gwinnett County
+   - **Address:** 3237 Satellite Blvd, Suite 175, Duluth, GA 30096
+   - **Primary Facility Type:** Manufacturing Plant
+   - **EV Supply Chain Role:** Materials (specifically mentions ""SungEel Recycling Park Georgia"" which is focused on battery recycling and second-life applications)
+   - **Employment:** 650
+
+This company, SungEel Recycling Park Georgia, seems to be actively involved in the circular economy trend by focusing on battery recycling and potentially processing batteries for second-life use.",qwen2.5:14b,65536,32768.0,169.0,34889570069.0,140103330.0,28219839030.0,6063291674.0
+44,"Which Georgia suppliers appear to play innovation-stage roles through research, development, or prototyping activity?","Based on the provided data, there are a few companies that seem to be involved in R&D activities:
+
+1. **Racemark International LLC** - Located in Gray, Jones County, this company is engaged in manufacturing and R&D of engine parts for EVs.
+
+   - **Location:** Gray, Jones County
+   - **Address:** 152 Racemark Dr, Gray, GA 31032
+   - **Primary Facility Type:** R&D
+   - **EV Supply Chain Role:** Manufacturing and R&D engine parts for EV
+
+This company is explicitly noted as having an R&D facility, which suggests it plays a role in innovation-stage activities such as research and development.
+
+There are no other companies listed with explicit mentions of R&D or prototyping roles. However, some companies may be involved in these activities but not specifically labeled as such in the provided data. For example:
+
+2. **Porsche Cars North America Inc.** - Located in Atlanta, Fulton County, this company has a manufacturing plant that could potentially involve R&D activities.
+
+   - **Location:** Atlanta, Fulton County
+   - **Address:** 1 Porsche Dr, Atlanta, GA 30328
+   - **Primary Facility Type:** Manufacturing Plant
+
+While not explicitly labeled as an R&D facility, some manufacturers may have internal R&D capabilities that are not separately listed.
+
+In summary, the only company clearly identified with innovation-stage roles through research and development is Remark International LLC.",qwen2.5:14b,65536,32768.0,302.0,39827916723.0,132828430.0,28215567155.0,10863534812.0
+45,"Which Georgia suppliers currently serving traditional OEMs are also linked to EV-native OEMs, showing dual-platform supply capability?","To identify Georgia suppliers that serve both traditional and electric vehicle (EV)-native Original Equipment Manufacturers (OEMs), we need to look for companies listed as suppliers to multiple types of OEMs. Here's a list of such suppliers based on the provided data:
+
+1. **TI Fluid Systems**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Passenger vehicles (EV + ICE)
+   - **Location**: Cartersville, Bartow County
+   - **Address**: 2 Swisher Dr, Cartersville, GA 30120
+   - **Primary Facility Type**: Manufacturing / OEM operations
+   - **EV Supply Chain Role**: Vehicle safety systems OEM (EV + ICE)
+   - **Employment**: 80
+   - **Product/Service**: School bus seating, seat belts, and occupant restraint systems
+
+2. **Valeo**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive parts manufacturing
+   - **Location**: (Not specified in Georgia)
+   - **Address**: Not provided
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Tier 1 automotive components
+   - **Employment**: 269
+   - **Product/Service**: Automotive body/stamped metal assemblies (Kia/Hyundai supply chain)
+
+3. **Vanguard National Trailer Corp.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive structural components
+   - **Location**: Trenton, Dade County
+   - **Address**: 8 Vanguard Dr, Trenton, GA 30752
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Body and chassis components for EV and ICE OEMs
+   - **Employment**: 630
+   - **Product/Service**: Stamped metal components and automotive body assemblies
+
+4. **Vernay**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive stamping and assemblies
+   - **Location**: Griffin, Spalding County
+   - **Address**: 804 Greenbelt Pkwy, Griffin, GA 30223
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Stamped and welded assemblies for OEMs
+   - **Employment**: 1600
+   - **Product/Service**: Automotive metal stamping & body parts manufacturing (Hyundai/Kia supplier)
+
+5. **Vista Metals Corp.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive modules and components
+   - **Location**: Adairsville, Bartow County
+   - **Address**: 800 Martin Luther King Jr Dr, Adairsville, GA 30103
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: EV and ICE component manufacturing
+   - **Employment**: 1500
+   - **Product/Service**: Automotive modules/powertrain components; parts supply
+
+6. **Voestalpine Automotive Body Parts Inc.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive components
+   - **Location**: Cartersville, Bartow County
+   - **Address**: 4334 Highway 20 SE, Cartersville, GA 30121
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: EV and ICE powertrain and HVAC components
+   - **Employment**: 1300
+   - **Product/Service**: Automotive components manufacturing group (compressors/automotive parts)
+
+7. **Wabash National Corp.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive plastic components
+   - **Location**: Ellenwood, Clayton County
+   - **Address**: 2620 Campbell Blvd, Ellenwood, GA 30294
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Interior and exterior plastic parts
+   - **Employment**: 20
+   - **Product/Service**: Automotive parts contract manufacturing (assemblies/components)
+
+8. **Woodbridge Foam Corp.**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive electrical systems
+   - **Location**: Lithonia, Rockdale County
+   - **Address**: 2399 S Stone Mountain Lithonia Rd, Lithonia, GA 30058
+   - **Primary Facility Type**: Manufacturing
+   - **EV Supply Chain Role**: EV wiring harnesses and power distribution
+   - **Employment**: 1657
+   - **Product/Service**: Automotive wiring harnesses & electrical distribution systems
+
+9. **Yachiyo Manufacturing of America LLC**
+   - **Category**: OEM Supply Chain
+   - **Industry Group**: Automotive seating and E-systems
+   - **Location**: Carrollton, Carroll County
+   - **Address**: 565 Beulah Church Rd, Carrollton, GA 30117
+   - **Primary Facility Type**: Manufacturing
+   - **EV Supply Chain Role**: EV electrical distribution and interior systems
+   - **Employment**: 173700
+   - **Product/Service**: Automotive seating and E-Systems (electrical distribution)
+
+These suppliers demonstrate dual-platform supply capability by serving both traditional OEMs and those focused on electric vehicles.",qwen2.5:14b,65536,32768.0,1155.0,72006994833.0,145445933.0,28224262362.0,41529572434.0
+46,Identify Georgia areas that currently lack Battery Cell or Battery Pack suppliers but have existing Tier 1 general automotive infrastructure.,"To identify Georgia areas with existing Tier 1 general automotive infrastructure but lacking Battery Cell or Battery Pack suppliers, we need to filter the data for:
+
+1. Companies categorized as ""Tier 1"" 
+2. With an EV Supply Chain Role of ""General Automotive""
+3. Located in a different area than those already having Battery Cell or Battery Pack suppliers
+
+From the provided dataset, here are some key areas with existing Tier 1 general automotive infrastructure but no specific mention of Battery Cell or Battery Pack manufacturing:
+
+1. **Atlanta Area (Fulton County)**
+   - Companies like Toyota Industries Group and Volvo Cars USA have significant operations in this area.
+   
+2. **Northwest Georgia (Catoosa, Dade, Walker Counties)**
+   - Areas around Ringgold and Trenton Pressing Inc. have substantial Tier 1 automotive manufacturing presence.
+
+3. **Central Georgia (Macon, Warner Robins Area)**
+   - While not explicitly listed in the dataset, this area has a strong automotive supply chain presence but no specific mention of battery cell or pack suppliers.
+
+4. **Southwest Georgia (Albany Area)**
+   - Companies like Pirelli Tire North America LLC have operations here, indicating significant Tier 1 infrastructure without explicit battery manufacturing.
+
+5. **North Central Georgia (Hall County)**
+   - ZF Gainesville LLC and other companies in this area provide extensive automotive components but no specific mention of battery cell or pack production.
+
+6. **Northeast Georgia (Gainesville Area)**
+   - Areas around Gainesville have significant Tier 1 manufacturing presence without explicit battery manufacturing facilities.
+
+7. **Southeast Georgia (Savannah Area)**
+   - While not explicitly listed, this area has automotive suppliers but no specific mention of battery cell or pack production.
+
+These areas are prime candidates for attracting Battery Cell and Battery Pack manufacturers due to their existing robust Tier 1 infrastructure focused on general automotive components. 
+
+### Summary:
+- **Atlanta (Fulton County)**: Toyota Industries Group, Volvo Cars USA
+- **Northwest Georgia (Catoosa, Dade, Walker Counties)**: Ringgold area, Trenton Pressing Inc.
+- **Central Georgia (Macon/Warner Robins Area)**
+- **Southwest Georgia (Albany Area)**: Pirelli Tire North America LLC
+- **North Central Georgia (Hall County)**: ZF Gainesville LLC
+- **Northeast Georgia (Gainesville Area)**
+- **Southeast Georgia (Savannah Area)**
+
+These regions have a strong foundation in automotive manufacturing but lack specific battery cell or pack suppliers, making them ideal locations for expansion into these critical EV components.",qwen2.5:14b,65536,32768.0,544.0,48941527623.0,141490811.0,28227741767.0,19568595197.0
+47,"For a new Tier 1 battery thermal management company looking to locate in Georgia, which areas have the highest concentration of Materials-category suppliers that could support thermal management production?","To identify areas with a high concentration of Materials-category suppliers that could support thermal management production for a new Tier 1 battery thermal management company in Georgia, we need to focus on regions where there is significant activity from companies involved in automotive materials and components. Here are some key areas based on the provided data:
+
+### Key Areas:
+1. **Troup County (West Point)**
+   - Several suppliers such as Nisshinbo Automotive Manufacturing Inc., Seohan Auto USA, and others are located here.
+   
+2. **Floyd County (Rome)**
+   - Companies like OTR Wheel Engineering Inc., Pirelli Tire North America LLC, and others are present.
+
+3. **Hall County (Gainesville)**
+   - A variety of suppliers including Nidec Elesys Americas Corp., Panasonic Automotive Systems Co., and others can be found here.
+   
+4. **Forsyth County (Suwanee)**
+   - Companies like PACCAR, Peterson Spring, and others are located in this area.
+
+5. **Cobb County (Marietta)**
+   - Numerous suppliers such as Yazaki North America Inc., ZF Gainesville LLC, and others operate here.
+   
+6. **Bartow County (Cartersville)**
+   - TI Fluid Systems has a significant presence here along with other automotive component manufacturers.
+
+### Detailed Analysis:
+- **Troup County**: This area is home to several suppliers that deal with materials and components for automotive parts. The concentration of such companies suggests it could be an ideal location due to the existing supply chain infrastructure.
+  
+- **Floyd County**: Rome has a strong presence in automotive manufacturing, including tire production (Pirelli) which can support thermal management needs.
+
+- **Hall County**: Gainesville hosts multiple suppliers that deal with materials and components for automotive parts. The proximity of these companies could facilitate efficient material sourcing and logistics.
+
+- **Forsyth County**: Suwanee has a robust supplier network, making it an attractive location due to the existing supply chain support.
+
+- **Cobb County**: Marietta is home to numerous suppliers that deal with materials and components for automotive parts. The presence of Yazaki North America Inc., ZF Gainesville LLC, and others indicates strong industry support.
+
+- **Bartow County**: Cartersville has a significant concentration of automotive component manufacturers, including TI Fluid Systems, which can provide the necessary materials and components for thermal management systems.
+
+### Conclusion:
+**Troup County (West Point)** and **Hall County (Gainesville)** stand out as particularly promising locations due to their high concentrations of Materials-category suppliers. These areas offer a robust supply chain network that could support the production and logistics needs of a new Tier 1 battery thermal management company. Additionally, Forsyth County (Suwanee) and Cobb County (Marietta) also present strong options with established supplier networks.
+
+By locating in one of these regions, your company can leverage existing industry relationships and infrastructure to streamline operations and enhance supply chain efficiency.",qwen2.5:14b,65536,32768.0,612.0,51483796473.0,149756421.0,28223510755.0,22029921611.0
+48,"Which Georgia areas have concentrated Manufacturing Plant facilities that already supply the EV chain indirectly but have no dedicated EV production yet, marking them as prime conversion candidates?","Based on the provided data, several regions in Georgia stand out as having a concentration of manufacturing plants that currently support the automotive industry indirectly and could be considered for conversion to EV-specific production. These areas include:
+
+1. **Covington (Newton County)**
+   - Companies: Nisshinbo Automotive Manufacturing Inc., PIA Industries Inc.
+   - Both companies supply braking and suspension products, which are critical components in both ICE and EV vehicles.
+
+2. **LaGrange (Troup County)**
+   - Companies: Seohan Auto USA, SHIROKI North America Inc., Sewon America Inc.
+   - These companies provide exhaust systems, NVH parts, and interior components that can be adapted for use in EVs.
+
+3. **Rome (Floyd County)**
+   - Companies: OTR Wheel Engineering Inc., Suhner Manufacturing Corp.
+   - They produce single axle trailers and truck trailers which could potentially be modified to support EV-specific needs such as specialized cargo handling or charging infrastructure integration.
+
+4. **Cumming (Forsyth County)**
+   - Companies: Peterson Spring, PHA Body Systems LLC
+   - These companies offer precision turned parts and plastic fuel tanks that can be adapted for use in EVs.
+
+5. **Cartersville (Bartow County)**
+   - Companies: TI Fluid Systems
+   - This company provides school bus seating and occupant restraint systems which are critical components for both ICE and EV vehicles, especially as the market shifts towards electrified commercial vehicles.
+
+6. **Atlanta (Fulton & Cobb Counties)**
+   - Companies: Bosch LLC, PACCAR Inc., SK Battery America
+   - These companies offer a range of products from powertrain systems to battery manufacturing that can be leveraged for EV production.
+
+7. **Griffin (Spalding County)**
+   - Companies: PIA Industries Inc.
+   - This company provides brake pads and other automotive components which are essential in both ICE and EV vehicles, with potential for adaptation towards EV-specific needs.
+
+8. **Duluth (Gwinnett County)**
+   - Companies: SungEel Recycling Park Georgia
+   - This facility focuses on recycling materials that can be reused in the production of new EV parts, making it a strategic location for material recovery and reuse in EV manufacturing.
+
+9. **Peachtree City (Fayette County)**
+   - Companies: Panasonic Automotive Systems Co.
+   - Offers fluid carrying systems and powertrain components which are crucial for both ICE and EV vehicles.
+
+10. **Flowery Branch (Hall County)**
+    - Companies: Peerless-Winsmith Inc., Robert Bosch LLC
+    - These companies provide precision turned parts and automotive powertrain systems that can be adapted for use in EVs.
+
+These areas have a strong foundation of manufacturing expertise and infrastructure, making them ideal candidates for conversion to dedicated EV production facilities. The existing supply chain relationships and technical capabilities would facilitate the transition towards more specialized EV components and assemblies.",qwen2.5:14b,65536,32768.0,608.0,51288418495.0,129436784.0,28227684095.0,21882842605.0
+49,"For an international battery materials company seeking a Georgia location, which areas have existing chemical manufacturing infrastructure?","Based on the information provided in the table, several locations in Georgia have existing chemical manufacturing infrastructure that could be suitable for an international battery materials company. Here are some key areas:
+
+1. **Augusta, Richmond County**:
+   - **Thermal Ceramics Inc.**: Located at 2190 N Leg Rd, Augusta, GA 30909.
+     - This area has existing infrastructure related to manufacturing and could support chemical processing for battery materials.
+
+2. **Ellabell, Bryan County**:
+   - **SK Battery America**: Located at 700 Hyundai Blvd, Ellabell, GA 31308.
+     - While this is primarily a battery manufacturer, the presence of SK Battery America indicates that there may be supportive infrastructure for chemical manufacturing in this area.
+
+3. **LaGrange, Troup County**:
+   - Several companies are located here with relevant manufacturing capabilities:
+     - **Seohan Auto USA**: Located at 850 Lamar St, LaGrange, GA 30240.
+     - **Sewon America Inc.**: Located at 210 Sewon Dr, LaGrange, GA 30241.
+   - The presence of multiple manufacturing facilities suggests that there is existing infrastructure and a skilled workforce.
+
+4. **Covington, Newton County**:
+   - **Nisshinbo Automotive Manufacturing Inc.**: Located at 14187 Nisshinbo Drive, Covington, GA 30014.
+     - This area has manufacturing capabilities that could support chemical processing for battery materials.
+
+5. **Peachtree City, Fayette County**:
+   - **Panasonic Automotive Systems Co.**: Located at 1 Panasonic Way, Peachtree City, GA 30269.
+     - The presence of a major automotive supplier indicates supportive infrastructure and skilled labor in this area.
+
+These locations offer existing chemical manufacturing infrastructure that could be leveraged by an international battery materials company seeking to establish operations in Georgia. Additionally, the proximity to other automotive suppliers and manufacturers can provide synergies for supply chain optimization and collaboration.",qwen2.5:14b,65536,32768.0,441.0,45121547999.0,156188101.0,28228193956.0,15861930062.0
+50,"Which Georgia areas have R&D facility types in the automotive sector, suggesting innovation infrastructure suitable for EV technology development centers?","Based on the provided data, there are no explicitly listed R&D facilities specifically mentioned as being dedicated to automotive research and development. However, some companies do list an R&D role or function that might imply significant engineering capabilities:
+
+1. **Racemark International LLC**:
+   - **Location**: Gray, Jones County
+   - **Address**: 152 Racemark Dr, Gray, GA 31032
+   - **Primary Facility Type**: R&D
+   - **EV Supply Chain Role**: Manufacturing and R&D engine parts for EV
+
+This company explicitly lists its primary facility type as ""R&D"" and is involved in manufacturing and developing engine parts specifically for electric vehicles (EVs). This suggests that Gray, Jones County has an innovation infrastructure suitable for EV technology development centers.
+
+While there are other companies listed with significant engineering or operations roles, none of them specify R&D facilities. However, these companies may still have substantial research capabilities as part of their broader operations:
+
+2. **Volvo Cars USA**:
+   - **Address**: 1800 Volvo Place, Mahwah, NJ 07430 (Note: This is not in Georgia but included for context)
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Plastic components for EV and ICE vehicles
+
+3. **Volvo Group North America**:
+   - **Address**: 7900 National Service Rd, Greensboro, NC 27409 (Note: This is not in Georgia but included for context)
+   - **Primary Facility Type**: Manufacturing plant
+   - **EV Supply Chain Role**: Stamped metal components for OEMs
+
+Given the absence of explicitly listed R&D facilities within Georgia's automotive sector, it appears that while there are significant manufacturing and engineering capabilities across various locations in Georgia, dedicated R&D facilities focused on EV technology development centers are not prominently featured. 
+
+For a more comprehensive understanding, additional research into local partnerships between universities, government agencies, and private companies would be beneficial to identify potential innovation hubs within the state.",qwen2.5:14b,65536,32768.0,425.0,44476843083.0,141968168.0,28215256091.0,15282968203.0

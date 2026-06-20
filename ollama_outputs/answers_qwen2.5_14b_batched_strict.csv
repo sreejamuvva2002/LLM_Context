@@ -1,0 +1,1678 @@
+question_number,question,answer,model,method,batch_size,num_batches,selected_row_count,selected_row_ids,batch_errors
+1,"Show all ""Tier 1/2"" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.","Q: Show all ""Tier 1/2"" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+
+Count: 18
+Supporting row_ids: 53,57,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,18,"[53, 57, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90]",0
+2,"Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?","Q: Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+
+Count: 6
+Supporting row_ids: 53,76,77,78,83,86
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,6,"[53, 76, 77, 78, 83, 86]",0
+3,Map all Thermal Management suppliers in Georgia and show which Primary OEMs they are linked to.,"Q: Map all Thermal Management suppliers in Georgia and show which Primary OEMs they are linked to.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 6
+Supporting row_ids: 60,84,129,139,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,6,"[60, 84, 129, 139, 204, 205]",0
+4,"List every Georgia company classified under Power Electronics or Charging Infrastructure, along with their Employment size.","Q: List every Georgia company classified under Power Electronics or Charging Infrastructure, along with their Employment size.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+
+Count: 4
+Supporting row_ids: 69,119,129,204
+Notes: Row_id 129 has an EV Supply Chain Role of Thermal Management which is not specified in the REQUIRED_ROW_COUNT criteria. However, as per instructions to include all selected rows without re-evaluation, it's included here.",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[69, 119, 129, 204]",0
+5,"Which companies are classified as Direct Manufacturer, and what EV Supply Chain Roles do they cover?","Q: Which companies are classified as Direct Manufacturer, and what EV Supply Chain Roles do they cover?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 95 | Kia Georgia Inc. | Vehicle Assembly | Golf carts, various off-road vehicles, electric on-road vehicles |
+| 116 | Minebea AccessSolutions USA Inc. | General Automotive | Headquarters and distribution location |
+| 171 | Superior Essex Inc. | Vehicle Assembly | Electric vehicles and batteries |
+| 172 | Suzuki Manufacturing of America Corp. | Vehicle Assembly | Electric vehicle assembly plant |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 174 | TDK Components USA Inc. | Vehicle Assembly | Auto manufacturer headquarters |
+| 175 | TE Connectivity | Vehicle Assembly | Truck and bus bodies |
+| 176 | Teklas USA | Vehicle Assembly | Golf carts and all-terrain vehicles |
+| 177 | Textron Specialized Vehicles | Vehicle Assembly | Golf carts, utility vehicles, industrial vehicles |
+| 178 | Thermal Ceramics Inc. | Vehicle Assembly | Electric vehicle batteries |
+| 179 | Thomson Plastics Inc. | Vehicle Assembly | Electric vertical takeoff and landing (eVTOL) aircraft manufacturing |
+
+Count: 11
+
+Supporting row_ids: 95,116,171,172,173,174,175,176,177,178,179
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,11,"[95, 116, 171, 172, 173, 174, 175, 176, 177, 178, 179]",0
+6,"What locations does Novelis Inc. operate in, and what primary facility types are associated with each location?","Q: What locations does Novelis Inc. operate in, and what primary facility types are associated with each location?
+Answer:
+| row_id | Company       | EV Supply Chain Role    | Product / Service                           |
+|--------|---------------|-------------------------|---------------------------------------------|
+| 127    | Novelis Inc.  | General Automotive      | Motor vehicle transmissions                  |
+| 128    | Novelis Inc.  | General Automotive      | Seat, interior, and precision metal stamping |
+| 129    | Novelis Inc.  | Thermal Management      | Acoustic and thermally effective automotive components |
+
+Count: 3
+Supporting row_ids: 127,128,129
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,3,"[127, 128, 129]",0
+7,"In Gwinnett County, which company has the highest Employment and what is its EV Supply Chain Role?","Q: In Gwinnett County, which company has the highest Employment and what is its EV Supply Chain Role?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 10 | Arising Industries Inc. | General Automotive | Automotive and aircraft tires |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 32 | Daesol Material Georgia, LLC | General Automotive | Tires |
+| 36 | DeKalb Tool & Die Inc. | General Automotive | Truck interior cab components and exterior lights to HVAC and under the hood engine parts |
+| 50 | Enplas USA Inc. | General Automotive | Recycler of lithium ion batteries |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 95 | Kia Georgia Inc. | Vehicle Assembly | Golf carts, various off-road vehicles, electric on-road vehicles |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+| 188 | Vanguard National Trailer Corp. | Body and chassis components for EV and ICE OEMs | Stamped metal components and automotive body assemblies |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 22
+
+Supporting row_ids: 10,16,23,32,36,50,58,75,87,95,101,111,114,119,135,139,170,188,196,203,204,205
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,22,"[10, 16, 23, 32, 36, 50, 58, 75, 87, 95, 101, 111, 114, 119, 135, 139, 170, 188, 196, 203, 204, 205]",0
+8,Which county have the highest total Employment among Tier 1 suppliers only?,"Q: Which county have the highest total Employment among Tier 1 suppliers only?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 91 | Jefferson Southern Corporation | General Automotive | Stamped metal automobile body parts |
+| 92 | Joon Georgia, Inc. | General Automotive | Seats and seat foam pads |
+| 93 | JTEKT North America Corp. | General Automotive | Vehicle roofing systems |
+| 94 | Kautex Inc. | General Automotive | Automotive exterior and interior systems |
+| 96 | KTX America Corporation | General Automotive | Stamped components and decorative trim |
+| 97 | Kumho Tire USA Inc. | General Automotive | Stamped components and decorative trim |
+| 98 | Kyungshin America Corp. | General Automotive | Front-end modules, front-rolling chassis modules, rear-chassis modules |
+| 99 | Lark United Manufacturing Inc. | General Automotive | Motor vehicle transmissions |
+| 100 | Lear Corporation | General Automotive | Pressed parts in the body-in-white segment and structural components |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 102 | Linde + Wiemann | General Automotive | 6-speed automatic transmissions |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 104 | Lund International Inc./Ventshade Division | General Automotive | Industrial trailers and truck bodies |
+| 105 | Lyle Industries Inc. | General Automotive | Automatic transmissions |
+| 106 | Lyle Industries Inc. | General Automotive | Molded injection auto parts |
+| 107 | Mack Trucks | General Automotive | Interior and exterior automotive components |
+| 108 | Magna International | General Automotive | Ceramic fiber insulation blankets |
+| 109 | Mando America Corp. | General Automotive | Automotive body parts |
+| 110 | Master Craft Engineering Inc. | General Automotive | Door modules, tailgate latches, and hood latches |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 112 | Maxxis International USA | General Automotive | Brake systems |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 115 | Milliken & Co./Valway Plant | General Automotive | Automotive brakes, steering and suspension systems |
+| 117 | Mobis Alabama LLC | General Automotive | Products and systems for ATVs and other off-road vehicles |
+| 118 | MollerTech LLC | General Automotive | Injection molded components |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 120 | Murata Electronics North America Inc. | General Automotive | Motor vehicle brake systems and parts |
+| 121 | Neaton Rome Inc. | General Automotive | Automotive seating and interior electronics |
+| 122 | Nidec Elesys Americas Corp. | General Automotive | Seating systems |
+| 123 | NIFCO KTW America Corp. | General Automotive | Inventory management for Kia |
+| 124 | Nile Automotive | General Automotive | Window regulators and door frames |
+| 125 | Nisshinbo Automotive Manufacturing Inc. | General Automotive | Braking and suspension products |
+| 126 | Nivel Parts & Manufacturing Co. LLC | General Automotive | Industrial trailers and truck bodies |
+| 127 | Novelis Inc. | General Automotive | Motor vehicle transmissions |
+| 128 | Novelis Inc. | General Automotive | Seat, interior, and precision metal stamping |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 132 | OTR Wheel Engineering Inc. | General Automotive | Single axle trailers |
+| 133 | Paccar | General Automotive | Semi-trailers |
+| 134 | PAI Industries Inc. | General Automotive | Brake pads |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 140 | Perkins Small Engines LLC | General Automotive | Specialized commercial vehicles including truck bodies, buses and armored vehicles |
+| 141 | Peterson Spring | General Automotive | Precision turned parts for the automotive industry |
+| 142 | PHA Body Systems LLC | Materials | Plastic fuel tanks and sunroofs |
+| 143 | Piedmont Automotive Products Inc. | General Automotive | Interior components and accessories |
+| 144 | PIOLAX Corp. | General Automotive | All terrain vehicles |
+| 145 | Pirelli Tire North America LLC | General Automotive | Motor vehicle windshield wiper systems |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 147 | PPG Industries Inc. | General Automotive | Muffler and exhaust systems |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 149 | QSR Inc. | General Automotive | Functional aftermarket accessories for trucks and SUVs |
+| 150 | Remark International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 154 | SAFT America Inc. | General Automotive | Arm and head rests |
+| 155 | Sejong Georgia LLC | General Automotive | NVH parts and interior components |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 161 | Sewon America Inc. | General Automotive | Fire truck bodies |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 166 | Southern Switches Corp. | General Automotive | Commercial truck bodies |
+| 167 | SRG Global Inc. | General Automotive | Products for marine, mobile home, and other industries |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+| 169 | Suhner Manufacturing Corp. | General Automotive | Truck trailers |
+
+Count: 95
+
+Supporting row_ids: 53,57,75,76,77,78,79,80,81,82,83,84,85,86,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,119,120,121,122,123,124,125,126,127,128,129,130,131,132,133,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,95,"[53, 57, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169]",0
+9,"Which county has the highest total employment across all companies, and what is the combined employment in that county?","Based on the provided data, here are some key insights and observations about Georgia's electric vehicle (EV) supply chain:
+
+1. **Diverse Supplier Base**: There is a wide range of suppliers in Georgia that cater to various aspects of EV manufacturing, from materials and components to assembly and testing.
+
+2. **Major OEM Presence**: Several Original Equipment Manufacturers (OEMs) have significant operations or footprints in Georgia, including Hyundai Motor Group, Kia Motors, Mercedes-Benz USA LLC, Rivian Automotive, and others. These companies are driving the growth of the EV supply chain by establishing manufacturing plants and engineering centers.
+
+3. **Supplier Integration**: Many suppliers listed are part of larger OEM supplier networks, such as those associated with Hyundai/Kia, Mercedes-Benz, and other major automakers. This integration helps in creating a robust ecosystem for EV production.
+
+4. **Component Specialization**: Suppliers like TI Fluid Systems, Valeo, and others specialize in specific components crucial to both electric and internal combustion engine (ICE) vehicles, indicating a focus on versatility and adaptability within the supply chain.
+
+5. **Electrification Focus**: Several suppliers are explicitly mentioned as supporting EV-specific components or systems, such as high-voltage connectors, power electronics, thermal management systems, and advanced electrical architecture. This highlights Georgia's growing expertise in electrified vehicle technologies.
+
+6. **Geographical Spread**: The presence of suppliers across different regions within Georgia (e.g., Atlanta, Rome, LaGrange) suggests a well-distributed supply chain that can support multiple OEMs and manufacturing facilities.
+
+7. **High Employment Impact**: Many companies listed have significant employment numbers, indicating substantial economic impact through job creation in the EV sector.
+
+8. **Research and Development**: Some suppliers are involved in R&D activities, which is crucial for innovation and staying ahead in the rapidly evolving EV market.
+
+9. **Supplier Diversity**: The list includes a mix of Tier 1 suppliers (directly supplying OEMs) and Tier 2/3 suppliers (supplying components to Tier 1 suppliers), creating a comprehensive supply chain network.
+
+### Key Companies and Their Roles:
+
+- **Hyundai Motor Group & Kia Motors**: Major players with significant manufacturing plants in Georgia, driving the demand for EV-specific parts and systems.
+  
+- **Mercedes-Benz USA LLC**: Establishes headquarters and engineering centers that influence EV strategy and development.
+
+- **Rivian Automotive**: Focuses on electric vehicle assembly and has a substantial presence in Georgia.
+
+- **TI Fluid Systems & Valeo**: Specialize in components critical to both ICE and EV vehicles, indicating adaptability within the supply chain.
+
+- **Voestalpine Automotive Body Parts Inc. & Woodbridge Foam Corp.**: Involved in manufacturing interior and exterior parts for EVs, highlighting the importance of specialized automotive components.
+
+### Conclusion:
+Georgia's electric vehicle supply chain is robust and diverse, supported by major OEM investments and a wide range of suppliers specializing in various aspects of EV production. This ecosystem positions Georgia as a significant player in North America’s growing EV market.",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,203,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 170, 171, 172, 173, 174, 175, 176, 177, 178, 179, 180, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]",0
+10,Identify all Vehicle Assembly facilities in Georgia and list the corresponding Primary OEM associated with each facility.,"Q: Identify all Vehicle Assembly facilities in Georgia and list the corresponding Primary OEM associated with each facility.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 95 | Kia Georgia Inc. | Vehicle Assembly | Golf carts, various off-road vehicles, electric on-road vehicles |
+| 171 | Superior Essex Inc. | Vehicle Assembly | Electric vehicles and batteries |
+| 172 | Suzuki Manufacturing of America Corp. | Vehicle Assembly | Electric vehicle assembly plant |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 174 | TDK Components USA Inc. | Vehicle Assembly | Auto manufacturer headquarters |
+| 175 | TE Connectivity | Vehicle Assembly | Truck and bus bodies |
+| 176 | Teklas USA | Vehicle Assembly | Golf carts and all-terrain vehicles |
+| 177 | Textron Specialized Vehicles | Vehicle Assembly | Golf carts, utility vehicles, industrial vehicles |
+| 178 | Thermal Ceramics Inc. | Vehicle Assembly | Electric vehicle batteries |
+| 179 | Thomson Plastics Inc. | Vehicle Assembly | Electric vertical takeoff and landing (eVTOL) aircraft manufacturing |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+
+Count: 11
+Supporting row_ids: 95,171,172,173,174,175,176,177,178,179,194
+Notes: Row_id 194 does not have a Vehicle Assembly role but is included as per REQUIRED_ROW_IDS.",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,11,"[95, 171, 172, 173, 174, 175, 176, 177, 178, 179, 194]",0
+11,Identify the primary products and services associated with Sewon America Inc. across its different operational sites in Georgia.,"Q: Identify the primary products and services associated with Sewon America Inc. across its different operational sites in Georgia.
+Answer:
+| row_id | Company              | EV Supply Chain Role | Product / Service       |
+|--------|----------------------|----------------------|-------------------------|
+| 159    | Sewon America Inc.   | General Automotive   | Automotive aftermarket parts |
+| 160    | Sewon America Inc.   | General Automotive   | Motor vehicle engines and parts |
+| 161    | Sewon America Inc.   | General Automotive   | Fire truck bodies        |
+
+Count: 3
+Supporting row_ids: 159,160,161
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,3,"[159, 160, 161]",0
+12,List all Tier 2/3 companies in Georgia with primary involvement in the electric vehicle or battery supply chain and specify their respective roles.,"Q: List all Tier 2/3 companies in Georgia with primary involvement in the electric vehicle or battery supply chain and specify their respective roles.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 43 | Down 2 Earth Trailers | General Automotive | Standard and custom aluminum-lithium products for automotive customers |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+
+Count: 16
+Supporting row_ids: 13,17,18,22,23,25,26,30,31,34,43,44,49,60,69,170
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,16,"[13, 17, 18, 22, 23, 25, 26, 30, 31, 34, 43, 44, 49, 60, 69, 170]",0
+13,"Show the full supplier network linked to Rivian Automotive in Georgia, broken down by tier and EV Supply Chain Role.","Q: Show the full supplier network linked to Rivian Automotive in Georgia, broken down by tier and EV Supply Chain Role.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 28 | Continental Tire the Americas LLC | General Automotive | Automotive gaskets and parts, protective film applications |
+| 29 | DaeChang Seat Company | General Automotive | Foam products for the automotive industry |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 71 | Haering Precision USA LP | Materials | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 72 | Hanon Systems USA LLC | General Automotive | Internal combustion engines |
+| 73 |HELLA Automotive Sales Inc. | General Automotive | Speed changers and drives |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 102 | Linde + Wiemann | General Automotive | 6-speed automatic transmissions |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 104 | Lund International Inc./Ventshade Division | General Automotive | Industrial trailers and truck bodies |
+| 105 | Lyle Industries Inc. | General Automotive | Automatic transmissions |
+| 106 | Lyle Industries Inc. | General Automotive | Molded injection auto parts |
+| 107 | Mack Trucks | General Automotive | Interior and exterior automotive components |
+| 108 | Magna International | General Automotive | Ceramic fiber insulation blankets |
+| 109 | Mando America Corp. | General Automotive | Automotive body parts |
+| 110 | Master Craft Engineering Inc. | General Automotive | Door modules, tailgate latches, and hood latches |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 112 | Maxxis International USA | General Automotive | Brake systems |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 115 | Milliken & Co./Valway Plant | General Automotive | Automotive brakes, steering and suspension systems |
+| 121 | Neaton Rome Inc. | General Automotive | Automotive seating and interior electronics |
+| 122 | Nidec Elesys Americas Corp. | General Automotive | Seating systems |
+| 123 | NIFCO KTW America Corp. | General Automotive | Inventory management for Kia |
+| 124 | Nile Automotive | General Automotive | Window regulators and door frames |
+| 125 | Nisshinbo Automotive Manufacturing Inc. | General Automotive | Braking and suspension products |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 132 | OTR Wheel Engineering Inc. | General Automotive | Single axle trailers |
+| 133 | Paccar | General Automotive | Semi-trailers |
+| 134 | PAI Industries Inc. | General Automotive | Brake pads |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 141 | Peterson Spring | General Automotive | Precision turned parts for the automotive industry |
+| 142 | PHA Body Systems LLC | Materials | Plastic fuel tanks and sunroofs |
+| 143 | Piedmont Automotive Products Inc. | General Automotive | Interior components and accessories |
+| 144 | PIOLAX Corp. | General Automotive | All terrain vehicles |
+| 145 | Pirelli Tire North America LLC | General Automotive | Motor vehicle windshield wiper systems |
+| 150 | Remarc International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 170 | Suzuki Manufacturing of America Corp. | Vehicle Assembly | Electric vehicle assembly plant |
+| 186 | Trenton Pressing Inc. | Machined components supporting EV and ICE vehicles | Precision-machined powertrain components (engine/transmission/drivetrain parts) |
+| 187 | Valeo | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| 188 | Vanguard National Trailer Corp. | Body and chassis components for EV and ICE OEMs | Stamped metal components and automotive body assemblies |
+| 189 | Vernay | Stamped and welded assemblies for OEMs | Automotive metal stamping & body parts manufacturing (Hyundai/Kia supplier) |
+| 190 | Vista Metals Corp. | EV and ICE component manufacturing | Automotive modules/powertrain components; parts supply |
+| 191 | Voestalpine Automotive Body Parts Inc. | EV and ICE powertrain and HVAC components | Automotive components manufacturing group (compressors/automotive parts) |
+| 192 | Volvo Cars USA | Plastic components for EV and ICE vehicles | Automotive plastic parts manufacturing (interior/exterior components) |
+| 193 | Volvo Group North America | Stamped metal components for OEMs | Metal stamping/pressing for automotive components |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 195 | Wheelabrator Group Inc. | Interior trim and textile components | Metal stamping & fabrication for automotive/industrial components |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+| 198 | Woory Industrial Co. | High-voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 199 | Yachiyo Manufacturing of America LLC | EV electrical distribution and interior systems | Automotive seating and E-Systems (electrical distribution) |
+| 200 | Yamaha Motor Manufacturing Corp. | Advanced electrical architecture for EVs | Automotive electrical architecture, connectivity, and advanced safety components |
+| 201 | Yazaki North America | Power electronics, sensors, and EV systems | Automotive supplier division (mobility solutions: ADAS, powertrain, electronics) |
+| 202 | YKK USA Inc. | EV sensors, braking, and control systems | Automotive technologies (ADAS, braking, connectivity, tires & components) |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 76
+
+Supporting row_ids: 26,27,28,29,30,31,34,44,49,53,69,71,72,73,74,75,79,80,84,86,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,121,122,123,124,125,129,131,132,133,134,135,141,142,143,144,145,150,152,163,170,186,187,188,189,190,191,192,193,194,195,196,197,198,199,200,201,202,203,204,205
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,76,"[26, 27, 28, 29, 30, 31, 34, 44, 49, 53, 69, 71, 72, 73, 74, 75, 79, 80, 84, 86, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 121, 122, 123, 124, 125, 129, 131, 132, 133, 134, 135, 141, 142, 143, 144, 145, 150, 152, 163, 170, 172, 186, 187, 188, 189, 190, 191, 192, 193, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]",0
+14,"Which Georgia companies produce battery materials such as anodes, cathodes, electrolytes, or copper foil, and what tier are they classified as?","Q: Which Georgia companies produce battery materials such as anodes, cathodes, electrolytes, or copper foil, and what tier are they classified as?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 11 | Ascend Elements | Materials | Interior and exterior plastic parts |
+| 12 | Aspen Aerogels | Materials | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 71 | Haering Precision USA LP | Materials | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+
+Count: 18
+Supporting row_ids: 11,12,13,15,22,23,25,26,30,31,34,44,53,71,77,83,86,170
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,18,"[11, 12, 13, 15, 22, 23, 25, 26, 30, 31, 34, 44, 53, 71, 77, 83, 86, 170]",0
+15,Identify all Georgia companies with an EV Supply Chain Role related to wiring harnesses and show their Primary OEMs.,"Q: Identify all Georgia companies with an EV Supply Chain Role related to wiring harnesses and show their Primary OEMs.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+
+Count: 3
+Supporting row_ids: 165,196,197
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,3,"[165, 196, 197]",0
+16,Find Georgia-based Tier 1 or Tier 1/2 suppliers capable of producing battery electrolytes or lithium-ion battery materials with existing OEM contracts.,"Q: Find Georgia-based Tier 1 or Tier 1/2 suppliers capable of producing battery electrolytes or lithium-ion battery materials with existing OEM contracts.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|--------|---------|----------------------|--------------------|
+| 53     | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57     | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 77     | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 83     | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 86     | IMMI | Battery Pack | Battery electrolyte |
+
+Count: 5
+Supporting row_ids: 53,57,77,83,86
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,5,"[53, 57, 77, 83, 86]",0
+17,Which Georgia companies manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms?,"Q: Which Georgia companies manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+| 198 | Woory Industrial Co. | High-voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 199 | Yachiyo Manufacturing of America LLC | EV electrical distribution and interior systems | Automotive seating and E-Systems (electrical distribution) |
+
+Count: 8
+Supporting row_ids: 49,79,80,90,165,197,198,199
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,8,"[49, 79, 80, 90, 165, 197, 198, 199]",0
+18,Identify Georgia Tier 2/3 companies in the Electronic and Electrical Equipment industry group that could be upgraded to supply EV power electronics.,"Q: Identify Georgia Tier 2/3 companies in the Electronic and Electrical Equipment industry group that could be upgraded to supply EV power electronics.
+Answer:
+Not found in the data
+
+Count: 0
+
+Supporting row_ids: 
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,0,[],0
+19,Find Georgia-based companies that manufacture copper foil or electrodeposited materials suitable for EV battery current collectors.,"Q: Find Georgia-based companies that manufacture copper foil or electrodeposited materials suitable for EV battery current collectors.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+
+Count: 4
+Supporting row_ids: 44,76,77,78
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[44, 76, 77, 78]",0
+20,"Which Georgia Tier 1/2 companies produce engineered plastics, polymers, or composite materials applicable to EV structural or thermal components?","Q: Which Georgia Tier 1/2 companies produce engineered plastics, polymers, or composite materials applicable to EV structural or thermal components?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+
+Count: 4
+
+Supporting row_ids: 53,57,79,84
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[53, 57, 79, 84]",0
+21,Find Georgia suppliers with existing Hyundai Kia contracts that could be expanded to support Hyundai Metaplant's EV battery production ramp-up.,"Q: Find Georgia suppliers with existing Hyundai Kia contracts that could be expanded to support Hyundai Metaplant's EV battery production ramp-up.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 19 | Bonnell Aluminum | General Automotive | Rubber oil seals |
+| 20 | Boogook Industries | Materials | Plastic injection gear wheels |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 28 | Continental Tire the Americas LLC | General Automotive | Automotive gaskets and parts, protective film applications |
+| 29 | DaeChang Seat Company | General Automotive | Foam products for the automotive industry |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 117 | Mobis Alabama LLC | General Automotive | Products and systems for ATVs and other off-road vehicles |
+| 150 | Remark International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 171 | Superior Essex Inc. | Vehicle Assembly | Electric vehicles and batteries |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 187 | Valeo | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| 189 | Vernay | Stamped and welded assemblies for OEMs | Automotive metal stamping & body parts manufacturing (Hyundai/Kia supplier) |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 195 | Wheelabrator Group Inc. | Interior trim and textile components | Metal stamping & fabrication for automotive/industrial components |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+| 198 | Woory Industrial Co. | High-voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 199 | Yachiyo Manufacturing of America LLC | EV electrical distribution and interior systems | Automotive seating and E-Systems (electrical distribution) |
+| 200 | Yamaha Motor Manufacturing Corp. | Advanced electrical architecture for EVs | Automotive electrical architecture, connectivity, and advanced safety components |
+
+Count: 40
+
+Supporting row_ids: 16,17,18,19,20,22,23,25,26,27,28,29,30,31,34,44,49,53,62,64,69,76,77,78,83,84,86,117,150,171,173,187,189,194,195,196,197,198,199,200
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,40,"[16, 17, 18, 19, 20, 22, 23, 25, 26, 27, 28, 29, 30, 31, 34, 44, 49, 53, 62, 64, 69, 76, 77, 78, 83, 84, 86, 117, 150, 171, 173, 187, 189, 194, 195, 196, 197, 198, 199, 200]",0
+22,"Identify Georgia companies producing DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains and what tier is each assigned?","Q: Identify Georgia companies producing DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains and what tier is each assigned?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 150 | Remarc International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 16
+Supporting row_ids: 57,58,60,69,79,82,85,86,87,88,89,90,150,203,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,16,"[57, 58, 60, 69, 79, 82, 85, 86, 87, 88, 89, 90, 150, 203, 204, 205]",0
+23,"Which Georgia companies provide powder coating-related products or services, and what tier are they classified under?","Q: Which Georgia companies provide powder coating-related products or services, and what tier are they classified under?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 5 | ALBAform Inc. | General Automotive | Floor mats, trunk mats, seat covers and seat vests |
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 24 | Carcaoustics USA | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 65 | Goodyear Tire & Rubber Co. | General Automotive | Coiled and flat springs for power train, chassis and body applications |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+
+Count: 12
+Supporting row_ids: 5,8,22,23,24,34,65,79,80,90,170,173
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,12,"[5, 8, 22, 23, 24, 34, 65, 79, 80, 90, 170, 173]",0
+24,"Which Georgia companies manufacture battery parts or enclosure systems and are classified as Tier 1/2, making them ready for direct OEM engagement and show which Primary OEMs they are linked to.","Q: Which Georgia companies manufacture battery parts or enclosure systems and are classified as Tier 1/2, making them ready for direct OEM engagement and show which Primary OEMs they are linked to.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+
+Count: 6
+
+Supporting row_ids: 53,76,77,78,83,86
+Notes: Row_id 57 is not included as it does not fit the criteria of manufacturing battery parts or enclosure systems.",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,7,"[53, 57, 76, 77, 78, 83, 86]",0
+25,Find Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.,"Q: Find Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 1 | ACM Georgia LLC | General Automotive | Automotive floor mats made of purchased wire |
+| 10 | Arising Industries Inc. | General Automotive | Automotive and aircraft tires |
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 21 | Bosal Industries Georgia | General Automotive | Tires for cars, trucks and motorcycles |
+| 40 | Dinex Emissions Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 46 | Ecoplastic America Corporation | General Automotive | Aluminum sheet for automotive bodies |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 41 | Dongwon Autopart Technology Georgia LLC | General Automotive | Aluminum extrusions |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 68 | Grudem | General Automotive | Sensors for mobile hydraulic applications |
+| 56 | Flambeau Inc. | General Automotive | Door locks, ignition locks, side mirrors and door handles |
+
+Count: 13
+Supporting row_ids: 1,10,14,21,40,46,58,16,41,51,27,68,56
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,13,"[1, 10, 14, 16, 21, 27, 40, 41, 46, 51, 56, 58, 68]",0
+26,Identify Georgia Tier 2/3 companies in the Chemicals and Allied Products industry group and list their products.,"Q: Identify Georgia Tier 2/3 companies in the Chemicals and Allied Products industry group and list their products.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 9 | Arising Industries Inc. | General Automotive | Rubber powders for tires |
+
+Count: 2
+Supporting row_ids: 8,9
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,2,"[8, 9]",0
+27,"Which EV Supply Chain Roles in Georgia are served by only a single company, creating a single-point-of-failure risk for the state's EV ecosystem?","Q: Which EV Supply Chain Roles in Georgia are served by only a single company, creating a single-point-of-failure risk for the state's EV ecosystem?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 11 | Ascend Elements | Materials | Interior and exterior plastic parts |
+| 12 | Aspen Aerogels | Materials | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 61 | FREYR Battery | General Automotive | Decorative and functional coating systems |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 63 | Global Powertrain Systems LLC | General Automotive | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 65 | Goodyear Tire & Rubber Co. | General Automotive | Coiled and flat springs for power train, chassis and body applications |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 71 | Haering Precision USA LP | Materials | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 95 | Kia Georgia Inc. | Vehicle Assembly | Golf carts, various off-road vehicles, electric on-road vehicles |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 150 | Remarc International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+| 171 | Superior Essex Inc. | Vehicle Assembly | Electric vehicles and batteries |
+| 172 | Suzuki Manufacturing of America Corp. | Vehicle Assembly | Electric vehicle assembly plant |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 174 | TDK Components USA Inc. | Vehicle Assembly | Auto manufacturer headquarters |
+| 175 | TE Connectivity | Vehicle Assembly | Truck and bus bodies |
+| 178 | Thermal Ceramics Inc. | Vehicle Assembly | Electric vehicle batteries |
+| 181 | TI Fluid Systems | OEM corporate footprint influencing EV strategy | OEM footprint: Volvo passenger vehicles; NA operations footprint |
+| 182 | Tie Down Engineering | OEM corporate and engineering footprint (electrification) | Heavy-duty and medium-duty trucks |
+| 183 | TN Americas Holding Inc. | OEM parent group footprint (EV + HD electrification) | Commercial trucks (Volvo/Mack), buses, construction equipment; OEM footprint |
+| 184 | Toyota Industries Group (TACG-TICA) | OEM parent group footprint (electric truck strategy) | Commercial trucks (Freightliner/Western Star) & zero-emission truck programs |
+| 185 | Trenton Pressing | OEM corporate footprint and supplier integration | Truck OEM footprint & parts/distribution operations (PACCAR network) |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 195 | Wheelabrator Group Inc. | Interior trim and textile components | Metal stamping & fabrication for automotive/industrial components |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+| 198 | Woory Industrial Co. | High‑voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 199 | Yachiyo Manufacturing of America LLC | EV electrical distribution and interior systems | Automotive seating and E-Systems (electrical distribution) |
+| 200 | Yamaha Motor Manufacturing Corp. | Advanced electrical architecture for EVs | Automotive electrical architecture, connectivity, and advanced safety components |
+| 201 | Yazaki North America | Power electronics, sensors, and EV systems | Automotive supplier division (mobility solutions: ADAS, powertrain, electronics) |
+| 202 | YKK USA Inc. | EV sensors, braking, and control systems | Automotive technologies (ADAS, braking, connectivity, tires & components) |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 62
+
+Supporting row_ids: 11,12,13,14,15,17,18,22,23,25,26,30,31,34,53,57,58,60,61,62,63,64,65,69,71,76,77,78,83,84,86,95,119,129,137,139,150,163,170,171,172,173,174,175,178,181,182,183,184,185,194,195,196,197,198,199,200,201,202,203,204,205
+
+Notes: None",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,62,"[11, 12, 13, 14, 15, 17, 18, 22, 23, 25, 26, 30, 31, 34, 53, 57, 58, 60, 61, 62, 63, 64, 65, 69, 71, 76, 77, 78, 83, 84, 86, 95, 119, 129, 137, 139, 150, 163, 170, 171, 172, 173, 174, 175, 178, 181, 182, 183, 184, 185, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]",0
+28,"Which Georgia Battery Cell or Battery Pack suppliers are sole-sourced by a specific OEM, indicating high dependency risk?","Q: Which Georgia Battery Cell or Battery Pack suppliers are sole-sourced by a specific OEM, indicating high dependency risk?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+
+Count: 6
+Supporting row_ids: 53,76,77,78,83,86
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,6,"[53, 76, 77, 78, 83, 86]",0
+29,"For Hyundai Metaplant, how many of its Georgia-based EV component suppliers have fewer than 200 employees, flagging potential capacity fragility?","Q: For Hyundai Metaplant, how many of its Georgia-based EV component suppliers have fewer than 200 employees, flagging potential capacity fragility?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 2 | Adient | General Automotive | Backing for automotive carpets and other auto related applications |
+| 3 | ADVICS Manufacturing Georgia LLC | General Automotive | Air bags, tire cording, performance related products |
+| 4 | Ajin Georgia | General Automotive | Automobile floor coverings |
+| 5 | ALBAform Inc. | General Automotive | Floor mats, trunk mats, seat covers and seat vests |
+| 6 | Anovion Technologies | General Automotive | Molded floor covering, interior trim, floor mats |
+| 7 | Apache Mills Inc. | General Automotive | Engine filtration papers |
+| 9 | Arising Industries Inc. | General Automotive | Rubber powders for tires |
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 20 | Boogook Industries | Materials | Plastic injection gear wheels |
+| 24 | Carcoustics USA | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 28 | Continental Tire the Americas LLC | General Automotive | Automotive gaskets and parts, protective film applications |
+| 29 | DaeChang Seat Company | General Automotive | Foam products for the automotive industry |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 32 | Daesol Material Georgia, LLC | General Automotive | Tires |
+| 33 | Daimler Truck North America | General Automotive | Pre-molded tire treads |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 35 | Decostar Industries | General Automotive | Black and color elastomeric compounding |
+| 36 | DeKalb Tool & Die Inc. | General Automotive | Truck interior cab components and exterior lights to HVAC and under the hood engine parts |
+| 37 | Denkai America | General Automotive | Custom injection molded components for the automotive industry |
+| 38 | Denso Manufacturing Georgia | General Automotive | Custom-designed shot peening and surface preparation surfaces |
+| 39 | Die-Tech Industries Inc. | General Automotive | Glass, ceramics and glass ceramic composites |
+| 45 | Eaton Corp. | General Automotive | Aluminum products for various markets including automotive market |
+| 47 | Ecoplastic Corporation | General Automotive | Flexible shafts for automotive transmissions |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 50 | Enplas USA Inc. | General Automotive | Recycler of lithium ion batteries |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 54 | Fanello Industries Inc. | Materials | Chrome and stainless steel balls |
+| 55 | First American Resources | Materials | Honeycomb material |
+| 59 | Freudenberg-NOK | General Automotive | Brake components |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 61 | FREYR Battery | General Automotive | Decorative and functional coating systems |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 63 | Global Powertrain Systems LLC | General Automotive | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 65 | Goodyear Tire & Rubber Co. | General Automotive | Coiled and flat springs for power train, chassis and body applications |
+| 70 | Haering Precision USA LP | General Automotive | Tools and dies for automotive industry |
+| 71 | Haering Precision USA LP | Materials | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 72 | Hanon Systems USA LLC | General Automotive | Internal combustion engines |
+| 73 |HELLA Automotive Sales Inc. | General Automotive | Speed changers and drives |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 128 | Novelis Inc. | General Automotive | Seat, interior, and precision metal stamping |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 134 | PAI Industries Inc. | General Automotive | Brake pads |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 140 | Perkins Small Engines LLC | General Automotive | Specialized commercial vehicles including truck bodies, buses and armored vehicles |
+| 141 | Peterson Spring | General Automotive | Precision turned parts for the automotive industry |
+| 142 | PHA Body Systems LLC | Materials | Plastic fuel tanks and sunroofs |
+| 143 | Piedmont Automotive Products Inc. | General Automotive | Interior components and accessories |
+| 144 | PIOLAX Corp. | General Automotive | All terrain vehicles |
+| 145 | Pirelli Tire North America LLC | General Automotive | Motor vehicle windshield wiper systems |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 147 | PPG Industries Inc. | General Automotive | Muffler and exhaust systems |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 149 | QSR Inc. | General Automotive | Functional aftermarket accessories for trucks and SUVs |
+| 150 | Racemark International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 154 | SAFT America Inc. | General Automotive | Arm and head rests |
+| 155 | Sejong Georgia LLC | General Automotive | NVH parts and interior components |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 161 | Sewon America Inc. | General Automotive | Fire truck bodies |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 166 | Southern Switches Corp. | General Automotive | Commercial truck bodies |
+| 167 | SRG Global Inc. | General Automotive | Products for marine, mobile home, and other industries |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+| 169 | Suhner Manufacturing Corp. | General Automotive | Truck trailers |
+| 179 | Thomson Plastics Inc. | Vehicle Assembly | Electric vertical takeoff and landing (eVTOL) aircraft manufacturing |
+| 180 | TI Fluid Systems | Vehicle safety systems OEM (EV + ICE) | School bus seating, seat belts, and occupant restraint systems |
+| 185 | Trenton Pressing | OEM corporate footprint and supplier integration | Truck OEM footprint & parts/distribution operations (PACCAR network) |
+| 187 | Valeo | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 195 | Wheelabrator Group Inc. | Interior trim and textile components | Metal stamping & fabrication for automotive/industrial components |
+
+Count: 96
+
+Supporting row_ids: 2,3,4,5,6,7,9,14,15,20,24,25,27,28,29,31,32,33,34,35,36,37,38,39,45,47,49,50,51,54,55,59,60,61,62,63,64,65,70,71,72,73,74,80,81,82,83,84,85,86,89,90,128,130,134,135,136,137,138,139,140,141,142,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,163,164,165,166,167,168,169,179,180,185,187,194,195
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,96,"[0, 2, 3, 4, 5, 6, 7, 9, 14, 15, 20, 24, 25, 27, 28, 29, 31, 32, 33, 34, 35, 36, 37, 38, 39, 45, 47, 49, 50, 51, 54, 55, 59, 60, 61, 62, 63, 64, 65, 70, 71, 72, 73, 74, 80, 81, 82, 83, 84, 85, 86, 89, 90, 128, 130, 134, 135, 136, 137, 138, 139, 140, 141, 142, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 163, 164, 165, 166, 167, 168, 169, 179, 180, 185, 187, 194, 195]",0
+30,"Identify Georgia Tier 2/3 suppliers that are EV Relevant, classified as General Automotive, and provide materials to Battery Cell or Battery Pack companies, suggesting supply chain misalignment risk.","Q: Identify Georgia Tier 2/3 suppliers that are EV Relevant, classified as General Automotive, and provide materials to Battery Cell or Battery Pack companies, suggesting supply chain misalignment risk.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 1 | ACM Georgia LLC | General Automotive | Automotive floor mats made of purchased wire |
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 28 | Continental Tire the Americas LLC | General Automotive | Automotive gaskets and parts, protective film applications |
+| 29 | DaeChang Seat Company | General Automotive | Foam products for the automotive industry |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 37 | Denkai America | General Automotive | Custom injection molded components for the automotive industry |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 59 | Freudenberg-NOK | General Automotive | Brake components |
+| 61 | FREYR Battery | General Automotive | Decorative and functional coating systems |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 63 | Global Powertrain Systems LLC | General Automotive | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 65 | Goodyear Tire & Rubber Co. | General Automotive | Coiled and flat springs for power train, chassis and body applications |
+| 66 | Great Dane LP | General Automotive | Precision metal stamping |
+| 67 | Great Dane Trailers | General Automotive | Metal stampings and forklifts |
+| 68 | Grudem | General Automotive | Sensors for mobile hydraulic applications |
+| 70 | Haering Precision USA LP | General Automotive | Tools and dies for automotive industry |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+
+Count: 27
+Supporting row_ids: 1,8,14,16,22,23,25,27,28,29,31,34,37,44,49,51,59,61,62,63,64,65,66,67,68,70,74
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,27,"[1, 8, 14, 16, 22, 23, 25, 27, 28, 29, 31, 34, 37, 44, 49, 51, 59, 61, 62, 63, 64, 65, 66, 67, 68, 70, 74]",0
+31,Identify all Georgia-based Tier 1/2 automotive suppliers that maintain a diversified customer base (serving 'Multiple OEMs').,"Q: Identify all Georgia-based Tier 1/2 automotive suppliers that maintain a diversified customer base (serving 'Multiple OEMs').
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 91 | Jefferson Southern Corporation | General Automotive | Stamped metal automobile body parts |
+| 92 | Joon Georgia, Inc. | General Automotive | Seats and seat foam pads |
+| 93 | JTEKT North America Corp. | General Automotive | Vehicle roofing systems |
+| 94 | Kautex Inc. | General Automotive | Automotive exterior and interior systems |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 102 | Linde + Wiemann | General Automotive | 6-speed automatic transmissions |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 104 | Lund International Inc./Ventshade Division | General Automotive | Industrial trailers and truck bodies |
+| 105 | Lyle Industries Inc. | General Automotive | Automatic transmissions |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 117 | Mobis Alabama LLC | General Automotive | Products and systems for ATVs and other off-road vehicles |
+| 118 | MollerTech LLC | General Automotive | Injection molded components |
+| 120 | Murata Electronics North America Inc. | General Automotive | Motor vehicle brake systems and parts |
+| 126 | Nivel Parts & Manufacturing Co. LLC | General Automotive | Industrial trailers and truck bodies |
+| 127 | Novelis Inc. | General Automotive | Motor vehicle transmissions |
+| 128 | Novelis Inc. | General Automotive | Seat, interior, and precision metal stamping |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 132 | OTR Wheel Engineering Inc. | General Automotive | Single axle trailers |
+| 133 | Paccar | General Automotive | Semi-trailers |
+| 134 | PAI Industries Inc. | General Automotive | Brake pads |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 147 | PPG Industries Inc. | General Automotive | Muffler and exhaust systems |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 149 | QSR Inc. | General Automotive | Functional aftermarket accessories for trucks and SUVs |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 154 | SAFT America Inc. | General Automotive | Arm and head rests |
+| 155 | Sejong Georgia LLC | General Automotive | NVH parts and interior components |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 161 | Sewon America Inc. | General Automotive | Fire truck bodies |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 166 | Southern Switches Corp. | General Automotive | Commercial truck bodies |
+| 167 | SRG Global Inc. | General Automotive | Products for marine, mobile home, and other industries |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+| 169 | Suhner Manufacturing Corp. | General Automotive | Truck trailers |
+
+Count: 61
+
+Supporting row_ids: 53,57,75,79,80,81,85,87,88,89,90,91,92,93,94,101,102,103,104,105,111,113,117,118,120,126,127,128,129,130,131,132,133,134,135,136,137,138,139,146,147,148,149,151,152,153,154,155,156,157,158,159,160,161,163,164,165,166,167,168,169
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,61,"[53, 57, 75, 79, 80, 81, 85, 87, 88, 89, 90, 91, 92, 93, 94, 101, 102, 103, 104, 105, 111, 113, 117, 118, 120, 126, 127, 128, 129, 130, 131, 132, 133, 134, 135, 136, 137, 138, 139, 146, 147, 148, 149, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 163, 164, 165, 166, 167, 168, 169]",0
+32,Identify Georgia companies in the Thermal Management or Power Electronics role with fewer than 200 employees - their small scale may limit surge production capacity.,"Q: Identify Georgia companies in the Thermal Management or Power Electronics role with fewer than 200 employees - their small scale may limit surge production capacity.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+
+Count: 6
+Supporting row_ids: 60,84,129,135,139,69
+Notes: The row with id 47 and 90 were excluded as they do not fit the criteria of Thermal Management or Power Electronics roles. Row 134 was also excluded due to its role being General Automotive.",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,9,"[47, 60, 69, 84, 90, 129, 134, 135, 139]",0
+33,Identify any EV-relevant Georgia companies classified as OEM Footprint or OEM Supply Chain?,"Q: Identify any EV-relevant Georgia companies classified as OEM Footprint or OEM Supply Chain?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 181 | TI Fluid Systems | OEM corporate footprint influencing EV strategy | OEM footprint: Volvo passenger vehicles; NA operations footprint |
+| 182 | Tie Down Engineering | OEM corporate and engineering footprint (electrification) | Heavy-duty and medium-duty trucks |
+| 183 | TN Americas Holding Inc. | OEM parent group footprint (EV + HD electrification) | Commercial trucks (Volvo/Mack), buses, construction equipment; OEM footprint |
+| 184 | Toyota Industries Group (TACG-TICA) | OEM parent group footprint (electric truck strategy) | Commercial trucks (Freightliner/Western Star) & zero-emission truck programs |
+| 185 | Trenton Pressing | OEM corporate footprint and supplier integration | Truck OEM footprint & parts/distribution operations (PACCAR network) |
+| 186 | Trenton Pressing Inc. | Machined components supporting EV and ICE vehicles | Precision-machined powertrain components (engine/transmission/drivetrain parts) |
+| 187 | Valeo | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| 188 | Vanguard National Trailer Corp. | Body and chassis components for EV and ICE OEMs | Stamped metal components and automotive body assemblies |
+| 189 | Vernay | Stamped and welded assemblies for OEMs | Automotive metal stamping & body parts manufacturing (Hyundai/Kia supplier) |
+| 190 | Vista Metals Corp. | EV and ICE component manufacturing | Automotive modules/powertrain components; parts supply |
+| 191 | Voestalpine Automotive Body Parts Inc. | EV and ICE powertrain and HVAC components | Automotive components manufacturing group (compressors/automotive parts) |
+| 192 | Volvo Cars USA | Plastic components for EV and ICE vehicles | Automotive plastic parts manufacturing (interior/exterior components) |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 195 | Wheelabrator Group Inc. | Interior trim and textile components | Metal stamping & fabrication for automotive/industrial components |
+| 196 | WIKA USA | HV and LV wiring harnesses for EVs and ICE vehicles | Vehicle power & data solutions; wiring harnesses and connectors |
+| 197 | Woodbridge Foam Corp. | EV wiring harnesses and power distribution | Automotive wiring harnesses & electrical distribution systems |
+| 198 | Woory Industrial Co. | High‑voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 199 | Yachiyo Manufacturing of America LLC | EV electrical distribution and interior systems | Automotive seating and E-Systems (electrical distribution) |
+| 200 | Yamaha Motor Manufacturing Corp. | Advanced electrical architecture for EVs | Automotive electrical architecture, connectivity, and advanced safety components |
+| 201 | Yazaki North America | Power electronics, sensors, and EV systems | Automotive supplier division (mobility solutions: ADAS, powertrain, electronics) |
+| 202 | YKK USA Inc. | EV sensors, braking, and control systems | Automotive technologies (ADAS, braking, connectivity, tires & components) |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 60
+
+Supporting row_ids: 181,182,183,184,185,186,187,188,189,190,191,192,194,195,196,197,198,199,200,201,202,203,204,205",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,60,"[1, 2, 8, 10, 13, 26, 27, 28, 29, 30, 43, 44, 49, 62, 63, 64, 76, 77, 78, 81, 82, 83, 84, 85, 86, 95, 111, 113, 114, 115, 129, 150, 171, 172, 178, 179, 181, 182, 183, 184, 185, 186, 187, 188, 189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]",0
+34,"Top 10 Georgia companies based on employment size that supply both General Automotive and EV-specific components, indicating transition readiness?","Q: Top 10 Georgia companies based on employment size that supply both General Automotive and EV-specific components, indicating transition readiness?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 19 | Bonnell Aluminum | General Automotive | Rubber oil seals |
+| 20 | Boogook Industries | Materials | Plastic injection gear wheels |
+| 21 | Bosal Industries Georgia | General Automotive | Tires for cars, trucks and motorcycles |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 24 | Carcoustics USA | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| ... | ... | ... | ... |
+
+Count: 61
+
+Supporting row_ids: 14,16,17,18,19,20,21,22,23,24,25,26,27,28,29,30,31,32,34,44,49,51,57,69,79,83,84,86,95,129,136,137,138,139,140,141,150,151,152,153,154,155,167,168,169,170,186,187,188,189,190,196,197,198,199,200,201,202,203,204,205
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,61,"[14, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 34, 44, 49, 51, 57, 69, 79, 83, 84, 86, 95, 129, 136, 137, 138, 139, 140, 141, 150, 151, 152, 153, 154, 155, 167, 168, 169, 170, 186, 187, 188, 189, 190, 196, 197, 198, 199, 200, 201, 202, 203, 204, 205]",0
+35,"How many Georgia companies are now producing lithium-ion battery materials, cells, or electrolytes?","Q: How many Georgia companies are now producing lithium-ion battery materials, cells, or electrolytes?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 11 | Ascend Elements | Materials | Interior and exterior plastic parts |
+| 12 | Aspen Aerogels | Materials | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+
+Count: 14
+
+Supporting row_ids: 11,12,13,15,26,30,31,34,76,77,78,86,163,170
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,14,"[11, 12, 13, 15, 26, 30, 31, 34, 76, 77, 78, 86, 163, 170]",0
+36,Which Georgia Tier 2/3 suppliers currently produce lightweight aluminum or composite materials and are growing their EV-specific customer base?,"Q: Which Georgia Tier 2/3 suppliers currently produce lightweight aluminum or composite materials and are growing their EV-specific customer base?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 40 | Dinex Emissions Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 43 | Down 2 Earth Trailers | General Automotive | Standard and custom aluminum-lithium products for automotive customers |
+| 46 | Ecoplastic America Corporation | General Automotive | Aluminum sheet for automotive bodies |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+
+Count: 9
+Supporting row_ids: 23,31,34,40,43,46,51,60,74
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,9,"[23, 31, 34, 40, 43, 46, 51, 60, 74]",0
+37,"Identify Georgia companies whose product descriptions include 'high-voltage', 'DC-to-DC', 'inverter', or 'motor controller' — these signal EV powertrain electronics growth.","Q: Identify Georgia companies whose product descriptions include 'high-voltage', 'DC-to-DC', 'inverter', or 'motor controller' — these signal EV powertrain electronics growth.
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 69 | GSC Steel Stamping LLC | Power Electronics | Deep grove ball bearings Toyota Industries Electric Systems North 255 DC-to-DC converters Jackson America, Inc.* |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 198 | Woory Industrial Co. | High‑voltage EV connectors and electronics | Automotive connectors, terminals, sensors, and power/data components |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 9
+Supporting row_ids: 31,69,79,84,90,198,203,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,9,"[31, 69, 79, 84, 90, 198, 203, 204, 205]",0
+38,"Which Georgia automotive companies employ over 1,000 workers but are currently categorized as only ""Indirectly Relevant"" to the EV sector, indicating a massive workforce pool ready for a strategic pivot?","Q: Which Georgia automotive companies employ over 1,000 workers but are currently categorized as only ""Indirectly Relevant"" to the EV sector, indicating a massive workforce pool ready for a strategic pivot?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 175 | TE Connectivity | Vehicle Assembly | Truck and bus bodies |
+| 177 | Textron Specialized Vehicles | Vehicle Assembly | Golf carts, utility vehicles, industrial vehicles |
+| 190 | Vista Metals Corp. | EV and ICE component manufacturing | Automotive modules/powertrain components; parts supply |
+
+Count: 4
+Supporting row_ids: 173,175,177,190
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[173, 175, 177, 190]",0
+39,"Which three Georgia companies have the largest employment in EV thermal management, and how many employees does each have?","Q: Which three Georgia companies have the largest employment in EV thermal management, and how many employees does each have?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 6
+Supporting row_ids: 60,84,129,139,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,6,"[60, 84, 129, 139, 204, 205]",0
+40,"Which companies are involved in thermal-related products or services, and what roles and facility types are they associated with?","Q: Which companies are involved in thermal-related products or services, and what roles and facility types are they associated with?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 36 | DeKalb Tool & Die Inc. | General Automotive | Truck interior cab components and exterior lights to HVAC and under the hood engine parts |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 13
+
+Supporting row_ids: 26,30,36,60,84,90,119,129,139,162,203,204,205",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,13,"[26, 30, 36, 60, 84, 90, 119, 129, 139, 162, 203, 204, 205]",0
+41,Which Tier 1/2 Georgia companies listed under General Automotive suggest a gradual evolution toward EV-related products or markets?,"Q: Which Tier 1/2 Georgia companies listed under General Automotive suggest a gradual evolution toward EV-related products or markets?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 75 | Hitachi Astemo | General Automotive | Car audio systems |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 91 | Jefferson Southern Corporation | General Automotive | Stamped metal automobile body parts |
+| 92 | Joon Georgia, Inc. | General Automotive | Seats and seat foam pads |
+| 93 | JTEKT North America Corp. | General Automotive | Vehicle roofing systems |
+| 94 | Kautex Inc. | General Automotive | Automotive exterior and interior systems |
+| 96 | KTX America Corporation | General Automotive | Stamped components and decorative trim |
+| 97 | Kumho Tire USA Inc. | General Automotive | Stamped components and decorative trim |
+| 98 | Kyungshin America Corp. | General Automotive | Front-end modules, front-rolling chassis modules, rear-chassis modules |
+| 99 | Lark United Manufacturing Inc. | General Automotive | Motor vehicle transmissions |
+| 100 | Lear Corporation | General Automotive | Pressed parts in the body-in-white segment and structural components |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 102 | Linde + Wiemann | General Automotive | 6-speed automatic transmissions |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 104 | Lund International Inc./Ventshade Division | General Automotive | Industrial trailers and truck bodies |
+| 105 | Lyle Industries Inc. | General Automotive | Automatic transmissions |
+| 107 | Mack Trucks | General Automotive | Interior and exterior automotive components |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 115 | Milliken & Co./Valway Plant | General Automotive | Automotive brakes, steering and suspension systems |
+| 121 | Neaton Rome Inc. | General Automotive | Automotive seating and interior electronics |
+| 126 | Nivel Parts & Manufacturing Co. LLC | General Automotive | Industrial trailers and truck bodies |
+| 127 | Novelis Inc. | General Automotive | Motor vehicle transmissions |
+| 128 | Novelis Inc. | General Automotive | Seat, interior, and precision metal stamping |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 140 | Perkins Small Engines LLC | General Automotive | Specialized commercial vehicles including truck bodies, buses and armored vehicles |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 150 | Remarc International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 154 | SAFT America Inc. | General Automotive | Arm and head rests |
+| 155 | Sejong Georgia LLC | General Automotive | NVH parts and interior components |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 161 | Sewon America Inc. | General Automotive | Fire truck bodies |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 166 | Southern Switches Corp. | General Automotive | Commercial truck bodies |
+| 167 | SRG Global Inc. | General Automotive | Products for marine, mobile home, and other industries |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+| 169 | Suhner Manufacturing Corp. | General Automotive | Truck trailers |
+
+Count: 61
+
+Supporting row_ids: 53,57,75,79,80,81,82,85,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,105,107,111,113,114,115,121,126,127,128,130,131,136,138,140,146,148,150,151,152,153,154,155,156,157,158,159,160,161,162,164,165,166,167,168,169
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,61,"[53, 57, 75, 79, 80, 81, 82, 85, 87, 88, 89, 90, 91, 92, 93, 94, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 107, 111, 113, 114, 115, 121, 126, 127, 128, 130, 131, 136, 138, 140, 146, 148, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 164, 165, 166, 167, 168, 169]",0
+42,How is demand for thermal management solutions reflected in the number and employment size of Georgia Thermal Management suppliers?,"Q: How is demand for thermal management solutions reflected in the number and employment size of Georgia Thermal Management suppliers?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 6 | Anovion Technologies | General Automotive | Molded floor covering, interior trim, floor mats |
+| 7 | Apache Mills Inc. | General Automotive | Engine filtration papers |
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 9 | Arising Industries Inc. | General Automotive | Rubber powders for tires |
+| 10 | Arising Industries Inc. | General Automotive | Automotive and aircraft tires |
+| 36 | DeKalb Tool & Die Inc. | General Automotive | Truck interior cab components and exterior lights to HVAC and under the hood engine parts |
+| 37 | Denkai America | General Automotive | Custom injection molded components for the automotive industry |
+| 38 | Denso Manufacturing Georgia | General Automotive | Custom-designed shot peening and surface preparation surfaces |
+| 39 | Die-Tech Industries Inc. | General Automotive | Glass, ceramics and glass ceramic composites |
+| 40 | Dinex Emissions Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 41 | Dongwon Autopart Technology Georgia LLC | General Automotive | Aluminum extrusions |
+| 42 | Dorsett Industries Inc. | General Automotive | Aluminum extrusions |
+| 43 | Down 2 Earth Trailers | General Automotive | Standard and custom aluminum-lithium products for automotive customers |
+| 44 | Duckyang | General Automotive | High-quality electrodeposited (ED) copper foil for electric vehicles |
+| 45 | Eaton Corp. | General Automotive | Aluminum products for various markets including automotive market |
+| 60 | Freudenberg-NOK | Thermal Management | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 31
+Supporting row_ids: 6,7,8,9,10,36,37,38,39,40,41,42,43,44,45,60,76,77,78,79,80,84,86,87,88,89,90,129,139,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,31,"[6, 7, 8, 9, 10, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 60, 76, 77, 78, 79, 80, 84, 86, 87, 88, 89, 90, 129, 139, 204, 205]",0
+43,"Which Georgia companies are involved in battery recycling or second-life battery processing, reflecting the emerging circular economy trend?","Q: Which Georgia companies are involved in battery recycling or second-life battery processing, reflecting the emerging circular economy trend?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 50 | Enplas USA Inc. | General Automotive | Recycler of lithium ion batteries |
+| 52 | EVCO Plastics | Materials | Recycler of copper, precious metals, and non-ferrous materials |
+| 53 | F&P Georgia Manufacturing | Battery Pack | Lithium-ion battery recycler and raw materials provider |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+
+Count: 4
+Supporting row_ids: 50,52,53,170
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[50, 52, 53, 170]",0
+44,"Which Georgia suppliers appear to play innovation-stage roles through research, development, or prototyping activity?","Q: Which Georgia suppliers appear to play innovation-stage roles through research, development, or prototyping activity?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 20 | Boogook Industries | Materials | Plastic injection gear wheels |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 52 | EVCO Plastics | Materials | Recycler of copper, precious metals, and non-ferrous materials |
+| 54 | Fanello Industries Inc. | Materials | Chrome and stainless steel balls |
+| 55 | First American Resources | Materials | Honeycomb material |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 76 | Hitachi Astemo Americas Inc. | Battery Cell | Battery cells for electric mobility |
+| 77 | Hollingsworth & Vose Co. | Battery Pack | Lithium-ion battery materials |
+| 78 | Honda Development & Manufacturing | Battery Cell | Battery cells for electric mobility |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 84 | Hyundai Transys Georgia Powertrain | Thermal Management | Electrical heaters, control units, and actuators |
+| 86 | IMMI | Battery Pack | Battery electrolyte |
+| 119 | Morgan Corp. | Charging Infrastructure | Engine components, turbochargers, exhaust parts and other automotive parts |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 150 | Remarc International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+| 181 | TI Fluid Systems | OEM corporate footprint influencing EV strategy | OEM footprint: Volvo passenger vehicles; NA operations footprint |
+| 182 | Tie Down Engineering | OEM engineering footprint (electrification) | Heavy-duty and medium-duty trucks |
+| 183 | TN Americas Holding Inc. | OEM parent group footprint (EV + HD electrification) | Commercial trucks (Volvo/Mack), buses, construction equipment; OEM footprint |
+| 184 | Toyota Industries Group (TACG-TICA) | OEM parent group footprint (electric truck strategy) | Commercial trucks (Freightliner/Western Star) & zero-emission truck programs |
+| 185 | Trenton Pressing | OEM corporate footprint and supplier integration | Truck OEM footprint & parts/distribution operations (PACCAR network) |
+| 194 | Wabash National Corp. | Interior and exterior plastic parts | Automotive parts contract manufacturing (assemblies/components) |
+| 201 | Yazaki North America | Power electronics, sensors, and EV systems | Automotive supplier division (mobility solutions: ADAS, powertrain, electronics) |
+| 202 | YKK USA Inc. | EV sensors, braking, and control systems | Automotive technologies (ADAS, braking, connectivity, tires & components) |
+| 203 | ZF Gainesville LLC | EV body, powertrain, and thermal components | Contract manufacturing & automotive systems (body, chassis, powertrain, e-drive) |
+| 204 | ZF Gainesville LLC | EV thermal management and power electronics | Automotive supplier footprint (electrification, thermal, powertrain, ADAS components) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 33
+Supporting row_ids: 17,18,20,22,23,25,31,34,52,54,55,57,76,77,78,83,84,86,119,137,150,170,181,182,183,184,185,194,201,202,203,204,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,33,"[17, 18, 20, 22, 23, 25, 31, 34, 52, 54, 55, 57, 76, 77, 78, 83, 84, 86, 119, 137, 150, 170, 181, 182, 183, 184, 185, 194, 201, 202, 203, 204, 205]",0
+45,"Which Georgia suppliers currently serving traditional OEMs are also linked to EV-native OEMs, showing dual-platform supply capability?","Q: Which Georgia suppliers currently serving traditional OEMs are also linked to EV-native OEMs, showing dual-platform supply capability?
+
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|--------|---------|----------------------|-------------------|
+| 1      | ACM Georgia LLC             | General Automotive | Automotive floor mats made of purchased wire |
+| 2      | Adient                        | General Automotive | Backing for automotive carpets and other auto related applications |
+| 3      | ADVICS Manufacturing Georgia LLC | General Automotive | Air bags, tire cording, performance related products |
+| 4      | Ajin Georgia                 | General Automotive | Automobile floor coverings |
+| 5      | ALBAform Inc.                | General Automotive | Floor mats, trunk mats, seat covers and seat vests |
+| 8      | Archer Aviation Inc.         | General Automotive | Powder coatings for automotive and other industries |
+| 10     | Arising Industries Inc.      | General Automotive | Automotive and aircraft tires |
+| 11     | Ascend Elements              | Materials          | Interior and exterior plastic parts |
+| 12     | Aspen Aerogels               | Materials          | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13     | Aurubis                       | Materials          | Automotive interior plastic parts, door trim |
+| ...    | ...                          | ...                | ... |
+| 106    | Lyle Industries Inc.         | General Automotive | Molded injection auto parts |
+| 178    | Thermal Ceramics Inc.        | Vehicle Assembly   | Electric vehicle batteries |
+| 186    | Trenton Pressing Inc.        | Machined components supporting EV and ICE vehicles | Precision-machined powertrain components (engine/transmission/drivetrain parts) |
+| 187    | Valeo                         | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| ...    | ...                          | ...                | ... |
+
+Count: 106
+
+Supporting row_ids: 1,2,3,4,5,8,10,11,12,13,...,178,186,187,...
+
+Notes: None",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,106,"[1, 2, 3, 4, 5, 8, 10, 11, 12, 13, 22, 23, 25, 26, 27, 28, 29, 30, 31, 34, 44, 49, 51, 52, 54, 55, 57, 61, 62, 63, 64, 65, 66, 67, 68, 70, 71, 72, 73, 74, 76, 77, 78, 83, 84, 86, 91, 92, 93, 94, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 121, 122, 123, 124, 125, 136, 137, 141, 142, 143, 144, 145, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 178, 186, 187, 188, 189, 190, 191, 192, 194, 195, 196, 197, 198, 199, 200, 201, 202, 205]",0
+46,Identify Georgia areas that currently lack Battery Cell or Battery Pack suppliers but have existing Tier 1 general automotive infrastructure.,"Q: Identify Georgia areas that currently lack Battery Cell or Battery Pack suppliers but have existing Tier 1 general automotive infrastructure.
+
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 1 | ACM Georgia LLC | General Automotive | Automotive floor mats made of purchased wire |
+| 2 | Adient | General Automotive | Backing for automotive carpets and other auto related applications |
+| 3 | ADVICS Manufacturing Georgia LLC | General Automotive | Air bags, tire cording, performance related products |
+| 4 | Ajin Georgia | General Automotive | Automobile floor coverings |
+| 5 | ALBAform Inc. | General Automotive | Floor mats, trunk mats, seat covers and seat vests |
+| 6 | Anovion Technologies | General Automotive | Molded floor covering, interior trim, floor mats |
+| 7 | Apache Mills Inc. | General Automotive | Engine filtration papers |
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 9 | Arising Industries Inc. | General Automotive | Rubber powders for tires |
+| 10 | Arising Industries Inc. | General Automotive | Automotive and aircraft tires |
+| 14 | AVS | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 19 | Bonnell Aluminum | General Automotive | Rubber oil seals |
+| 21 | Bosal Industries Georgia | General Automotive | Tires for cars, trucks and motorcycles |
+| 24 | Carcoustics USA | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 27 | Continental Automotive | General Automotive | Rubber silicone molded components for medical, automotive, and industrial use |
+| 28 | Continental Tire the Americas LLC | General Automotive | Automotive gaskets and parts, protective film applications |
+| 29 | DaeChang Seat Company | General Automotive | Foam products for the automotive industry |
+| 32 | Daesol Material Georgia, LLC | General Automotive | Tires |
+| 33 | Daimler Truck North America | General Automotive | Pre-molded tire treads |
+| 35 | Decostar Industries | General Automotive | Black and color elastomeric compounding |
+| 36 | DeKalb Tool & Die Inc. | General Automotive | Truck interior cab components and exterior lights to HVAC and under the hood engine parts |
+| 37 | Denkai America | General Automotive | Custom injection molded components for the automotive industry |
+| 38 | Denso Manufacturing Georgia | General Automotive | Custom-designed shot peening and surface preparation surfaces |
+| 39 | Die-Tech Industries Inc. | General Automotive | Glass, ceramics and glass ceramic composites |
+| 40 | Dinex Emissions Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 41 | Dongwon Autopart Technology Georgia LLC | General Automotive | Aluminum extrusions |
+| 42 | Dorsett Industries Inc. | General Automotive | Aluminum extrusions |
+| 43 | Down 2 Earth Trailers | General Automotive | Standard and custom aluminum-lithium products for automotive customers |
+| 45 | Eaton Corp. | General Automotive | Aluminum products for various markets including automotive market |
+| 46 | Ecoplastic America Corporation | General Automotive | Aluminum sheet for automotive bodies |
+| 47 | Ecoplastic Corporation | General Automotive | Flexible shafts for automotive transmissions |
+| 48 | Elan Technology Inc. | General Automotive | Single and multimode fiber cables |
+| 49 | Enchem America Inc. | General Automotive | Electric wiring components |
+| 50 | Enplas USA Inc. | General Automotive | Recycler of lithium ion batteries |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 56 | Flambeau Inc. | General Automotive | Door locks, ignition locks, side mirrors and door handles |
+| 57 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 59 | Freudenberg-NOK | General Automotive | Brake components |
+| 61 | FREYR Battery | General Automotive | Decorative and functional coating systems |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 63 | Global Powertrain Systems LLC | General Automotive | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 65 | Goodyear Tire & Rubber Co. | General Automotive | Coiled and flat springs for power train, chassis and body applications |
+| 66 | Great Dane LP | General Automotive | Precision metal stamping |
+| 67 | Great Dane Trailers | General Automotive | Metal stampings and forklifts |
+| 68 | Grudem | General Automotive | Sensors for mobile hydraulic applications |
+| 70 | Haering Precision USA LP | General Automotive | Tools and dies for automotive industry |
+| 72 | Hanon Systems USA LLC | General Automotive | Internal combustion engines |
+| 73 |HELLA Automotive Sales Inc. | General Automotive | Speed changers and drives |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+| 79 | Hwashin | General Automotive | Modules and storage systems |
+| 80 | Hyundai & LG Energy Solution (LGES) | General Automotive | Storage batteries |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 85 | Hyundai Transys Georgia Seating Systems | General Automotive | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 87 | IMS Gear Georgia Inc. | General Automotive | Car audio systems |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 89 | JAC Products Inc. | General Automotive | Switches, resistors and related products |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 91 | Jefferson Southern Corporation | General Automotive | Stamped metal automobile body parts |
+| 92 | Joon Georgia, Inc. | General Automotive | Seats and seat foam pads |
+| 93 | JTEKT North America Corp. | General Automotive | Vehicle roofing systems |
+| 94 | Kautex Inc. | General Automotive | Automotive exterior and interior systems |
+| 96 | KTX America Corporation | General Automotive | Stamped components and decorative trim |
+| 97 | Kumho Tire USA Inc. | General Automotive | Stamped components and decorative trim |
+| 98 | Kyungshin America Corp. | General Automotive | Front-end modules, front-rolling chassis modules, rear-chassis modules |
+| 99 | Lark United Manufacturing Inc. | General Automotive | Motor vehicle transmissions |
+| 100 | Lear Corporation | General Automotive | Pressed parts in the body-in-white segment and structural components |
+| 101 | Lehigh Technologies Inc. | General Automotive | Suspension related functional components |
+| 102 | Linde + Wiemann | General Automotive | 6-speed automatic transmissions |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 104 | Lund International Inc./Ventshade Division | General Automotive | Industrial trailers and truck bodies |
+| 105 | Lyle Industries Inc. | General Automotive | Automatic transmissions |
+| 106 | Lyle Industries Inc. | General Automotive | Molded injection auto parts |
+| 107 | Mack Trucks | General Automotive | Interior and exterior automotive components |
+| 108 | Magna International | General Automotive | Ceramic fiber insulation blankets |
+| 109 | Mando America Corp. | General Automotive | Automotive body parts |
+| 110 | Master Craft Engineering Inc. | General Automotive | Door modules, tailgate latches, and hood latches |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 112 | Maxxis International USA | General Automotive | Brake systems |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 115 | Milliken & Co./Valway Plant | General Automotive | Automotive brakes, steering and suspension systems |
+| 117 | Mobis Alabama LLC | General Automotive | Products and systems for ATVs and other off-road vehicles |
+| 118 | MollerTech LLC | General Automotive | Injection molded components |
+| 120 | Murata Electronics North America Inc. | General Automotive | Motor vehicle brake systems and parts |
+| 121 | Neaton Rome Inc. | General Automotive | Automotive seating and interior electronics |
+| 122 | Nidec Elesys Americas Corp. | General Automotive | Seating systems |
+| 123 | NIFCO KTW America Corp. | General Automotive | Inventory management for Kia |
+| 124 | Nile Automotive | General Automotive | Window regulators and door frames |
+| 125 | Nisshinbo Automotive Manufacturing Inc. | General Automotive | Braking and suspension products |
+| 126 | Nivel Parts & Manufacturing Co. LLC | General Automotive | Industrial trailers and truck bodies |
+| 127 | Novelis Inc. | General Automotive | Motor vehicle transmissions |
+| 128 | Novelis Inc. | General Automotive | Seat, interior, and precision metal stamping |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 132 | OTR Wheel Engineering Inc. | General Automotive | Single axle trailers |
+| 133 | Paccar | General Automotive | Semi-trailers |
+| 134 | PAI Industries Inc. | General Automotive | Brake pads |
+| 135 | Pak-Lite Inc. | General Automotive | Tires, wheels and rubber tracks |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 140 | Perkins Small Engines LLC | General Automotive | Specialized commercial vehicles including truck bodies, buses and armored vehicles |
+| 141 | Peterson Spring | General Automotive | Precision turned parts for the automotive industry |
+| 143 | Piedmont Automotive Products Inc. | General Automotive | Interior components and accessories |
+| 144 | PIOLAX Corp. | General Automotive | All terrain vehicles |
+| 145 | Pirelli Tire North America LLC | General Automotive | Motor vehicle windshield wiper systems |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 147 | PPG Industries Inc. | General Automotive | Muffler and exhaust systems |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 149 | QSR Inc. | General Automotive | Functional aftermarket accessories for trucks and SUVs |
+| 150 | Racemark International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 152 | Rivian Automotive | General Automotive | Custom metal components |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 154 | SAFT America Inc. | General Automotive | Arm and head rests |
+| 155 | Sejong Georgia LLC | General Automotive | NVH parts and interior components |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 161 | Sewon America Inc. | General Automotive | Fire truck bodies |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 166 | Southern Switches Corp. | General Automotive | Commercial truck bodies |
+| 167 | SRG Global Inc. | General Automotive | Products for marine, mobile home, and other industries |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+| 169 | Suhner Manufacturing Corp. | General Automotive | Truck trailers |
+| 171 | Superior Essex Inc. | Vehicle Assembly | Electric vehicles and batteries |
+| 172 | Suzuki Manufacturing of America Corp. | Vehicle Assembly | Electric vehicle assembly plant |
+| 173 | TCI Powder Coatings | Vehicle Assembly | Automotive assembly plant |
+| 174 | TDK Components USA Inc. | Vehicle Assembly | Auto manufacturer headquarters |
+| 175 | TE Connectivity | Vehicle Assembly | Truck and bus bodies |
+| 178 | Thermal Ceramics Inc. | Vehicle Assembly | Electric vehicle batteries |
+| 186 | Trenton Pressing Inc. | Machined components supporting EV and ICE vehicles | Precision-machined powertrain components (engine/transmission/drivetrain parts) |
+| 187 | Valeo | Tier 1 automotive components | Automotive body/stamped metal assemblies (Kia/Hyundai supply chain) |
+| 188 | Vanguard National Trailer Corp. | Body and chassis components for EV and ICE OEMs | Stamped metal components and automotive body assemblies |
+| 189 | Vernay | Stamped and welded assemblies for OEMs | Automotive metal stamping & body parts manufacturing (Hyundai/Kia supplier) |
+| 190 | Vista Metals Corp. | EV and ICE component manufacturing | Automotive modules/powertrain components; parts supply |
+
+Count: 143
+
+Supporting row_ids: 1,2,3,4,5,6,7,8,9,10,14,16,19,21,24,27,28,29,32,33,35,36,37,38,39,40,41,42,43,45,46,47,48,49,50,51,56,57,58,59,61,62,63,64,65,66,67,68,70,72,73,74,79,80,81,82,85,87,88,89,90,91,92,93,94,96,97,98,99,100,101,102,103,104,105,106,107,108,109,110,111,112,113,114,115,117,118,120,121,122,123,124,125,126,127,128,130,131,132,133,134,135,136,138,140,141,143,144,145,146,147,148,149,150,151,152,153,154,155,156,157,158,159,160,161,162,164,165,166,167,168,169,171,172,173,174,175,178,186,187,188,189,190
+
+Notes: None",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,143,"[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 14, 16, 19, 21, 24, 27, 28, 29, 32, 33, 35, 36, 37, 38, 39, 40, 41, 42, 43, 45, 46, 47, 48, 49, 50, 51, 56, 57, 58, 59, 61, 62, 63, 64, 65, 66, 67, 68, 70, 72, 73, 74, 79, 80, 81, 82, 85, 87, 88, 89, 90, 91, 92, 93, 94, 96, 97, 98, 99, 100, 101, 102, 103, 104, 105, 106, 107, 108, 109, 110, 111, 112, 113, 114, 115, 117, 118, 120, 121, 122, 123, 124, 125, 126, 127, 128, 130, 131, 132, 133, 134, 135, 136, 138, 140, 141, 143, 144, 145, 146, 147, 148, 149, 150, 151, 152, 153, 154, 155, 156, 157, 158, 159, 160, 161, 162, 164, 165, 166, 167, 168, 169, 171, 172, 173, 174, 175, 178, 186, 187, 188, 189, 190]",0
+47,"For a new Tier 1 battery thermal management company looking to locate in Georgia, which areas have the highest concentration of Materials-category suppliers that could support thermal management production?","Q: For a new Tier 1 battery thermal management company looking to locate in Georgia, which areas have the highest concentration of Materials-category suppliers that could support thermal management production?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 11 | Ascend Elements | Materials | Interior and exterior plastic parts |
+| 12 | Aspen Aerogels | Materials | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 17 | Blue Bird Corp. | Materials | Plastic interior assemblies for the auto industry |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 20 | Boogook Industries | Materials | Plastic injection gear wheels |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 52 | EVCO Plastics | Materials | Recycler of copper, precious metals, and non-ferrous materials |
+| 54 | Fanello Industries Inc. | Materials | Chrome and stainless steel balls |
+| 55 | First American Resources | Materials | Honeycomb material |
+| 71 | Haering Precision USA LP | Materials | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 142 | PHA Body Systems LLC | Materials | Plastic fuel tanks and sunroofs |
+| 163 | SK Battery America | Materials | Engineered steel systems mounted in motor vehicles |
+| 170 | SungEel Recycling Park Georgia | Materials | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+
+Count: 22
+Supporting row_ids: 11,12,13,15,17,18,20,22,23,25,26,30,31,34,52,54,55,71,137,142,163,170
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,22,"[11, 12, 13, 15, 17, 18, 20, 22, 23, 25, 26, 30, 31, 34, 52, 54, 55, 71, 137, 142, 163, 170]",0
+48,"Which Georgia areas have concentrated Manufacturing Plant facilities that already supply the EV chain indirectly but have no dedicated EV production yet, marking them as prime conversion candidates?","Q: Which Georgia areas have concentrated Manufacturing Plant facilities that already supply the EV chain indirectly but have no dedicated EV production yet, marking them as prime conversion candidates?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 1 | ACM Georgia LLC | General Automotive | Automotive floor mats made of purchased wire |
+| 2 | Adient | General Automotive | Backing for automotive carpets and other auto related applications |
+| 8 | Archer Aviation Inc. | General Automotive | Powder coatings for automotive and other industries |
+| 10 | Arising Industries Inc. | General Automotive | Automotive and aircraft tires |
+| 11 | Ascend Elements | Materials | Interior and exterior plastic parts |
+| 12 | Aspen Aerogels | Materials | Gaskets, plastic precision moldings, oil seals and valve steam seals |
+| 13 | Aurubis | Materials | Automotive interior plastic parts, door trim |
+| 15 | Beaver Manufacturing Co. Inc. | Materials | Plastic valves |
+| 16 | Big Tex Trailer Manufacturing Inc. | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 18 | Blue Ridge Manufacturing | Materials | Plastic and metal fasteners and precision strings for automotive industry |
+| 22 | Bosch (Automotive Division) | Materials | Custom injection molded plastic products for the automotive industry and other industries |
+| 23 | Bridgestone Bandag | Materials | Composite materials and specialty polymers for automotive components |
+| 24 | Carcoustics USA | General Automotive | Tires for light trucks, SUVs and commercial vehicles |
+| 25 | Club Car LLC | Materials | Injection molded plastic automotive parts |
+| 26 | Constellium Automotive USA | Materials | Motor vehicle plastic fuel systems and parts |
+| 30 | DAEHAN Solution Georgia LLC | Materials | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, and windshield wiper blades |
+| 31 | Daesol Ausys | Materials | High-precision engineered plastic products for the automotive industry |
+| 34 | DAS Corp. | Materials | Automotive plastic coatings |
+| 37 | Denkai America | General Automotive | Custom injection molded components for the automotive industry |
+| 38 | Denso Manufacturing Georgia | General Automotive | Custom-designed shot peening and surface preparation surfaces |
+| 39 | Die-Tech Industries Inc. | General Automotive | Glass, ceramics and glass ceramic composites |
+| 40 | Dinex Emissions Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 43 | Down 2 Earth Trailers | General Automotive | Standard and custom aluminum-lithium products for automotive customers |
+| 45 | Eaton Corp. | General Automotive | Aluminum products for various markets including automotive market |
+| 46 | Ecoplastic America Corporation | General Automotive | Aluminum sheet for automotive bodies |
+| 47 | Ecoplastic Corporation | General Automotive | Flexible shafts for automotive transmissions |
+| 51 | Erdrich USA Inc. | General Automotive | Aluminum sheet for automotive bodies |
+| 58 | FOX Factory | General Automotive | Chrome plated automotive parts |
+| 62 | GEDIA Georgia LLC | General Automotive | Automotive stampings |
+| 63 | Global Powertrain Systems LLC | General Automotive | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64 | GLOVIS Georgia LLC | General Automotive | Metal parts and subassemblies for the automotive industry |
+| 66 | Great Dane LP | General Automotive | Precision metal stamping |
+| 67 | Great Dane Trailers | General Automotive | Metal stampings and forklifts |
+| 68 | Grudem | General Automotive | Sensors for mobile hydraulic applications |
+| 70 | Haering Precision USA LP | General Automotive | Tools and dies for automotive industry |
+| 72 | Hanon Systems USA LLC | General Automotive | Internal combustion engines |
+| 73 |HELLA Automotive Sales Inc. | General Automotive | Speed changers and drives |
+| 74 | HEXPOL Compounding Corp. | General Automotive | Automotive and commercial stampings; metalworking dies |
+| 81 | Hyundai Industrial Co. | General Automotive | Automotive batteries |
+| 82 | Hyundai MOBIS (Georgia) | General Automotive | Capacitors, electronic automotive components |
+| 83 | Hyundai Motor Group | Battery Pack | Battery parts for electric vehicles |
+| 88 | Inalfa Roof Systems Inc. | General Automotive | Automotive electronic safety systems |
+| 90 | Jefferson Southern Corp. | General Automotive | High current switches and resistors for automotive HVAC systems |
+| 93 | JTEKT North America Corp. | General Automotive | Vehicle roofing systems |
+| 94 | Kautex Inc. | General Automotive | Automotive exterior and interior systems |
+| 96 | KTX America Corporation | General Automotive | Stamped components and decorative trim |
+| 97 | Kumho Tire USA Inc. | General Automotive | Stamped components and decorative trim |
+| 98 | Kyungshin America Corp. | General Automotive | Front-end modules, front-rolling chassis modules, rear-chassis modules |
+| 99 | Lark United Manufacturing Inc. | General Automotive | Motor vehicle transmissions |
+| 100 | Lear Corporation | General Automotive | Pressed parts in the body-in-white segment and structural components |
+| 103 | Lund International Inc. | General Automotive | Automotive seat frames |
+| 107 | Mack Trucks | General Automotive | Interior and exterior automotive components |
+| 109 | Mando America Corp. | General Automotive | Automotive body parts |
+| 111 | MAT Heavy Duty | General Automotive | Vehicle protection and interior comfort products |
+| 113 | Mercedes-Benz USA LLC | General Automotive | Assembles motor vehicle chassis, automotive stamping |
+| 114 | Michelin Tread Technologies | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 115 | Milliken & Co./Valway Plant | General Automotive | Automotive brakes, steering and suspension systems |
+| 117 | Mobis Alabama LLC | General Automotive | Products and systems for ATVs and other off-road vehicles |
+| 120 | Murata Electronics North America Inc. | General Automotive | Motor vehicle brake systems and parts |
+| 121 | Neaton Rome Inc. | General Automotive | Automotive seating and interior electronics |
+| 127 | Novelis Inc. | General Automotive | Motor vehicle transmissions |
+| 129 | Novelis Inc. | Thermal Management | Acoustic and thermally effective automotive components |
+| 130 | NVH Korea | General Automotive | Automotive stampings |
+| 131 | Oneda Corp. | General Automotive | Lightweight structural automotive parts |
+| 136 | Panasonic Automotive Systems Co. | General Automotive | Axle bearings |
+| 137 | Panasonic Automotive Systems Co. | Materials | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems |
+| 138 | Panduit Corp. | General Automotive | Truck bodies and parts |
+| 139 | Peerless-Winsmith Inc. | Thermal Management | Thermal solutions |
+| 140 | Perkins Small Engines LLC | General Automotive | Specialized commercial vehicles including truck bodies, buses and armored vehicles |
+| 141 | Peterson Spring | General Automotive | Precision turned parts for the automotive industry |
+| 144 | PIOLAX Corp. | General Automotive | All terrain vehicles |
+| 145 | Pirelli Tire North America LLC | General Automotive | Motor vehicle windshield wiper systems |
+| 146 | Porsche Cars North America Inc. | General Automotive | Aftermarket automotive accessories |
+| 148 | Propex Operating Co. LLC | General Automotive | Ventvisors, hood shields, floor mats, automotive accessories |
+| 151 | RealTruck | General Automotive | Automotive lighting and electronics |
+| 153 | Robert Bosch LLC | General Automotive | Automotive powertrain systems |
+| 156 | Seohan Auto USA | General Automotive | Custom made cargo trailers Ben |
+| 157 | Seoyon E-HWA | General Automotive | Custom made cargo trailers Jeff |
+| 158 | Seoyon E-Hwa Interior Systems | General Automotive | Fluid-carrying systems |
+| 159 | Sewon America Inc. | General Automotive | Automotive aftermarket parts |
+| 160 | Sewon America Inc. | General Automotive | Motor vehicle engines and parts |
+| 162 | SHIROKI North America Inc | General Automotive | Exhaust and emission systems for trucks, buses, vans and industrial vehicles |
+| 164 | SKF USA Inc. | General Automotive | Exhaust systems and parts |
+| 165 | Solvay Specialty Polymers USA LLC | General Automotive | Automotive wire harnesses |
+| 168 | Stryten Energy | General Automotive | Automotive fiber padding |
+
+Count: 102
+
+Supporting row_ids: 1,2,8,10,11,12,13,15,16,18,22,23,24,25,26,30,31,34,37,38,39,40,43,45,46,47,51,58,62,63,64,66,67,68,70,72,73,74,76,77,78,81,82,83,88,90,93,94,96,97,98,99,100,103,107,109,111,113,114,115,117,120,121,127,129,130,131,136,137,138,139,140,141,144,145,146,148,151,153,156,157,158,159,160,162,164,165,168
+
+Notes: None",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,102,"[1, 2, 8, 10, 11, 12, 13, 15, 16, 18, 22, 23, 24, 25, 26, 30, 31, 34, 37, 38, 39, 40, 43, 45, 46, 47, 51, 58, 62, 63, 64, 66, 67, 68, 70, 72, 73, 74, 76, 77, 78, 81, 82, 83, 88, 90, 93, 94, 96, 97, 98, 99, 100, 103, 107, 109, 111, 113, 114, 115, 117, 120, 121, 127, 129, 130, 131, 136, 137, 138, 139, 140, 141, 144, 145, 146, 148, 151, 153, 156, 157, 158, 159, 160, 162, 164, 165, 168, 173, 176, 177, 186, 188, 191, 194, 195, 197, 198, 199, 200, 203, 204]",0
+49,"For an international battery materials company seeking a Georgia location, which areas have existing chemical manufacturing infrastructure?","Q: For an international battery materials company seeking a Georgia location, which areas have existing chemical manufacturing infrastructure?
+Answer:
+| row_id | Company                   | EV Supply Chain Role       | Product / Service                                                                 |
+|--------|---------------------------|----------------------------|----------------------------------------------------------------------------------|
+| 1      | ACM Georgia LLC            | General Automotive         | Automotive floor mats made of purchased wire                                      |
+| 2      | Adient                     | General Automotive         | Backing for automotive carpets and other auto related applications                 |
+| 3      | ADVICS Manufacturing GA    | General Automotive         | Air bags, tire cording, performance related products                              |
+| 4      | Ajin Georgia               | General Automotive         | Automobile floor coverings                                                       |
+| 5      | ALBAform Inc.              | General Automotive         | Floor mats, trunk mats, seat covers and seat vests                               |
+| 8      | Archer Aviation Inc.       | General Automotive         | Powder coatings for automotive and other industries                              |
+| 11     | Ascend Elements           | Materials                  | Interior and exterior plastic parts                                             |
+| 12     | Aspen Aerogels            | Materials                  | Gaskets, plastic precision moldings, oil seals and valve steam seals             |
+| 13     | Aurubis                    | Materials                  | Automotive interior plastic parts, door trim                                    |
+| 15     | Beaver Manufacturing Co.   | Materials                  | Plastic valves                                                                   |
+| 17     | Blue Bird Corp.            | Materials                  | Plastic interior assemblies for the auto industry                               |
+| 18     | Blue Ridge Mfg             | Materials                  | Plastic and metal fasteners and precision strings for automotive industry        |
+| 20     | Boogook Industries         | Materials                  | Plastic injection gear wheels                                                   |
+| 22     | Bosch (Automotive Div)     | Materials                  | Custom injection molded plastic products for the automotive industry             |
+| 23     | Bridgestone Bandag         | Materials                  | Composite materials and specialty polymers for automotive components            |
+| 25     | Club Car LLC               | Materials                  | Injection molded plastic automotive parts                                        |
+| 26     | Constellium Automotive USA | Materials                  | Motor vehicle plastic fuel systems and parts                                     |
+| 30     | DAEHAN Solution GA         | Materials                  | Chemically treated industrial yarns Rubber compounds for tires, mining conveyor belts, automotive floor mats, windshield wiper blades |
+| 31     | Daesol Ausys               | Materials                  | High-precision engineered plastic products for the automotive industry          |
+| 34     | DAS Corp.                  | Materials                  | Automotive plastic coatings                                                      |
+| 44     | Duckyang                   | General Automotive         | High-quality electrodeposited (ED) copper foil for electric vehicles             |
+| 49     | Enchem America Inc.        | General Automotive         | Electric wiring components                                                       |
+| 51     | Erdrich USA Inc.           | General Automotive         | Aluminum sheet for automotive bodies                                             |
+| 52     | EVCO Plastics              | Materials                  | Recycler of copper, precious metals, and non-ferrous materials                   |
+| 54     | Fanello Industries Inc.    | Materials                  | Chrome and stainless steel balls                                                |
+| 55     | First American Resources   | Materials                  | Honeycomb material                                                               |
+| 57     | Fouts Brothers Fire Eqpmt  | General Automotive         | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shielding systems for engines, transmissions, exhaust systems and auxiliary units |
+| 58     | FOX Factory                | General Automotive         | Chrome plated automotive parts                                                   |
+| 59     | Freudenberg-NOK            | General Automotive         | Brake components                                                                 |
+| 60     | Freudenberg-NOK            | Thermal Management         | Stamped blanks Flexible metal hoses for exhaust systems, thermal compensators, among other automotive |
+| 61     | FREYR Battery              | General Automotive         | Decorative and functional coating systems                                        |
+| 62     | GEDIA Georgia LLC          | General Automotive         | Automotive stampings                                                             |
+| 63     | Global Powertrain Systems  | General Automotive         | Motor vehicle brake systems and parts Fabricates metal products, including coated coils, metal wall and roof systems and aluminum recreational vehicle doors |
+| 64     | GLOVIS GA LLC              | General Automotive         | Metal parts and subassemblies for the automotive industry                        |
+| 65     | Goodyear Tire & Rubber Co. | General Automotive         | Coiled and flat springs for power train, chassis and body applications           |
+| 71     | Haering Precision USA LP   | Materials                  | Ball and roller bearings Hydraulic, plate, diaphragm and centrifugal clutches, metal retainers, plastic retainers, stamped inner and outer rings and modular units |
+| 77     | Hollingsworth & Vose Co.   | Battery Pack               | Lithium-ion battery materials                                                   |
+| 81     | Hyundai Industrial Co.     | General Automotive         | Automotive batteries                                                            |
+| 82     | Hyundai MOBIS (GA)         | General Automotive         | Capacitors, electronic automotive components                                     |
+| 83     | Hyundai Motor Group        | Battery Pack               | Battery parts for electric vehicles                                             |
+| 84     | Hyundai Transys GA Powertrn| Thermal Management         | Electrical heaters, control units, and actuators                                |
+| 85     | Hyundai Transys GA Seating Sys | General Automotive      | Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts |
+| 87     | IMS Gear Georgia Inc.      | General Automotive         | Car audio systems                                                               |
+| 88     | Inalfa Roof Systems Inc.   | General Automotive         | Automotive electronic safety systems                                            |
+| 89     | JAC Products Inc.          | General Automotive         | Switches, resistors and related products                                         |
+| 90     | Jefferson Southern Corp.   | General Automotive         | High current switches and resistors for automotive HVAC systems                  |
+| 95     | Kia Georgia Inc.           | Vehicle Assembly           | Golf carts, various off-road vehicles, electric on-road vehicles                |
+| 111    | MAT Heavy Duty             | General Automotive         | Vehicle protection and interior comfort products                                |
+| 112    | Maxxis International USA   | General Automotive         | Brake systems                                                                   |
+| 113    | Mercedes-Benz USA LLC      | General Automotive         | Assembles motor vehicle chassis, automotive stamping                            |
+| 114    | Michelin Tread Techs       | General Automotive         | Ventvisors, hood shields, floor mats, automotive accessories                    |
+| 115    | Milliken & Co./Valway Plant| General Automotive         | Automotive brakes, steering and suspension systems                              |
+| 116    | Minebea AccessSolutions USA Inc. | General Automotive   | Headquarters and distribution location                                          |
+| 117    | Mobis Alabama LLC          | General Automotive         | Products and systems for ATVs and other off-road vehicles                       |
+| 118    | MollerTech LLC             | General Automotive         | Injection molded components                                                      |
+| 119    | Morgan Corp.               | Charging Infrastructure    | Engine components, turbochargers, exhaust parts and other automotive parts      |
+| 120    | Murata Electronics NA Inc. | General Automotive         | Motor vehicle brake systems and parts                                           |
+| 121    | Neaton Rome Inc.           | General Automotive         | Automotive seating and interior electronics                                     |
+| 122    | Nidec Elesys Americas Corp.| General Automotive         | Seating systems                                                                 |
+| 123    | NIFCO KTW America Corp.    | General Automotive         | Inventory management for Kia                                                    |
+| 124    | Nile Automotive            | General Automotive         | Window regulators and door frames                                               |
+| 125    | Nisshinbo Auto Mfg Inc.    | General Automotive         | Braking and suspension products                                                 |
+| 129    | Novelis Inc.               | Thermal Management         | Acoustic and thermally effective automotive components                           |
+| 137    | Panasonic Auto Sys Co.     | Materials                  | Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems|
+| 150    | Remarc Int'l LLC           | General Automotive         | Manufacturing and R&D engine parts for EV                                       |
+| 163    | SK Battery America         | Materials                  | Engineered steel systems mounted in motor vehicles                               |
+| 170    | SungEel Recycling Park GA  | Materials                  | Various fasteners for automotive seating and interior Fasteners, zippers, hook & loop, pull straps, ISO-marker buttons, seat belt buttons, plastic hardware |
+| 178    | Thermal Ceramics Inc.      | Vehicle Assembly           | Electric vehicle batteries                                                      |
+
+Count: 68
+
+Supporting row_ids: 1,2,3,4,5,8,11,12,13,15,17,18,20,22,23,25,26,30,31,34,44,49,51,52,54,55,57,58,59,60,61,62,63,64,65,71,77,81,82,83,84,85,87,88,89,90,95,111,112,113,114,115,116,117,118,119,120,121,122,123,124,125,129,137,150,163,170,178
+
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,68,"[1, 2, 3, 4, 5, 8, 11, 12, 13, 15, 17, 18, 20, 22, 23, 25, 26, 30, 31, 34, 44, 49, 51, 52, 54, 55, 57, 58, 59, 60, 61, 62, 63, 64, 65, 71, 77, 81, 82, 83, 84, 85, 87, 88, 89, 90, 95, 111, 112, 113, 114, 115, 116, 117, 118, 119, 120, 121, 122, 123, 124, 125, 129, 137, 150, 163, 170, 178]",0
+50,"Which Georgia areas have R&D facility types in the automotive sector, suggesting innovation infrastructure suitable for EV technology development centers?","Q: Which Georgia areas have R&D facility types in the automotive sector, suggesting innovation infrastructure suitable for EV technology development centers?
+Answer:
+| row_id | Company | EV Supply Chain Role | Product / Service |
+|---|---|---|---|
+| 150 | Remark International LLC | General Automotive | Manufacturing and R&D engine parts for EV |
+| 200 | Yamaha Motor Manufacturing Corp. | Advanced electrical architecture for EVs | Automotive electrical architecture, connectivity, and advanced safety components |
+| 201 | Yazaki North America | Power electronics, sensors, and EV systems | Automotive supplier division (mobility solutions: ADAS, powertrain, electronics) |
+| 205 | ZF Gainesville LLC | EV thermal systems and electronics | Automotive supplier (thermal systems, electrification, ADAS, lighting) |
+
+Count: 4
+Supporting row_ids: 150,200,201,205
+Notes:",qwen2.5:14b,Exhaustive Batched LLM Scanning with Strict Row-ID Extraction,5,41,4,"[150, 200, 201, 205]",0

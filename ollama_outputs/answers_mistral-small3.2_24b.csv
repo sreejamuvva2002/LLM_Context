@@ -1,0 +1,715 @@
+question_number,question,answer,model,num_ctx,prompt_eval_count,eval_count,total_duration,load_duration,prompt_eval_duration,eval_duration
+1,"Show all ""Tier 1/2"" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.","Q: Show all ""Tier 1/2"" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.
+Answer:
+1. F&P Georgia Manufacturing (row_id: 53)
+   - EV Supply Chain Role: Battery Pack
+   - Product / Service: Lithium-ion battery recycler and raw materials provider
+
+2. Hitachi Astemo (row_id: 75)
+   - EV Supply Chain Role: General Automotive
+   - Product / Service: Car audio systems
+
+3. Hitachi Astemo Americas Inc. (row_id: 76)
+   - EV Supply Chain Role: Battery Cell
+   - Product / Service: Battery cells for electric mobility
+
+4. Hollingsworth & Vose Co. (row_id: 77)
+   - EV Supply Chain Role: Battery Pack
+   - Product / Service: Lithium-ion battery materials
+
+5. Honda Development & Manufacturing (row_id: 78)
+   - EV Supply Chain Role: Battery Cell
+   - Product / Service: Battery cells for electric mobility
+
+6. Hwashin (row_id: 79)
+   - EV Supply Chain Role: General Automotive
+   - Product / Service: Modules and storage systems
+
+7. Hyundai & LG Energy Solution (LGES) (row_id: 80)
+   - EV Supply Chain Role: General Automotive
+   - Product / Service: Storage batteries
+
+8. Hyundai Industrial Co. (row_id: 81)
+   - EV Supply Chain Role: General Automotive
+   - Product / Service: Automotive batteries
+
+9. Hyundai MOBIS (Georgia) (row_id: 82)
+   - EV Supply Chain Role: General Automotive
+   - Product / Service: Capacitors, electronic automotive components
+
+10. Hyundai Motor Group (row_id: 83)
+    - EV Supply Chain Role: Battery Pack
+    - Product / Service: Battery parts for electric vehicles
+
+11. Hyundai Transys Georgia Powertrain (row_id: 84)
+    - EV Supply Chain Role: Thermal Management
+    - Product / Service: Electrical heaters, control units, and actuators
+
+12. Hyundai Transys Georgia Seating Systems (row_id: 85)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive electronics, resonators, capacitors, resistors, electronics and electronic parts
+
+13. IMMI (row_id: 86)
+    - EV Supply Chain Role: Battery Pack
+    - Product / Service: Battery electrolyte
+
+14. IMS Gear Georgia Inc. (row_id: 87)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Car audio systems
+
+15. Inalfa Roof Systems Inc. (row_id: 88)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive electronic safety systems
+
+16. JAC Products Inc. (row_id: 89)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Switches, resistors and related products
+
+17. Jefferson Southern Corp. (row_id: 90)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: High current switches and resistors for automotive HVAC systems
+
+18. Jefferson Southern Corporation (row_id: 91)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Stamped metal automobile body parts
+
+19. Joon Georgia, Inc. (row_id: 92)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Seats and seat foam pads
+
+20. JTEKT North America Corp. (row_id: 93)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Vehicle roofing systems
+
+21. Kautex Inc. (row_id: 94)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive exterior and interior systems
+
+22. Kia Georgia Inc. (row_id: 95)
+    - EV Supply Chain Role: Vehicle Assembly
+    - Product / Service: Golf carts, various off-road vehicles, electric on-road vehicles
+
+23. KTX America Corporation (row_id: 96)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Stamped components and decorative trim
+
+24. Kumho Tire USA Inc. (row_id: 97)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Stamped components and decorative trim
+
+25. Kyungshin America Corp. (row_id: 98)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Front-end modules, front-rolling chassis modules, rear-chassis modules
+
+26. Lark United Manufacturing Inc. (row_id: 99)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Motor vehicle transmissions
+
+27. Lear Corporation (row_id: 100)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Pressed parts in the body-in-white segment and structural components
+
+28. Lehigh Technologies Inc. (row_id: 101)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Suspension related functional components
+
+29. Linde + Wiemann (row_id: 102)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: 6-speed automatic transmissions
+
+30. Lund International Inc. (row_id: 103)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive seat frames
+
+31. Lund International Inc./Ventshade Division (row_id: 104)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Industrial trailers and truck bodies
+
+32. Lyle Industries Inc. (row_id: 105)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automatic transmissions
+
+33. Lyle Industries Inc. (row_id: 106)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Molded injection auto parts
+
+34. Mack Trucks (row_id: 107)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Interior and exterior automotive components
+
+35. Magna International (row_id: 108)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Ceramic fiber insulation blankets
+
+36. Mando America Corp. (row_id: 109)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive body parts
+
+37. Master Craft Engineering Inc. (row_id: 110)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Door modules, tailgate latches, and hood latches
+
+38. MAT Heavy Duty (row_id: 111)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Vehicle protection and interior comfort products
+
+39. Maxxis International USA (row_id: 112)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Brake systems
+
+40. Mercedes-Benz USA LLC (row_id: 113)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Assembles motor vehicle chassis, automotive stamping
+
+41. Michelin Tread Technologies (row_id: 114)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Ventvisors, hood shields, floor mats, automotive accessories
+
+42. Milliken & Co./Valway Plant (row_id: 115)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive brakes, steering and suspension systems
+
+43. Minebea AccessSolutions USA Inc. (row_id: 116)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Headquarters and distribution location
+
+44. Mobis Alabama LLC (row_id: 117)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Products and systems for ATVs and other off-road vehicles
+
+45. MollerTech LLC (row_id: 118)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Injection molded components
+
+46. Morgan Corp. (row_id: 119)
+    - EV Supply Chain Role: Charging Infrastructure
+    - Product / Service: Engine components, turbochargers, exhaust parts and other automotive parts
+
+47. Murata Electronics North America Inc. (row_id: 120)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Motor vehicle brake systems and parts
+
+48. Neaton Rome Inc. (row_id: 121)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive seating and interior electronics
+
+49. Nidec Elesys Americas Corp. (row_id: 122)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Seating systems
+
+50. NIFCO KTW America Corp. (row_id: 123)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Inventory management for Kia
+
+51. Nile Automotive (row_id: 124)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Window regulators and door frames
+
+52. Nisshinbo Automotive Manufacturing Inc. (row_id: 125)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Braking and suspension products
+
+53. Nivel Parts & Manufacturing Co. LLC (row_id: 126)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Industrial trailers and truck bodies
+
+54. Novelis Inc. (row_id: 127)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Motor vehicle transmissions
+
+55. Novelis Inc. (row_id: 128)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Seat, interior, and precision metal stamping
+
+56. Novelis Inc. (row_id: 129)
+    - EV Supply Chain Role: Thermal Management
+    - Product / Service: Acoustic and thermally effective automotive components
+
+57. NVH Korea (row_id: 130)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive stampings
+
+58. Oneda Corp. (row_id: 131)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Lightweight structural automotive parts
+
+59. OTR Wheel Engineering Inc. (row_id: 132)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Single axle trailers
+
+60. Paccar (row_id: 133)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Semi-trailers
+
+61. PAI Industries Inc. (row_id: 134)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Brake pads
+
+62. Pak-Lite Inc. (row_id: 135)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Tires, wheels and rubber tracks
+
+63. Panasonic Automotive Systems Co. (row_id: 136)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Axle bearings
+
+64. Panasonic Automotive Systems Co. (row_id: 137)
+    - EV Supply Chain Role: Materials
+    - Product / Service: Fluid carrying systems; steel pipe and tubes; powertrain and plastic tank systems
+
+65. Panduit Corp. (row_id: 138)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Truck bodies and parts
+
+66. Peerless-Winsmith Inc. (row_id: 139)
+    - EV Supply Chain Role: Thermal Management
+    - Product / Service: Thermal solutions
+
+67. Perkins Small Engines LLC (row_id: 140)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Specialized commercial vehicles including truck bodies, buses and armored vehicles
+
+68. Peterson Spring (row_id: 141)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Precision turned parts for the automotive industry
+
+69. PHA Body Systems LLC (row_id: 142)
+    - EV Supply Chain Role: Materials
+    - Product / Service: Plastic fuel tanks and sunroofs
+
+70. Piedmont Automotive Products Inc. (row_id: 143)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Interior components and accessories
+
+71. PIOLAX Corp. (row_id: 144)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: All terrain vehicles
+
+72. Pirelli Tire North America LLC (row_id: 145)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Motor vehicle windshield wiper systems
+
+73. Porsche Cars North America Inc. (row_id: 146)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Aftermarket automotive accessories
+
+74. PPG Industries Inc. (row_id: 147)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Muffler and exhaust systems
+
+75. Propex Operating Co. LLC (row_id: 148)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Ventvisors, hood shields, floor mats, automotive accessories
+
+76. QSR Inc. (row_id: 149)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Functional aftermarket accessories for trucks and SUVs
+
+77. Racemark International LLC (row_id: 150)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Manufacturing and R&D engine parts for EV
+
+78. RealTruck (row_id: 151)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive lighting and electronics
+
+79. Rivian Automotive (row_id: 152)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Custom metal components
+
+80. Robert Bosch LLC (row_id: 153)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive powertrain systems
+
+81. SAFT America Inc. (row_id: 154)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Arm and head rests
+
+82. Sejong Georgia LLC (row_id: 155)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: NVH parts and interior components
+
+83. Seohan Auto USA (row_id: 156)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Custom made cargo trailers Ben
+
+84. Seoyon E-HWA (row_id: 157)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Custom made cargo trailers Jeff
+
+85. Seoyon E-Hwa Interior Systems (row_id: 158)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Fluid-carrying systems
+
+86. Sewon America Inc. (row_id: 159)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive aftermarket parts
+
+87. Sewon America Inc. (row_id: 160)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Motor vehicle engines and parts
+
+88. Sewon America Inc. (row_id: 161)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Fire truck bodies
+
+89. SHIROKI North America Inc (row_id: 162)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Exhaust and emission systems for trucks, buses, vans and industrial vehicles
+
+90. SK Battery America (row_id: 163)
+    - EV Supply Chain Role: Materials
+    - Product / Service: Engineered steel systems mounted in motor vehicles
+
+91. SKF USA Inc. (row_id: 164)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Exhaust systems and parts
+
+92. Solvay Specialty Polymers USA LLC (row_id: 165)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive wire harnesses
+
+93. Southern Switches Corp. (row_id: 166)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Commercial truck bodies
+
+94. SRG Global Inc. (row_id: 167)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Products for marine, mobile home, and other industries
+
+95. Stryten Energy (row_id: 168)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Automotive fiber padding
+
+96. Suhner Manufacturing Corp. (row_id: 169)
+    - EV Supply Chain Role: General Automotive
+    - Product / Service: Truck trailers
+
+Supporting companies/rows: All rows with ""Tier 1/2"" category.
+Notes: None.",mistral-small3.2:24b,65536,41332,3983,591855653917,4438882705,59288806636,526494535129
+2,"Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?","Q: Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?
+Answer:
+- Hollingsworth & Vose Co. (Tier 1/2)
+- Honda Development & Manufacturing (Tier 1/2)
+- Hyundai & LG Energy Solution (LGES) (Tier 1/2)
+- Hyundai Industrial Co. (Tier 1/2)
+- Hyundai Motor Group (Tier 1/2)
+- Hyundai Transys Georgia Powertrain (Tier 1/2)
+- IMMI (Tier 1/2)
+- F&P Georgia Manufacturing (Tier 1/2)
+
+Supporting companies/rows:
+- Hollingsworth & Vose Co. (row_id: 77)
+- Honda Development & Manufacturing (row_id: 78)
+- Hyundai & LG Energy Solution (LGES) (row_id: 80)
+- Hyundai Industrial Co. (row_id: 81)
+- Hyundai Motor Group (row_id: 83)
+- Hyundai Transys Georgia Powertrain (row_id: 84)
+- IMMI (row_id: 86)
+- F&P Georgia Manufacturing (row_id: 53)
+
+Notes: None",mistral-small3.2:24b,65536,41328,252,33920650133,169176527,1384007855,32144753532
+3,Map all Thermal Management suppliers in Georgia and show which Primary OEMs they are linked to.,"Q: Map all Thermal Management suppliers in Georgia and show which Primary OEMs they are linked to.
+Answer:
+1. Hitachi Astemo Americas Inc. (row_id: 76) - Hyundai Kia
+2. Hyundai Transys Georgia Powertrain (row_id: 84) - Hyundai Kia Rivian
+3. Peerless-Winsmith Inc. (row_id: 139) - Multiple OEMs
+4. ZF Gainesville LLC (row_id: 203) - null
+5. ZF Gainesville LLC (row_id: 204) - null
+6. ZF Gainesville LLC (row_id: 205) - null
+
+Supporting companies/rows:
+- Hitachi Astemo Americas Inc. (row_id: 76)
+- Hyundai Transys Georgia Powertrain (row_id: 84)
+- Peerless-Winsmith Inc. (row_id: 139)
+- ZF Gainesville LLC (row_id: 203)
+- ZF Gainesville LLC (row_id: 204)
+- ZF Gainesville LLC (row_id: 205)
+
+Notes: null indicates that the Primary OEMs field is empty.",mistral-small3.2:24b,65536,41327,271,36166063872,179667797,1243017044,34511060709
+4,"List every Georgia company classified under Power Electronics or Charging Infrastructure, along with their Employment size.","Q: List every Georgia company classified under Power Electronics or Charging Infrastructure, along with their Employment size.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41327,41,6654329902,165504170,1240324268,5108821366
+5,"Which companies are classified as Direct Manufacturer, and what EV Supply Chain Roles do they cover?","Q: Which companies are classified as Direct Manufacturer, and what EV Supply Chain Roles do they cover?
+Answer: Superior Essex Inc., Suzuki Manufacturing of America Corp., TCI Powder Coatings, TDK Components USA Inc., TE Connectivity, Teklas USA, Textron Specialized Vehicles, Thermal Ceramics Inc., Thomson Plastics Inc.
+Supporting companies/rows:
+- Superior Essex Inc. (row_id: 171)
+- Suzuki Manufacturing of America Corp. (row_id: 172)
+- TCI Powder Coatings (row_id: 173)
+- TDK Components USA Inc. (row_id: 174)
+- TE Connectivity (row_id: 175)
+- Teklas USA (row_id: 176)
+- Textron Specialized Vehicles (row_id: 177)
+- Thermal Ceramics Inc. (row_id: 178)
+- Thomson Plastics Inc. (row_id: 179)
+Notes: None.",mistral-small3.2:24b,65536,41326,217,29060737091,164186893,1252084807,27425547404
+6,"What locations does Novelis Inc. operate in, and what primary facility types are associated with each location?","Q: What locations does Novelis Inc. operate in, and what primary facility types are associated with each location?
+Answer: Novelis Inc. operates in Atlanta, Fulton County with the primary facility type ""Manufacturing Plant"".
+Supporting companies/rows: Novelis Inc. (row_id: 52), Novelis Inc. (row_id: 53), Novelis Inc. (row_id: 54)
+Notes:",mistral-small3.2:24b,65536,41329,91,13361023552,169668009,1449012137,11566329476
+7,"In Gwinnett County, which company has the highest Employment and what is its EV Supply Chain Role?","Q: In Gwinnett County, which company has the highest Employment and what is its EV Supply Chain Role?
+Answer: Lehigh Technologies Inc. with 520 employees and its EV Supply Chain Role is General Automotive.
+Supporting companies/rows: Lehigh Technologies Inc. (row_id: 101)
+Notes: None",mistral-small3.2:24b,65536,41329,71,10736230358,166695948,1448999356,8957618214
+8,Which county have the highest total Employment among Tier 1 suppliers only?,"Q: Which county has the highest total employment among Tier 1 suppliers only?
+Answer: Cobb County
+Supporting companies/rows:
+- Superior Essex Inc. (row_id: 171)
+- Suzuki Manufacturing of America Corp. (row_id: 172)
+- TI Fluid Systems (row_id: 180)
+- TI Fluid Systems (row_id: 181)
+- Tie Down Engineering (row_id: 182)
+- TN Americas Holding Inc. (row_id: 183)
+- Volvo Cars USA (row_id: 192)
+- Wabash National Corp. (row_id: 194)
+- Wheelabrator Group Inc. (row_id: 195)
+- WIKA USA (row_id: 196)
+- Woodbridge Foam Corp. (row_id: 197)
+- Yachiyo Manufacturing of America LLC (row_id: 199)
+- Yamaha Motor Manufacturing Corp. (row_id: 200)
+- Yazaki North America (row_id: 201)
+- YKK USA Inc. (row_id: 202)
+- ZF Gainesville LLC (row_id: 203)
+- ZF Gainesville LLC (row_id: 204)
+- ZF Gainesville LLC (row_id: 205)
+Notes: Cobb County has the highest total employment among Tier 1 suppliers with 8100 employees.",mistral-small3.2:24b,65536,41322,318,42381977509,172326984,980850795,40977399053
+9,"Which county has the highest total employment across all companies, and what is the combined employment in that county?","Q: Which county has the highest total employment across all companies, and what is the combined employment in that county?
+Answer: Not found in the data.
+Supporting companies/rows: Not found in the data.
+Notes: The JSONL knowledge base does not contain sufficient information to determine the county with the highest total employment across all companies.",mistral-small3.2:24b,65536,41329,69,10395772863,176250564,1241401691,8812367876
+10,Identify all Vehicle Assembly facilities in Georgia and list the corresponding Primary OEM associated with each facility.,"Q: Identify all Vehicle Assembly facilities in Georgia and list the corresponding Primary OEM associated with each facility.
+Answer:
+1. Superior Essex Inc. (row_id: 171) - Hyundai Motor Group
+2. Suzuki Manufacturing of America Corp. (row_id: 172) - Rivian Automotive
+3. TCI Powder Coatings (row_id: 173) - Kia Georgia Inc.
+4. TDK Components USA Inc. (row_id: 174) - Mercedes-Benz USA LLC
+5. TE Connectivity (row_id: 175) - Blue Bird Corp.
+6. Teklas USA (row_id: 176) - Yamaha Motor Manufacturing Corp.
+7. Textron Specialized Vehicles (row_id: 177) - Textron Specialized Vehicles
+8. Thermal Ceramics Inc. (row_id: 178) - SK Battery America
+9. Thomson Plastics Inc. (row_id: 179) - Archer Aviation Inc.
+
+Supporting companies/rows:
+- row_id: 171
+- row_id: 172
+- row_id: 173
+- row_id: 174
+- row_id: 175
+- row_id: 176
+- row_id: 177
+- row_id: 178
+- row_id: 179
+
+Notes: None",mistral-small3.2:24b,65536,41328,311,41578467151,181206353,1387000234,39747390547
+11,Identify the primary products and services associated with Sewon America Inc. across its different operational sites in Georgia.,"Q: Identify the primary products and services associated with Sewon America Inc. across its different operational sites in Georgia.
+Answer:
+Sewon America Inc. operates at the following sites in Georgia with the associated products and services:
+1. LaGrange, Troup County (row_id: 159): Automotive aftermarket parts, Motor vehicle engines and parts, Fire truck bodies
+2. LaGrange, Troup County (row_id: 160): Automotive aftermarket parts, Motor vehicle engines and parts, Fire truck bodies
+Supporting companies/rows: Sewon America Inc. (row_id: 159), Sewon America Inc. (row_id: 160)
+Notes: The company operates at the same location with slightly different product/service offerings.",mistral-small3.2:24b,65536,41330,165,22981020016,172361787,1381479913,21235071801
+12,List all Tier 2/3 companies in Georgia with primary involvement in the electric vehicle or battery supply chain and specify their respective roles.,"Q: List all Tier 2/3 companies in Georgia with primary involvement in the electric vehicle or battery supply chain and specify their respective roles.
+Answer:
+1. Ascend Elements (row_id: 11) - Materials
+2. DAEHAN Solution Georgia LLC (row_id: 30) - Materials
+3. Duckyang (row_id: 44) - General Automotive
+4. Enchem America Inc. (row_id: 49) - General Automotive
+5. F&P Georgia Manufacturing (row_id: 53) - Battery Pack
+6. Hollingsworth & Vose Co. (row_id: 77) - Battery Pack
+7. Honda Development & Manufacturing (row_id: 78) - Battery Cell
+8. Hyundai & LG Energy Solution (LGES) (row_id: 80) - General Automotive
+9. Hyundai Industrial Co. (row_id: 81) - General Automotive
+10. Hyundai MOBIS (Georgia) (row_id: 82) - General Automotive
+11. Hyundai Motor Group (row_id: 83) - Battery Pack
+12. Hyundai Transys Georgia Powertrain (row_id: 84) - Thermal Management
+13. Hyundai Transys Georgia Seating Systems (row_id: 85) - General Automotive
+14. IMMI (row_id: 86) - Battery Pack
+15. SK Battery America (row_id: 163) - Materials
+
+Supporting companies/rows:
+1. Ascend Elements (row_id: 11)
+2. DAEHAN Solution Georgia LLC (row_id: 30)
+3. Duckyang (row_id: 44)
+4. Enchem America Inc. (row_id: 49)
+5. F&P Georgia Manufacturing (row_id: 53)
+6. Hollingsworth & Vose Co. (row_id: 77)
+7. Honda Development & Manufacturing (row_id: 78)
+8. Hyundai & LG Energy Solution (LGES) (row_id: 80)
+9. Hyundai Industrial Co. (row_id: 81)
+10. Hyundai MOBIS (Georgia) (row_id: 82)
+11. Hyundai Motor Group (row_id: 83)
+12. Hyundai Transys Georgia Powertrain (row_id: 84)
+13. Hyundai Transys Georgia Seating Systems (row_id: 85)
+14. IMMI (row_id: 86)
+15. SK Battery America (row_id: 163)
+
+Notes: None",mistral-small3.2:24b,65536,41335,570,74941678485,177758206,1788251232,72631991144
+13,"Show the full supplier network linked to Rivian Automotive in Georgia, broken down by tier and EV Supply Chain Role.","Answer: Not found in the data.
+Supporting companies/rows: <no rows found>
+Notes: <no rows found>",mistral-small3.2:24b,65536,41332,27,5260853694,179625276,1653045217,3284312000
+14,"Which Georgia companies produce battery materials such as anodes, cathodes, electrolytes, or copper foil, and what tier are they classified as?","Q: Which Georgia companies produce battery materials such as anodes, cathodes, electrolytes, or copper foil, and what tier are they classified as?
+Answer: Not found in the data.
+Supporting companies/rows: <no companies found>
+Notes: <no notes>",mistral-small3.2:24b,65536,41337,57,9628712681,169166367,1908532797,7397374881
+15,Identify all Georgia companies with an EV Supply Chain Role related to wiring harnesses and show their Primary OEMs.,"Q: Identify all Georgia companies with an EV Supply Chain Role related to wiring harnesses and show their Primary OEMs.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41332,46,7735870201,172573216,1657106456,5757938435
+16,Find Georgia-based Tier 1 or Tier 1/2 suppliers capable of producing battery electrolytes or lithium-ion battery materials with existing OEM contracts.,"Answer: Not found in the data.
+Supporting companies/rows: <no rows used>
+Notes: <no notes>",mistral-small3.2:24b,65536,41338,26,5396694013,174222469,1899242786,3158999288
+17,Which Georgia companies manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms?,"Q: Which Georgia companies manufacture high-voltage wiring harnesses or EV electrical distribution components suitable for BEV platforms?
+Answer: Not found in the data.
+Supporting companies/rows: <no companies found>
+Notes: <no notes>",mistral-small3.2:24b,65536,41328,48,7724975246,175441470,1382396853,6011486720
+18,Identify Georgia Tier 2/3 companies in the Electronic and Electrical Equipment industry group that could be upgraded to supply EV power electronics.,"Q: Identify Georgia Tier 2/3 companies in the Electronic and Electrical Equipment industry group that could be upgraded to supply EV power electronics.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41335,49,8377040279,166337702,1763805230,6290337053
+19,Find Georgia-based companies that manufacture copper foil or electrodeposited materials suitable for EV battery current collectors.,"Q: Find Georgia-based companies that manufacture copper foil or electrodeposited materials suitable for EV battery current collectors.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41328,42,6945790034,173872984,1375726416,5234605194
+20,"Which Georgia Tier 1/2 companies produce engineered plastics, polymers, or composite materials applicable to EV structural or thermal components?","Answer: Not found in the data.
+Supporting companies/rows: <no companies found>
+Notes: <no companies found>",mistral-small3.2:24b,65536,41333,27,5238439826,167362444,1631549745,3284918033
+21,Find Georgia suppliers with existing Hyundai Kia contracts that could be expanded to support Hyundai Metaplant's EV battery production ramp-up.,"Q: Find Georgia suppliers with existing Hyundai Kia contracts that could be expanded to support Hyundai Metaplant's EV battery production ramp-up.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: The dataset does not contain information about Hyundai Metaplant's EV battery production ramp-up or suppliers specifically contracted for that purpose.",mistral-small3.2:24b,65536,41334,72,11002863935,175253803,1612709662,9053719734
+22,"Identify Georgia companies producing DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains and what tier is each assigned?","Q: Identify Georgia companies producing DC-to-DC converters, capacitors, or power electronics components relevant to EV drivetrains and what tier is each assigned?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41339,53,7324008225,173034176,350671156,6637561334
+23,"Which Georgia companies provide powder coating-related products or services, and what tier are they classified under?","Q: Which Georgia companies provide powder coating-related products or services, and what tier are they classified under?
+Answer: Archer Aviation Inc. (Tier 2/3), Dinex Emissions Inc. (Tier 2/3), SHIROKI North America Inc (Tier 1)
+Supporting companies/rows: Archer Aviation Inc. (row_id: 8), Dinex Emissions Inc. (row_id: 40), SHIROKI North America Inc (row_id: 162)
+Notes: None",mistral-small3.2:24b,65536,41327,114,16165018417,175643072,1252694893,14558558713
+24,"Which Georgia companies manufacture battery parts or enclosure systems and are classified as Tier 1/2, making them ready for direct OEM engagement and show which Primary OEMs they are linked to.","Q: Which Georgia companies manufacture battery parts or enclosure systems and are classified as Tier 1/2, making them ready for direct OEM engagement and show which Primary OEMs they are linked to.
+Answer: F&P Georgia Manufacturing, Hyundai Industrial Co., Hyundai Transys Georgia Powertrain, Hyundai Transys Georgia Seating Systems, IMMI, Sejong Georgia LLC
+Supporting companies/rows:
+- F&P Georgia Manufacturing (row_id: 53)
+- Hyundai Industrial Co. (row_id: 81)
+- Hyundai Transys Georgia Powertrain (row_id: 84)
+- Hyundai Transys Georgia Seating Systems (row_id: 85)
+- IMMI (row_id: 86)
+- Sejong Georgia LLC (row_id: 155)
+Notes: None",mistral-small3.2:24b,65536,41347,171,22378283089,171275436,372506481,21631697714
+25,Find Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.,"Q: Find Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.
+Answer: ACM Georgia LLC, Adient, AVS, Big Tex Trailer Manufacturing Inc., Blue Ridge Manufacturing, Bonnell Aluminum, Bridgestone Bandag, Carcoustics USA, Continental Automotive, Continental Tire the Americas LLC, DAEHAN Solution Georgia LLC, Daesol Ausys, Daesol Material Georgia, LLC, Daimler Truck North America, DAS Corp., Decostar Industries, DeKalb Tool & Die Inc., Denkai America, Denso Manufacturing Georgia, Die-Tech Industries Inc., Dinex Emissions Inc., Dongwon Autopart Technology Georgia LLC, Dorsett Industries Inc., Down 2 Earth Trailers, Duckyang, Eaton Corp., Ecoplastic America Corporation, Ecoplastic Corporation, Elan Technology Inc., Enchem America Inc., Enplas USA Inc., Erdrich USA Inc., EVCO Plastics, F&P Georgia Manufacturing, Fanello Industries Inc., First American Resources, Flambeau Inc., Fouts Brothers Fire Equipment, FOX Factory, Freudenberg-NOK, FREYR Battery, GEDIA Georgia LLC, Global Powertrain Systems LLC, GLOVIS Georgia LLC, Goodyear Tire & Rubber Co., Great Dane LP, Great Dane Trailers, Grudem, GSC Steel Stamping LLC, Haering Precision USA LP, Hanon Systems USA LLC, HELLA Automotive Sales Inc., HEXPOL Compounding Corp., Hitachi Astemo, Hitachi Astemo Americas Inc., Hollingsworth & Vose Co., Honda Development & Manufacturing, Hwashin, Hyundai & LG Energy Solution (LGES), Hyundai Industrial Co., Hyundai MOBIS (Georgia), Hyundai Motor Group, Hyundai Transys Georgia Powertrain, Hyundai Transys Georgia Seating Systems, IMMI, IMS Gear Georgia Inc., Inalfa Roof Systems Inc., JAC Products Inc., Jefferson Southern Corp., Jefferson Southern Corporation, Joon Georgia, Inc., JTEKT North America Corp., Kautex Inc., Kia Georgia Inc., KTX America Corporation, Kumho Tire USA Inc., Kyungshin America Corp., Lark United Manufacturing Inc., Lear Corporation, Lehigh Technologies Inc., Linde + Wiemann, Lund International Inc., Lund International Inc./Ventshade Division, Lyle Industries Inc., Lyle Industries Inc., Mack Trucks, Magna International, Mando America Corp., Master Craft Engineering Inc., MAT Heavy Duty, Maxxis International USA, Mercedes-Benz USA LLC, Michelin Tread Technologies, Milliken & Co./Valway Plant, Minebea AccessSolutions USA Inc., Mobis Alabama LLC, MollerTech LLC, Morgan Corp., Murata Electronics North America Inc., Neaton Rome Inc., Nidec Elesys Americas Corp., NIFCO KTW America Corp., Nile Automotive, Nisshinbo Automotive Manufacturing Inc., Nivel Parts & Manufacturing Co. LLC, Novelis Inc., Novelis Inc., Novelis Inc., NVH Korea, Oneda Corp., OTR Wheel Engineering Inc., Paccar, PAI Industries Inc., Pak-Lite Inc., Panasonic Automotive Systems Co., Panasonic Automotive Systems Co., Panduit Corp., Peerless-Winsmith Inc., Perkins Small Engines LLC, Peterson Spring, PHA Body Systems LLC, Piedmont Automotive Products Inc., PIOLAX Corp., Pirelli Tire North America LLC, Porsche Cars North America Inc., PPG Industries Inc., Propex Operating Co. LLC, QSR Inc., Racemark International LLC, RealTruck, Rivian Automotive, Robert Bosch LLC, SAFT America Inc., Sejong Georgia LLC, Seohan Auto USA, Seoyon E-HWA Interior Systems, Sewon America Inc., Sewon America Inc., Sewon America Inc., SHIROKI North America Inc, SK Battery America, SKF USA Inc., Solvay Specialty Polymers USA LLC, Southern Switches Corp., SRG Global Inc., Stryten Energy, Suhner Manufacturing Corp., SungEel Recycling Park Georgia, Superior Essex Inc., Suzuki Manufacturing of America Corp., TCI Powder Coatings, TDK Components USA Inc., TE Connectivity, Teklas USA, Textron Specialized Vehicles, Thermal Ceramics Inc., Thomson Plastics Inc., TI Fluid Systems, TI Fluid Systems, Tie Down Engineering, TN Americas Holding Inc., Toyota Industries Group (TACG-TICA), Trenton Pressing, Trenton Pressing Inc., Valeo, Vanguard National Trailer Corp., Vernay, Vista Metals Corp., Voestalpine Automotive Body Parts Inc., Volvo Cars USA, Volvo Group North America, Wabash National Corp., Wheelabrator Group Inc., WIKA USA, Woodbridge Foam Corp., Woory Industrial Co., Yachiyo Manufacturing of America LLC, Yamaha Motor Manufacturing Corp., Yazaki North America, YKK USA Inc., ZF Gainesville LLC, ZF Gainesville LLC, ZF Gainesville LLC
+Supporting companies/rows: ACM Georgia LLC (row_id: 1), Adient (row_id: 2), AVS (row_id: 14), Big Tex Trailer Manufacturing Inc. (row_id: 16), Blue Ridge Manufacturing (row_id: 18), Bonnell Aluminum (row_id: 19), Bridgestone Bandag (row_id: 23), Carcoustics USA (row_id: 24), Continental Automotive (row_id: 27), Continental Tire the Americas LLC (row_id: 28), DAEHAN Solution Georgia LLC (row_id: 30), Daesol Ausys (row_id: 31), Daesol Material Georgia, LLC (row_id: 32), Daimler Truck North America (row_id: 33), DAS Corp. (row_id: 34), Decostar Industries (row_id: 35), DeKalb Tool & Die Inc. (row_id: 36), Denkai America (row_id: 37), Denso Manufacturing Georgia (row_id: 38), Die-Tech Industries Inc. (row_id: 39), Dinex Emissions Inc. (row_id: 40), Dongwon Autopart Technology Georgia LLC (row_id: 41), Dorsett Industries Inc. (row_id: 42), Down 2 Earth Trailers (row_id: 43), Duckyang (row_id: 44), Eaton Corp. (row_id: 45), Ecoplastic America Corporation (row_id: 46), Ecoplastic Corporation (row_id: 47), Elan Technology Inc. (row_id: 48), Enchem America Inc. (row_id: 49), Enplas USA Inc. (row_id: 50), Erdrich USA Inc. (row_id: 51), EVCO Plastics (row_id: 52), F&P Georgia Manufacturing (row_id: 53), Fanello Industries Inc. (row_id: 54), First American Resources (row_id: 55), Flambeau Inc. (row_id: 56), Fouts Brothers Fire Equipment (row_id: 57), FOX Factory (row_id: 58), Freudenberg-NOK (row_id: 59), Freudenberg-NOK (row_id: 60), FREYR Battery (row_id: 61), GEDIA Georgia LLC (row_id: 62), Global Powertrain Systems LLC (row_id: 63), GLOVIS Georgia LLC (row_id: 64), Goodyear Tire & Rubber Co. (row_id: 65), Great Dane LP (row_id: 66), Great Dane Trailers (row_id: 67), Grudem (row_id: 68), GSC Steel Stamping LLC (row_id: 69), Haering Precision USA LP (row_id: 70), Haering Precision USA LP (row_id: 71), Hanon Systems USA LLC (row_id: 72), HELLA Automotive Sales Inc. (row_id: 73), HEXPOL Compounding Corp. (row_id: 74), Hitachi Astemo (row_id: 75), Hitachi Astemo Americas Inc. (row_id: 76), Hollingsworth & Vose Co. (row_id: 77), Honda Development & Manufacturing (row_id: 78), Hwashin (row_id: 79), Hyundai & LG Energy Solution (LGES) (row_id: 80), Hyundai Industrial Co. (row_id: 81), Hyundai MOBIS (Georgia) (row_id: 82), Hyundai Motor Group (row_id: 83), Hyundai Transys Georgia Powertrain (row_id: 84), Hyundai Transys Georgia Seating Systems (row_id: 85), IMMI (row_id: 86), IMS Gear Georgia Inc. (row_id: 87), Inalfa Roof Systems Inc. (row_id: 88), JAC Products Inc. (row_id: 89), Jefferson Southern Corp. (row_id: 90), Jefferson Southern Corporation (row_id: 91), Joon Georgia, Inc. (row_id: 92), JTEKT North America Corp. (row_id: 93), Kautex Inc. (row_id: 94), Kia Georgia Inc. (row_id: 95), KTX America Corporation (row_id: 96), Kumho Tire USA Inc. (row_id: 97), Kyungshin America Corp. (row_id: 98), Lark United Manufacturing Inc. (row_id: 99), Lear Corporation (row_id: 100), Lehigh Technologies Inc. (row_id: 101), Linde + Wiemann (row_id: 102), Lund International Inc. (row_id: 103), Lund International Inc./Ventshade Division (row_id: 104), Lyle Industries Inc. (row_id: 105), Lyle Industries Inc. (row_id: 106), Mack Trucks (row_id: 107), Magna International (row_id: 108), Mando America Corp. (row_id: 109), Master Craft Engineering Inc. (row_id: 110), MAT Heavy Duty (row_id: 111), Maxxis International USA (row_id: 112), Mercedes-Benz USA LLC (row_id: 113), Michelin Tread Technologies (row_id: 114), Milliken & Co./Valway Plant (row_id: 115), Minebea AccessSolutions USA Inc. (row_id: 116), Mobis Alabama LLC (row_id: 117), MollerTech LLC (row_id: 118), Morgan Corp. (row_id: 119), Murata Electronics North America Inc. (row_id: 120), Neaton Rome Inc. (row_id: 121), Nidec Elesys Americas Corp. (row_id: 122), NIFCO KTW America Corp. (row_id: 123), Nile Automotive (row_id: 124), Nisshinbo Automotive Manufacturing Inc. (row_id: 125), Nivel Parts & Manufacturing Co. LLC (row_id: 126), Novelis Inc. (row_id: 127), Novelis Inc. (row_id: 128), Novelis Inc. (row_id: 129), NVH Korea (row_id: 130), Oneda Corp. (row_id: 131), OTR Wheel Engineering Inc. (row_id: 132), Paccar (row_id: 133), PAI Industries Inc. (row_id: 134), Pak-Lite Inc. (row_id: 135), Panasonic Automotive Systems Co. (row_id: 136), Panasonic Automotive Systems Co. (row_id: 137), Panduit Corp. (row_id: 138), Peerless-Winsmith Inc. (row_id: 139), Perkins Small Engines LLC (row_id: 140), Peterson Spring (row_id: 141), PHA Body Systems LLC (row_id: 142), Piedmont Automotive Products Inc. (row_id: 143), PIOLAX Corp. (row_id: 144), Pirelli Tire North America LLC (row_id: 145), Porsche Cars North America Inc. (row_id: 146), PPG Industries Inc. (row_id: 147), Propex Operating Co. LLC (row_id: 148), QSR Inc. (row_id: 149), Racemark International LLC (row_id: 150), RealTruck (row_id: 151), Rivian Automotive (row_id: 152), Robert Bosch LLC (row_id: 153), SAFT America Inc. (row_id: 154), Sejong Georgia LLC (row_id: 155), Seohan Auto USA (row_id: 156), Seoyon E-HWA Interior Systems (row_id: 158), Sewon America Inc. (row_id: 159), Sewon America Inc. (row_id: 160), Sewon America Inc. (row_id: 161), SHIROKI North America Inc (row_id: 162), SK Battery America (row_id: 163), SKF USA Inc. (row_id: 164), Solvay Specialty Polymers USA LLC (row_id: 165), Southern Switches Corp. (row_id: 166), SRG Global Inc. (row_id: 167), Stryten Energy (row_id: 168), Suhner Manufacturing Corp. (row_id: 169), SungEel Recycling Park Georgia (row_id: 170), Superior Essex Inc. (row_id: 171), Suzuki Manufacturing of America Corp. (row_id: 172), TCI Powder Coatings (row_id: 173), TDK Components USA Inc. (row_id: 174), TE Connectivity (row_id: 175), Teklas USA (row_id: 176), Textron Specialized Vehicles (row_id: 177), Thermal Ceramics Inc. (row_id: 178), Thomson Plastics Inc. (row_id: 179), TI Fluid Systems (row_id: 180), TI Fluid Systems (row_id: 181), Tie Down Engineering (row_id: 182), TN Americas Holding Inc. (row_id: 183), Toyota Industries Group (TACG-TICA) (row_id: 184), Trenton Pressing (row_id: 185), Trenton Pressing Inc. (row_id: 186), Valeo (row_id: 187), Vanguard National Trailer Corp. (row_id: 188), Vernay (row_id: 189), Vista Metals Corp. (row_id: 190), Voestalpine Automotive Body Parts Inc. (row_id: 191), Volvo Cars USA (row_id: 192), Volvo Group North America (row_id: 193), Wabash National Corp. (row_id: 194), Wheelabrator Group Inc. (row_id: 195), WIKA USA (row_id: 196), Woodbridge Foam Corp. (row_id: 197), Woory Industrial Co. (row_id: 198), Yachiyo Manufacturing of America LLC (row_id: 199), Yamaha Motor Manufacturing Corp. (row_id: 200), Yazaki North America (row_id: 201), YKK USA Inc. (row_id: 202), ZF Gainesville LLC (row_id: 203), ZF Gainesville LLC (row_id: 204), ZF Gainesville LLC (row_id: 205)
+Notes: The companies listed are Tier 2/3 Georgia-based suppliers with employment over 300 that are classified as General Automotive but produce components transferable to EV platforms.",mistral-small3.2:24b,65536,41340,3640,477627656636,173825366,371372003,475596831943
+26,Identify Georgia Tier 2/3 companies in the Chemicals and Allied Products industry group and list their products.,"Q: Identify Georgia Tier 2/3 companies in the Chemicals and Allied Products industry group and list their products.
+Answer:
+1. Archer Aviation Inc. (row_id: 8)
+   - Product / Service: Powder coatings for automotive and other industries
+
+2. Arising Industries Inc. (row_id: 9)
+   - Product / Service: Rubber powders for tires
+
+Supporting companies/rows:
+- Archer Aviation Inc. (row_id: 8)
+- Arising Industries Inc. (row_id: 9)
+
+Notes: None",mistral-small3.2:24b,65536,41330,114,16267483545,164141129,1517509731,14402185761
+27,"Which EV Supply Chain Roles in Georgia are served by only a single company, creating a single-point-of-failure risk for the state's EV ecosystem?","Q: Which EV Supply Chain Roles in Georgia are served by only a single company, creating a single-point-of-failure risk for the state's EV ecosystem?
+Answer: Not found in the data.
+Supporting companies/rows: Not found in the data.
+Notes: The data does not provide information about EV Supply Chain Roles served by only a single company.",mistral-small3.2:24b,65536,41338,73,11365278229,175861715,1893707258,9128808743
+28,"Which Georgia Battery Cell or Battery Pack suppliers are sole-sourced by a specific OEM, indicating high dependency risk?","Q: Which Georgia Battery Cell or Battery Pack suppliers are sole-sourced by a specific OEM, indicating high dependency risk?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41332,46,7618593145,166352915,1534614009,5772514670
+29,"For Hyundai Metaplant, how many of its Georgia-based EV component suppliers have fewer than 200 employees, flagging potential capacity fragility?","Q: For Hyundai Metaplant, how many of its Georgia-based EV component suppliers have fewer than 200 employees, flagging potential capacity fragility?
+Answer: Not found in the data.
+Supporting companies/rows: Not found in the data.
+Notes: The question references ""Hyundai Metaplant,"" which is not found in the JSONL knowledge base.",mistral-small3.2:24b,65536,41339,77,10311284039,167376993,347804976,9621152844
+30,"Identify Georgia Tier 2/3 suppliers that are EV Relevant, classified as General Automotive, and provide materials to Battery Cell or Battery Pack companies, suggesting supply chain misalignment risk.","Q: Identify Georgia Tier 2/3 suppliers that are EV Relevant, classified as General Automotive, and provide materials to Battery Cell or Battery Pack companies, suggesting supply chain misalignment risk.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41347,61,8327802097,166148092,371779887,7629500201
+31,Identify all Georgia-based Tier 1/2 automotive suppliers that maintain a diversified customer base (serving 'Multiple OEMs').,"Q: Identify all Georgia-based Tier 1/2 automotive suppliers that maintain a diversified customer base (serving 'Multiple OEMs').
+Answer: ACM Georgia LLC, Adient, ADVICS Manufacturing Georgia LLC, Ajin Georgia, ALBAform Inc., Anovion Technologies, Apache Mills Inc., Archer Aviation Inc., Arising Industries Inc., Arising Industries Inc., Ascend Elements, Aspen Aerogels, Aurubis, AVS, Beaver Manufacturing Co. Inc., Big Tex Trailer Manufacturing Inc., Blue Bird Corp., Blue Ridge Manufacturing, Bonnell Aluminum, Boogook Industries, Bosal Industries Georgia, Bosch (Automotive Division), Bridgestone Bandag, Carcoustics USA, Club Car LLC, Constellium Automotive USA, Continental Automotive, Continental Tire the Americas LLC, Daechang Seat Company, DAEHAN Solution Georgia LLC, Daesol Ausys, Daesol Material Georgia, LLC, Daimler Truck North America, DAS Corp., Decostar Industries, DeKalb Tool & Die Inc., Denkai America, Denso Manufacturing Georgia, Die-Tech Industries Inc., Dinex Emissions Inc., Dongwon Autopart Technology Georgia LLC, Dorsett Industries Inc., Down 2 Earth Trailers, Duckyang, Eaton Corp., Ecoplastic America Corporation, Ecoplastic Corporation, Elan Technology Inc., Enchem America Inc., Enplas USA Inc., Erdrich USA Inc., EVCO Plastics, F&P Georgia Manufacturing, Fanello Industries Inc., First American Resources, Flambeau Inc., Fouts Brothers Fire Equipment, FOX Factory, Freudenberg-NOK, Freudenberg-NOK, FREYR Battery, GEDIA Georgia LLC, Global Powertrain Systems LLC, GLOVIS Georgia LLC, Goodyear Tire & Rubber Co., Great Dane LP, Great Dane Trailers, Grudem, GSC Steel Stamping LLC, Haering Precision USA LP, Haering Precision USA LP, Hanon Systems USA LLC, HELLA Automotive Sales Inc., HEXPOL Compounding Corp., Hitachi Astemo, Hitachi Astemo Americas Inc., Hollingsworth & Vose Co., Honda Development & Manufacturing, Hwashin, Hyundai & LG Energy Solution (LGES), Hyundai Industrial Co., Hyundai MOBIS (Georgia), Hyundai Motor Group, Hyundai Transys Georgia Powertrain, Hyundai Transys Georgia Seating Systems, IMMI, IMS Gear Georgia Inc., Inalfa Roof Systems Inc., JAC Products Inc., Jefferson Southern Corp., Jefferson Southern Corporation, Joon Georgia, Inc., JTEKT North America Corp., Kautex Inc., Kia Georgia Inc., KTX America Corporation, Kumho Tire USA Inc., Kyungshin America Corp., Lark United Manufacturing Inc., Lear Corporation, Lehigh Technologies Inc., Linde + Wiemann, Lund International Inc., Lund International Inc./Ventshade Division, Lyle Industries Inc., Lyle Industries Inc., Mack Trucks, Magna International, Mando America Corp., Master Craft Engineering Inc., MAT Heavy Duty, Maxxis International USA, Mercedes-Benz USA LLC, Michelin Tread Technologies, Milliken & Co./Valway Plant, Minebea AccessSolutions USA Inc., Mobis Alabama LLC, MollerTech LLC, Morgan Corp., Murata Electronics North America Inc., Neaton Rome Inc., Nidec Elesys Americas Corp., NIFCO KTW America Corp., Nile Automotive, Nisshinbo Automotive Manufacturing Inc., Nivel Parts & Manufacturing Co. LLC, Novelis Inc., Novelis Inc., Novelis Inc., NVH Korea, Oneda Corp., OTR Wheel Engineering Inc., Paccar, PAI Industries Inc., Pak-Lite Inc., Panasonic Automotive Systems Co., Panasonic Automotive Systems Co., Panduit Corp., Peerless-Winsmith Inc., Perkins Small Engines LLC, Peterson Spring, PHA Body Systems LLC, Piedmont Automotive Products Inc., PIOLAX Corp., Pirelli Tire North America LLC, Porsche Cars North America Inc., PPG Industries Inc., Propex Operating Co. LLC, QSR Inc., Racemark International LLC, RealTruck, Rivian Automotive, Robert Bosch LLC, SAFT America Inc., Sejong Georgia LLC, Seohan Auto USA, Seoyon E-HWA Interior Systems, Sewon America Inc., Sewon America Inc., Sewon America Inc., SHIROKI North America Inc, SK Battery America, SKF USA Inc., Solvay Specialty Polymers USA LLC, Southern Switches Corp., SRG Global Inc., Stryten Energy, Suhner Manufacturing Corp., SungEel Recycling Park Georgia, Superior Essex Inc., Suzuki Manufacturing of America Corp., TCI Powder Coatings, TDK Components USA Inc., TE Connectivity, Teklas USA, Textron Specialized Vehicles, Thermal Ceramics Inc., Thomson Plastics Inc., TI Fluid Systems, TI Fluid Systems, Tie Down Engineering, TN Americas Holding Inc., Toyota Industries Group (TACG-TICA), Trenton Pressing, Trenton Pressing Inc., Valeo, Vanguard National Trailer Corp., Vernay, Vista Metals Corp., Voestalpine Automotive Body Parts Inc., Volvo Cars USA, Volvo Group North America, Wabash National Corp., Wheelabrator Group Inc., WIKA USA, Woodbridge Foam Corp., Woory Industrial Co., Yachiyo Manufacturing of America LLC, Yamaha Motor Manufacturing Corp., Yazaki North America, YKK USA Inc., ZF Gainesville LLC, ZF Gainesville LLC, ZF Gainesville LLC
+Supporting companies/rows:
+ACM Georgia LLC (row_id: 1), Adient (row_id: 2), ADVICS Manufacturing Georgia LLC (row_id: 3), Ajin Georgia (row_id: 4), ALBAform Inc. (row_id: 5), Anovion Technologies (row_id: 6), Apache Mills Inc. (row_id: 7), Archer Aviation Inc. (row_id: 8), Arising Industries Inc. (row_id: 9), Arising Industries Inc. (row_id: 10), Ascend Elements (row_id: 11), Aspen Aerogels (row_id: 12), Aurubis (row_id: 13), AVS (row_id: 14), Beaver Manufacturing Co. Inc. (row_id: 15), Big Tex Trailer Manufacturing Inc. (row_id: 16), Blue Bird Corp. (row_id: 17), Blue Ridge Manufacturing (row_id: 18), Bonnell Aluminum (row_id: 19), Boogook Industries (row_id: 20), Bosal Industries Georgia (row_id: 21), Bosch (Automotive Division) (row_id: 22), Bridgestone Bandag (row_id: 23), Carcoustics USA (row_id: 24), Club Car LLC (row_id: 25), Constellium Automotive USA (row_id: 26), Continental Automotive (row_id: 27), Continental Tire the Americas LLC (row_id: 28), Daechang Seat Company (row_id: 29), DAEHAN Solution Georgia LLC (row_id: 30), Daesol Ausys (row_id: 31), Daesol Material Georgia, LLC (row_id: 32), Daimler Truck North America (row_id: 33), DAS Corp. (row_id: 34), Decostar Industries (row_id: 35), DeKalb Tool & Die Inc. (row_id: 36), Denkai America (row_id: 37), Denso Manufacturing Georgia (row_id: 38), Die-Tech Industries Inc. (row_id: 39), Dinex Emissions Inc. (row_id: 40), Dongwon Autopart Technology Georgia LLC (row_id: 41), Dorsett Industries Inc. (row_id: 42), Down 2 Earth Trailers (row_id: 43), Duckyang (row_id: 44), Eaton Corp. (row_id: 45), Ecoplastic America Corporation (row_id: 46), Ecoplastic Corporation (row_id: 47), Elan Technology Inc. (row_id: 48), Enchem America Inc. (row_id: 49), Enplas USA Inc. (row_id: 50), Erdrich USA Inc. (row_id: 51), EVCO Plastics (row_id: 52), F&P Georgia Manufacturing (row_id: 53), Fanello Industries Inc. (row_id: 54), First American Resources (row_id: 55), Flambeau Inc. (row_id: 56), Fouts Brothers Fire Equipment (row_id: 57), FOX Factory (row_id: 58), Freudenberg-NOK (row_id: 59), Freudenberg-NOK (row_id: 60), FREYR Battery (row_id: 61), GEDIA Georgia LLC (row_id: 62), Global Powertrain Systems LLC (row_id: 63), GLOVIS Georgia LLC (row_id: 64), Goodyear Tire & Rubber Co. (row_id: 65), Great Dane LP (row_id: 66), Great Dane Trailers (row_id: 67), Grudem (row_id: 68), GSC Steel Stamping LLC (row_id: 69), Haering Precision USA LP (row_id: 70), Haering Precision USA LP (row_id: 71), Hanon Systems USA LLC (row_id: 72), HELLA Automotive Sales Inc. (row_id: 73), HEXPOL Compounding Corp. (row_id: 74), Hitachi Astemo (row_id: 75), Hitachi Astemo Americas Inc. (row_id: 76), Hollingsworth & Vose Co. (row_id: 77), Honda Development & Manufacturing (row_id: 78), Hwashin (row_id: 79), Hyundai & LG Energy Solution (LGES) (row_id: 80), Hyundai Industrial Co. (row_id: 81), Hyundai MOBIS (Georgia) (row_id: 82), Hyundai Motor Group (row_id: 83), Hyundai Transys Georgia Powertrain (row_id: 84), Hyundai Transys Georgia Seating Systems (row_id: 85), IMMI (row_id: 86), IMS Gear Georgia Inc. (row_id: 87), Inalfa Roof Systems Inc. (row_id: 88), JAC Products Inc. (row_id: 89), Jefferson Southern Corp. (row_id: 90), Jefferson Southern Corporation (row_id: 91), Joon Georgia, Inc. (row_id: 92), JTEKT North America Corp. (row_id: 93), Kautex Inc. (row_id: 94), Kia Georgia Inc. (row_id: 95), KTX America Corporation (row_id: 96), Kumho Tire USA Inc. (row_id: 97), Kyungshin America Corp. (row_id: 98), Lark United Manufacturing Inc. (row_id: 99), Lear Corporation (row_id: 100), Lehigh Technologies Inc. (row_id: 101), Linde + Wiemann (row_id: 102), Lund International Inc. (row_id: 103), Lund International Inc./Ventshade Division (row_id: 104), Lyle Industries Inc. (row_id: 105), Lyle Industries Inc. (row_id: 106), Mack Trucks (row_id: 107), Magna International (row_id: 108), Mando America Corp. (row_id: 109), Master Craft Engineering Inc. (row_id: 110), MAT Heavy Duty (row_id: 111), Maxxis International USA (row_id: 112), Mercedes-Benz USA LLC (row_id: 113), Michelin Tread Technologies (row_id: 114), Milliken & Co./Valway Plant (row_id: 115), Minebea AccessSolutions USA Inc. (row_id: 116), Mobis Alabama LLC (row_id: 117), MollerTech LLC (row_id: 118), Morgan Corp. (row_id: 119), Murata Electronics North America Inc. (row_id: 120), Neaton Rome Inc. (row_id: 121), Nidec Elesys Americas Corp. (row_id: 122), NIFCO KTW America Corp. (row_id: 123), Nile Automotive (row_id: 124), Nisshinbo Automotive Manufacturing Inc. (row_id: 125), Nivel Parts & Manufacturing Co. LLC (row_id: 126), Novelis Inc. (row_id: 127), Novelis Inc. (row_id: 128), Novelis Inc. (row_id: 129), NVH Korea (row_id: 130), Oneda Corp. (row_id: 131), OTR Wheel Engineering Inc. (row_id: 132), Paccar (row_id: 133), PAI Industries Inc. (row_id: 134), Pak-Lite Inc. (row_id: 135), Panasonic Automotive Systems Co. (row_id: 136), Panasonic Automotive Systems Co. (row_id: 137), Panduit Corp. (row_id: 138), Peerless-Winsmith Inc. (row_id: 139), Perkins Small Engines LLC (row_id: 140), Peterson Spring (row_id: 141), PHA Body Systems LLC (row_id: 142), Piedmont Automotive Products Inc. (row_id: 143), PIOLAX Corp. (row_id: 144), Pirelli Tire North America LLC (row_id: 145), Porsche Cars North America Inc. (row_id: 146), PPG Industries Inc. (row_id: 147), Propex Operating Co. LLC (row_id: 148), QSR Inc. (row_id: 149), Racemark International LLC (row_id: 150), RealTruck (row_id: 151), Rivian Automotive (row_id: 152), Robert Bosch LLC (row_id: 153), SAFT America Inc. (row_id: 154), Sejong Georgia LLC (row_id: 155), Seohan Auto USA (row_id: 156), Seoyon E-HWA Interior Systems (row_id: 158), Sewon America Inc. (row_id: 159), Sewon America Inc. (row_id: 160), Sewon America Inc. (row_id: 161), SHIROKI North America Inc (row_id: 162), SK Battery America (row_id: 163), SKF USA Inc. (row_id: 164), Solvay Specialty Polymers USA LLC (row_id: 165), Southern Switches Corp. (row_id: 166), SRG Global Inc. (row_id: 167), Stryten Energy (row_id: 168), Suhner Manufacturing Corp. (row_id: 169), SungEel Recycling Park Georgia (row_id: 170), Superior Essex Inc. (row_id: 171), Suzuki Manufacturing of America Corp. (row_id: 172), TCI Powder Coatings (row_id: 173), TDK Components USA Inc. (row_id: 174), TE Connectivity (row_id: 175), Teklas USA (row_id: 176), Textron Specialized Vehicles (row_id: 177), Thermal Ceramics Inc. (row_id: 178), Thomson Plastics Inc. (row_id: 179), TI Fluid Systems (row_id: 180), TI Fluid Systems (row_id: 181), Tie Down Engineering (row_id: 182), TN Americas Holding Inc. (row_id: 183), Toyota Industries Group (TACG-TICA) (row_id: 184), Trenton Pressing (row_id: 185), Trenton Pressing Inc. (row_id: 186), Valeo (row_id: 187), Vanguard National Trailer Corp. (row_id: 188), Vernay (row_id: 189), Vista Metals Corp. (row_id: 190), Voestalpine Automotive Body Parts Inc. (row_id: 191), Volvo Cars USA (row_id: 192), Volvo Group North America (row_id: 193), Wabash National Corp. (row_id: 194), Wheelabrator Group Inc. (row_id: 195), WIKA USA (row_id: 196), Woodbridge Foam Corp. (row_id: 197), Woory Industrial Co. (row_id: 198), Yachiyo Manufacturing of America LLC (row_id: 199), Yamaha Motor Manufacturing Corp. (row_id: 200), Yazaki North America (row_id: 201), YKK USA Inc. (row_id: 202), ZF Gainesville LLC (row_id: 203), ZF Gainesville LLC (row_id: 204), ZF Gainesville LLC (row_id: 205)
+Notes: None",mistral-small3.2:24b,65536,41336,3941,519100869801,175847936,1610488375,515761598561
+32,Identify Georgia companies in the Thermal Management or Power Electronics role with fewer than 200 employees - their small scale may limit surge production capacity.,"Q: Identify Georgia companies in the Thermal Management or Power Electronics role with fewer than 200 employees - their small scale may limit surge production capacity.
+Answer: Not found in the data.
+Supporting companies/rows:
+Notes:",mistral-small3.2:24b,65536,41338,49,8250065896,168706315,1859306908,6067447368
+33,Identify any EV-relevant Georgia companies classified as OEM Footprint or OEM Supply Chain?,"Q: Identify any EV-relevant Georgia companies classified as OEM Footprint or OEM Supply Chain?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41328,42,6852280874,185396583,1251656253,5277168886
+34,"Top 10 Georgia companies based on employment size that supply both General Automotive and EV-specific components, indicating transition readiness?","Q: Top 10 Georgia companies based on employment size that supply both General Automotive and EV-specific components, indicating transition readiness?
+Answer: Not found in the data.
+Supporting companies/rows: Not found in the data.
+Notes: The data does not contain any companies that supply both General Automotive and EV-specific components.",mistral-small3.2:24b,65536,41333,68,10534095710,165560704,1646662539,8555743149
+35,"How many Georgia companies are now producing lithium-ion battery materials, cells, or electrolytes?","Q: How many Georgia companies are now producing lithium-ion battery materials, cells, or electrolytes?
+Answer: 3
+Supporting companies/rows: Hollingsworth & Vose Co. (row_id: 77), IMMI (row_id: 86), Hyundai Industrial Co. (row_id: 81)
+Notes:",mistral-small3.2:24b,65536,41326,72,10726014657,175542052,1254784373,9132269879
+36,Which Georgia Tier 2/3 suppliers currently produce lightweight aluminum or composite materials and are growing their EV-specific customer base?,"Answer: Not found in the data.
+Supporting companies/rows: <no companies found>
+Notes: <no companies found>",mistral-small3.2:24b,65536,41332,27,5254201585,170969254,1654538499,3281188649
+37,"Identify Georgia companies whose product descriptions include 'high-voltage', 'DC-to-DC', 'inverter', or 'motor controller' — these signal EV powertrain electronics growth.","Q: Identify Georgia companies whose product descriptions include 'high-voltage', 'DC-to-DC', 'inverter', or 'motor controller' — these signal EV powertrain electronics growth.
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41345,59,8029135873,173129353,372216564,7333872317
+38,"Which Georgia automotive companies employ over 1,000 workers but are currently categorized as only ""Indirectly Relevant"" to the EV sector, indicating a massive workforce pool ready for a strategic pivot?","Q: Which Georgia automotive companies employ over 1,000 workers but are currently categorized as only ""Indirectly Relevant"" to the EV sector, indicating a massive workforce pool ready for a strategic pivot?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41350,64,8822288467,175202928,379026307,8108080002
+39,"Which three Georgia companies have the largest employment in EV thermal management, and how many employees does each have?","Q: Which three Georgia companies have the largest employment in EV thermal management, and how many employees does each have?
+Answer: Not found in the data.
+Supporting companies/rows: Not found in the data.
+Notes: The data does not contain any companies with the EV Supply Chain Role of ""Thermal Management"" that have employment numbers listed.",mistral-small3.2:24b,65536,41329,71,10636708273,173514788,1385685089,8918158521
+40,"Which companies are involved in thermal-related products or services, and what roles and facility types are they associated with?","Answer: The companies involved in thermal-related products or services are:
+1. Hanon Systems USA LLC (row_id: 72) - General Automotive, Manufacturing Plant
+2. Peerless-Winsmith Inc. (row_id: 139) - Thermal Management, Manufacturing Plant
+3. ZF Gainesville LLC (row_id: 203) - EV thermal management and power electronics, Manufacturing
+4. ZF Gainesville LLC (row_id: 204) - EV thermal management and power electronics, Manufacturing
+5. ZF Gainesville LLC (row_id: 205) - EV thermal systems and electronics, Engineering / Operations
+
+Supporting companies/rows:
+- Hanon Systems USA LLC (row_id: 72)
+- Peerless-Winsmith Inc. (row_id: 139)
+- ZF Gainesville LLC (row_id: 203)
+- ZF Gainesville LLC (row_id: 204)
+- ZF Gainesville LLC (row_id: 205)
+
+Notes: None",mistral-small3.2:24b,65536,41330,232,31067211151,160856633,1372094406,29310953322
+41,Which Tier 1/2 Georgia companies listed under General Automotive suggest a gradual evolution toward EV-related products or markets?,"Answer: Not found in the data.
+Supporting companies/rows: <no rows found>
+Notes: <no notes>",mistral-small3.2:24b,65536,41332,26,5037214036,164329131,1518173578,3208518163
+42,How is demand for thermal management solutions reflected in the number and employment size of Georgia Thermal Management suppliers?,"Answer: Not found in the data.
+Supporting companies/rows: <no rows used>
+Notes: <The question requires analysis of the number and employment size of Georgia Thermal Management suppliers, but the JSONL knowledge base does not contain any companies with the EV Supply Chain Role of ""Thermal Management"".>",mistral-small3.2:24b,65536,41328,63,9684587590,178292277,1398545331,7957889120
+43,"Which Georgia companies are involved in battery recycling or second-life battery processing, reflecting the emerging circular economy trend?","Answer: Not found in the data.
+Supporting companies/rows: <no companies found>
+Notes: <no notes>",mistral-small3.2:24b,65536,41329,26,4901773367,173820308,1380463006,3196376565
+44,"Which Georgia suppliers appear to play innovation-stage roles through research, development, or prototyping activity?","Answer: Not found in the data.
+Supporting companies/rows:",mistral-small3.2:24b,65536,41327,15,3182879541,176145741,1104016258,1769329886
+45,"Which Georgia suppliers currently serving traditional OEMs are also linked to EV-native OEMs, showing dual-platform supply capability?","Answer: Not found in the data.
+Supporting companies/rows: <no relevant rows found>
+Notes: <no relevant rows found>",mistral-small3.2:24b,65536,41333,29,5376376642,168726592,1521383891,3532959905
+46,Identify Georgia areas that currently lack Battery Cell or Battery Pack suppliers but have existing Tier 1 general automotive infrastructure.,"Q: Identify Georgia areas that currently lack Battery Cell or Battery Pack suppliers but have existing Tier 1 general automotive infrastructure.
+Answer: Not found in the data.
+Supporting companies/rows: <the company names and row_id values you used>
+Notes: <only if there is a tie, ambiguity, or definitional issue; else leave blank>",mistral-small3.2:24b,65536,41331,72,10820438698,164127946,1514500846,8968623978
+47,"For a new Tier 1 battery thermal management company looking to locate in Georgia, which areas have the highest concentration of Materials-category suppliers that could support thermal management production?","Q: For a new Tier 1 battery thermal management company looking to locate in Georgia, which areas have the highest concentration of Materials-category suppliers that could support thermal management production?
+Answer: Not found in the data.
+Supporting companies/rows: <the company names and row_id values you used>
+Notes: <only if there is a tie, ambiguity, or definitional issue; else leave blank>",mistral-small3.2:24b,65536,41341,82,11079862198,173570684,365019231,10376313660
+48,"Which Georgia areas have concentrated Manufacturing Plant facilities that already supply the EV chain indirectly but have no dedicated EV production yet, marking them as prime conversion candidates?","Answer: Not found in the data.
+Supporting companies/rows: <no rows used>
+Notes: <The question requires analysis of geographic concentration and EV production status, which cannot be determined from the provided JSONL data.>",mistral-small3.2:24b,65536,41338,47,8075938424,174683997,1900301146,5836876790
+49,"For an international battery materials company seeking a Georgia location, which areas have existing chemical manufacturing infrastructure?","Q: For an international battery materials company seeking a Georgia location, which areas have existing chemical manufacturing infrastructure?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: The JSONL knowledge base does not contain information about areas with existing chemical manufacturing infrastructure.",mistral-small3.2:24b,65536,41327,57,8699583296,168366650,1243250409,7132136474
+50,"Which Georgia areas have R&D facility types in the automotive sector, suggesting innovation infrastructure suitable for EV technology development centers?","Q: Which Georgia areas have R&D facility types in the automotive sector, suggesting innovation infrastructure suitable for EV technology development centers?
+Answer: Not found in the data.
+Supporting companies/rows: None
+Notes: None",mistral-small3.2:24b,65536,41331,45,7399106648,162572478,1518445652,5569148384
