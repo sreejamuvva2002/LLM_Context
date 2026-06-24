@@ -1,7 +1,0 @@
-model,kind,answered,errors,missing,reliability,gradable_det_questions,mean_F1_gradable,mean_recall,mean_precision,scalar_q_correct
-qwen3.6_35b-a3b (full-ctx),main,50,0,0,1.0,27,0.77,0.831,0.775,2/2
-mistral-small3.2_24b (full-ctx),main,50,0,0,1.0,27,0.288,0.404,0.275,0/2
-gemma3_27b (full-ctx),main,49,1,0,0.98,27,0.306,0.41,0.282,0/2
-qwen2.5_14b (batched v1),main,50,0,0,1.0,27,0.542,0.869,0.478,0/2
-qwen2.5_14b (full-ctx TRUNCATED),diagnostic_truncated,50,0,0,1.0,27,0.201,0.212,0.202,2/2
-deepseek-r1_32b (unstable),diagnostic_unstable,19,10,21,0.38,11,0.405,0.388,0.473,0/0

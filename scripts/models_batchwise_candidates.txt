@@ -1,0 +1,12 @@
+# models_batchwise_candidates.txt — DRAFT model list for the batchwise map-reduce arm.
+# Keep this separate from scripts/models.txt so direct-context and batchwise runs
+# can use different model sets.
+#
+# One Ollama model tag per line. Blank lines and lines starting with # are ignored.
+# Pull models before running:
+#   while read -r m; do [ -n "$m" ] && [ "${m#\#}" = "$m" ] && ollama pull "$m"; done < scripts/models_batchwise_candidates.txt
+#
+# Confirmed batchwise candidate list.
+
+gemma3:12b
+qwen2.5:14b

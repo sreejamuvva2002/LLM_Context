@@ -1,0 +1,16 @@
+{
+  "kb": "Data/GNEM_Excel_Data.xlsx",
+  "sheet": null,
+  "questions": "Data/questions.txt",
+  "models": "scripts/models_batchwise_candidates.txt",
+  "batch_size": 25,
+  "overlap": 0,
+  "map_num_ctx": 32768,
+  "reduce_num_ctx": 32768,
+  "temperature": 0.0,
+  "max_map_retries": 2,
+  "sort_key": "Record_ID",
+  "resolved_id_column": "row_id",
+  "kb_rows": 205,
+  "n_batches": 9
+}

@@ -1,0 +1,8 @@
+arm,model_name,questions,answered,reliability,mean_entity_f1,mean_entity_precision,mean_entity_recall,nonjudge_mean_entity_f1,judge_recommended_mean_entity_f1,count_questions_scored,count_accuracy_rate,mean_abs_count_error,field_value_accuracy,format_core_ok_rate,answers_with_unknown_company_mentions_rate,avg_unknown_company_mentions,inline_thinking_leak_count,avg_runtime_seconds,total_runtime_seconds,prompt_eval_min,prompt_eval_median,prompt_eval_max,research_score_deterministic,rank_by_research_score
+direct_context,qwen3.6:35b-a3b,42,42,1.0,0.8131,0.799,0.8886,0.8179,0.8,36,0.7778,0.6667,0.8272,1.0,0.0714,0.0714,0,40.0273,1681.1474,40265,40274.0,40294,0.8384,1
+direct_context,qwen3:30b,42,42,1.0,0.7659,0.8504,0.7414,0.7694,0.7565,36,0.5,2.0,0.7811,1.0,0.0476,0.0476,0,62.5834,2628.5019,40006,40015.0,40035,0.7571,2
+batchwise_map_reduce,qwen2.5:14b,42,42,1.0,0.5287,0.7248,0.4845,0.6062,0.3173,36,0.2222,3.4722,0.7038,1.0,0.0714,0.0714,0,42.6477,1791.205,1607,1864.0,6211,0.5808,3
+batchwise_map_reduce,gemma3:12b,42,42,1.0,0.5039,0.4804,0.6853,0.5956,0.2537,36,0.2222,6.8056,0.7703,1.0,0.0714,0.0714,0,63.5526,2669.209,1547,4860.0,31404,0.5796,4
+direct_context,deepseek-r1:32b,42,42,1.0,0.442,0.6035,0.4447,0.4558,0.4043,36,0.1944,5.0,0.6252,1.0,0.0238,0.0238,0,54.3014,2280.6569,39999,40008.0,40028,0.5292,5
+direct_context,mistral-small3.2:24b,42,42,1.0,0.3193,0.3322,0.3289,0.403,0.0909,36,0.1944,2.9167,0.5221,1.0,0.0952,0.119,0,8.2539,346.6635,42004,42012.0,42034,0.4514,6
+direct_context,gemma3:27b,42,42,1.0,0.2627,0.2506,0.3998,0.2683,0.2475,36,0.1111,9.9167,0.677,1.0,0.1667,0.3095,0,13.3449,560.484,39130,39138.5,39159,0.4253,7

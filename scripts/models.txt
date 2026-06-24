@@ -1,0 +1,12 @@
+# models.txt — DRAFT model list for the direct-context 42q run.
+# NOT FINAL. Edit/confirm before any full run. One Ollama model tag per line.
+# Lines starting with '#' and blank lines are ignored by the runner.
+#
+# Each model must be pulled first:  ollama pull <tag>
+# (see SETUP_CHECKLIST_42Q.md — do not pull/run until Ollama is confirmed working)
+
+qwen3.6:35b-a3b
+gemma3:27b
+mistral-small3.2:24b
+qwen3:30b
+deepseek-r1:32b
