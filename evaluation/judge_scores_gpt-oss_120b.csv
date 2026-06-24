@@ -1,0 +1,2025 @@
+judge_model,arm,candidate_model,question_number,question_type,judge_recommended,status,faithfulness,completeness,correctness,judge_total,hallucinated_company,needs_human_review,notes,raw_judge_response,prompt_eval_count,eval_count
+gpt-oss:120b,direct_context,deepseek-r1:32b,1,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer claims only one Tier 1/2 supplier exists and lists row_id 10, but the knowledge base contains many Tier 1/2 suppliers.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer claims only one Tier 1/2 supplier exists and lists row_id 10, but the knowledge base contains many Tier 1/2 suppliers.""
+}",34430,853
+gpt-oss:120b,direct_context,deepseek-r1:32b,2,list_or_lookup,False,ok,0,0,1,1,False,False,"The answer omits several Georgia companies with Battery Cell or Pack roles present in the KB, making it incomplete and inaccurate.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits several Georgia companies with Battery Cell or Pack roles present in the KB, making it incomplete and inaccurate.""
+}",34477,754
+gpt-oss:120b,direct_context,deepseek-r1:32b,3,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer misidentifies companies, omits several Thermal Management suppliers, and provides unsupported claims.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer misidentifies companies, omits several Thermal Management suppliers, and provides unsupported claims.""
+}",34448,1036
+gpt-oss:120b,direct_context,deepseek-r1:32b,4,list_or_lookup,False,ok,0,0,0,0,False,False,The answer omits at least one relevant company (Morgan Corp. with Charging Infrastructure) and misstates that only one company matches the criteria.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits at least one relevant company (Morgan Corp. with Charging Infrastructure) and misstates that only one company matches the criteria.""
+}",34431,822
+gpt-oss:120b,direct_context,deepseek-r1:32b,5,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all Direct Manufacturer companies and their EV Supply Chain Role (Vehicle Assembly) as per the knowledge base.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Direct Manufacturer companies and their EV Supply Chain Role (Vehicle Assembly) as per the knowledge base.""
+}",34563,689
+gpt-oss:120b,direct_context,deepseek-r1:32b,6,list_or_lookup,False,ok,0,1,0,1,False,False,"The answer incorrectly lists ""Thermal Management"" as a primary facility type, which is not present in the KB; only ""Manufacturing Plant"" appears.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly lists \""Thermal Management\"" as a primary facility type, which is not present in the KB; only \""Manufacturing Plant\"" appears.""
+}",34426,739
+gpt-oss:120b,direct_context,deepseek-r1:32b,7,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Arising Industries Inc. as the highest employer and misstates its EV role; higher‑employment companies like WIKA USA (250,000) or SungEel Recycling Park Georgia (650) exist in Gwinnett County.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Arising Industries Inc. as the highest employer and misstates its EV role; higher‑employment companies like WIKA USA (250,000) or SungEel Recycling Park Georgia (650) exist in Gwinnett County.""
+}",34414,846
+gpt-oss:120b,direct_context,deepseek-r1:32b,8,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Hall County as highest with employment 860, ignoring many Tier 1 entries; the correct county is Forsyth with total employment ~1820.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Hall County as highest with employment 860, ignoring many Tier 1 entries; the correct county is Forsyth with total employment ~1820.""
+}",34398,5807
+gpt-oss:120b,direct_context,deepseek-r1:32b,9,aggregation_ranking,False,ok,0,1,1,2,False,False,"Answer omits several Hall County entries, giving an incorrect total employment figure.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits several Hall County entries, giving an incorrect total employment figure.""
+}",34471,1569
+gpt-oss:120b,direct_context,deepseek-r1:32b,10,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer incorrectly states there are only two vehicle assembly facilities, omitting many entries in the KB and thus is neither faithful nor complete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states there are only two vehicle assembly facilities, omitting many entries in the KB and thus is neither faithful nor complete.""
+}",34422,571
+gpt-oss:120b,direct_context,deepseek-r1:32b,11,list_or_lookup,False,ok,1,2,2,5,False,False,"Correct products listed, but row_id for fire truck bodies is incorrect (should be 161, not 160).","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Correct products listed, but row_id for fire truck bodies is incorrect (should be 161, not 160).""
+}",34470,944
+gpt-oss:120b,direct_context,deepseek-r1:32b,12,list_multi_filter,False,ok,0,0,0,0,True,False,"The answer lists many companies that are not Tier 2/3 or lack primary EV/battery relevance, includes incorrect roles, and contains a fabricated company name.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 2/3 or lack primary EV/battery relevance, includes incorrect roles, and contains a fabricated company name.""
+}",34985,1100
+gpt-oss:120b,direct_context,deepseek-r1:32b,13,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer omits several Rivian-linked suppliers (e.g., Duckyang, GSC Steel Stamping) and misstates EV Supply Chain Roles.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits several Rivian-linked suppliers (e.g., Duckyang, GSC Steel Stamping) and misstates EV Supply Chain Roles.""
+}",34422,907
+gpt-oss:120b,direct_context,deepseek-r1:32b,14,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer omits Woodbridge Foam Corp., which also has an EV wiring harness role, and incorrectly claims only one company exists.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Woodbridge Foam Corp., which also has an EV wiring harness role, and incorrectly claims only one company exists.""
+}",34433,394
+gpt-oss:120b,direct_context,deepseek-r1:32b,15,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists companies that are not Tier 2/3 or not in the Electronic and Electrical Equipment industry group, and thus does not satisfy the query.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not Tier 2/3 or not in the Electronic and Electrical Equipment industry group, and thus does not satisfy the query.""
+}",34681,660
+gpt-oss:120b,direct_context,deepseek-r1:32b,16,list_multi_filter_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly lists Duckyang as the only GA company manufacturing electrodeposited copper foil for EV batteries, fully supported by the KB.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists Duckyang as the only GA company manufacturing electrodeposited copper foil for EV batteries, fully supported by the KB.""
+}",34416,453
+gpt-oss:120b,direct_context,deepseek-r1:32b,17,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states no matching Tier 1/2 companies, missing relevant entries such as PHA Body Systems LLC (Tier 1) producing plastic fuel tanks and Peerless‑Winsmith (Tier 1) offering thermal solutions.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no matching Tier 1/2 companies, missing relevant entries such as PHA Body Systems LLC (Tier 1) producing plastic fuel tanks and Peerless‑Winsmith (Tier 1) offering thermal solutions.""
+}",34405,1002
+gpt-oss:120b,direct_context,deepseek-r1:32b,18,list_or_lookup,False,ok,2,1,1,4,False,False,"Answer correctly lists GSC Steel Stamping LLC and Hyundai MOBIS but omits Hyundai Transys Georgia Seating Systems, which also produces capacitors.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists GSC Steel Stamping LLC and Hyundai MOBIS but omits Hyundai Transys Georgia Seating Systems, which also produces capacitors.""
+}",34435,968
+gpt-oss:120b,direct_context,deepseek-r1:32b,19,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists the only Georgia company with powder coating services and its tier.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists the only Georgia company with powder coating services and its tier.""
+}",34401,332
+gpt-oss:120b,direct_context,deepseek-r1:32b,20,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states only two companies meet the criteria, omitting several valid Tier 1/2 battery cell or pack firms (e.g., F&P Georgia Manufacturing, Honda Development & Manufacturing, Hyundai Motor Group, IMMI) and thus is neither faithful nor complete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states only two companies meet the criteria, omitting several valid Tier 1/2 battery cell or pack firms (e.g., F&P Georgia Manufacturing, Honda Development & Manufacturing, Hyundai Motor Group, IMMI) and thus is neither faithful nor complete.""
+}",34496,834
+gpt-oss:120b,direct_context,deepseek-r1:32b,21,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that do not meet the Tier 2/3, >300 employees, General Automotive criteria and omits the correct ones.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that do not meet the Tier 2/3, >300 employees, General Automotive criteria and omits the correct ones.""
+}",34886,2726
+gpt-oss:120b,direct_context,deepseek-r1:32b,22,list_or_lookup,False,ok,0,0,1,1,False,False,"The answer omits Archer Aviation Inc., another Tier 2/3 company in Chemicals and Allied Products, and incorrectly claims only one such company exists.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Archer Aviation Inc., another Tier 2/3 company in Chemicals and Allied Products, and incorrectly claims only one such company exists.""
+}",34410,686
+gpt-oss:120b,direct_context,deepseek-r1:32b,23,list_or_lookup_judge_recommended,True,ok,1,0,1,2,False,False,"Answer misstates the number of unique roles, omits several single-occurrence roles (e.g., Charging Infrastructure), and includes an incorrect row_id reference.","{
+  ""faithfulness"": 1,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer misstates the number of unique roles, omits several single-occurrence roles (e.g., Charging Infrastructure), and includes an incorrect row_id reference.""
+}",34662,2048
+gpt-oss:120b,direct_context,deepseek-r1:32b,24,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,True,"Answer lists incorrect supplier (row 35) and omits several valid sole‑sourced battery cell/pack suppliers such as rows 53, 78","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""Answer lists incorrect supplier (row 35) and omits several valid sole‑sourced battery cell/pack suppliers such as rows 53, 78""
+}",34458,1058
+gpt-oss:120b,direct_context,deepseek-r1:32b,25,count_judge_recommended,True,ok,0,0,0,0,False,False,The answer incorrectly states only one supplier (<200 employees) while the KB shows at least two (row_id 84 and row_id 150).,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states only one supplier (<200 employees) while the KB shows at least two (row_id 84 and row_id 150).""
+}",34405,795
+gpt-oss:120b,direct_context,deepseek-r1:32b,26,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly claims only one Tier 2/3 EV‑relevant General Automotive supplier exists, omitting many valid entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims only one Tier 2/3 EV‑relevant General Automotive supplier exists, omitting many valid entries.""
+}",34421,1400
+gpt-oss:120b,direct_context,deepseek-r1:32b,27,list_multi_filter,False,ok,0,0,0,0,False,True,"The answer lists many companies that are not Tier 1/2 or do not serve Multiple OEMs, omits correct entries, and contains numerous factual mismatches with the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 or do not serve Multiple OEMs, omits correct entries, and contains numerous factual mismatches with the knowledge base.""
+}",35203,652
+gpt-oss:120b,direct_context,deepseek-r1:32b,28,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states no matching companies, despite several Thermal Management firms with <200 employees in the KB.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no matching companies, despite several Thermal Management firms with <200 employees in the KB.""
+}",34404,522
+gpt-oss:120b,direct_context,deepseek-r1:32b,29,list_or_lookup,False,ok,0,1,0,1,False,False,"The answer lists companies not meeting the required categories (e.g., row 180) and includes non-Georgia firms, with an incorrect count of 35.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies not meeting the required categories (e.g., row 180) and includes non-Georgia firms, with an incorrect count of 35.""
+}",34912,1800
+gpt-oss:120b,direct_context,deepseek-r1:32b,30,aggregation_ranking_judge_recommended,True,ok,0,0,0,0,False,False,"Answer lists companies that do not satisfy the required dual role and fails to provide a top‑10 list, with several unsupported claims.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists companies that do not satisfy the required dual role and fails to provide a top‑10 list, with several unsupported claims.""
+}",34543,1569
+gpt-oss:120b,direct_context,deepseek-r1:32b,31,list_or_lookup,False,ok,0,0,0,0,True,False,"The answer lists many companies that are not Tier 2/3, do not produce lightweight aluminum or composites, and includes a company not present in the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 2/3, do not produce lightweight aluminum or composites, and includes a company not present in the knowledge base.""
+}",34675,888
+gpt-oss:120b,direct_context,deepseek-r1:32b,32,list_or_lookup,False,ok,0,0,0,0,False,False,Answer incorrectly lists WIKA USA (product description lacks required terms) and omits GSC Steel Stamping LLC which mentions DC-to-DC.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer incorrectly lists WIKA USA (product description lacks required terms) and omits GSC Steel Stamping LLC which mentions DC-to-DC.""
+}",34466,1731
+gpt-oss:120b,direct_context,deepseek-r1:32b,33,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"Answer includes TE Connectivity as Indirectly Relevant, but KB marks it as 'No'; also omits that only three companies meet the criteria.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer includes TE Connectivity as Indirectly Relevant, but KB marks it as 'No'; also omits that only three companies meet the criteria.""
+}",34501,3059
+gpt-oss:120b,direct_context,deepseek-r1:32b,34,aggregation_ranking,False,ok,0,0,0,0,False,False,"Answer repeats the same company (ZF Gainesville LLC) as separate entries, misstates its employment numbers, omits other distinct thermal‑management firms, and does not correctly identify the top four Georgia companies.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer repeats the same company (ZF Gainesville LLC) as separate entries, misstates its employment numbers, omits other distinct thermal‑management firms, and does not correctly identify the top four Georgia companies.""
+}",34492,1353
+gpt-oss:120b,direct_context,deepseek-r1:32b,35,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists incorrect and incomplete companies for thermal-related roles, omitting several relevant entries and misclassifying TI Fluid Systems.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect and incomplete companies for thermal-related roles, omitting several relevant entries and misclassifying TI Fluid Systems.""
+}",34454,798
+gpt-oss:120b,direct_context,deepseek-r1:32b,36,list_or_lookup,False,ok,2,0,1,3,False,False,The answer omits Tier 1/2 companies Hitachi Astemo (row_id 75) and Hyundai & LG Energy Solution (LGES) (row_id 80) that also have General Automotive role.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Tier 1/2 companies Hitachi Astemo (row_id 75) and Hyundai & LG Energy Solution (LGES) (row_id 80) that also have General Automotive role.""
+}",34619,2325
+gpt-oss:120b,direct_context,deepseek-r1:32b,37,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states only one thermal management supplier with employment 200, while the KB lists multiple such suppliers (e.g., Freudenberg-NOK, Peerless-Winsmith, Novelis Inc., Hyundai Transys) with different employment figures.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states only one thermal management supplier with employment 200, while the KB lists multiple such suppliers (e.g., Freudenberg-NOK, Peerless-Winsmith, Novelis Inc., Hyundai Transys) with different employment figures.""
+}",34398,609
+gpt-oss:120b,direct_context,deepseek-r1:32b,38,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,Answer correctly lists all Georgia firms in the KB that recycle batteries or related materials.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia firms in the KB that recycle batteries or related materials.""
+}",34510,1064
+gpt-oss:120b,direct_context,deepseek-r1:32b,39,list_or_lookup_judge_recommended,True,ok,0,2,0,2,True,False,"The answer misnames the supplier (""Remark International LLC"" does not exist in the KB; the correct R&D supplier is Racemark International LLC).","{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer misnames the supplier (\""Remark International LLC\"" does not exist in the KB; the correct R&D supplier is Racemark International LLC).""
+}",34424,573
+gpt-oss:120b,direct_context,deepseek-r1:32b,40,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly claims only Duckyang qualifies and omits other suppliers (e.g., GSC Steel Stamping LLC, Racemark International, Hyundai Transys) that also list EV-native OEMs, making the claim unsupported and incomplete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims only Duckyang qualifies and omits other suppliers (e.g., GSC Steel Stamping LLC, Racemark International, Hyundai Transys) that also list EV-native OEMs, making the claim unsupported and incomplete.""
+}",34394,780
+gpt-oss:120b,direct_context,deepseek-r1:32b,41,lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states no relevant data, ignoring Archer Aviation in Covington which provides chemical manufacturing infrastructure.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no relevant data, ignoring Archer Aviation in Covington which provides chemical manufacturing infrastructure.""
+}",34382,400
+gpt-oss:120b,direct_context,deepseek-r1:32b,42,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly cites Trenton Pressing Inc. (row_id 158) as an R&D facility, but the KB shows it as a manufacturing plant; the only R&D automotive entry is Racemark International LLC in Gray, Jones County.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly cites Trenton Pressing Inc. (row_id 158) as an R&D facility, but the KB shows it as a manufacturing plant; the only R&D automotive entry is Racemark International LLC in Gray, Jones County.""
+}",34423,535
+gpt-oss:120b,direct_context,gemma3:27b,1,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists incorrect and incomplete entries, mislabels categories/roles, and omits many Tier 1/2 suppliers present in the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect and incomplete entries, mislabels categories/roles, and omits many Tier 1/2 suppliers present in the knowledge base.""
+}",34645,2360
+gpt-oss:120b,direct_context,gemma3:27b,2,list_or_lookup,False,ok,0,0,0,0,True,False,"The answer lists incorrect companies and roles, omits several valid Battery Cell/Pack firms, and includes non‑Battery entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies and roles, omits several valid Battery Cell/Pack firms, and includes non‑Battery entries.""
+}",34488,900
+gpt-oss:120b,direct_context,gemma3:27b,3,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists incorrect companies and omits the actual Thermal Management suppliers (Freudenberg-NOK, Peerless-Winsmith, Novelis Inc., Hyundai Transys Georgia Powertrain).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies and omits the actual Thermal Management suppliers (Freudenberg-NOK, Peerless-Winsmith, Novelis Inc., Hyundai Transys Georgia Powertrain).""
+}",34472,950
+gpt-oss:120b,direct_context,gemma3:27b,4,list_or_lookup,False,ok,1,1,1,3,False,False,"Includes an irrelevant company (Suzuki Manufacturing) and omits a relevant one (Morgan Corp.), so partially faithful, incomplete, and partly correct.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Includes an irrelevant company (Suzuki Manufacturing) and omits a relevant one (Morgan Corp.), so partially faithful, incomplete, and partly correct.""
+}",34434,3697
+gpt-oss:120b,direct_context,gemma3:27b,5,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists companies not classified as Direct Manufacturer and omits several that are, failing both faithfulness and completeness.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies not classified as Direct Manufacturer and omits several that are, failing both faithfulness and completeness.""
+}",34460,637
+gpt-oss:120b,direct_context,gemma3:27b,6,list_or_lookup,False,ok,0,0,0,0,False,False,The answer invents a Calhoun location for Novelis and cites incorrect row IDs; the KB only lists Atlanta locations with Manufacturing Plant.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer invents a Calhoun location for Novelis and cites incorrect row IDs; the KB only lists Atlanta locations with Manufacturing Plant.""
+}",34468,729
+gpt-oss:120b,direct_context,gemma3:27b,7,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Arising Industries as the highest‑employment company in Gwinnett County (actual max is WIKA USA with 250,000 employees) and gives an incorrect EV Supply Chain Role.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Arising Industries as the highest‑employment company in Gwinnett County (actual max is WIKA USA with 250,000 employees) and gives an incorrect EV Supply Chain Role.""
+}",34589,785
+gpt-oss:120b,direct_context,gemma3:27b,8,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer misattributes companies to Hall County and omits many Tier 1 suppliers, resulting in an incorrect county and employment total.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer misattributes companies to Hall County and omits many Tier 1 suppliers, resulting in an incorrect county and employment total.""
+}",34459,7914
+gpt-oss:120b,direct_context,gemma3:27b,9,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Hall County as highest and provides an inaccurate employment total, mis‑summing rows from other counties and omitting many relevant entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Hall County as highest and provides an inaccurate employment total, mis‑summing rows from other counties and omitting many relevant entries.""
+}",34568,2273
+gpt-oss:120b,direct_context,gemma3:27b,10,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists only three facilities, includes a non‑assembly company (row_id 195), mislabels row IDs, and omits many other Georgia entries with EV Supply Chain Role 'Vehicle Assembly'.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists only three facilities, includes a non‑assembly company (row_id 195), mislabels row IDs, and omits many other Georgia entries with EV Supply Chain Role 'Vehicle Assembly'.""
+}",34436,808
+gpt-oss:120b,direct_context,gemma3:27b,11,list_or_lookup,False,ok,0,0,0,0,False,False,The answer provides incorrect product/service information and cites wrong rows that do not correspond to Sewon America Inc.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer provides incorrect product/service information and cites wrong rows that do not correspond to Sewon America Inc.""
+}",34472,606
+gpt-oss:120b,direct_context,gemma3:27b,12,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many Tier 2/3 companies that are not directly involved in EV/battery supply and omits correct ones, with several category mismatches.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many Tier 2/3 companies that are not directly involved in EV/battery supply and omits correct ones, with several category mismatches.""
+}",34683,1279
+gpt-oss:120b,direct_context,gemma3:27b,13,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies not linked to Rivian and omits actual Rivian-linked suppliers, failing faithfulness, completeness, and correctness.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies not linked to Rivian and omits actual Rivian-linked suppliers, failing faithfulness, completeness, and correctness.""
+}",34568,691
+gpt-oss:120b,direct_context,gemma3:27b,14,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists several unrelated companies and omits relevant ones like WIKA USA, Woodbridge Foam, Solvay Specialty Polymers, and Enchem America that are tied to wiring harnesses.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists several unrelated companies and omits relevant ones like WIKA USA, Woodbridge Foam, Solvay Specialty Polymers, and Enchem America that are tied to wiring harnesses.""
+}",34510,842
+gpt-oss:120b,direct_context,gemma3:27b,15,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists companies that are not Tier 2/3 or not in the Electronic and Electrical Equipment industry group, providing unsupported and incorrect selections.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not Tier 2/3 or not in the Electronic and Electrical Equipment industry group, providing unsupported and incorrect selections.""
+}",34696,688
+gpt-oss:120b,direct_context,gemma3:27b,16,list_multi_filter_judge_recommended,True,ok,0,2,0,2,False,False,"The answer incorrectly includes SK Battery America as a copper foil/electrodeposited material manufacturer, which is not supported by the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly includes SK Battery America as a copper foil/electrodeposited material manufacturer, which is not supported by the knowledge base.""
+}",34476,803
+gpt-oss:120b,direct_context,gemma3:27b,17,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies that do not produce engineered plastics/polymers/composites and includes incorrect tiers, making the response largely unsupported and inaccurate.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that do not produce engineered plastics/polymers/composites and includes incorrect tiers, making the response largely unsupported and inaccurate.""
+}",34761,1013
+gpt-oss:120b,direct_context,gemma3:27b,18,list_or_lookup,False,ok,0,0,0,0,False,False,The answer lists companies that do not match the required product criteria and omits relevant companies such as Hyundai MOBIS and Hyundai Transys.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not match the required product criteria and omits relevant companies such as Hyundai MOBIS and Hyundai Transys.""
+}",34524,857
+gpt-oss:120b,direct_context,gemma3:27b,19,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies not related to powder coating and omits the only relevant company (Archer Aviation Inc.), making it factually incorrect and incomplete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies not related to powder coating and omits the only relevant company (Archer Aviation Inc.), making it factually incorrect and incomplete.""
+}",34517,519
+gpt-oss:120b,direct_context,gemma3:27b,20,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 1/2 or lack Battery Cell/Pack roles and omits several correct Tier 1/2 battery cell/pack firms, showing multiple factual errors.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 or lack Battery Cell/Pack roles and omits several correct Tier 1/2 battery cell/pack firms, showing multiple factual errors.""
+}",34565,1448
+gpt-oss:120b,direct_context,gemma3:27b,21,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that do not meet the Tier 2/3, >300 employees, General Automotive criteria and omits several valid ones.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that do not meet the Tier 2/3, >300 employees, General Automotive criteria and omits several valid ones.""
+}",34711,2333
+gpt-oss:120b,direct_context,gemma3:27b,22,list_or_lookup,False,ok,0,0,0,0,False,False,The answer lists companies that are not Tier 2/3 chemicals firms and omits the correct Archer Aviation entry.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not Tier 2/3 chemicals firms and omits the correct Archer Aviation entry.""
+}",34495,828
+gpt-oss:120b,direct_context,gemma3:27b,23,list_or_lookup_judge_recommended,True,ok,0,0,0,0,True,False,"The answer contains multiple unsupported and incorrect claims, misidentifies roles and companies, and does not reflect the data in the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer contains multiple unsupported and incorrect claims, misidentifies roles and companies, and does not reflect the data in the knowledge base.""
+}",34648,499
+gpt-oss:120b,direct_context,gemma3:27b,24,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists companies that are not battery cell/pack suppliers and misinterprets their roles; no sole‑sourced battery cell or pack suppliers exist in the provided data.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not battery cell/pack suppliers and misinterprets their roles; no sole‑sourced battery cell or pack suppliers exist in the provided data.""
+}",34490,1165
+gpt-oss:120b,direct_context,gemma3:27b,25,count_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists incorrect companies, includes many with employment >200, and provides no evidence linking suppliers to Hyundai Metaplant.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies, includes many with employment >200, and provides no evidence linking suppliers to Hyundai Metaplant.""
+}",34639,465
+gpt-oss:120b,direct_context,gemma3:27b,26,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many Tier 2/3 suppliers that are not EV relevant or not classified as General Automotive, and omits the correct ones (e.g., Duckyang and Enchem America Inc.).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many Tier 2/3 suppliers that are not EV relevant or not classified as General Automotive, and omits the correct ones (e.g., Duckyang and Enchem America Inc.).""
+}",34760,1203
+gpt-oss:120b,direct_context,gemma3:27b,27,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 1/2 or do not serve multiple OEMs, omits numerous valid Tier 1/2 suppliers, includes duplicates and incorrect categories.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 or do not serve multiple OEMs, omits numerous valid Tier 1/2 suppliers, includes duplicates and incorrect categories.""
+}",34844,1570
+gpt-oss:120b,direct_context,gemma3:27b,28,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that do not have Thermal Management or Power Electronics roles and includes entries with employment over 200, failing to satisfy the query.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not have Thermal Management or Power Electronics roles and includes entries with employment over 200, failing to satisfy the query.""
+}",34584,562
+gpt-oss:120b,direct_context,gemma3:27b,29,list_or_lookup,False,ok,0,0,0,0,True,False,The answer lists many companies that are not classified as OEM Footprint or OEM Supply Chain and includes numerous entries not present in the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not classified as OEM Footprint or OEM Supply Chain and includes numerous entries not present in the knowledge base.""
+}",35394,470
+gpt-oss:120b,direct_context,gemma3:27b,30,aggregation_ranking_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists companies that only have General Automotive roles, many with no EV relevance, failing to meet the requirement of supplying both General Automotive and EV-specific components.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that only have General Automotive roles, many with no EV relevance, failing to meet the requirement of supplying both General Automotive and EV-specific components.""
+}",34700,1347
+gpt-oss:120b,direct_context,gemma3:27b,31,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many Tier 2/3 companies that do not produce aluminum or composite materials, includes firms with wrong EV relevance, and omits the correct suppliers such as Dinex Emissions, Eaton Corp., Ecoplastic America, Erdrich USA, and Bridgestone Bandag.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many Tier 2/3 companies that do not produce aluminum or composite materials, includes firms with wrong EV relevance, and omits the correct suppliers such as Dinex Emissions, Eaton Corp., Ecoplastic America, Erdrich USA, and Bridgestone Bandag.""
+}",34685,2673
+gpt-oss:120b,direct_context,gemma3:27b,32,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer lists companies without the required keywords and omits the only matching company, thus is unfaithful, incomplete, and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists companies without the required keywords and omits the only matching company, thus is unfaithful, incomplete, and incorrect.""
+}",34473,813
+gpt-oss:120b,direct_context,gemma3:27b,33,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists companies that do not meet the >1,000 employment and Indirect relevance criteria; it omits correct matches like TCI Powder Coatings, Teklas USA, and Textron Specialized Vehicles.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not meet the >1,000 employment and Indirect relevance criteria; it omits correct matches like TCI Powder Coatings, Teklas USA, and Textron Specialized Vehicles.""
+}",34528,2680
+gpt-oss:120b,direct_context,gemma3:27b,34,aggregation_ranking,False,ok,0,0,0,0,False,False,The answer lists incorrect companies and employment figures that do not match the EV thermal management entries in the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies and employment figures that do not match the EV thermal management entries in the knowledge base.""
+}",34673,1148
+gpt-oss:120b,direct_context,gemma3:27b,35,list_multi_filter,False,ok,0,0,0,0,True,False,"The answer lists many companies not related to thermal roles, omits several valid thermal‑management firms, and includes a non‑existent company.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies not related to thermal roles, omits several valid thermal‑management firms, and includes a non‑existent company.""
+}",34626,1009
+gpt-oss:120b,direct_context,gemma3:27b,36,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 1/2 or misclassifies categories, omits numerous valid Tier 1/2 General Automotive firms, and includes incorrect entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 or misclassifies categories, omits numerous valid Tier 1/2 General Automotive firms, and includes incorrect entries.""
+}",34787,1225
+gpt-oss:120b,direct_context,gemma3:27b,37,list_or_lookup,False,ok,0,0,0,0,False,False,Answer lists incorrect companies and employment figures for thermal management suppliers; the KB shows only four such suppliers with total employment of 650.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists incorrect companies and employment figures for thermal management suppliers; the KB shows only four such suppliers with total employment of 650.""
+}",34505,827
+gpt-oss:120b,direct_context,gemma3:27b,38,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists companies unrelated to battery recycling or second‑life processing and omits the actual recycler (F&P Georgia Manufacturing) present in the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies unrelated to battery recycling or second‑life processing and omits the actual recycler (F&P Georgia Manufacturing) present in the knowledge base.""
+}",34498,1591
+gpt-oss:120b,direct_context,gemma3:27b,39,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists companies that are not marked as R&D in the KB and omits the only supplier (Racemark International LLC) with an R&D facility.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not marked as R&D in the KB and omits the only supplier (Racemark International LLC) with an R&D facility.""
+}",34481,666
+gpt-oss:120b,direct_context,gemma3:27b,40,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists many entities that are OEMs or unrelated to dual-platform supply, and includes incorrect or irrelevant rows, failing to match the KB.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many entities that are OEMs or unrelated to dual-platform supply, and includes incorrect or irrelevant rows, failing to match the KB.""
+}",34693,1087
+gpt-oss:120b,direct_context,gemma3:27b,41,lookup,False,ok,0,0,0,0,True,False,"The answer lists non‑chemical companies, omits actual chemical manufacturers, provides no location details, and includes firms not present in the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists non‑chemical companies, omits actual chemical manufacturers, provides no location details, and includes firms not present in the knowledge base.""
+}",34506,918
+gpt-oss:120b,direct_context,gemma3:27b,42,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists locations and companies that are not R&D facilities; only Gray (row 150) is an R&D site, so the response is unsupported and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists locations and companies that are not R&D facilities; only Gray (row 150) is an R&D site, so the response is unsupported and incorrect.""
+}",34492,574
+gpt-oss:120b,direct_context,mistral-small3.2:24b,1,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer omits many Tier 1/2 suppliers, includes a company not classified as Tier 1/2, and thus is inaccurate and incomplete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits many Tier 1/2 suppliers, includes a company not classified as Tier 1/2, and thus is inaccurate and incomplete.""
+}",34605,1352
+gpt-oss:120b,direct_context,mistral-small3.2:24b,2,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists incorrect companies, omits IMMI, mislabels row IDs and includes a non‑battery role company.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies, omits IMMI, mislabels row IDs and includes a non‑battery role company.""
+}",34506,814
+gpt-oss:120b,direct_context,mistral-small3.2:24b,3,list_multi_filter,False,ok,0,0,0,0,False,False,Answer lists incorrect companies and omits several thermal management suppliers present in the KB.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists incorrect companies and omits several thermal management suppliers present in the KB.""
+}",34453,664
+gpt-oss:120b,direct_context,mistral-small3.2:24b,4,list_or_lookup,False,ok,0,0,1,1,False,False,"Answer omits other Georgia firms (e.g., ZF Gainesville LLC) that have Power Electronics in their role, and incorrectly states there are only two such companies.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits other Georgia firms (e.g., ZF Gainesville LLC) that have Power Electronics in their role, and incorrectly states there are only two such companies.""
+}",34425,649
+gpt-oss:120b,direct_context,mistral-small3.2:24b,5,list_multi_filter,False,ok,1,2,1,4,False,False,The answer lists the correct Direct Manufacturer companies but incorrectly states there are 12 instead of the actual 10.,"{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists the correct Direct Manufacturer companies but incorrectly states there are 12 instead of the actual 10.""
+}",34549,682
+gpt-oss:120b,direct_context,mistral-small3.2:24b,6,list_or_lookup,False,ok,0,1,1,2,False,False,The answer incorrectly claims two distinct locations for Novelis Inc. when the KB only lists one unique location (Atlanta) duplicated across rows.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims two distinct locations for Novelis Inc. when the KB only lists one unique location (Atlanta) duplicated across rows.""
+}",34424,580
+gpt-oss:120b,direct_context,mistral-small3.2:24b,7,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Lehigh Technologies as the highest‑employment company in Gwinnett County, ignoring WIKA USA (250,000 employees) and other larger firms.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Lehigh Technologies as the highest‑employment company in Gwinnett County, ignoring WIKA USA (250,000 employees) and other larger firms.""
+}",34411,725
+gpt-oss:120b,direct_context,mistral-small3.2:24b,8,aggregation_ranking,False,ok,1,2,1,4,False,False,"County answer (Troup) is correct, but total employment figure and supporting evidence are inaccurate and incomplete.","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""County answer (Troup) is correct, but total employment figure and supporting evidence are inaccurate and incomplete.""
+}",34484,6900
+gpt-oss:120b,direct_context,mistral-small3.2:24b,9,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Troup County with a total of 4,950 employees, ignoring many large employers and counties (e.g., Gwinnett, Spalding) that have far higher combined employment.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Troup County with a total of 4,950 employees, ignoring many large employers and counties (e.g., Gwinnett, Spalding) that have far higher combined employment.""
+}",34599,1349
+gpt-oss:120b,direct_context,mistral-small3.2:24b,10,list_multi_filter,False,ok,1,0,1,2,False,False,The answer omits Superior Essex Inc. (row_id 171) and thus does not list all Vehicle Assembly facilities.,"{
+  ""faithfulness"": 1,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Superior Essex Inc. (row_id 171) and thus does not list all Vehicle Assembly facilities.""
+}",34573,1075
+gpt-oss:120b,direct_context,mistral-small3.2:24b,11,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer includes an incorrect site (Gray, Jones County) not in KB and omits the correct Sewon record for motor vehicle engines and parts.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer includes an incorrect site (Gray, Jones County) not in KB and omits the correct Sewon record for motor vehicle engines and parts.""
+}",34479,936
+gpt-oss:120b,direct_context,mistral-small3.2:24b,12,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 2/3 or lack primary EV/battery roles, omits relevant Tier 2/3 firms, and misrepresents their supply‑chain involvement.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 2/3 or lack primary EV/battery roles, omits relevant Tier 2/3 firms, and misrepresents their supply‑chain involvement.""
+}",34634,1401
+gpt-oss:120b,direct_context,mistral-small3.2:24b,13,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer only lists Rivian itself and omits all other Georgia suppliers linked to Rivian, providing an incomplete and inaccurate network.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer only lists Rivian itself and omits all other Georgia suppliers linked to Rivian, providing an incomplete and inaccurate network.""
+}",34398,511
+gpt-oss:120b,direct_context,mistral-small3.2:24b,14,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all Georgia companies with wiring harness EV roles and their OEMs.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies with wiring harness EV roles and their OEMs.""
+}",34433,591
+gpt-oss:120b,direct_context,mistral-small3.2:24b,15,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,The answer correctly states that no Tier 2/3 companies in the Electronic and Electrical Equipment industry group are present in the provided data.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly states that no Tier 2/3 companies in the Electronic and Electrical Equipment industry group are present in the provided data.""
+}",34342,618
+gpt-oss:120b,direct_context,mistral-small3.2:24b,16,list_multi_filter_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no matching companies, ignoring Duckyang which manufactures electrodeposited copper foil.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no matching companies, ignoring Duckyang which manufactures electrodeposited copper foil.""
+}",34336,341
+gpt-oss:120b,direct_context,mistral-small3.2:24b,17,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly claims no relevant companies exist, missing Tier 1/2 firms like Peerless‑Winsmith and PHA Body Systems that produce engineered plastics/composites.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims no relevant companies exist, missing Tier 1/2 firms like Peerless‑Winsmith and PHA Body Systems that produce engineered plastics/composites.""
+}",34341,655
+gpt-oss:120b,direct_context,mistral-small3.2:24b,18,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that do not produce the requested items and omits the correct capacitor producer (Hyundai MOBIS), thus it is unfaithful, incomplete, and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not produce the requested items and omits the correct capacitor producer (Hyundai MOBIS), thus it is unfaithful, incomplete, and incorrect.""
+}",34453,824
+gpt-oss:120b,direct_context,mistral-small3.2:24b,19,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that do not provide powder coating and omits the correct company (Archer Aviation Inc., Tier 2/3) from the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not provide powder coating and omits the correct company (Archer Aviation Inc., Tier 2/3) from the knowledge base.""
+}",34415,468
+gpt-oss:120b,direct_context,mistral-small3.2:24b,20,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists incorrect companies and omits several valid Tier 1/2 battery cell or pack firms, violating the KB.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect companies and omits several valid Tier 1/2 battery cell or pack firms, violating the KB.""
+}",34535,1615
+gpt-oss:120b,direct_context,mistral-small3.2:24b,21,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists Tier 1 companies and omits several qualifying Tier 2/3 suppliers, violating the specified criteria.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists Tier 1 companies and omits several qualifying Tier 2/3 suppliers, violating the specified criteria.""
+}",34780,1900
+gpt-oss:120b,direct_context,mistral-small3.2:24b,22,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer includes a company not in the Chemicals and Allied Products group and omits Archer Aviation, which is a Tier 2/3 company in that industry.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer includes a company not in the Chemicals and Allied Products group and omits Archer Aviation, which is a Tier 2/3 company in that industry.""
+}",34420,743
+gpt-oss:120b,direct_context,mistral-small3.2:24b,23,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists incorrect and incomplete roles, many of which are not singletons in the KB.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect and incomplete roles, many of which are not singletons in the KB.""
+}",34534,872
+gpt-oss:120b,direct_context,mistral-small3.2:24b,24,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,Answer correctly states no sole‑sourced battery cell or pack suppliers are present in the provided data.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly states no sole‑sourced battery cell or pack suppliers are present in the provided data.""
+}",34338,790
+gpt-oss:120b,direct_context,mistral-small3.2:24b,25,count_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no data, while relevant supplier entries exist.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no data, while relevant supplier entries exist.""
+}",34345,705
+gpt-oss:120b,direct_context,mistral-small3.2:24b,26,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that are not Tier 2/3 or not EV‑relevant, includes a Tier 1 entry, and omits correct Tier 2/3 EV‑relevant suppliers.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not Tier 2/3 or not EV‑relevant, includes a Tier 1 entry, and omits correct Tier 2/3 EV‑relevant suppliers.""
+}",35166,642
+gpt-oss:120b,direct_context,mistral-small3.2:24b,27,list_multi_filter,False,ok,0,0,0,0,False,False,"Answer lists only a subset, includes non‑Tier 1/2 firms and misstates the total count; many qualifying companies are omitted.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists only a subset, includes non‑Tier 1/2 firms and misstates the total count; many qualifying companies are omitted.""
+}",34654,2613
+gpt-oss:120b,direct_context,mistral-small3.2:24b,28,list_or_lookup,False,ok,0,0,0,0,False,False,The answer lists companies that do not meet the employment (<200) or role (Thermal Management/Power Electronics) criteria and omits several valid companies.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not meet the employment (<200) or role (Thermal Management/Power Electronics) criteria and omits several valid companies.""
+}",34435,858
+gpt-oss:120b,direct_context,mistral-small3.2:24b,29,list_or_lookup,False,ok,1,1,1,3,False,False,"Most listed companies exist, but row 180 is mis‑categorized and many OEM Footprint/Supply Chain firms are omitted.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Most listed companies exist, but row 180 is mis‑categorized and many OEM Footprint/Supply Chain firms are omitted.""
+}",34737,1588
+gpt-oss:120b,direct_context,mistral-small3.2:24b,30,aggregation_ranking_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly claims no data, while the knowledge base contains several large employers that supply general automotive parts and have EV-relevant components.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims no data, while the knowledge base contains several large employers that supply general automotive parts and have EV-relevant components.""
+}",34339,896
+gpt-oss:120b,direct_context,mistral-small3.2:24b,31,list_or_lookup,False,ok,0,0,0,0,True,False,"All listed companies are either not Tier 2/3, do not produce lightweight aluminum or composites, or are misidentified; the answer is unsupported by the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""All listed companies are either not Tier 2/3, do not produce lightweight aluminum or composites, or are misidentified; the answer is unsupported by the knowledge base.""
+}",34561,668
+gpt-oss:120b,direct_context,mistral-small3.2:24b,32,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly states no matches, missing at least GSC Steel Stamping LLC which mentions DC-to-DC in its product description.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no matches, missing at least GSC Steel Stamping LLC which mentions DC-to-DC in its product description.""
+}",34352,587
+gpt-oss:120b,direct_context,mistral-small3.2:24b,33,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no companies match, while the knowledge base contains several firms with >1,000 employees and EV/Battery Relevant marked as 'Indirect'.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no companies match, while the knowledge base contains several firms with >1,000 employees and EV/Battery Relevant marked as 'Indirect'.""
+}",34354,2817
+gpt-oss:120b,direct_context,mistral-small3.2:24b,34,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer lists companies that are not in the EV thermal management role and omits the actual top employers (e.g., ZF Gainesville LLC, Novelis Inc., Freudenberg‑NOK, Peerless‑Winsmith).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not in the EV thermal management role and omits the actual top employers (e.g., ZF Gainesville LLC, Novelis Inc., Freudenberg‑NOK, Peerless‑Winsmith).""
+}",34425,1132
+gpt-oss:120b,direct_context,mistral-small3.2:24b,35,list_multi_filter,False,ok,0,0,0,0,False,False,The answer lists companies not linked to thermal roles and omits several valid thermal‑related firms from the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies not linked to thermal roles and omits several valid thermal‑related firms from the knowledge base.""
+}",34486,625
+gpt-oss:120b,direct_context,mistral-small3.2:24b,36,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer lists only 10 companies, omits many Tier 1/2 firms with General Automotive role and incorrectly includes Kia Georgia Inc. (an OEM, not Tier 1/2), so it is neither faithful nor complete or correct.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists only 10 companies, omits many Tier 1/2 firms with General Automotive role and incorrectly includes Kia Georgia Inc. (an OEM, not Tier 1/2), so it is neither faithful nor complete or correct.""
+}",34652,2639
+gpt-oss:120b,direct_context,mistral-small3.2:24b,37,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer misidentifies thermal management suppliers, omits several relevant companies, and provides incorrect counts and employment totals.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer misidentifies thermal management suppliers, omits several relevant companies, and provides incorrect counts and employment totals.""
+}",34462,811
+gpt-oss:120b,direct_context,mistral-small3.2:24b,38,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no relevant companies exist, despite entries like F&P Georgia Manufacturing that recycle lithium‑ion batteries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no relevant companies exist, despite entries like F&P Georgia Manufacturing that recycle lithium‑ion batteries.""
+}",34337,442
+gpt-oss:120b,direct_context,mistral-small3.2:24b,39,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no supplier fits, ignoring Racemark International LLC which has an R&D facility.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no supplier fits, ignoring Racemark International LLC which has an R&D facility.""
+}",34336,319
+gpt-oss:120b,direct_context,mistral-small3.2:24b,40,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists OEMs and mischaracterizes them as dual‑platform suppliers; the claims are not supported by the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists OEMs and mischaracterizes them as dual‑platform suppliers; the claims are not supported by the knowledge base.""
+}",34608,832
+gpt-oss:120b,direct_context,mistral-small3.2:24b,41,lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that are not chemical manufacturers and provides no evidence of chemical manufacturing infrastructure, failing to address the question.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that are not chemical manufacturers and provides no evidence of chemical manufacturing infrastructure, failing to address the question.""
+}",34479,528
+gpt-oss:120b,direct_context,mistral-small3.2:24b,42,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no R&D facilities exist, ignoring row_id 150 (R&D in Gray, Jones County).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no R&D facilities exist, ignoring row_id 150 (R&D in Gray, Jones County).""
+}",34339,324
+gpt-oss:120b,direct_context,qwen3.6:35b-a3b,1,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all Tier 1/2 suppliers with accurate roles and products.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Tier 1/2 suppliers with accurate roles and products.""
+}",34822,2033
+gpt-oss:120b,direct_context,qwen3:30b,1,list_multi_filter,False,ok,1,1,1,3,False,False,"The answer lists some Tier 1/2 suppliers correctly but omits several (e.g., Inalfa Roof Systems, Jefferson Southern Corp., Hyundai Transys Seating Systems) and misstates the total count.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists some Tier 1/2 suppliers correctly but omits several (e.g., Inalfa Roof Systems, Jefferson Southern Corp., Hyundai Transys Seating Systems) and misstates the total count.""
+}",34720,1618
+gpt-oss:120b,direct_context,qwen3:30b,2,list_or_lookup,False,ok,0,1,1,2,True,False,"Answer omits two valid Battery Cell/Pack companies and misspells Hitashi Astemo, leading to inaccurate count and a hallucinated name.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits two valid Battery Cell/Pack companies and misspells Hitashi Astemo, leading to inaccurate count and a hallucinated name.""
+}",34439,1290
+gpt-oss:120b,direct_context,qwen3:30b,3,list_multi_filter,False,ok,0,1,1,2,False,False,"Answer omits Novelis Inc., a Thermal Management supplier, and incorrectly claims only three such suppliers exist.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Novelis Inc., a Thermal Management supplier, and incorrectly claims only three such suppliers exist.""
+}",34478,974
+gpt-oss:120b,direct_context,qwen3:30b,4,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer omits Morgan Corp., which has EV Supply Chain Role 'Charging Infrastructure', and incorrectly states only one matching company.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Morgan Corp., which has EV Supply Chain Role 'Charging Infrastructure', and incorrectly states only one matching company.""
+}",34427,1465
+gpt-oss:120b,direct_context,qwen3:30b,5,list_multi_filter,False,ok,1,1,1,3,False,False,"The answer omits Kia Georgia Inc., a Direct Manufacturer, and incorrectly claims no other such companies exist.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Kia Georgia Inc., a Direct Manufacturer, and incorrectly claims no other such companies exist.""
+}",34530,778
+gpt-oss:120b,direct_context,qwen3:30b,6,list_or_lookup,False,ok,2,2,2,6,False,False,"Answer correctly lists the only location (Atlanta, Fulton County) and its facility type (Manufacturing Plant) as per all matching records.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists the only location (Atlanta, Fulton County) and its facility type (Manufacturing Plant) as per all matching records.""
+}",34467,340
+gpt-oss:120b,direct_context,qwen3:30b,7,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Arising Industries Inc. as the highest‑employment company in Gwinnett County, ignoring higher‑employment firms such as WIKA USA (250,000 employees).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Arising Industries Inc. as the highest‑employment company in Gwinnett County, ignoring higher‑employment firms such as WIKA USA (250,000 employees).""
+}",34384,825
+gpt-oss:120b,direct_context,qwen3:30b,8,aggregation_ranking,False,ok,1,1,1,3,False,False,"County answer (Troup) is correct, but the reported total employment and evidence are incomplete and underestimate the true Tier 1 employment in that county.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""County answer (Troup) is correct, but the reported total employment and evidence are incomplete and underestimate the true Tier 1 employment in that county.""
+}",34551,8454
+gpt-oss:120b,direct_context,qwen3:30b,9,aggregation_ranking,False,ok,0,2,1,3,False,False,County is correct but the summed employment figure is inaccurate and includes unsupported employment values.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""County is correct but the summed employment figure is inaccurate and includes unsupported employment values.""
+}",34586,1517
+gpt-oss:120b,direct_context,qwen3:30b,10,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer misses several vehicle assembly facilities, misassigns row IDs, and provides incorrect counts.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer misses several vehicle assembly facilities, misassigns row IDs, and provides incorrect counts.""
+}",34521,787
+gpt-oss:120b,direct_context,qwen3:30b,11,list_or_lookup,False,ok,1,2,2,5,False,False,"Products/services match KB rows, but claim of three distinct sites is not explicitly supported.","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Products/services match KB rows, but claim of three distinct sites is not explicitly supported.""
+}",34456,613
+gpt-oss:120b,direct_context,qwen3:30b,12,list_multi_filter,False,ok,2,2,2,6,False,False,"The answer correctly lists all Tier 2/3 Georgia companies with EV/Battery relevance marked “Yes” and provides their roles, matching the knowledge base.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly lists all Tier 2/3 Georgia companies with EV/Battery relevance marked “Yes” and provides their roles, matching the knowledge base.""
+}",34531,1585
+gpt-oss:120b,direct_context,qwen3:30b,13,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer omits several Rivian-linked suppliers (e.g., Duckyang, GSC Steel Stamping LLC) and incorrectly states there are only three.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits several Rivian-linked suppliers (e.g., Duckyang, GSC Steel Stamping LLC) and incorrectly states there are only three.""
+}",34545,761
+gpt-oss:120b,direct_context,qwen3:30b,14,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer omits relevant companies (e.g., Solvay Specialty Polymers, Enchem America) and incorrectly states Primary OEMs are null when the KB lists 'Multiple OEMs'.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits relevant companies (e.g., Solvay Specialty Polymers, Enchem America) and incorrectly states Primary OEMs are null when the KB lists 'Multiple OEMs'.""
+}",34449,682
+gpt-oss:120b,direct_context,qwen3:30b,15,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly reports no Tier 2/3 companies in the Electronic and Other Electrical Equipment industry group, matching the knowledge base.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly reports no Tier 2/3 companies in the Electronic and Other Electrical Equipment industry group, matching the knowledge base.""
+}",34485,849
+gpt-oss:120b,direct_context,qwen3:30b,16,list_multi_filter_judge_recommended,True,ok,2,2,2,6,False,False,Answer correctly identifies Duckyang as the only GA company manufacturing electrodeposited copper foil for EVs.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies Duckyang as the only GA company manufacturing electrodeposited copper foil for EVs.""
+}",34470,486
+gpt-oss:120b,direct_context,qwen3:30b,17,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly states no Tier 1/2 Georgia companies match the engineered plastics/composites criteria.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly states no Tier 1/2 Georgia companies match the engineered plastics/composites criteria.""
+}",34496,1197
+gpt-oss:120b,direct_context,qwen3:30b,18,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer omits several GA companies that mention capacitors or power electronics (e.g., Hyundai Mobis Georgia, Yazaki North America) and incorrectly claims only two exist.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits several GA companies that mention capacitors or power electronics (e.g., Hyundai Mobis Georgia, Yazaki North America) and incorrectly claims only two exist.""
+}",34527,953
+gpt-oss:120b,direct_context,qwen3:30b,19,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists the only Georgia company with powder coating products (Archer Aviation Inc.) and its tier.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists the only Georgia company with powder coating products (Archer Aviation Inc.) and its tier.""
+}",34433,379
+gpt-oss:120b,direct_context,qwen3:30b,20,list_or_lookup,False,ok,1,1,1,3,False,False,"Answer omits Honda Development & Manufacturing (Battery Cell, Tier 1/2) and incorrectly states there are only five companies.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Honda Development & Manufacturing (Battery Cell, Tier 1/2) and incorrectly states there are only five companies.""
+}",34570,2071
+gpt-oss:120b,direct_context,qwen3:30b,21,list_multi_filter,False,ok,2,2,2,6,False,False,"Answer correctly lists all Tier 2/3 Georgia suppliers with >300 employees, General Automotive role, and EV-relevant (Indirect) components.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Tier 2/3 Georgia suppliers with >300 employees, General Automotive role, and EV-relevant (Indirect) components.""
+}",34516,1951
+gpt-oss:120b,direct_context,qwen3:30b,22,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Tier 2/3 Georgia companies in the Chemicals and Allied Products group with their products.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Tier 2/3 Georgia companies in the Chemicals and Allied Products group with their products.""
+}",34444,488
+gpt-oss:120b,direct_context,qwen3:30b,23,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists only a subset of unique EV supply chain roles and gives an incorrect total count.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists only a subset of unique EV supply chain roles and gives an incorrect total count.""
+}",34669,2199
+gpt-oss:120b,direct_context,qwen3:30b,24,list_or_lookup_judge_recommended,True,ok,2,1,1,4,False,False,"The answer correctly lists three sole‑sourced Battery Cell/Pack suppliers, but omits other qualifying companies such as F&P Georgia Manufacturing, Honda Development & Manufacturing, and Hyundai Motor Group.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly lists three sole‑sourced Battery Cell/Pack suppliers, but omits other qualifying companies such as F&P Georgia Manufacturing, Honda Development & Manufacturing, and Hyundai Motor Group.""
+}",34453,956
+gpt-oss:120b,direct_context,qwen3:30b,25,count_judge_recommended,True,ok,0,0,0,0,False,False,"The answer includes companies not linked to Hyundai (rows 194, 195) and omits valid Hyundai‑related suppliers while mischaracterizing the supplier set.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer includes companies not linked to Hyundai (rows 194, 195) and omits valid Hyundai‑related suppliers while mischaracterizing the supplier set.""
+}",34562,2636
+gpt-oss:120b,direct_context,qwen3:30b,26,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Tier 2/3 Georgia suppliers with EV relevance 'Yes' and General Automotive role.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Tier 2/3 Georgia suppliers with EV relevance 'Yes' and General Automotive role.""
+}",34377,1415
+gpt-oss:120b,direct_context,qwen3:30b,27,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer incorrectly limits to Tier 1/2 category only and omits many Tier 1 suppliers with Multiple OEMs, making the count and list inaccurate.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly limits to Tier 1/2 category only and omits many Tier 1 suppliers with Multiple OEMs, making the count and list inaccurate.""
+}",34553,1091
+gpt-oss:120b,direct_context,qwen3:30b,28,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Georgia companies with Thermal Management or Power Electronics roles having fewer than 200 employees and notes none for Power Electronics.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies with Thermal Management or Power Electronics roles having fewer than 200 employees and notes none for Power Electronics.""
+}",34491,673
+gpt-oss:120b,direct_context,qwen3:30b,29,list_or_lookup,False,ok,2,1,1,4,False,False,"The answer lists only a subset of the OEM Footprint and OEM Supply Chain companies (missing rows 181‑185) and counts duplicate ZF entries, making it incomplete and partially correct.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists only a subset of the OEM Footprint and OEM Supply Chain companies (missing rows 181‑185) and counts duplicate ZF entries, making it incomplete and partially correct.""
+}",34658,1078
+gpt-oss:120b,direct_context,qwen3:30b,30,aggregation_ranking_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly identifies the only three companies meeting both General Automotive role and EV-specific relevance, with accurate employment figures.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies the only three companies meeting both General Automotive role and EV-specific relevance, with accurate employment figures.""
+}",34544,1483
+gpt-oss:120b,direct_context,qwen3:30b,31,list_or_lookup,False,ok,2,2,2,6,False,False,The answer correctly lists all Tier 2/3 Georgia suppliers that produce lightweight aluminum or composite materials and are EV‑relevant (directly or indirectly) according to the knowledge base.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly lists all Tier 2/3 Georgia suppliers that produce lightweight aluminum or composite materials and are EV‑relevant (directly or indirectly) according to the knowledge base.""
+}",34544,1455
+gpt-oss:120b,direct_context,qwen3:30b,32,list_or_lookup,False,ok,2,2,2,6,False,False,The answer correctly lists the only Georgia company whose product description contains one of the target keywords (DC-to-DC).,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly lists the only Georgia company whose product description contains one of the target keywords (DC-to-DC).""
+}",34460,2385
+gpt-oss:120b,direct_context,qwen3:30b,33,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly lists all Georgia companies with >1,000 employees classified as Indirectly Relevant.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies with >1,000 employees classified as Indirectly Relevant.""
+}",34481,2692
+gpt-oss:120b,direct_context,qwen3:30b,34,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer provides incorrect employment numbers (e.g., ZF) and omits the correct top companies such as Peerless-Winsmith, making it unsupported by the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer provides incorrect employment numbers (e.g., ZF) and omits the correct top companies such as Peerless-Winsmith, making it unsupported by the knowledge base.""
+}",34566,961
+gpt-oss:120b,direct_context,qwen3:30b,35,list_multi_filter,False,ok,2,1,1,4,False,False,"Answer omits Novelis Inc., which also has a Thermal Management role.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Novelis Inc., which also has a Thermal Management role.""
+}",34519,1008
+gpt-oss:120b,direct_context,qwen3:30b,36,list_or_lookup,False,ok,0,1,1,2,False,False,"The answer lists only six Tier 1/2 companies and claims that is the total, but the knowledge base contains nine such companies with EV Supply Chain Role = General Automotive.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists only six Tier 1/2 companies and claims that is the total, but the knowledge base contains nine such companies with EV Supply Chain Role = General Automotive.""
+}",34417,1722
+gpt-oss:120b,direct_context,qwen3:30b,37,list_or_lookup,False,ok,0,1,1,2,False,False,"Answer omits row_id 129 (Novelis Inc.) which also has Thermal Management role, making count and employment totals incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits row_id 129 (Novelis Inc.) which also has Thermal Management role, making count and employment totals incorrect.""
+}",34432,739
+gpt-oss:120b,direct_context,qwen3:30b,38,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,"The answer correctly identifies F&P Georgia Manufacturing as the sole Georgia company explicitly involved in lithium‑ion battery recycling, matching the knowledge base.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly identifies F&P Georgia Manufacturing as the sole Georgia company explicitly involved in lithium‑ion battery recycling, matching the knowledge base.""
+}",34485,1874
+gpt-oss:120b,direct_context,qwen3:30b,39,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,Answer correctly identifies Racemark International LLC as the only Georgia supplier with an R&D facility type.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies Racemark International LLC as the only Georgia supplier with an R&D facility type.""
+}",34394,333
+gpt-oss:120b,direct_context,qwen3:30b,40,list_or_lookup_judge_recommended,True,ok,2,1,1,4,False,False,Answer lists three valid dual‑platform suppliers but omits other qualifying companies such as Duckyang and GSC Steel Stamping LLC.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists three valid dual‑platform suppliers but omits other qualifying companies such as Duckyang and GSC Steel Stamping LLC.""
+}",34504,672
+gpt-oss:120b,direct_context,qwen3:30b,41,lookup,False,ok,0,0,0,0,False,False,"The answer lists many counties with companies that are not chemical manufacturers, providing unsupported claims and missing true chemical manufacturing entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many counties with companies that are not chemical manufacturers, providing unsupported claims and missing true chemical manufacturing entries.""
+}",34711,1011
+gpt-oss:120b,direct_context,qwen3:30b,42,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly identifies the only Georgia location with an R&D automotive facility (Gray, Jones County) as per the knowledge base.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies the only Georgia location with an R&D automotive facility (Gray, Jones County) as per the knowledge base.""
+}",34437,487
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,1,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 1/2 in the KB and omits several actual Tier 1/2 suppliers, making it unfaithful, incomplete, and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 in the KB and omits several actual Tier 1/2 suppliers, making it unfaithful, incomplete, and incorrect.""
+}",35487,1320
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,2,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Georgia companies with Battery Cell or Pack roles and their tiers.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies with Battery Cell or Pack roles and their tiers.""
+}",34573,1270
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,3,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all four Thermal Management suppliers and their Primary OEMs as per the knowledge base.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all four Thermal Management suppliers and their Primary OEMs as per the knowledge base.""
+}",34511,807
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,4,list_or_lookup,False,ok,2,2,2,6,False,False,The answer correctly lists all Georgia companies with EV Supply Chain Role of Power Electronics or Charging Infrastructure and provides accurate employment numbers.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly lists all Georgia companies with EV Supply Chain Role of Power Electronics or Charging Infrastructure and provides accurate employment numbers.""
+}",34418,1756
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,5,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies not classified as Direct Manufacturer in the KB and misstates their EV roles, providing unsupported and incorrect information.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies not classified as Direct Manufacturer in the KB and misstates their EV roles, providing unsupported and incorrect information.""
+}",35076,821
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,6,list_or_lookup,False,ok,1,2,1,4,False,False,"Incorrectly lists 'Thermal Management' as a primary facility type, which is not present in the KB.","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Incorrectly lists 'Thermal Management' as a primary facility type, which is not present in the KB.""
+}",34436,554
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,7,aggregation_ranking,False,ok,2,2,2,6,False,False,Answer correctly identifies WIKA USA as the highest‑employment company in Gwinnett County and provides its exact EV Supply Chain Role from the KB.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies WIKA USA as the highest‑employment company in Gwinnett County and provides its exact EV Supply Chain Role from the KB.""
+}",34439,613
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,8,aggregation_ranking,False,ok,0,0,0,0,False,False,The answer incorrectly identifies Hall County as highest with only JTEKT's employment and ignores many other Tier 1 entries; Fulton County actually has the highest total employment.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Hall County as highest with only JTEKT's employment and ignores many other Tier 1 entries; Fulton County actually has the highest total employment.""
+}",34401,7233
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,9,aggregation_ranking,False,ok,0,2,0,2,False,False,"The answer provides unsupported and incorrect employment totals, includes companies not in Hall County, and miscalculates the combined employment.","{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer provides unsupported and incorrect employment totals, includes companies not in Hall County, and miscalculates the combined employment.""
+}",34519,1037
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,10,list_multi_filter,False,ok,2,1,1,4,False,False,"All listed facilities are correct, but two Vehicle Assembly facilities (TDK Components USA Inc. and Textron Specialized Vehicles) were omitted.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""All listed facilities are correct, but two Vehicle Assembly facilities (TDK Components USA Inc. and Textron Specialized Vehicles) were omitted.""
+}",34603,920
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,11,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Sewon America Inc. product/services from the KB.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Sewon America Inc. product/services from the KB.""
+}",34442,512
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,12,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many Tier 2/3 companies that are not directly involved in EV/battery supply chain and omits the few correct ones, with numerous unsupported or incorrect role claims.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many Tier 2/3 companies that are not directly involved in EV/battery supply chain and omits the few correct ones, with numerous unsupported or incorrect role claims.""
+}",35376,1706
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,13,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Georgia companies linked to Rivian with appropriate tiers and roles.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies linked to Rivian with appropriate tiers and roles.""
+}",34521,918
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,14,list_multi_filter,False,ok,0,0,0,0,False,False,The answer omits WIKA USA (which mentions wiring harnesses) and incorrectly includes companies whose EV roles do not mention wiring harnesses.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits WIKA USA (which mentions wiring harnesses) and incorrectly includes companies whose EV roles do not mention wiring harnesses.""
+}",34485,650
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,15,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly lists GSC Steel Stamping LLC as belonging to the Electronic and Electrical Equipment industry group, which it does not.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly lists GSC Steel Stamping LLC as belonging to the Electronic and Electrical Equipment industry group, which it does not.""
+}",34461,682
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,16,list_multi_filter_judge_recommended,True,ok,0,2,0,2,False,False,Answer includes unsupported companies and misrepresents their products; only Duckyang is relevant.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer includes unsupported companies and misrepresents their products; only Duckyang is relevant.""
+}",34537,963
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,17,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists companies that do not produce engineered plastics, polymers, or composites and mischaracterizes their products; the KB contains no Tier 1/2 firms matching the query.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies that do not produce engineered plastics, polymers, or composites and mischaracterizes their products; the KB contains no Tier 1/2 firms matching the query.""
+}",34634,1200
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,18,list_or_lookup,False,ok,0,1,1,2,False,True,Includes an unsupported claim about Jefferson Southern Corp and omits other relevant companies like Hyundai Transys Georgia Seating Systems.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""Includes an unsupported claim about Jefferson Southern Corp and omits other relevant companies like Hyundai Transys Georgia Seating Systems.""
+}",34499,1299
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,19,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies unrelated to powder coating and provides incorrect product/service details; only Archer Aviation actually offers powder coatings, so the response is unfaithful, incomplete, and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies unrelated to powder coating and provides incorrect product/service details; only Archer Aviation actually offers powder coatings, so the response is unfaithful, incomplete, and incorrect.""
+}",34919,615
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,20,list_or_lookup,False,ok,0,2,1,3,False,False,"Company list is correct, but primary OEMs are inaccurately stated (Rivian and Mercedes-Benz not linked to those companies).","{
+  ""faithfulness"": 0,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Company list is correct, but primary OEMs are inaccurately stated (Rivian and Mercedes-Benz not linked to those companies).""
+}",34618,2161
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,21,list_multi_filter,False,ok,2,1,1,4,False,False,The answer lists three valid companies but omits other Tier 2/3 suppliers meeting the criteria.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists three valid companies but omits other Tier 2/3 suppliers meeting the criteria.""
+}",34478,1217
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,22,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists all Tier 2/3 Georgia companies in the Chemicals and Allied Products group with their products.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Tier 2/3 Georgia companies in the Chemicals and Allied Products group with their products.""
+}",34445,1716
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,23,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly states no data, while the KB contains roles (e.g., Power Electronics, Charging Infrastructure) served by only one company.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly states no data, while the KB contains roles (e.g., Power Electronics, Charging Infrastructure) served by only one company.""
+}",34356,544
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,24,list_or_lookup_judge_recommended,True,ok,2,1,1,4,False,False,"Answer lists correct sole‑sourced Battery Cell/Pack suppliers but omits Hyundai Motor Group, which also meets the criteria.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists correct sole‑sourced Battery Cell/Pack suppliers but omits Hyundai Motor Group, which also meets the criteria.""
+}",34526,846
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,25,count_judge_recommended,True,ok,0,0,0,0,False,True,The answer lists companies not linked to Hyundai Metaplant in the KB and provides unsupported counts.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""The answer lists companies not linked to Hyundai Metaplant in the KB and provides unsupported counts.""
+}",34859,480
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,26,list_or_lookup,False,ok,0,0,0,0,False,True,"The answer lists many companies that do not meet all criteria (wrong tier, role, or EV relevance) and omits correct ones.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""The answer lists many companies that do not meet all criteria (wrong tier, role, or EV relevance) and omits correct ones.""
+}",34850,1305
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,27,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists many companies that are Tier 2/3, omits numerous Tier 1 and Tier 1/2 suppliers, and includes inaccurate category claims.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are Tier 2/3, omits numerous Tier 1 and Tier 1/2 suppliers, and includes inaccurate category claims.""
+}",34925,1896
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,28,list_or_lookup,False,ok,2,2,2,6,False,False,"Answer correctly lists all Georgia companies with Thermal Management or Power Electronics role and employment under 200, supported by the KB.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies with Thermal Management or Power Electronics role and employment under 200, supported by the KB.""
+}",34471,969
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,29,list_or_lookup,False,ok,0,0,0,0,False,True,"The answer lists many companies that are not classified as 'OEM Footprint' or 'OEM Supply Chain' in the knowledge base and omits several correct entries, resulting in multiple factual errors.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": true,
+  ""notes"": ""The answer lists many companies that are not classified as 'OEM Footprint' or 'OEM Supply Chain' in the knowledge base and omits several correct entries, resulting in multiple factual errors.""
+}",35018,1130
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,30,aggregation_ranking_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly claims no companies meet the criteria, despite several entries (e.g., Duckyang, Racemark International) that supply general automotive parts and have EV-relevant components.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims no companies meet the criteria, despite several entries (e.g., Duckyang, Racemark International) that supply general automotive parts and have EV-relevant components.""
+}",34373,723
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,31,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies that do not produce lightweight aluminum or composite materials and/or are not EV relevant, while omitting several correct Tier 2/3 suppliers such as Down 2 Earth Trailers, Erdrich USA Inc., Bridgestone Bandag, etc.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that do not produce lightweight aluminum or composite materials and/or are not EV relevant, while omitting several correct Tier 2/3 suppliers such as Down 2 Earth Trailers, Erdrich USA Inc., Bridgestone Bandag, etc.""
+}",34852,2100
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,32,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies whose product descriptions do not contain the required terms and omits most relevant matches, making it unfaithful, incomplete, and incorrect.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies whose product descriptions do not contain the required terms and omits most relevant matches, making it unfaithful, incomplete, and incorrect.""
+}",34954,876
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,33,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists companies with <1000 employees and wrong EV relevance, missing the actual >1000 employee firms that are marked 'Indirect' in the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists companies with <1000 employees and wrong EV relevance, missing the actual >1000 employee firms that are marked 'Indirect' in the knowledge base.""
+}",34556,1982
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,34,aggregation_ranking,False,ok,2,0,0,2,False,False,"All listed companies and employment numbers are in the KB, but the answer omits ZF Gainesville LLC (the largest employer) and includes a lower‑employment firm, so it does not correctly identify the four Georgia firms with the highest employment in EV thermal management.","{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""All listed companies and employment numbers are in the KB, but the answer omits ZF Gainesville LLC (the largest employer) and includes a lower‑employment firm, so it does not correctly identify the four Georgia firms with the highest employment in EV thermal management.""
+}",34496,1732
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,35,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all thermal‑related companies with matching roles and facility types from the knowledge base.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all thermal‑related companies with matching roles and facility types from the knowledge base.""
+}",34550,2036
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,36,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer lists many companies that are not Tier 1/2 or not in the General Automotive role, omits correct Tier 1/2 General Automotive firms (e.g., Inalfa Roof Systems, Jefferson Southern Corp), and includes incorrect entries; thus it is neither faithful, complete, nor correct.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many companies that are not Tier 1/2 or not in the General Automotive role, omits correct Tier 1/2 General Automotive firms (e.g., Inalfa Roof Systems, Jefferson Southern Corp), and includes incorrect entries; thus it is neither faithful, complete, nor correct.""
+}",34715,1843
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,37,list_or_lookup,False,ok,1,2,1,4,False,False,"Correctly identified the four thermal‑management suppliers, but miscalculated their total employment (should be 650, not 540).","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Correctly identified the four thermal‑management suppliers, but miscalculated their total employment (should be 650, not 540).""
+}",34509,579
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,38,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,Answer lists many companies unrelated to battery recycling/second‑life processing and omits the actual recyclers in the KB.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists many companies unrelated to battery recycling/second‑life processing and omits the actual recyclers in the KB.""
+}",35179,1009
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,39,list_or_lookup_judge_recommended,True,ok,0,1,1,2,False,False,Only Racemark International LLC is clearly an R&D supplier; ZF and YKK are not indicated as innovation-stage in the KB.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Only Racemark International LLC is clearly an R&D supplier; ZF and YKK are not indicated as innovation-stage in the KB.""
+}",34605,660
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,40,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists many suppliers that are not shown in the KB to serve both traditional and EV-native OEMs, omits correct dual‑platform suppliers like Duckyang, and includes several incorrect entries.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists many suppliers that are not shown in the KB to serve both traditional and EV-native OEMs, omits correct dual‑platform suppliers like Duckyang, and includes several incorrect entries.""
+}",34668,1114
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,41,lookup,False,ok,0,0,0,0,True,True,"Answer lists many locations and companies not supported as chemical manufacturers, includes unsupported Monroe location and mismatched company name.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": true,
+  ""notes"": ""Answer lists many locations and companies not supported as chemical manufacturers, includes unsupported Monroe location and mismatched company name.""
+}",34859,674
+gpt-oss:120b,batchwise_map_reduce,gemma3:12b,42,list_or_lookup_judge_recommended,True,ok,0,1,0,1,False,False,Only Gray (row_id 150) has an R&D facility; other listed areas are not R&D according to the KB.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Only Gray (row_id 150) has an R&D facility; other listed areas are not R&D according to the KB.""
+}",34498,565
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,1,list_multi_filter,False,ok,2,0,0,2,False,False,"All listed entries are accurate, but many Tier 1/2 suppliers from the KB were omitted.","{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""All listed entries are accurate, but many Tier 1/2 suppliers from the KB were omitted.""
+}",34612,1061
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,2,list_or_lookup,False,ok,2,0,1,3,False,False,"Answer lists only four of the seven Georgia companies with Battery Cell or Pack roles, omitting Duckyang, Hollingsworth & Vose Co., and IMMI.","{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists only four of the seven Georgia companies with Battery Cell or Pack roles, omitting Duckyang, Hollingsworth & Vose Co., and IMMI.""
+}",34525,1299
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,3,list_multi_filter,False,ok,0,1,1,2,False,False,"Answer omits Peerless-Winsmith, a Thermal Management supplier, and incorrectly states there are only three such suppliers.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Peerless-Winsmith, a Thermal Management supplier, and incorrectly states there are only three such suppliers.""
+}",34440,931
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,4,list_or_lookup,False,ok,0,0,0,0,False,False,"Answer omits Morgan Corp. (Charging Infrastructure) and any other relevant entries, making it incomplete and inaccurate.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Morgan Corp. (Charging Infrastructure) and any other relevant entries, making it incomplete and inaccurate.""
+}",34397,1004
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,5,list_multi_filter,False,ok,2,1,1,4,False,False,Answer lists some but not all Direct Manufacturer companies and their EV roles; listed entries are accurate.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists some but not all Direct Manufacturer companies and their EV roles; listed entries are accurate.""
+}",34612,677
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,6,list_or_lookup,False,ok,1,2,1,4,False,False,"Correct location and facility type identified, but incorrectly claims three distinct primary facility types instead of one.","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Correct location and facility type identified, but incorrectly claims three distinct primary facility types instead of one.""
+}",34456,480
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,7,aggregation_ranking,False,ok,2,2,2,6,False,False,"Answer correctly identifies WIKA USA as the highest‑employment company in Gwinnett County and provides its EV supply chain role, all supported by the KB.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies WIKA USA as the highest‑employment company in Gwinnett County and provides its EV supply chain role, all supported by the KB.""
+}",34430,664
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,8,aggregation_ranking,False,ok,0,0,0,0,False,False,"Answer incorrectly identifies Forsyth County as highest and only sums one Tier 1 supplier, ignoring many others; Troup County actually has the highest total employment among Tier 1 suppliers.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer incorrectly identifies Forsyth County as highest and only sums one Tier 1 supplier, ignoring many others; Troup County actually has the highest total employment among Tier 1 suppliers.""
+}",34390,7672
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,9,aggregation_ranking,False,ok,0,0,0,0,False,False,"The answer incorrectly identifies Cobb County as highest and omits larger employment in Bartow County (e.g., TI Fluid Systems footprint with 19,600 employees), making the claim unsupported and wrong.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly identifies Cobb County as highest and omits larger employment in Bartow County (e.g., TI Fluid Systems footprint with 19,600 employees), making the claim unsupported and wrong.""
+}",34412,2870
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,10,list_multi_filter,False,ok,0,0,1,1,False,False,The answer incorrectly claims only three vehicle assembly facilities and omits many others present in the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims only three vehicle assembly facilities and omits many others present in the knowledge base.""
+}",34509,756
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,11,list_or_lookup,False,ok,2,1,1,4,False,False,"Answer lists two correct products for Sewon America Inc. but omits the third listed product (fire truck bodies), so incomplete and partially correct.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists two correct products for Sewon America Inc. but omits the third listed product (fire truck bodies), so incomplete and partially correct.""
+}",34417,469
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,12,list_multi_filter,False,ok,0,0,0,0,False,False,"The answer lists incorrect and irrelevant Tier 2/3 companies while omitting several relevant ones, failing to faithfully or completely answer the query.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists incorrect and irrelevant Tier 2/3 companies while omitting several relevant ones, failing to faithfully or completely answer the query.""
+}",34572,3005
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,13,list_or_lookup,False,ok,0,1,1,2,False,False,"Answer omits Rivian-linked supplier Racemark International (and possibly others) while claiming to list the full network, making its completeness and factual claims inaccurate.","{
+  ""faithfulness"": 0,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Rivian-linked supplier Racemark International (and possibly others) while claiming to list the full network, making its completeness and factual claims inaccurate.""
+}",34535,1077
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,14,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all Georgia companies whose EV Supply Chain Role mentions wiring harnesses and notes that Primary OEMs are not provided.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all Georgia companies whose EV Supply Chain Role mentions wiring harnesses and notes that Primary OEMs are not provided.""
+}",34489,561
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,15,list_or_lookup_judge_recommended,True,ok,2,2,2,6,False,False,Answer correctly states no Tier 2/3 companies in the Electronic and Electrical Equipment group are present in the data.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly states no Tier 2/3 companies in the Electronic and Electrical Equipment group are present in the data.""
+}",34423,1209
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,16,list_multi_filter_judge_recommended,True,ok,2,2,2,6,False,False,"Answer correctly identifies Duckyang as the only GA company manufacturing electrodeposited copper foil, fully supported by the KB.","{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly identifies Duckyang as the only GA company manufacturing electrodeposited copper foil, fully supported by the KB.""
+}",34412,414
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,17,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly claims no Tier 1/2 Georgia companies produce engineered plastics or composites, despite multiple entries (e.g., Lyle Industries, Magna International, MollerTech, PHA Body Systems) that do.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims no Tier 1/2 Georgia companies produce engineered plastics or composites, despite multiple entries (e.g., Lyle Industries, Magna International, MollerTech, PHA Body Systems) that do.""
+}",34441,2351
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,18,list_or_lookup,False,ok,2,0,1,3,False,False,"The answer correctly cites GSC Steel Stamping LLC but omits other GA firms that make DC‑to‑DC converters, capacitors, or power electronics (e.g., Hyundai MOBIS, Hyundai Transys Georgia Seating Systems).","{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly cites GSC Steel Stamping LLC but omits other GA firms that make DC‑to‑DC converters, capacitors, or power electronics (e.g., Hyundai MOBIS, Hyundai Transys Georgia Seating Systems).""
+}",34397,713
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,19,list_or_lookup,False,ok,2,2,2,6,False,False,Answer correctly lists the only Georgia company with powder coating products (Archer Aviation Inc.) and its Tier classification.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists the only Georgia company with powder coating products (Archer Aviation Inc.) and its Tier classification.""
+}",34393,537
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,20,list_or_lookup,False,ok,2,1,1,4,False,False,"Answer omits Honda Development & Manufacturing, a Tier 1/2 battery‑cell company linked to Hyundai Kia.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits Honda Development & Manufacturing, a Tier 1/2 battery‑cell company linked to Hyundai Kia.""
+}",34585,2138
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,21,list_multi_filter,False,ok,1,0,1,2,False,False,"Answer lists only Dongwon Autopart Technology, omitting several other Tier 2/3 suppliers >300 employees with General Automotive role; also makes unsupported claim about Grudem.","{
+  ""faithfulness"": 1,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists only Dongwon Autopart Technology, omitting several other Tier 2/3 suppliers >300 employees with General Automotive role; also makes unsupported claim about Grudem.""
+}",34441,1956
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,22,list_or_lookup,False,ok,2,1,1,4,False,False,"Answer correctly cites Arising Industries but omits Archer Aviation, another Tier 2/3 company in Chemicals and Allied Products.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly cites Arising Industries but omits Archer Aviation, another Tier 2/3 company in Chemicals and Allied Products.""
+}",34422,586
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,23,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly claims Thermal Management is served by only Novelis Inc., but other companies also have that role, and it omits other single-company roles like Power Electronics and Charging Infrastructure.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims Thermal Management is served by only Novelis Inc., but other companies also have that role, and it omits other single-company roles like Power Electronics and Charging Infrastructure.""
+}",34444,638
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,24,list_or_lookup_judge_recommended,True,ok,0,0,1,1,False,False,Answer omits several sole‑sourced battery cell/pack suppliers and incorrectly implies only the two listed exist.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer omits several sole‑sourced battery cell/pack suppliers and incorrectly implies only the two listed exist.""
+}",34426,1157
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,25,count_judge_recommended,True,ok,0,0,0,0,False,False,The answer lists suppliers not linked to Hyundai Metaplant and omits the correct Hyundai‑related Georgia suppliers with <200 employees.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists suppliers not linked to Hyundai Metaplant and omits the correct Hyundai‑related Georgia suppliers with <200 employees.""
+}",34427,1021
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,26,list_or_lookup,False,ok,2,1,1,4,False,False,Answer correctly cites Enchem America Inc. but omits other Tier 2/3 EV‑relevant General Automotive supplier (Duckyang).,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly cites Enchem America Inc. but omits other Tier 2/3 EV‑relevant General Automotive supplier (Duckyang).""
+}",34404,638
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,27,list_multi_filter,False,ok,0,0,0,0,False,False,The answer omits many Tier 1 and Tier 2 suppliers with 'Multiple OEMs' and incorrectly claims only five exist.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits many Tier 1 and Tier 2 suppliers with 'Multiple OEMs' and incorrectly claims only five exist.""
+}",34535,1121
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,28,list_or_lookup,False,ok,1,1,1,3,False,False,"Answer lists two valid thermal‑management firms but omits Peerless‑Winsmith, which also meets the <200 employee criterion.","{
+  ""faithfulness"": 1,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists two valid thermal‑management firms but omits Peerless‑Winsmith, which also meets the <200 employee criterion.""
+}",34440,887
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,29,list_or_lookup,False,ok,2,1,2,5,False,False,"All listed companies match the KB, but many other EV-relevant OEM Footprint/Supply Chain firms are omitted.","{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""All listed companies match the KB, but many other EV-relevant OEM Footprint/Supply Chain firms are omitted.""
+}",34588,938
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,30,aggregation_ranking_judge_recommended,True,ok,0,0,0,0,False,False,"The answer incorrectly claims Yamaha meets the dual-role criteria and provides only one company instead of the top ten, failing to reflect the knowledge base.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly claims Yamaha meets the dual-role criteria and provides only one company instead of the top ten, failing to reflect the knowledge base.""
+}",34491,474
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,31,list_or_lookup,False,ok,2,1,1,4,False,False,Answer lists two valid Tier 2/3 suppliers but omits other qualifying companies such as Dinex Emissions Inc. and Ecoplastic America Corporation.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists two valid Tier 2/3 suppliers but omits other qualifying companies such as Dinex Emissions Inc. and Ecoplastic America Corporation.""
+}",34453,950
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,32,list_or_lookup,False,ok,2,1,2,5,False,False,The answer correctly cites GSC Steel Stamping LLC for DC-to-DC but omits other matching companies such as Woory Industrial Co. with high‑voltage.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly cites GSC Steel Stamping LLC for DC-to-DC but omits other matching companies such as Woory Industrial Co. with high‑voltage.""
+}",34419,2864
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,33,list_or_lookup_judge_recommended,True,ok,2,1,1,4,False,False,The answer correctly identifies Textron Specialized Vehicles but omits other qualifying companies (TCI Powder Coatings and Teklas USA).,"{
+  ""faithfulness"": 2,
+  ""completeness"": 1,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer correctly identifies Textron Specialized Vehicles but omits other qualifying companies (TCI Powder Coatings and Teklas USA).""
+}",34413,2487
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,34,aggregation_ranking,False,ok,0,0,0,0,False,False,The answer omits three valid thermal‑management companies and their employment figures that are present in the knowledge base.,"{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits three valid thermal‑management companies and their employment figures that are present in the knowledge base.""
+}",34414,661
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,35,list_multi_filter,False,ok,2,2,2,6,False,False,Answer correctly lists all companies with EV Supply Chain Role 'Thermal Management' and their categories and facility types.,"{
+  ""faithfulness"": 2,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer correctly lists all companies with EV Supply Chain Role 'Thermal Management' and their categories and facility types.""
+}",34596,910
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,36,list_or_lookup,False,ok,2,0,1,3,False,False,"Answer lists only Tier 1/2 firms but omits several such companies (e.g., Hwashin) and ignores many Tier 1 firms that also meet the criteria.","{
+  ""faithfulness"": 2,
+  ""completeness"": 0,
+  ""correctness"": 1,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Answer lists only Tier 1/2 firms but omits several such companies (e.g., Hwashin) and ignores many Tier 1 firms that also meet the criteria.""
+}",34707,4106
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,37,list_or_lookup,False,ok,0,0,0,0,False,False,"The answer omits Novelis Inc., a Thermal Management supplier, resulting in incorrect count (3 vs. 4) and employment total (450 vs. 650).","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer omits Novelis Inc., a Thermal Management supplier, resulting in incorrect count (3 vs. 4) and employment total (450 vs. 650).""
+}",34457,781
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,38,list_or_lookup_judge_recommended,True,ok,1,2,2,5,False,False,"Correctly identifies F&P Georgia Manufacturing as a battery recycler, but the claim about second‑life processing is not explicitly supported.","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 2,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""Correctly identifies F&P Georgia Manufacturing as a battery recycler, but the claim about second‑life processing is not explicitly supported.""
+}",34392,775
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,39,list_or_lookup_judge_recommended,True,ok,0,0,0,0,True,False,"The answer cites a non‑existent company (Remarc International LLC) and fails to identify the actual R&D supplier, Racemark International LLC.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer cites a non‑existent company (Remarc International LLC) and fails to identify the actual R&D supplier, Racemark International LLC.""
+}",34392,452
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,40,list_or_lookup_judge_recommended,True,ok,0,0,0,0,False,False,"The answer lists suppliers that only serve EV-native OEMs and provides no evidence of serving traditional OEMs, thus unsupported and incomplete.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer lists suppliers that only serve EV-native OEMs and provides no evidence of serving traditional OEMs, thus unsupported and incomplete.""
+}",34457,465
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,41,lookup,False,ok,0,0,0,0,False,False,"The answer incorrectly cites a non‑chemical company (row 30) and omits the actual chemical manufacturer (Archer Aviation, row 39), failing to support its claim.","{
+  ""faithfulness"": 0,
+  ""completeness"": 0,
+  ""correctness"": 0,
+  ""hallucinated_company"": false,
+  ""needs_human_review"": false,
+  ""notes"": ""The answer incorrectly cites a non‑chemical company (row 30) and omits the actual chemical manufacturer (Archer Aviation, row 39), failing to support its claim.""
+}",34407,739
+gpt-oss:120b,batchwise_map_reduce,qwen2.5:14b,42,list_or_lookup_judge_recommended,True,ok,1,2,1,4,True,False,"Correctly identifies Gray, Jones County as the only R&D automotive site but misnames the company (Remarc vs Racemark).","{
+  ""faithfulness"": 1,
+  ""completeness"": 2,
+  ""correctness"": 1,
+  ""hallucinated_company"": true,
+  ""needs_human_review"": false,
+  ""notes"": ""Correctly identifies Gray, Jones County as the only R&D automotive site but misnames the company (Remarc vs Racemark).""
+}",34395,620
