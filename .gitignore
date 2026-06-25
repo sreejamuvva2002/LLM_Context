@@ -1,0 +1,20 @@
+# Python/runtime artifacts
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Local environments and local tool state
+.venv/
+.venv_*/
+.deepeval/
+.env
+.env.*
+
+# Local archive of removed/unused files
+unused_files/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+*~
+

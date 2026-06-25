@@ -1,0 +1,1830 @@
+arm,model_name,question_number,claimed_company,cited_row_id,kb_company_at_row_id,status,match_type
+direct_context,deepseek-r1:32b,1,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,deepseek-r1:32b,2,Duckyang,35,Duckyang,match,exact
+direct_context,deepseek-r1:32b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,deepseek-r1:32b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,deepseek-r1:32b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,deepseek-r1:32b,3,Lear Corporation,60,Freudenberg-NOK,mismatch,
+direct_context,deepseek-r1:32b,3,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,deepseek-r1:32b,3,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,3,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,deepseek-r1:32b,5,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,deepseek-r1:32b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,deepseek-r1:32b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,deepseek-r1:32b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,deepseek-r1:32b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,deepseek-r1:32b,5,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,deepseek-r1:32b,5,Teklas USA,176,Teklas USA,match,exact
+direct_context,deepseek-r1:32b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,deepseek-r1:32b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,deepseek-r1:32b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,deepseek-r1:32b,6,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,deepseek-r1:32b,6,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,deepseek-r1:32b,7,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,8,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,deepseek-r1:32b,9,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,deepseek-r1:32b,9,Grudem,3,Grudem,match,exact
+direct_context,deepseek-r1:32b,9,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,9,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,10,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,deepseek-r1:32b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,deepseek-r1:32b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,deepseek-r1:32b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,deepseek-r1:32b,11,Sewon America Inc,160,Denkai America,mismatch,
+direct_context,deepseek-r1:32b,12,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,12,EVCO Plastics,6,Dinex Emissions Inc.,mismatch,
+direct_context,deepseek-r1:32b,12,Aspen Aerogels,7,ACM Georgia LLC,mismatch,
+direct_context,deepseek-r1:32b,12,Bonald,9,FOX Factory,mismatch,
+direct_context,deepseek-r1:32b,12,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,deepseek-r1:32b,12,Aurubis,13,Aurubis,match,exact
+direct_context,deepseek-r1:32b,12,AVS,16,AVS,match,exact
+direct_context,deepseek-r1:32b,12,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+direct_context,deepseek-r1:32b,12,Dongwon Autopart Technology Georgia LLC,21,Down 2 Earth Trailers,mismatch,
+direct_context,deepseek-r1:32b,12,GEDIA Georgia LLC,24,Lund International Inc.,mismatch,
+direct_context,deepseek-r1:32b,12,Constellium Automotive USA,26,Constellium Automotive USA,match,exact
+direct_context,deepseek-r1:32b,12,BOSAL Industries Inc,29,Big Tex Trailer Manufacturing Inc.,mismatch,
+direct_context,deepseek-r1:32b,12,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+direct_context,deepseek-r1:32b,12,Duckyang,34,DAS Corp.,mismatch,
+direct_context,deepseek-r1:32b,12,Enchem America Inc,35,Duckyang,mismatch,
+direct_context,deepseek-r1:32b,12,Eaton Corp,36,Eaton Corp.,match,exact
+direct_context,deepseek-r1:32b,12,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,deepseek-r1:32b,12,F&P Georgia Manufacturing,41,Ecoplastic America Corporation,mismatch,
+direct_context,deepseek-r1:32b,12,Continental Automotive,49,Continental Automotive,match,exact
+direct_context,deepseek-r1:32b,12,Enchem America Inc,53,F&P Georgia Manufacturing,mismatch,
+direct_context,deepseek-r1:32b,12,GSC Steel Stamping LLC,56,ADVICS Manufacturing Georgia LLC,mismatch,
+direct_context,deepseek-r1:32b,12,DaeChang Seat Company,59,Continental Tire the Americas LLC,mismatch,
+direct_context,deepseek-r1:32b,12,Decostar Industries,65,DaeChang Seat Company,mismatch,
+direct_context,deepseek-r1:32b,12,FREYR Battery,69,GSC Steel Stamping LLC,mismatch,
+direct_context,deepseek-r1:32b,12,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,deepseek-r1:32b,12,Global Powertrain Systems LLC,73,GEDIA Georgia LLC,mismatch,
+direct_context,deepseek-r1:32b,12,Thermal Management,74,Global Powertrain Systems LLC,mismatch,
+direct_context,deepseek-r1:32b,12,"Daesol Material Georgia, LLC",81,"Daesol Material Georgia, LLC",match,exact
+direct_context,deepseek-r1:32b,12,GLOVIS Georgia LLC,82,GLOVIS Georgia LLC,match,exact
+direct_context,deepseek-r1:32b,12,Solvay Specialty Polymers USA LLC,100,Lear Corporation,mismatch,
+direct_context,deepseek-r1:32b,13,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,deepseek-r1:32b,13,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,deepseek-r1:32b,14,WIKA USA,196,WIKA USA,match,exact
+direct_context,deepseek-r1:32b,15,Denso Manufacturing Georgia,70,Denso Manufacturing Georgia,match,exact
+direct_context,deepseek-r1:32b,15,Arising Industries Inc,75,Hitachi Astemo,mismatch,
+direct_context,deepseek-r1:32b,15,IMMI,84,Hyundai Transys Georgia Powertrain,mismatch,
+direct_context,deepseek-r1:32b,15,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,deepseek-r1:32b,15,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,deepseek-r1:32b,15,Lehigh Technologies Inc,101,Lehigh Technologies Inc.,match,exact
+direct_context,deepseek-r1:32b,15,Linde + Wiemann,102,Linde + Wiemann,match,exact
+direct_context,deepseek-r1:32b,15,Decostar Industries,103,Decostar Industries,match,exact
+direct_context,deepseek-r1:32b,15,Lund International Inc./Ventshade Division,104,Lund International Inc./Ventshade Division,match,exact
+direct_context,deepseek-r1:32b,15,Lyle Industries Inc,105,Lyle Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,16,Duckyang,35,Duckyang,match,exact
+direct_context,deepseek-r1:32b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,deepseek-r1:32b,18,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,deepseek-r1:32b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,deepseek-r1:32b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,deepseek-r1:32b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,deepseek-r1:32b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,deepseek-r1:32b,21,Aurubis,13,Aurubis,match,exact
+direct_context,deepseek-r1:32b,21,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,deepseek-r1:32b,21,ADVICS Manufacturing Georgia LLC,56,ADVICS Manufacturing Georgia LLC,match,exact
+direct_context,deepseek-r1:32b,21,IMMI,79,Hwashin,mismatch,
+direct_context,deepseek-r1:32b,21,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,deepseek-r1:32b,21,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,deepseek-r1:32b,21,Lyle Industries Inc,106,Lyle Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,21,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,deepseek-r1:32b,21,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,deepseek-r1:32b,21,QSR Inc,149,QSR Inc.,match,exact
+direct_context,deepseek-r1:32b,21,SK Battery America,163,SK Battery America,match,exact
+direct_context,deepseek-r1:32b,21,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,deepseek-r1:32b,21,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,23,Trenton Pressing Inc,185,Trenton Pressing,match,exact
+direct_context,deepseek-r1:32b,23,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,deepseek-r1:32b,23,WIKA USA,196,WIKA USA,match,exact
+direct_context,deepseek-r1:32b,23,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,deepseek-r1:32b,23,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,deepseek-r1:32b,23,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,deepseek-r1:32b,23,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,deepseek-r1:32b,23,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,deepseek-r1:32b,23,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,deepseek-r1:32b,23,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,23,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,23,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,24,DAS Corp,35,Duckyang,mismatch,
+direct_context,deepseek-r1:32b,24,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,deepseek-r1:32b,24,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,deepseek-r1:32b,24,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,deepseek-r1:32b,25,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,deepseek-r1:32b,26,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,27,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,deepseek-r1:32b,27,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,deepseek-r1:32b,27,ACM Georgia LLC,6,Dinex Emissions Inc.,mismatch,
+direct_context,deepseek-r1:32b,27,Lark United Manufacturing Inc,8,Lark United Manufacturing Inc.,match,exact
+direct_context,deepseek-r1:32b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,deepseek-r1:32b,27,MAT Heavy Duty,23,Bridgestone Bandag,mismatch,
+direct_context,deepseek-r1:32b,27,Eaton Corp,24,Lund International Inc.,mismatch,
+direct_context,deepseek-r1:32b,27,Mando America Corp,28,Mando America Corp.,match,exact
+direct_context,deepseek-r1:32b,27,Milliken & Co./Valway Plant,37,MAT Heavy Duty,mismatch,
+direct_context,deepseek-r1:32b,27,Mercedes-Benz USA LLC,40,Mercedes-Benz USA LLC,match,exact
+direct_context,deepseek-r1:32b,27,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,deepseek-r1:32b,27,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,deepseek-r1:32b,27,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,deepseek-r1:32b,27,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,deepseek-r1:32b,27,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,deepseek-r1:32b,27,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,deepseek-r1:32b,27,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,deepseek-r1:32b,27,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,deepseek-r1:32b,27,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,deepseek-r1:32b,27,Lund International Inc./Ventshade Division,102,Linde + Wiemann,mismatch,
+direct_context,deepseek-r1:32b,27,Lyle Industries Inc,105,Lyle Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,27,Lyle Industries Inc,106,Lyle Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,27,NIFCO KTW America Corp,123,NIFCO KTW America Corp.,match,exact
+direct_context,deepseek-r1:32b,27,Nile Automotive,124,Nile Automotive,match,exact
+direct_context,deepseek-r1:32b,27,Nisshinbo Automotive Manufacturing Inc,125,Nisshinbo Automotive Manufacturing Inc.,match,exact
+direct_context,deepseek-r1:32b,27,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,deepseek-r1:32b,27,PPG Industries Inc,147,PPG Industries Inc.,match,exact
+direct_context,deepseek-r1:32b,27,Seoyon E-Hwa Interior Systems,158,Seoyon E-Hwa Interior Systems,match,exact
+direct_context,deepseek-r1:32b,27,SK Battery America,163,SK Battery America,match,exact
+direct_context,deepseek-r1:32b,27,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,deepseek-r1:32b,27,Trenton Pressing Inc,185,Trenton Pressing,match,exact
+direct_context,deepseek-r1:32b,27,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,deepseek-r1:32b,27,WIKA USA,196,WIKA USA,match,exact
+direct_context,deepseek-r1:32b,27,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,29,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,deepseek-r1:32b,29,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,deepseek-r1:32b,29,Tie Down Engineering,182,Tie Down Engineering,match,exact
+direct_context,deepseek-r1:32b,29,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+direct_context,deepseek-r1:32b,29,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,deepseek-r1:32b,29,Trenton Pressing,185,Trenton Pressing,match,exact
+direct_context,deepseek-r1:32b,29,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,deepseek-r1:32b,29,Valeo,187,Valeo,match,exact
+direct_context,deepseek-r1:32b,29,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+direct_context,deepseek-r1:32b,29,Vernay,189,Vernay,match,exact
+direct_context,deepseek-r1:32b,29,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,deepseek-r1:32b,29,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+direct_context,deepseek-r1:32b,29,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,deepseek-r1:32b,29,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,deepseek-r1:32b,29,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,deepseek-r1:32b,29,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,deepseek-r1:32b,29,WIKA USA,196,WIKA USA,match,exact
+direct_context,deepseek-r1:32b,29,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,deepseek-r1:32b,29,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,deepseek-r1:32b,29,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,deepseek-r1:32b,29,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,deepseek-r1:32b,29,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,deepseek-r1:32b,29,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,deepseek-r1:32b,29,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,29,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,29,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,30,TCI Powder Coatings,174,TDK Components USA Inc.,mismatch,
+direct_context,deepseek-r1:32b,30,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,deepseek-r1:32b,30,Vernay,189,Vernay,match,exact
+direct_context,deepseek-r1:32b,30,Duckyang,35,Duckyang,match,exact
+direct_context,deepseek-r1:32b,31,Ecoplastic America Corporation,10,Fouts Brothers Fire Equipment,mismatch,
+direct_context,deepseek-r1:32b,31,Duckyang,21,Down 2 Earth Trailers,mismatch,
+direct_context,deepseek-r1:32b,31,Continental Automotive,26,Constellium Automotive USA,mismatch,
+direct_context,deepseek-r1:32b,31,"Daesol Material Georgia, LLC",31,Daesol Ausys,mismatch,
+direct_context,deepseek-r1:32b,31,Eaton Corp,36,Eaton Corp.,match,exact
+direct_context,deepseek-r1:32b,31,Ecoplastic Corporation,41,Ecoplastic America Corporation,match,exact
+direct_context,deepseek-r1:32b,31,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,deepseek-r1:32b,31,Oneda Corp,90,Oneda Corp.,match,exact
+direct_context,deepseek-r1:32b,31,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,deepseek-r1:32b,31,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,deepseek-r1:32b,31,SK Battery America,163,SK Battery America,match,exact
+direct_context,deepseek-r1:32b,32,WIKA USA,196,WIKA USA,match,exact
+direct_context,deepseek-r1:32b,33,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,deepseek-r1:32b,33,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,deepseek-r1:32b,33,Teklas USA,176,Teklas USA,match,exact
+direct_context,deepseek-r1:32b,33,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,deepseek-r1:32b,34,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,34,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,34,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,34,Novelis Inc,60,Freudenberg-NOK,mismatch,
+direct_context,deepseek-r1:32b,35,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,deepseek-r1:32b,35,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,deepseek-r1:32b,35,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,deepseek-r1:32b,36,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,deepseek-r1:32b,36,Hwashin,79,Hwashin,match,exact
+direct_context,deepseek-r1:32b,36,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,deepseek-r1:32b,36,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,deepseek-r1:32b,36,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,deepseek-r1:32b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,deepseek-r1:32b,36,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,deepseek-r1:32b,36,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,deepseek-r1:32b,36,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,deepseek-r1:32b,36,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,deepseek-r1:32b,37,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,deepseek-r1:32b,38,EVCO Plastics,52,EVCO Plastics,match,exact
+direct_context,deepseek-r1:32b,38,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,deepseek-r1:32b,38,Enplas USA Inc,58,Enplas USA Inc.,match,exact
+direct_context,deepseek-r1:32b,39,Remark International LLC,150,Racemark International LLC,match,fuzzy:0.952
+direct_context,deepseek-r1:32b,40,Duckyang,35,Duckyang,match,exact
+direct_context,deepseek-r1:32b,42,Trenton Pressing Inc,158,Seoyon E-Hwa Interior Systems,mismatch,
+direct_context,gemma3:27b,1,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,1,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,gemma3:27b,1,Hyundai & LG Energy Solution (LGES),76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,1,Lehigh Technologies Inc,77,Hollingsworth & Vose Co.,mismatch,
+direct_context,gemma3:27b,1,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,gemma3:27b,1,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,gemma3:27b,1,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,gemma3:27b,1,Hyundai Transys Georgia Seating Systems,99,Hyundai MOBIS (Georgia),mismatch,
+direct_context,gemma3:27b,1,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,1,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,2,Hyundai Kia,76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,gemma3:27b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,gemma3:27b,2,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,2,SK Battery America,163,SK Battery America,match,exact
+direct_context,gemma3:27b,3,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,3,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,gemma3:27b,3,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,gemma3:27b,3,SK Battery America,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,3,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,3,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,gemma3:27b,4,GSC Steel Stamping LLC,169,Suhner Manufacturing Corp.,mismatch,
+direct_context,gemma3:27b,4,Suzuki Manufacturing of America Corp,175,TE Connectivity,mismatch,
+direct_context,gemma3:27b,4,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,5,Kia Georgia Inc,195,Wheelabrator Group Inc.,mismatch,
+direct_context,gemma3:27b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,gemma3:27b,5,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,gemma3:27b,6,Novelis Inc,164,SKF USA Inc.,mismatch,
+direct_context,gemma3:27b,6,Novelis Inc,172,Suzuki Manufacturing of America Corp.,mismatch,
+direct_context,gemma3:27b,6,Novelis Inc,180,TI Fluid Systems,mismatch,
+direct_context,gemma3:27b,7,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,7,FOX Factory,9,FOX Factory,match,exact
+direct_context,gemma3:27b,7,AVS,16,AVS,match,exact
+direct_context,gemma3:27b,7,Blue Bird Corp,25,Club Car LLC,mismatch,
+direct_context,gemma3:27b,7,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+direct_context,gemma3:27b,7,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,gemma3:27b,7,Arising Industries Inc,61,Ajin Georgia,mismatch,
+direct_context,gemma3:27b,7,FREYR Battery,68,FREYR Battery,match,exact
+direct_context,gemma3:27b,7,Porsche Cars North America Inc,121,Porsche Cars North America Inc.,match,exact
+direct_context,gemma3:27b,7,RealTruck,131,RealTruck,match,exact
+direct_context,gemma3:27b,8,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,8,Lund International Inc,24,Lund International Inc.,match,exact
+direct_context,gemma3:27b,8,Jefferson Southern Corp,91,Jefferson Southern Corporation,match,exact
+direct_context,gemma3:27b,9,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,9,Grudem,3,Grudem,match,exact
+direct_context,gemma3:27b,9,Jefferson Southern Corp,91,Jefferson Southern Corporation,match,exact
+direct_context,gemma3:27b,9,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,gemma3:27b,9,Trenton Pressing,146,Great Dane Trailers,mismatch,
+direct_context,gemma3:27b,9,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,9,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,10,Kia Georgia Inc,195,Wheelabrator Group Inc.,mismatch,
+direct_context,gemma3:27b,10,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,10,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,gemma3:27b,11,Sewon E-Hwa Interior Systems,157,Seoyon E-HWA,mismatch,
+direct_context,gemma3:27b,11,Sewon America Inc,158,Seoyon E-Hwa Interior Systems,mismatch,
+direct_context,gemma3:27b,12,Grudem,3,Grudem,match,exact
+direct_context,gemma3:27b,12,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,gemma3:27b,12,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,12,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,12,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,gemma3:27b,12,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,gemma3:27b,12,Aspen Aerogels,12,Aspen Aerogels,match,exact
+direct_context,gemma3:27b,12,Aurubis,13,Aurubis,match,exact
+direct_context,gemma3:27b,12,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+direct_context,gemma3:27b,12,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+direct_context,gemma3:27b,12,AVS,16,AVS,match,exact
+direct_context,gemma3:27b,12,Blue Ridge Manufacturing,17,Blue Bird Corp.,mismatch,
+direct_context,gemma3:27b,12,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,12,EVCO Plastics,52,EVCO Plastics,match,exact
+direct_context,gemma3:27b,12,Fouts Brothers Fire Equipment,53,F&P Georgia Manufacturing,mismatch,
+direct_context,gemma3:27b,12,Bonnell Aluminum,60,Freudenberg-NOK,mismatch,
+direct_context,gemma3:27b,12,Arising Industries Inc,61,Ajin Georgia,mismatch,
+direct_context,gemma3:27b,12,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,gemma3:27b,12,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,12,SK Battery America,123,NIFCO KTW America Corp.,mismatch,
+direct_context,gemma3:27b,12,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,13,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,13,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,13,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,13,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,13,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,gemma3:27b,13,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,gemma3:27b,13,Teklas USA,176,Teklas USA,match,exact
+direct_context,gemma3:27b,13,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,gemma3:27b,13,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,gemma3:27b,13,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,gemma3:27b,14,Nidec Elesys Americas Corp,122,Nidec Elesys Americas Corp.,match,exact
+direct_context,gemma3:27b,14,FREYR Battery,168,Stryten Energy,mismatch,
+direct_context,gemma3:27b,14,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,gemma3:27b,14,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,14,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,gemma3:27b,14,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,gemma3:27b,15,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,15,Ascend Elements,112,Maxxis International USA,mismatch,
+direct_context,gemma3:27b,15,HELLA Automotive Sales Inc,120,HELLA Automotive Sales Inc.,match,exact
+direct_context,gemma3:27b,15,Nidec Elesys Americas Corp,122,Nidec Elesys Americas Corp.,match,exact
+direct_context,gemma3:27b,15,Enplas USA Inc,148,Sewon America Inc.,mismatch,
+direct_context,gemma3:27b,15,EVCO Plastics,152,Rivian Automotive,mismatch,
+direct_context,gemma3:27b,15,Denkai America,160,Denkai America,match,exact
+direct_context,gemma3:27b,15,HEXPOL Compounding Corp,162,HEXPOL Compounding Corp.,match,exact
+direct_context,gemma3:27b,15,SungEel Recycling Park Georgia,165,Jefferson Southern Corp.,mismatch,
+direct_context,gemma3:27b,15,Tessy Plastics Inc,170,SungEel Recycling Park Georgia,mismatch,
+direct_context,gemma3:27b,15,SRG Global Inc,189,Vernay,mismatch,
+direct_context,gemma3:27b,15,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,15,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,gemma3:27b,16,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,16,SK Battery America,163,SK Battery America,match,exact
+direct_context,gemma3:27b,17,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,17,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,17,Hyundai Transys Georgia Seating Systems,76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,17,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,gemma3:27b,17,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,gemma3:27b,17,MollerTech LLC,118,MollerTech LLC,match,exact
+direct_context,gemma3:27b,17,Propex Operating Co. LLC,127,Propex Operating Co. LLC,match,exact
+direct_context,gemma3:27b,17,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,gemma3:27b,17,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,17,Great Dane LP,162,HEXPOL Compounding Corp.,mismatch,
+direct_context,gemma3:27b,17,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,gemma3:27b,17,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,18,GSC Steel Stamping,69,GSC Steel Stamping LLC,match,exact
+direct_context,gemma3:27b,18,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,gemma3:27b,18,SKF USA Inc,146,Great Dane Trailers,mismatch,
+direct_context,gemma3:27b,18,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,18,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,gemma3:27b,19,Denkai America,160,Denkai America,match,exact
+direct_context,gemma3:27b,19,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,gemma3:27b,19,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,19,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,20,Ascend Elements,76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,gemma3:27b,20,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,20,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,20,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,20,Teklas USA,176,Teklas USA,match,exact
+direct_context,gemma3:27b,20,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,21,Grudem,3,Grudem,match,exact
+direct_context,gemma3:27b,21,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,gemma3:27b,21,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,21,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,gemma3:27b,21,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,21,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,gemma3:27b,21,Aspen Aerogels,12,Aspen Aerogels,match,exact
+direct_context,gemma3:27b,21,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+direct_context,gemma3:27b,21,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+direct_context,gemma3:27b,21,Dorsett Industries,19,Dorsett Industries Inc.,match,exact
+direct_context,gemma3:27b,21,Boogook Industries,20,Boogook Industries,match,exact
+direct_context,gemma3:27b,21,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+direct_context,gemma3:27b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,22,Superior Essex Inc,121,Porsche Cars North America Inc.,mismatch,
+direct_context,gemma3:27b,22,SAFT America Inc,154,SAFT America Inc.,match,exact
+direct_context,gemma3:27b,22,Denkai America,160,Denkai America,match,exact
+direct_context,gemma3:27b,22,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,gemma3:27b,23,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,gemma3:27b,23,SungEel Recycling Park Georgia,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,23,Teklas USA,176,Teklas USA,match,exact
+direct_context,gemma3:27b,23,Trenton Pressing,179,Thomson Plastics Inc.,mismatch,
+direct_context,gemma3:27b,23,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,23,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,gemma3:27b,23,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,gemma3:27b,23,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,24,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,24,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,24,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,25,Ecoplastic America Corporation,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,25,Denkai America,160,Denkai America,match,exact
+direct_context,gemma3:27b,25,Great Dane LP,162,HEXPOL Compounding Corp.,mismatch,
+direct_context,gemma3:27b,25,SungEel Recycling Park Georgia,165,Jefferson Southern Corp.,mismatch,
+direct_context,gemma3:27b,25,SRG Global Inc,167,SRG Global Inc.,match,exact
+direct_context,gemma3:27b,25,FREYR Battery,168,Stryten Energy,mismatch,
+direct_context,gemma3:27b,25,Trenton Pressing,170,SungEel Recycling Park Georgia,mismatch,
+direct_context,gemma3:27b,25,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,25,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,25,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,gemma3:27b,25,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,gemma3:27b,25,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,26,Grudem,3,Grudem,match,exact
+direct_context,gemma3:27b,26,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,gemma3:27b,26,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,26,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,26,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,gemma3:27b,26,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,gemma3:27b,26,Aspen Aerogels,12,Aspen Aerogels,match,exact
+direct_context,gemma3:27b,26,Aurubis,13,Aurubis,match,exact
+direct_context,gemma3:27b,26,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+direct_context,gemma3:27b,26,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+direct_context,gemma3:27b,26,AVS,16,AVS,match,exact
+direct_context,gemma3:27b,26,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+direct_context,gemma3:27b,26,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+direct_context,gemma3:27b,26,Dorsett Industries,19,Dorsett Industries Inc.,match,exact
+direct_context,gemma3:27b,26,Boogook Industries,20,Boogook Industries,match,exact
+direct_context,gemma3:27b,26,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+direct_context,gemma3:27b,27,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,27,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,gemma3:27b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,27,Fouts Brothers Fire Equipment,53,F&P Georgia Manufacturing,mismatch,
+direct_context,gemma3:27b,27,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,gemma3:27b,27,Hyundai & LG Energy Solution (LGES),76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,27,Lehigh Technologies Inc,77,Hollingsworth & Vose Co.,mismatch,
+direct_context,gemma3:27b,27,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,gemma3:27b,27,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,gemma3:27b,27,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,gemma3:27b,27,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,gemma3:27b,27,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,gemma3:27b,27,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,gemma3:27b,27,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,gemma3:27b,27,Porsche Cars North America Inc,121,Porsche Cars North America Inc.,match,exact
+direct_context,gemma3:27b,27,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,27,SungEel Recycling Park Georgia,169,Suhner Manufacturing Corp.,mismatch,
+direct_context,gemma3:27b,27,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,27,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,27,Textron Specialized Vehicles,175,TE Connectivity,mismatch,
+direct_context,gemma3:27b,27,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,28,Great Dane LP,162,HEXPOL Compounding Corp.,mismatch,
+direct_context,gemma3:27b,28,SRG Global Inc,167,SRG Global Inc.,match,exact
+direct_context,gemma3:27b,28,FREYR Battery,168,Stryten Energy,mismatch,
+direct_context,gemma3:27b,28,TCI Powder Coatings,170,SungEel Recycling Park Georgia,mismatch,
+direct_context,gemma3:27b,28,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,28,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,gemma3:27b,28,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,gemma3:27b,29,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,29,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,gemma3:27b,29,SK Battery America,152,Rivian Automotive,mismatch,
+direct_context,gemma3:27b,29,SKF USA Inc,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,29,Jefferson Southern Corp,154,SAFT America Inc.,mismatch,
+direct_context,gemma3:27b,29,SungEel Recycling Park Georgia,155,Sejong Georgia LLC,mismatch,
+direct_context,gemma3:27b,29,TCI Powder Coatings,156,Seohan Auto USA,mismatch,
+direct_context,gemma3:27b,29,Teklas USA,157,Seoyon E-HWA,mismatch,
+direct_context,gemma3:27b,29,Textron Specialized Vehicles,158,Seoyon E-Hwa Interior Systems,mismatch,
+direct_context,gemma3:27b,29,Thermal Ceramics Inc,159,Solvay Specialty Polymers USA LLC,mismatch,
+direct_context,gemma3:27b,29,Thomon Plastics Inc,160,Denkai America,mismatch,
+direct_context,gemma3:27b,29,TI Fluid Systems,161,Sewon America Inc.,mismatch,
+direct_context,gemma3:27b,29,TI Fluid Systems,162,HEXPOL Compounding Corp.,mismatch,
+direct_context,gemma3:27b,29,Tie Down Engineering,163,SK Battery America,mismatch,
+direct_context,gemma3:27b,29,TN Americas Holding Inc,164,SKF USA Inc.,mismatch,
+direct_context,gemma3:27b,29,Toyota Industries Group (TACG-TICA),165,Jefferson Southern Corp.,mismatch,
+direct_context,gemma3:27b,29,Trenton Pressing,166,Southern Switches Corp.,mismatch,
+direct_context,gemma3:27b,29,Valeo,167,SRG Global Inc.,mismatch,
+direct_context,gemma3:27b,29,Vanguard National Trailer Corp,168,Stryten Energy,mismatch,
+direct_context,gemma3:27b,29,Vernay,169,Suhner Manufacturing Corp.,mismatch,
+direct_context,gemma3:27b,29,Vista Metals Corp,170,SungEel Recycling Park Georgia,mismatch,
+direct_context,gemma3:27b,29,Voestalpine Automotive Body Parts Inc,171,Superior Essex Inc.,mismatch,
+direct_context,gemma3:27b,29,Volvo Cars USA,172,Suzuki Manufacturing of America Corp.,mismatch,
+direct_context,gemma3:27b,29,WIKA USA,173,TCI Powder Coatings,mismatch,
+direct_context,gemma3:27b,29,Woodbridge Foam Corp,174,TDK Components USA Inc.,mismatch,
+direct_context,gemma3:27b,29,Woory Industrial Co,175,TE Connectivity,mismatch,
+direct_context,gemma3:27b,29,Yachiyo Manufacturing of America LLC,176,Teklas USA,mismatch,
+direct_context,gemma3:27b,29,Yamaha Motor Manufacturing Corp,177,Textron Specialized Vehicles,mismatch,
+direct_context,gemma3:27b,29,Yazaki North America,178,Thermal Ceramics Inc.,mismatch,
+direct_context,gemma3:27b,29,YKK USA Inc,179,Thomson Plastics Inc.,mismatch,
+direct_context,gemma3:27b,29,ZF Gainesville LLC,180,TI Fluid Systems,mismatch,
+direct_context,gemma3:27b,29,ZF Gainesville LLC,181,TI Fluid Systems,mismatch,
+direct_context,gemma3:27b,29,ZF Gainesville LLC,182,Tie Down Engineering,mismatch,
+direct_context,gemma3:27b,29,Hyundai & LG Energy Solution (LGES),183,TN Americas Holding Inc.,mismatch,
+direct_context,gemma3:27b,29,Honda Development & Manufacturing,184,Toyota Industries Group (TACG-TICA),mismatch,
+direct_context,gemma3:27b,29,Porsche Cars North America Inc,185,Trenton Pressing,mismatch,
+direct_context,gemma3:27b,29,Hyundai Transys Georgia Seating Systems,186,Trenton Pressing Inc.,mismatch,
+direct_context,gemma3:27b,29,Kia Georgia Inc,187,Valeo,mismatch,
+direct_context,gemma3:27b,29,Mercedes-Benz USA LLC,188,Vanguard National Trailer Corp.,mismatch,
+direct_context,gemma3:27b,29,Ascend Elements,189,Vernay,mismatch,
+direct_context,gemma3:27b,29,Aurubis,190,Vista Metals Corp.,mismatch,
+direct_context,gemma3:27b,29,Aspen Aerogels,191,Voestalpine Automotive Body Parts Inc.,mismatch,
+direct_context,gemma3:27b,29,Beavor Manufacturing Co. Inc,192,Volvo Cars USA,mismatch,
+direct_context,gemma3:27b,29,Continental Automotive,193,Volvo Group North America,mismatch,
+direct_context,gemma3:27b,29,Daimler Truck North America,194,Wabash National Corp.,mismatch,
+direct_context,gemma3:27b,29,Duckyang,195,Wheelabrator Group Inc.,mismatch,
+direct_context,gemma3:27b,29,Enchem America Inc,196,WIKA USA,mismatch,
+direct_context,gemma3:27b,29,FOX Factory,197,Woodbridge Foam Corp.,mismatch,
+direct_context,gemma3:27b,29,Fouts Brothers Fire Equipment,198,Woory Industrial Co.,mismatch,
+direct_context,gemma3:27b,29,Flambeau Inc,199,Yachiyo Manufacturing of America LLC,mismatch,
+direct_context,gemma3:27b,29,Freudenberg-NOK,200,Yamaha Motor Manufacturing Corp.,mismatch,
+direct_context,gemma3:27b,29,Grudem,201,Yazaki North America,mismatch,
+direct_context,gemma3:27b,29,Kautex Inc,202,YKK USA Inc.,mismatch,
+direct_context,gemma3:27b,29,JTEKT North America Corp,203,ZF Gainesville LLC,mismatch,
+direct_context,gemma3:27b,29,Lark United Manufacturing Inc,204,ZF Gainesville LLC,mismatch,
+direct_context,gemma3:27b,29,Lund International Inc,205,ZF Gainesville LLC,mismatch,
+direct_context,gemma3:27b,30,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,30,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,gemma3:27b,30,Grudem,3,Grudem,match,exact
+direct_context,gemma3:27b,30,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,gemma3:27b,30,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,gemma3:27b,30,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,30,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,gemma3:27b,30,Lark United Manufacturing Inc,8,Lark United Manufacturing Inc.,match,exact
+direct_context,gemma3:27b,30,FOX Factory,9,FOX Factory,match,exact
+direct_context,gemma3:27b,30,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,31,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,gemma3:27b,31,Aspen Aerogels,12,Aspen Aerogels,match,exact
+direct_context,gemma3:27b,31,Aurubis,13,Aurubis,match,exact
+direct_context,gemma3:27b,31,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+direct_context,gemma3:27b,31,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,31,Ecoplastic America Corporation,41,Ecoplastic America Corporation,match,exact
+direct_context,gemma3:27b,31,Erdrich USA,67,Erdrich USA Inc.,match,exact
+direct_context,gemma3:27b,31,Hyundai & LG Energy Solution (LGES),93,Hyundai Industrial Co.,mismatch,
+direct_context,gemma3:27b,31,MollerTech LLC,118,MollerTech LLC,match,exact
+direct_context,gemma3:27b,31,Lehigh Technologies Inc,120,HELLA Automotive Sales Inc.,mismatch,
+direct_context,gemma3:27b,31,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,31,SK Battery America,163,SK Battery America,match,exact
+direct_context,gemma3:27b,32,GSC Steel Engineering Inc,69,GSC Steel Stamping LLC,mismatch,
+direct_context,gemma3:27b,32,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,gemma3:27b,32,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,gemma3:27b,33,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,33,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,gemma3:27b,33,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,gemma3:27b,33,Porsche Cars North America Inc,121,Porsche Cars North America Inc.,match,exact
+direct_context,gemma3:27b,34,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,gemma3:27b,34,Fouts Brothers Fire Equipment,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,34,SungEel Recycling Park Georgia,178,Thermal Ceramics Inc.,mismatch,
+direct_context,gemma3:27b,34,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,gemma3:27b,34,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,34,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,gemma3:27b,34,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,gemma3:27b,34,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,gemma3:27b,34,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,34,Bosch (Automotive Division),60,Freudenberg-NOK,mismatch,
+direct_context,gemma3:27b,35,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,35,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,35,Bosch (Automotive Division),60,Freudenberg-NOK,mismatch,
+direct_context,gemma3:27b,35,Hyundai Motor Group,76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,35,Hyundai Transys Georgia Seating Systems,84,Hyundai Transys Georgia Powertrain,mismatch,
+direct_context,gemma3:27b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,gemma3:27b,35,SK Battery America,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,35,HEXPOL Compounding Corp,162,HEXPOL Compounding Corp.,match,exact
+direct_context,gemma3:27b,35,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,gemma3:27b,35,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,35,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,35,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,gemma3:27b,36,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,gemma3:27b,36,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,gemma3:27b,36,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,gemma3:27b,36,TI Fluid Systems,175,TE Connectivity,mismatch,
+direct_context,gemma3:27b,36,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,36,WIKA USA,196,WIKA USA,match,exact
+direct_context,gemma3:27b,36,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,gemma3:27b,36,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,gemma3:27b,36,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,gemma3:27b,36,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,gemma3:27b,36,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,gemma3:27b,36,Hyundai MOBIS (Georgia),76,Hitachi Astemo Americas Inc.,mismatch,
+direct_context,gemma3:27b,36,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,gemma3:27b,36,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,gemma3:27b,36,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,gemma3:27b,36,KTX America Corp,96,KTX America Corporation,match,exact
+direct_context,gemma3:27b,36,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,gemma3:27b,36,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,gemma3:27b,36,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,gemma3:27b,36,Nile Automotive,124,Nile Automotive,match,exact
+direct_context,gemma3:27b,36,Great Dane LP,162,HEXPOL Compounding Corp.,mismatch,
+direct_context,gemma3:27b,37,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,gemma3:27b,37,Duckyang,35,Duckyang,match,exact
+direct_context,gemma3:27b,37,Hyundai Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,fuzzy:0.826
+direct_context,gemma3:27b,37,Lehigh Technologies Inc,77,Hollingsworth & Vose Co.,mismatch,
+direct_context,gemma3:27b,37,Hyundai Transys Georgia Seating Systems,84,Hyundai Transys Georgia Powertrain,mismatch,
+direct_context,gemma3:27b,37,SHIROKI North America Inc,153,SHIROKI North America Inc,match,exact
+direct_context,gemma3:27b,38,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,38,Ascend Elements,153,SHIROKI North America Inc,mismatch,
+direct_context,gemma3:27b,38,SK Battery America,163,SK Battery America,match,exact
+direct_context,gemma3:27b,38,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,38,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,gemma3:27b,39,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,39,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,39,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,gemma3:27b,40,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,40,SK Battery America,163,SK Battery America,match,exact
+direct_context,gemma3:27b,40,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,gemma3:27b,40,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,gemma3:27b,40,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,gemma3:27b,40,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,gemma3:27b,40,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,gemma3:27b,40,Teklas USA,176,Teklas USA,match,exact
+direct_context,gemma3:27b,40,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,gemma3:27b,40,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,gemma3:27b,40,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,gemma3:27b,40,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,40,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,gemma3:27b,41,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,gemma3:27b,41,Aurubis,13,Aurubis,match,exact
+direct_context,gemma3:27b,41,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+direct_context,gemma3:27b,41,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,gemma3:27b,41,Solvay Specialty Polymers USA LLC,129,Novelis Inc.,mismatch,
+direct_context,gemma3:27b,42,Minebea AccessSolutions USA Inc,116,Minebea AccessSolutions USA Inc.,match,exact
+direct_context,gemma3:27b,42,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,gemma3:27b,42,Suzuki Manufacturing of America Corp,171,Superior Essex Inc.,mismatch,
+direct_context,gemma3:27b,42,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,mistral-small3.2:24b,1,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,mistral-small3.2:24b,1,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,1,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,mistral-small3.2:24b,1,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,1,Hwashin,79,Hwashin,match,exact
+direct_context,mistral-small3.2:24b,1,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,mistral-small3.2:24b,1,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,mistral-small3.2:24b,1,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,mistral-small3.2:24b,1,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,1,Jefferson Southern Corporation,103,Decostar Industries,mismatch,
+direct_context,mistral-small3.2:24b,2,F&P Georgia Manufacturing,73,GEDIA Georgia LLC,mismatch,
+direct_context,mistral-small3.2:24b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,mistral-small3.2:24b,2,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,mistral-small3.2:24b,2,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,3,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,3,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,mistral-small3.2:24b,3,Hyundai Transys Georgia,130,Hyundai Transys Georgia Seating Systems,mismatch,
+direct_context,mistral-small3.2:24b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,4,Morgan Corp,119,Morgan Corp.,match,exact
+direct_context,mistral-small3.2:24b,5,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,mistral-small3.2:24b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,mistral-small3.2:24b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,mistral-small3.2:24b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,mistral-small3.2:24b,5,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,mistral-small3.2:24b,5,Teklas USA,176,Teklas USA,match,exact
+direct_context,mistral-small3.2:24b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,mistral-small3.2:24b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,mistral-small3.2:24b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,mistral-small3.2:24b,6,Novelis Inc,64,Novelis Inc.,match,exact
+direct_context,mistral-small3.2:24b,6,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,mistral-small3.2:24b,7,Lehigh Technologies Inc,101,Lehigh Technologies Inc.,match,exact
+direct_context,mistral-small3.2:24b,8,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,mistral-small3.2:24b,8,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,mistral-small3.2:24b,8,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,mistral-small3.2:24b,8,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,mistral-small3.2:24b,8,Rivian Automotive,152,Rivian Automotive,match,exact
+direct_context,mistral-small3.2:24b,9,Hanon Systems USA LLC,72,Hanon Systems USA LLC,match,exact
+direct_context,mistral-small3.2:24b,9,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,mistral-small3.2:24b,9,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,9,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,mistral-small3.2:24b,9,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,mistral-small3.2:24b,9,NIFCO KTW America Corp,123,NIFCO KTW America Corp.,match,exact
+direct_context,mistral-small3.2:24b,9,Seohan Auto USA,156,Seohan Auto USA,match,exact
+direct_context,mistral-small3.2:24b,9,Seoyon E-HWA,157,Seoyon E-HWA,match,exact
+direct_context,mistral-small3.2:24b,9,Seoyon E-Hwa Interior Systems,158,Seoyon E-Hwa Interior Systems,match,exact
+direct_context,mistral-small3.2:24b,9,SK Battery America,163,SK Battery America,match,exact
+direct_context,mistral-small3.2:24b,10,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,mistral-small3.2:24b,10,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,mistral-small3.2:24b,10,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,mistral-small3.2:24b,10,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,mistral-small3.2:24b,10,Teklas USA,176,Teklas USA,match,exact
+direct_context,mistral-small3.2:24b,10,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,mistral-small3.2:24b,10,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,mistral-small3.2:24b,10,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,mistral-small3.2:24b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,mistral-small3.2:24b,11,Sewon America Inc,150,Racemark International LLC,mismatch,
+direct_context,mistral-small3.2:24b,11,Sewon America Inc,161,Sewon America Inc.,match,exact
+direct_context,mistral-small3.2:24b,12,Duckyang,35,Duckyang,match,exact
+direct_context,mistral-small3.2:24b,12,Elan Technology Inc,48,Elan Technology Inc.,match,exact
+direct_context,mistral-small3.2:24b,12,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,mistral-small3.2:24b,12,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,12,Denso Manufacturing Georgia,70,Denso Manufacturing Georgia,match,exact
+direct_context,mistral-small3.2:24b,12,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,mistral-small3.2:24b,12,Global Powertrain Systems LLC,74,Global Powertrain Systems LLC,match,exact
+direct_context,mistral-small3.2:24b,12,Hyundai Industrial Co,80,Hyundai & LG Energy Solution (LGES),mismatch,
+direct_context,mistral-small3.2:24b,12,SK Battery America,163,SK Battery America,match,exact
+direct_context,mistral-small3.2:24b,13,Rivian Automotive,152,Rivian Automotive,match,exact
+direct_context,mistral-small3.2:24b,14,WIKA USA,196,WIKA USA,match,exact
+direct_context,mistral-small3.2:24b,14,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,mistral-small3.2:24b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,18,Hitachi Astemo (Georgia),75,Hitachi Astemo,match,alias
+direct_context,mistral-small3.2:24b,18,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,mistral-small3.2:24b,19,PPG Industries Inc,147,PPG Industries Inc.,match,exact
+direct_context,mistral-small3.2:24b,19,Stryten Energy,168,Stryten Energy,match,exact
+direct_context,mistral-small3.2:24b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,mistral-small3.2:24b,20,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,20,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,mistral-small3.2:24b,20,F&P Georgia Manufacturing,105,Lyle Industries Inc.,mismatch,
+direct_context,mistral-small3.2:24b,20,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,mistral-small3.2:24b,21,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,mistral-small3.2:24b,21,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,mistral-small3.2:24b,21,Grudem,3,Grudem,match,exact
+direct_context,mistral-small3.2:24b,21,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,mistral-small3.2:24b,21,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,mistral-small3.2:24b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,mistral-small3.2:24b,21,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,mistral-small3.2:24b,21,Lark United Manufacturing Inc,8,Lark United Manufacturing Inc.,match,exact
+direct_context,mistral-small3.2:24b,21,FOX Factory,9,FOX Factory,match,exact
+direct_context,mistral-small3.2:24b,21,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,mistral-small3.2:24b,22,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,mistral-small3.2:24b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,mistral-small3.2:24b,23,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,23,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,23,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,mistral-small3.2:24b,23,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,23,Hyundai Transys Georgia Seating Systems,104,Lund International Inc./Ventshade Division,mismatch,
+direct_context,mistral-small3.2:24b,23,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,mistral-small3.2:24b,23,Hyundai Transys Georgia Powertrain,130,Hyundai Transys Georgia Seating Systems,mismatch,
+direct_context,mistral-small3.2:24b,23,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,mistral-small3.2:24b,23,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,mistral-small3.2:24b,26,Flambeau Inc,104,Lund International Inc./Ventshade Division,mismatch,
+direct_context,mistral-small3.2:24b,26,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+direct_context,mistral-small3.2:24b,26,Boogook Industries,40,Mercedes-Benz USA LLC,mismatch,
+direct_context,mistral-small3.2:24b,26,Erdrich USA Inc,48,Elan Technology Inc.,mismatch,
+direct_context,mistral-small3.2:24b,26,EVCO Plastics,52,EVCO Plastics,match,exact
+direct_context,mistral-small3.2:24b,26,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,mistral-small3.2:24b,26,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,26,Hanon Systems USA LLC,72,Hanon Systems USA LLC,match,exact
+direct_context,mistral-small3.2:24b,26,GLOVIS Georgia LLC,82,GLOVIS Georgia LLC,match,exact
+direct_context,mistral-small3.2:24b,26,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,mistral-small3.2:24b,27,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,27,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,mistral-small3.2:24b,27,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,27,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,27,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,mistral-small3.2:24b,27,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,mistral-small3.2:24b,27,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,mistral-small3.2:24b,27,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,mistral-small3.2:24b,27,Decostar Industries,103,Decostar Industries,match,exact
+direct_context,mistral-small3.2:24b,27,Seoyon E-Hwa Interior Systems,157,Seoyon E-HWA,mismatch,
+direct_context,mistral-small3.2:24b,28,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,28,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,mistral-small3.2:24b,29,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,mistral-small3.2:24b,29,Tie Down Engineering,182,Tie Down Engineering,match,exact
+direct_context,mistral-small3.2:24b,29,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+direct_context,mistral-small3.2:24b,29,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,mistral-small3.2:24b,29,Trenton Pressing,185,Trenton Pressing,match,exact
+direct_context,mistral-small3.2:24b,29,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,mistral-small3.2:24b,29,Valeo,187,Valeo,match,exact
+direct_context,mistral-small3.2:24b,29,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+direct_context,mistral-small3.2:24b,29,Vernay,189,Vernay,match,exact
+direct_context,mistral-small3.2:24b,29,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,mistral-small3.2:24b,29,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+direct_context,mistral-small3.2:24b,29,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,mistral-small3.2:24b,29,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,mistral-small3.2:24b,29,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,mistral-small3.2:24b,29,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,mistral-small3.2:24b,29,WIKA USA,196,WIKA USA,match,exact
+direct_context,mistral-small3.2:24b,29,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,mistral-small3.2:24b,29,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,mistral-small3.2:24b,31,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,31,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,31,GEDIA Georgia LLC,73,GEDIA Georgia LLC,match,exact
+direct_context,mistral-small3.2:24b,31,DAEHAN Solution Georgia LLC,104,Lund International Inc./Ventshade Division,mismatch,
+direct_context,mistral-small3.2:24b,31,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,mistral-small3.2:24b,34,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,34,Hanon Systems USA LLC,72,Hanon Systems USA LLC,match,exact
+direct_context,mistral-small3.2:24b,34,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,mistral-small3.2:24b,34,Denkai America,160,Denkai America,match,exact
+direct_context,mistral-small3.2:24b,35,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,35,Denso Manufacturing Georgia,70,Denso Manufacturing Georgia,match,exact
+direct_context,mistral-small3.2:24b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,mistral-small3.2:24b,35,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,mistral-small3.2:24b,36,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,36,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,mistral-small3.2:24b,36,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,36,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,mistral-small3.2:24b,36,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,mistral-small3.2:24b,36,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,mistral-small3.2:24b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,mistral-small3.2:24b,36,Jefferson Southern Corporation,103,Decostar Industries,mismatch,
+direct_context,mistral-small3.2:24b,36,"Joon Georgia, Inc",104,Lund International Inc./Ventshade Division,mismatch,
+direct_context,mistral-small3.2:24b,36,Nisshinbo Automotive Manufacturing,125,Nisshinbo Automotive Manufacturing Inc.,match,exact
+direct_context,mistral-small3.2:24b,37,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,mistral-small3.2:24b,37,Hanon Systems USA LLC,72,Hanon Systems USA LLC,match,exact
+direct_context,mistral-small3.2:24b,37,Freudenberg-NOK,148,Sewon America Inc.,mismatch,
+direct_context,mistral-small3.2:24b,40,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,mistral-small3.2:24b,40,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,mistral-small3.2:24b,40,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,mistral-small3.2:24b,40,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,mistral-small3.2:24b,40,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,mistral-small3.2:24b,40,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,mistral-small3.2:24b,40,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,mistral-small3.2:24b,40,WIKA USA,196,WIKA USA,match,exact
+direct_context,mistral-small3.2:24b,40,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,mistral-small3.2:24b,41,Ascend Elements,11,Ascend Elements,match,exact
+direct_context,mistral-small3.2:24b,41,DAS Corp,34,DAS Corp.,match,exact
+direct_context,mistral-small3.2:24b,41,Ecoplastic Corporation,50,Ecoplastic Corporation,match,exact
+direct_context,mistral-small3.2:24b,41,HELLA Automotive Sales Inc,120,HELLA Automotive Sales Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3.6:35b-a3b,1,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,1,IMMI,86,IMMI,match,exact
+direct_context,qwen3.6:35b-a3b,1,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,1,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3.6:35b-a3b,1,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3.6:35b-a3b,1,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,1,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,2,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3.6:35b-a3b,2,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3.6:35b-a3b,2,IMMI,86,IMMI,match,exact
+direct_context,qwen3.6:35b-a3b,3,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3.6:35b-a3b,3,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,3,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,3,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,4,Morgan Corp,119,Morgan Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,5,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,5,Minebea AccessSolutions USA Inc,116,Minebea AccessSolutions USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3.6:35b-a3b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,5,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,qwen3.6:35b-a3b,5,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3.6:35b-a3b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3.6:35b-a3b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,6,Novelis Inc,64,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,6,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,6,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,FOX Factory,9,FOX Factory,match,exact
+direct_context,qwen3.6:35b-a3b,7,Big Tex Trailer Manufacturing Inc,29,Big Tex Trailer Manufacturing Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,MAT Heavy Duty,37,MAT Heavy Duty,match,exact
+direct_context,qwen3.6:35b-a3b,7,Michelin Tread Technologies,43,Michelin Tread Technologies,match,exact
+direct_context,qwen3.6:35b-a3b,7,"Daesol Material Georgia, LLC",81,"Daesol Material Georgia, LLC",match,exact
+direct_context,qwen3.6:35b-a3b,7,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,Lehigh Technologies Inc,101,Lehigh Technologies Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,DeKalb Tool & Die Inc,114,DeKalb Tool & Die Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,7,Pak-Lite Inc,135,Pak-Lite Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Kautex Inc,2,Kautex Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lark United Manufacturing Inc,8,Lark United Manufacturing Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lund International Inc,24,Lund International Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Mack Trucks,27,Mack Trucks,match,exact
+direct_context,qwen3.6:35b-a3b,8,Mando America Corp,28,Mando America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,MAT Heavy Duty,37,MAT Heavy Duty,match,exact
+direct_context,qwen3.6:35b-a3b,8,Mercedes-Benz USA LLC,40,Mercedes-Benz USA LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Michelin Tread Technologies,43,Michelin Tread Technologies,match,exact
+direct_context,qwen3.6:35b-a3b,8,Milliken & Co./Valway Plant,45,Milliken & Co./Valway Plant,match,exact
+direct_context,qwen3.6:35b-a3b,8,Mobis Alabama LLC,46,Mobis Alabama LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Murata Electronics North America Inc,57,Murata Electronics North America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Neaton Rome Inc,62,Neaton Rome Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Novelis Inc,64,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,NVH Korea,88,NVH Korea,match,exact
+direct_context,qwen3.6:35b-a3b,8,Oneda Corp,90,Oneda Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Jefferson Southern Corporation,91,Jefferson Southern Corporation,match,exact
+direct_context,qwen3.6:35b-a3b,8,"Joon Georgia, Inc",92,"Joon Georgia, Inc.",match,exact
+direct_context,qwen3.6:35b-a3b,8,KTX America Corporation,96,KTX America Corporation,match,exact
+direct_context,qwen3.6:35b-a3b,8,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lehigh Technologies Inc,101,Lehigh Technologies Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Linde + Wiemann,102,Linde + Wiemann,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lund International Inc./Ventshade Division,104,Lund International Inc./Ventshade Division,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lyle Industries Inc,105,Lyle Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Lyle Industries Inc,106,Lyle Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Magna International,108,Magna International,match,exact
+direct_context,qwen3.6:35b-a3b,8,Perkins Small Engines LLC,109,Perkins Small Engines LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Master Craft Engineering Inc,110,Master Craft Engineering Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Maxxis International USA,112,Maxxis International USA,match,exact
+direct_context,qwen3.6:35b-a3b,8,Peterson Spring,113,Peterson Spring,match,exact
+direct_context,qwen3.6:35b-a3b,8,PIOLAX Corp,115,PIOLAX Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Pirelli Tire North America LLC,117,Pirelli Tire North America LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,MollerTech LLC,118,MollerTech LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Morgan Corp,119,Morgan Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Porsche Cars North America Inc,121,Porsche Cars North America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Nidec Elesys Americas Corp,122,Nidec Elesys Americas Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,NIFCO KTW America Corp,123,NIFCO KTW America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Nile Automotive,124,Nile Automotive,match,exact
+direct_context,qwen3.6:35b-a3b,8,Nisshinbo Automotive Manufacturing Inc,125,Nisshinbo Automotive Manufacturing Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Nivel Parts & Manufacturing Co. LLC,126,Nivel Parts & Manufacturing Co. LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Propex Operating Co. LLC,127,Propex Operating Co. LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,RealTruck,131,RealTruck,match,exact
+direct_context,qwen3.6:35b-a3b,8,OTR Wheel Engineering Inc,132,OTR Wheel Engineering Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Paccar,133,Paccar,match,exact
+direct_context,qwen3.6:35b-a3b,8,PAI Industries Inc,134,PAI Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Pak-Lite Inc,135,Pak-Lite Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Panasonic Automotive Systems Co,136,Panasonic Automotive Systems Co.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Panasonic Automotive Systems Co,137,Panasonic Automotive Systems Co.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Panduit Corp,138,Panduit Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,PHA Body Systems LLC,142,PHA Body Systems LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Piedmont Automotive Products Inc,143,Piedmont Automotive Products Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Robert Bosch LLC,144,Robert Bosch LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,PPG Industries Inc,147,PPG Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,QSR Inc,149,QSR Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Rivian Automotive,152,Rivian Automotive,match,exact
+direct_context,qwen3.6:35b-a3b,8,SHIROKI North America Inc,153,SHIROKI North America Inc,match,exact
+direct_context,qwen3.6:35b-a3b,8,SAFT America Inc,154,SAFT America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Sejong Georgia LLC,155,Sejong Georgia LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Seohan Auto USA,156,Seohan Auto USA,match,exact
+direct_context,qwen3.6:35b-a3b,8,Seoyon E-HWA,157,Seoyon E-HWA,match,exact
+direct_context,qwen3.6:35b-a3b,8,Seoyon E-Hwa Interior Systems,158,Seoyon E-Hwa Interior Systems,match,exact
+direct_context,qwen3.6:35b-a3b,8,Solvay Specialty Polymers USA LLC,159,Solvay Specialty Polymers USA LLC,match,exact
+direct_context,qwen3.6:35b-a3b,8,Sewon America Inc,161,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,SK Battery America,163,SK Battery America,match,exact
+direct_context,qwen3.6:35b-a3b,8,SKF USA Inc,164,SKF USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Southern Switches Corp,166,Southern Switches Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,8,SRG Global Inc,167,SRG Global Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,8,Stryten Energy,168,Stryten Energy,match,exact
+direct_context,qwen3.6:35b-a3b,8,Suhner Manufacturing Corp,169,Suhner Manufacturing Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,9,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,9,Grudem,3,Grudem,match,exact
+direct_context,qwen3.6:35b-a3b,9,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,9,Haering Precision USA LP,42,Haering Precision USA LP,match,exact
+direct_context,qwen3.6:35b-a3b,9,Denso Manufacturing Georgia,70,Denso Manufacturing Georgia,match,exact
+direct_context,qwen3.6:35b-a3b,9,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,qwen3.6:35b-a3b,9,Oneda Corp,90,Oneda Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,9,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,9,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,qwen3.6:35b-a3b,9,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,9,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,9,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,10,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,10,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,10,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3.6:35b-a3b,10,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,10,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,qwen3.6:35b-a3b,10,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3.6:35b-a3b,10,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3.6:35b-a3b,10,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,10,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,11,Sewon America Inc,161,Sewon America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,12,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,12,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,12,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,13,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,13,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,13,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,13,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,13,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3.6:35b-a3b,13,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,14,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3.6:35b-a3b,14,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,16,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,18,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3.6:35b-a3b,18,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3.6:35b-a3b,18,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3.6:35b-a3b,18,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,19,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3.6:35b-a3b,20,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3.6:35b-a3b,20,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3.6:35b-a3b,20,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,20,IMMI,86,IMMI,match,exact
+direct_context,qwen3.6:35b-a3b,20,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,20,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3.6:35b-a3b,20,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3.6:35b-a3b,20,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,20,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,21,Grudem,3,Grudem,match,exact
+direct_context,qwen3.6:35b-a3b,21,Flambeau Inc,4,Flambeau Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,21,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,21,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,qwen3.6:35b-a3b,21,FOX Factory,9,FOX Factory,match,exact
+direct_context,qwen3.6:35b-a3b,21,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+direct_context,qwen3.6:35b-a3b,21,AVS,16,AVS,match,exact
+direct_context,qwen3.6:35b-a3b,22,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,23,Morgan Corp,119,Morgan Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,qwen3.6:35b-a3b,23,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,qwen3.6:35b-a3b,23,Tie Down Engineering,182,Tie Down Engineering,match,exact
+direct_context,qwen3.6:35b-a3b,23,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,qwen3.6:35b-a3b,23,Trenton Pressing,185,Trenton Pressing,match,exact
+direct_context,qwen3.6:35b-a3b,23,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Valeo,187,Valeo,match,exact
+direct_context,qwen3.6:35b-a3b,23,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Vernay,189,Vernay,match,exact
+direct_context,qwen3.6:35b-a3b,23,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,qwen3.6:35b-a3b,23,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,qwen3.6:35b-a3b,23,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3.6:35b-a3b,23,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,qwen3.6:35b-a3b,23,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,23,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3.6:35b-a3b,23,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,23,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,23,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,23,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,24,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,24,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,24,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3.6:35b-a3b,24,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,24,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3.6:35b-a3b,24,IMMI,86,IMMI,match,exact
+direct_context,qwen3.6:35b-a3b,25,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,25,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,25,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3.6:35b-a3b,25,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,25,IMMI,86,IMMI,match,exact
+direct_context,qwen3.6:35b-a3b,25,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3.6:35b-a3b,26,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,26,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3.6:35b-a3b,27,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3.6:35b-a3b,27,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3.6:35b-a3b,27,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3.6:35b-a3b,27,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,27,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,27,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,27,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3.6:35b-a3b,27,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3.6:35b-a3b,27,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,27,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,28,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3.6:35b-a3b,28,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,28,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Valeo,187,Valeo,match,exact
+direct_context,qwen3.6:35b-a3b,29,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Vernay,189,Vernay,match,exact
+direct_context,qwen3.6:35b-a3b,29,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,qwen3.6:35b-a3b,29,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,qwen3.6:35b-a3b,29,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,29,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3.6:35b-a3b,29,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,qwen3.6:35b-a3b,29,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,29,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3.6:35b-a3b,29,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,29,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,29,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,29,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,30,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3.6:35b-a3b,30,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3.6:35b-a3b,30,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,30,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,qwen3.6:35b-a3b,30,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,30,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3.6:35b-a3b,30,TI Fluid Systems,181,TI Fluid Systems,match,exact
+direct_context,qwen3.6:35b-a3b,30,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,30,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+direct_context,qwen3.6:35b-a3b,30,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,31,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,31,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+direct_context,qwen3.6:35b-a3b,31,Bridgestone Bandag,23,Bridgestone Bandag,match,exact
+direct_context,qwen3.6:35b-a3b,31,Eaton Corp,36,Eaton Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,31,Ecoplastic America Corporation,41,Ecoplastic America Corporation,match,exact
+direct_context,qwen3.6:35b-a3b,31,Erdrich USA Inc,67,Erdrich USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,31,Global Powertrain Systems LLC,74,Global Powertrain Systems LLC,match,exact
+direct_context,qwen3.6:35b-a3b,32,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,33,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3.6:35b-a3b,33,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3.6:35b-a3b,33,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3.6:35b-a3b,34,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,34,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3.6:35b-a3b,34,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,34,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,35,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3.6:35b-a3b,35,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,35,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,36,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3.6:35b-a3b,36,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3.6:35b-a3b,36,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3.6:35b-a3b,36,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3.6:35b-a3b,36,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,36,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,36,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,qwen3.6:35b-a3b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3.6:35b-a3b,36,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3.6:35b-a3b,36,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,36,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3.6:35b-a3b,37,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3.6:35b-a3b,37,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,37,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,37,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,38,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3.6:35b-a3b,38,Enplas USA Inc,58,Enplas USA Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,39,Ramack International LLC,150,Racemark International LLC,match,fuzzy:0.905
+direct_context,qwen3.6:35b-a3b,40,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3.6:35b-a3b,40,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,40,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3.6:35b-a3b,40,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3.6:35b-a3b,40,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3.6:35b-a3b,41,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,41,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,qwen3.6:35b-a3b,42,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,1,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3:30b,1,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3:30b,1,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3:30b,1,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3:30b,1,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3:30b,1,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3:30b,1,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3:30b,1,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3:30b,1,Hyundai Transys Georgia Powertrain,83,Hyundai Motor Group,mismatch,
+direct_context,qwen3:30b,1,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,1,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,1,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3:30b,1,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3:30b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3:30b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3:30b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3:30b,2,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,3,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3:30b,3,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,3,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3:30b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3:30b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+direct_context,qwen3:30b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,qwen3:30b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3:30b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,qwen3:30b,5,TE Connectivity,175,TE Connectivity,match,exact
+direct_context,qwen3:30b,5,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3:30b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3:30b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,qwen3:30b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,qwen3:30b,6,Novelis Inc,64,Novelis Inc.,match,exact
+direct_context,qwen3:30b,6,Novelis Inc,128,Novelis Inc.,match,exact
+direct_context,qwen3:30b,6,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3:30b,7,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,qwen3:30b,8,Milliken & Co./Valway Plant,45,Milliken & Co./Valway Plant,match,exact
+direct_context,qwen3:30b,8,Mobis Alabama LLC,46,Mobis Alabama LLC,match,exact
+direct_context,qwen3:30b,8,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,8,Lear Corporation,100,Lear Corporation,match,exact
+direct_context,qwen3:30b,8,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,8,Seoyon E-HWA,157,Seoyon E-HWA,match,exact
+direct_context,qwen3:30b,8,Seoyon E-Hwa Interior Systems,158,Seoyon E-Hwa Interior Systems,match,exact
+direct_context,qwen3:30b,8,Sewon America Inc,161,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,9,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+direct_context,qwen3:30b,9,Grudem,3,Grudem,match,exact
+direct_context,qwen3:30b,9,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,9,Haering Precision USA LP,42,Haering Precision USA LP,match,exact
+direct_context,qwen3:30b,9,Denso Manufacturing Georgia,70,Denso Manufacturing Georgia,match,exact
+direct_context,qwen3:30b,9,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+direct_context,qwen3:30b,9,Oneda Corp,90,Oneda Corp.,match,exact
+direct_context,qwen3:30b,9,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3:30b,9,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,9,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,9,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,10,TE Connectivity,171,Superior Essex Inc.,mismatch,
+direct_context,qwen3:30b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+direct_context,qwen3:30b,10,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3:30b,10,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+direct_context,qwen3:30b,10,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3:30b,10,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3:30b,10,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,qwen3:30b,10,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+direct_context,qwen3:30b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,11,Sewon America Inc,161,Sewon America Inc.,match,exact
+direct_context,qwen3:30b,12,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,12,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,12,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3:30b,13,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,13,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,13,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,14,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3:30b,14,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,qwen3:30b,16,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3:30b,18,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3:30b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,qwen3:30b,20,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3:30b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3:30b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3:30b,20,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3:30b,20,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,21,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+direct_context,qwen3:30b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,qwen3:30b,21,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+direct_context,qwen3:30b,21,FOX Factory,9,FOX Factory,match,exact
+direct_context,qwen3:30b,21,AVS,16,AVS,match,exact
+direct_context,qwen3:30b,22,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+direct_context,qwen3:30b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+direct_context,qwen3:30b,23,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3:30b,23,Morgan Corp,119,Morgan Corp.,match,exact
+direct_context,qwen3:30b,23,TI Fluid Systems,180,TI Fluid Systems,match,exact
+direct_context,qwen3:30b,23,Tie Down Engineering,182,Tie Down Engineering,match,exact
+direct_context,qwen3:30b,23,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+direct_context,qwen3:30b,23,Toyota Industries Group,184,Toyota Industries Group (TACG-TICA),match,alias
+direct_context,qwen3:30b,23,Trenton Pressing,185,Trenton Pressing,match,exact
+direct_context,qwen3:30b,23,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,qwen3:30b,23,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3:30b,23,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,23,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,24,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3:30b,24,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3:30b,24,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,25,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,25,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3:30b,25,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,25,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,25,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,qwen3:30b,25,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,qwen3:30b,26,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,26,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+direct_context,qwen3:30b,27,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3:30b,27,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3:30b,27,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+direct_context,qwen3:30b,27,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+direct_context,qwen3:30b,27,JAC Products Inc,89,JAC Products Inc.,match,exact
+direct_context,qwen3:30b,27,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+direct_context,qwen3:30b,27,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3:30b,27,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3:30b,28,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3:30b,28,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,28,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3:30b,29,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+direct_context,qwen3:30b,29,Valeo,187,Valeo,match,exact
+direct_context,qwen3:30b,29,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+direct_context,qwen3:30b,29,Vernay,189,Vernay,match,exact
+direct_context,qwen3:30b,29,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+direct_context,qwen3:30b,29,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+direct_context,qwen3:30b,29,Volvo Cars USA,192,Volvo Cars USA,match,exact
+direct_context,qwen3:30b,29,Volvo Group North America,193,Volvo Group North America,match,exact
+direct_context,qwen3:30b,29,Wabash National Corp,194,Wabash National Corp.,match,exact
+direct_context,qwen3:30b,29,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+direct_context,qwen3:30b,29,WIKA USA,196,WIKA USA,match,exact
+direct_context,qwen3:30b,29,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+direct_context,qwen3:30b,29,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+direct_context,qwen3:30b,29,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+direct_context,qwen3:30b,29,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+direct_context,qwen3:30b,29,Yazaki North America,201,Yazaki North America,match,exact
+direct_context,qwen3:30b,29,YKK USA Inc,202,YKK USA Inc.,match,exact
+direct_context,qwen3:30b,29,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,29,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,29,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,30,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,30,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,30,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,31,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+direct_context,qwen3:30b,31,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+direct_context,qwen3:30b,31,Bridgestone Bandag,23,Bridgestone Bandag,match,exact
+direct_context,qwen3:30b,31,Eaton Corp,36,Eaton Corp.,match,exact
+direct_context,qwen3:30b,31,Ecoplastic America Corporation,41,Ecoplastic America Corporation,match,exact
+direct_context,qwen3:30b,31,Erdrich USA Inc,67,Erdrich USA Inc.,match,exact
+direct_context,qwen3:30b,31,Global Powertrain Systems LLC,74,Global Powertrain Systems LLC,match,exact
+direct_context,qwen3:30b,32,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+direct_context,qwen3:30b,33,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+direct_context,qwen3:30b,33,Teklas USA,176,Teklas USA,match,exact
+direct_context,qwen3:30b,33,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+direct_context,qwen3:30b,34,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+direct_context,qwen3:30b,34,Novelis Inc,129,Novelis Inc.,match,exact
+direct_context,qwen3:30b,34,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3:30b,34,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,35,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3:30b,35,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3:30b,36,Hitachi Astemo,75,Hitachi Astemo,match,exact
+direct_context,qwen3:30b,36,Hwashin,79,Hwashin,match,exact
+direct_context,qwen3:30b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+direct_context,qwen3:30b,36,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+direct_context,qwen3:30b,36,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+direct_context,qwen3:30b,36,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+direct_context,qwen3:30b,37,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+direct_context,qwen3:30b,37,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,37,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+direct_context,qwen3:30b,38,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3:30b,39,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,40,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,40,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,40,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,41,Duckyang,35,Duckyang,match,exact
+direct_context,qwen3:30b,41,Enchem America Inc,51,Enchem America Inc.,match,exact
+direct_context,qwen3:30b,41,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+direct_context,qwen3:30b,41,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+direct_context,qwen3:30b,41,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+direct_context,qwen3:30b,41,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+direct_context,qwen3:30b,41,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+direct_context,qwen3:30b,41,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+direct_context,qwen3:30b,41,IMMI,86,IMMI,match,exact
+direct_context,qwen3:30b,41,Racemark International LLC,150,Racemark International LLC,match,exact
+direct_context,qwen3:30b,41,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+direct_context,qwen3:30b,41,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+direct_context,qwen3:30b,42,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,1,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,gemma3:12b,1,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hitachi Astemo,75,Hitachi Astemo,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hwashin,79,Hwashin,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,1,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,1,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,1,JAC Products Inc,89,JAC Products Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,1,KTX America Corporation,96,KTX America Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,1,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+batchwise_map_reduce,gemma3:12b,1,Lear Corporation,100,Lear Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,1,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+batchwise_map_reduce,gemma3:12b,1,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,2,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,2,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,2,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,2,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,3,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,3,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,3,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,3,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,4,Morgan Corp,119,Morgan Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Minebea AccessSolutions USA Inc,116,Minebea AccessSolutions USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+batchwise_map_reduce,gemma3:12b,5,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,TE Connectivity,175,TE Connectivity,match,exact
+batchwise_map_reduce,gemma3:12b,5,Teklas USA,176,Teklas USA,match,exact
+batchwise_map_reduce,gemma3:12b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+batchwise_map_reduce,gemma3:12b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,TI Fluid Systems,180,TI Fluid Systems,match,exact
+batchwise_map_reduce,gemma3:12b,5,TI Fluid Systems,181,TI Fluid Systems,match,exact
+batchwise_map_reduce,gemma3:12b,5,Tie Down Engineering,182,Tie Down Engineering,match,exact
+batchwise_map_reduce,gemma3:12b,5,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+batchwise_map_reduce,gemma3:12b,5,Trenton Pressing,185,Trenton Pressing,match,exact
+batchwise_map_reduce,gemma3:12b,5,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Valeo,187,Valeo,match,exact
+batchwise_map_reduce,gemma3:12b,5,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Vernay,189,Vernay,match,exact
+batchwise_map_reduce,gemma3:12b,5,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Volvo Cars USA,192,Volvo Cars USA,match,exact
+batchwise_map_reduce,gemma3:12b,5,Volvo Group North America,193,Volvo Group North America,match,exact
+batchwise_map_reduce,gemma3:12b,5,Wabash National Corp,194,Wabash National Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Wheelabrator Group Inc,195,Wheelabrator Group Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,5,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,gemma3:12b,5,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,5,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+batchwise_map_reduce,gemma3:12b,6,Novelis Inc,64,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,6,Novelis Inc,128,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,6,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,7,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,gemma3:12b,8,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,9,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,9,Grudem,3,Grudem,match,exact
+batchwise_map_reduce,gemma3:12b,9,Lund International Inc,24,Lund International Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,9,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,9,Haering Precision USA LP,42,Haering Precision USA LP,match,exact
+batchwise_map_reduce,gemma3:12b,9,Hyundai Transys Georgia Powertrain,96,KTX America Corporation,mismatch,
+batchwise_map_reduce,gemma3:12b,10,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,10,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,10,TCI Powder Coatings,173,TCI Powder Coatings,match,exact
+batchwise_map_reduce,gemma3:12b,10,TE Connectivity,175,TE Connectivity,match,exact
+batchwise_map_reduce,gemma3:12b,10,Teklas USA,176,Teklas USA,match,exact
+batchwise_map_reduce,gemma3:12b,10,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,10,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,11,Sewon America Inc,161,Sewon America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Grudem,3,Grudem,match,exact
+batchwise_map_reduce,gemma3:12b,12,Flambeau Inc,4,Flambeau Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,FOX Factory,9,FOX Factory,match,exact
+batchwise_map_reduce,gemma3:12b,12,Ascend Elements,11,Ascend Elements,match,exact
+batchwise_map_reduce,gemma3:12b,12,Aspen Aerogels,12,Aspen Aerogels,match,exact
+batchwise_map_reduce,gemma3:12b,12,Aurubis,13,Aurubis,match,exact
+batchwise_map_reduce,gemma3:12b,12,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,AVS,16,AVS,match,exact
+batchwise_map_reduce,gemma3:12b,12,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,12,Bonnell Aluminum,19,Dorsett Industries Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Boogook Industries,20,Boogook Industries,match,exact
+batchwise_map_reduce,gemma3:12b,12,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+batchwise_map_reduce,gemma3:12b,12,Bosch (Automotive Division),22,Bosch (Automotive Division),match,exact
+batchwise_map_reduce,gemma3:12b,12,Michelin Tread Technologies,23,Bridgestone Bandag,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Club Car LLC,25,Club Car LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,Constellium Automotive USA,26,Constellium Automotive USA,match,exact
+batchwise_map_reduce,gemma3:12b,12,Big Tex Trailer Manufacturing Inc,29,Big Tex Trailer Manufacturing Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,Daesol Ausys,31,Daesol Ausys,match,exact
+batchwise_map_reduce,gemma3:12b,12,Bonnell Aluminum,32,Bonnell Aluminum,match,exact
+batchwise_map_reduce,gemma3:12b,12,Bosal Industries Georgia,33,Bosal Industries Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,12,Enchem America Inc,34,DAS Corp.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,12,Eaton Corp,36,Eaton Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Carcoustics USA,38,Carcoustics USA,match,exact
+batchwise_map_reduce,gemma3:12b,12,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Mercedes-Benz USA LLC,40,Mercedes-Benz USA LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,Ecoplastic America Corporation,41,Ecoplastic America Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,12,Haering Precision USA LP,42,Haering Precision USA LP,match,exact
+batchwise_map_reduce,gemma3:12b,12,Michelin Tread Technologies,43,Michelin Tread Technologies,match,exact
+batchwise_map_reduce,gemma3:12b,12,Adient,44,Adient,match,exact
+batchwise_map_reduce,gemma3:12b,12,Mobis Alabama LLC,45,Milliken & Co./Valway Plant,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Freudenberg-NOK,46,Mobis Alabama LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Elan Technology Inc,47,Freudenberg-NOK,mismatch,
+batchwise_map_reduce,gemma3:12b,12,GSC Steel Stamping LLC,48,Elan Technology Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Continental Automotive,49,Continental Automotive,match,exact
+batchwise_map_reduce,gemma3:12b,12,Ecoplastic Corporation,50,Ecoplastic Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,12,Enplas USA Inc,51,Enchem America Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,ALBAform Inc,52,EVCO Plastics,mismatch,
+batchwise_map_reduce,gemma3:12b,12,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,12,Fanello Industries Inc,54,Fanello Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,First American Resources,55,First American Resources,match,exact
+batchwise_map_reduce,gemma3:12b,12,Hanon Systems USA LLC,56,ADVICS Manufacturing Georgia LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Enchem America Inc,58,Enplas USA Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Continental Tire the Americas LLC,59,Continental Tire the Americas LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,12,Ajin Georgia,61,Ajin Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,12,Apache Mills Inc,63,Apache Mills Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,Novelis Inc,64,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,12,DaeChang Seat Company,65,DaeChang Seat Company,match,exact
+batchwise_map_reduce,gemma3:12b,12,Denso Manufacturing Georgia,66,ALBAform Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,GEDIA Georgia LLC,67,Erdrich USA Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,12,HELLA Automotive Sales Inc,68,FREYR Battery,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Nisshinbo Automotive Manufacturing Inc,69,GSC Steel Stamping LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,12,"Daesol Material Georgia, LLC",70,Denso Manufacturing Georgia,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Haering Precision USA LP,71,Haering Precision USA LP,match,exact
+batchwise_map_reduce,gemma3:12b,12,GLOVIS Georgia LLC,72,Hanon Systems USA LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Great Dane LP,73,GEDIA Georgia LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,12,Global Powertrain Systems LLC,74,Global Powertrain Systems LLC,match,exact
+batchwise_map_reduce,gemma3:12b,12,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,13,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,13,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,13,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,13,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,13,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,13,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,14,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,14,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,14,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+batchwise_map_reduce,gemma3:12b,15,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,16,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,16,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,16,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,16,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,17,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,gemma3:12b,17,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,17,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,17,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,17,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+batchwise_map_reduce,gemma3:12b,17,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+batchwise_map_reduce,gemma3:12b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,18,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+batchwise_map_reduce,gemma3:12b,18,Jefferson Southern Corporation,90,Oneda Corp.,mismatch,
+batchwise_map_reduce,gemma3:12b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,EVCO Plastics,52,EVCO Plastics,match,exact
+batchwise_map_reduce,gemma3:12b,19,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,19,Fanello Industries Inc,54,Fanello Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,First American Resources,55,First American Resources,match,exact
+batchwise_map_reduce,gemma3:12b,19,ADVICS Manufacturing Georgia LLC,56,ADVICS Manufacturing Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,19,Murata Electronics North America Inc,57,Murata Electronics North America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,Enplas USA Inc,58,Enplas USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,Continental Tire the Americas LLC,59,Continental Tire the Americas LLC,match,exact
+batchwise_map_reduce,gemma3:12b,19,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,19,Ajin Georgia,61,Ajin Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,19,Neaton Rome Inc,62,Neaton Rome Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,Apache Mills Inc,63,Apache Mills Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,Novelis Inc,64,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,19,DaeChang Seat Company,65,DaeChang Seat Company,match,exact
+batchwise_map_reduce,gemma3:12b,19,Freudenberg-NOK,66,ALBAform Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,20,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,20,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,20,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,20,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,21,Grudem,3,Grudem,match,exact
+batchwise_map_reduce,gemma3:12b,21,Flambeau Inc,4,Flambeau Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,21,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,22,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,24,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,24,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,24,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,24,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,24,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,25,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,25,Daesol Ausys,31,Daesol Ausys,match,exact
+batchwise_map_reduce,gemma3:12b,25,DAS Corp,34,DAS Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,25,Freudenberg-NOK,47,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,25,Elan Technology Inc,48,Elan Technology Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,25,Continental Automotive,49,Continental Automotive,match,exact
+batchwise_map_reduce,gemma3:12b,25,Ecoplastic Corporation,50,Ecoplastic Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,25,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,25,EVCO Plastics,52,EVCO Plastics,match,exact
+batchwise_map_reduce,gemma3:12b,25,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,25,Fanello Industries Inc,54,Fanello Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,25,First American Resources,55,First American Resources,match,exact
+batchwise_map_reduce,gemma3:12b,25,ADVICS Manufacturing Georgia LLC,56,ADVICS Manufacturing Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,25,Enplas USA Inc,58,Enplas USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,25,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,25,Ajin Georgia,61,Ajin Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,25,Apache Mills Inc,63,Apache Mills Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,Grudem,3,Grudem,match,exact
+batchwise_map_reduce,gemma3:12b,26,Flambeau Inc,4,Flambeau Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,26,FOX Factory,9,FOX Factory,match,exact
+batchwise_map_reduce,gemma3:12b,26,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,gemma3:12b,26,Ascend Elements,11,Ascend Elements,match,exact
+batchwise_map_reduce,gemma3:12b,26,Aspen Aerogels,12,Aspen Aerogels,match,exact
+batchwise_map_reduce,gemma3:12b,26,Aurubis,13,Aurubis,match,exact
+batchwise_map_reduce,gemma3:12b,26,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,26,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,AVS,16,AVS,match,exact
+batchwise_map_reduce,gemma3:12b,26,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,26,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,26,Dorsett Industries Inc,19,Dorsett Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,26,Boogook Industries,20,Boogook Industries,match,exact
+batchwise_map_reduce,gemma3:12b,26,Big Tex Trailer Manufacturing Inc,21,Down 2 Earth Trailers,mismatch,
+batchwise_map_reduce,gemma3:12b,26,Bonnell Aluminum,22,Bosch (Automotive Division),mismatch,
+batchwise_map_reduce,gemma3:12b,26,Michellin Tread Technologies,23,Bridgestone Bandag,mismatch,
+batchwise_map_reduce,gemma3:12b,26,Continental Automotive,46,Mobis Alabama LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,26,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,JTEKT North America Corp,1,JTEKT North America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Kautex Inc,2,Kautex Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Flambeau Inc,4,Flambeau Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Arising Industries Inc,5,Arising Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,ACM Georgia LLC,7,ACM Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,27,Lark United Manufacturing Inc,8,Lark United Manufacturing Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,AVS,9,FOX Factory,mismatch,
+batchwise_map_reduce,gemma3:12b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,gemma3:12b,27,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+batchwise_map_reduce,gemma3:12b,27,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,AVS,16,AVS,match,exact
+batchwise_map_reduce,gemma3:12b,27,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,27,Dorsett Industries Inc,19,Dorsett Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,27,Ecoplastic Corporation,20,Boogook Industries,mismatch,
+batchwise_map_reduce,gemma3:12b,27,Big Tex Trailer Manufacturing Inc,21,Down 2 Earth Trailers,mismatch,
+batchwise_map_reduce,gemma3:12b,27,Duckyang,25,Club Car LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,27,Mercedes-Benz USA LLC,40,Mercedes-Benz USA LLC,match,exact
+batchwise_map_reduce,gemma3:12b,27,Hwashin,79,Hwashin,match,exact
+batchwise_map_reduce,gemma3:12b,28,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,28,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,28,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,29,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,29,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,29,TDK Components USA Inc,174,TDK Components USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,TE Connectivity,175,TE Connectivity,match,exact
+batchwise_map_reduce,gemma3:12b,29,Teklas USA,179,Thomson Plastics Inc.,mismatch,
+batchwise_map_reduce,gemma3:12b,29,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Thomson Plastics Inc,177,Textron Specialized Vehicles,mismatch,
+batchwise_map_reduce,gemma3:12b,29,TI Fluid Systems,180,TI Fluid Systems,match,exact
+batchwise_map_reduce,gemma3:12b,29,TI Fluid Systems,181,TI Fluid Systems,match,exact
+batchwise_map_reduce,gemma3:12b,29,Tie Down Engineering,182,Tie Down Engineering,match,exact
+batchwise_map_reduce,gemma3:12b,29,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+batchwise_map_reduce,gemma3:12b,29,Trenton Pressing,185,Trenton Pressing,match,exact
+batchwise_map_reduce,gemma3:12b,29,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Wabash National Corp,194,Wabash National Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,29,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,gemma3:12b,29,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,29,Yachiyo Manufacturing of America LLC,199,Yachiyo Manufacturing of America LLC,match,exact
+batchwise_map_reduce,gemma3:12b,29,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,31,Dinex Emissions Inc,6,Dinex Emissions Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,31,Ascend Elements,11,Ascend Elements,match,exact
+batchwise_map_reduce,gemma3:12b,31,Aspen Aerogels,12,Aspen Aerogels,match,exact
+batchwise_map_reduce,gemma3:12b,31,Aurubis,13,Aurubis,match,exact
+batchwise_map_reduce,gemma3:12b,31,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,31,AVS,16,AVS,match,exact
+batchwise_map_reduce,gemma3:12b,31,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,31,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,31,Constellium Automotive USA,26,Constellium Automotive USA,match,exact
+batchwise_map_reduce,gemma3:12b,31,DAESOL Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,fuzzy:0.87
+batchwise_map_reduce,gemma3:12b,31,Daesol Ausys,31,Daesol Ausys,match,exact
+batchwise_map_reduce,gemma3:12b,31,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,31,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+batchwise_map_reduce,gemma3:12b,32,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,32,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,32,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,32,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,32,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,32,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,32,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,32,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,32,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,32,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,gemma3:12b,32,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,32,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,32,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,32,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,32,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,33,Jefferson Southern Corporation,91,Jefferson Southern Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,33,"Joon Georgia, Inc",92,"Joon Georgia, Inc.",match,exact
+batchwise_map_reduce,gemma3:12b,33,KTX America Corporation,96,KTX America Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,33,Kumho Tire USA Inc,97,Kumho Tire USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,34,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,34,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,34,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,34,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,35,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,35,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,35,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,35,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,35,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,35,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,36,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,gemma3:12b,36,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,36,Neaton Rome Inc,62,Neaton Rome Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hitachi Astemo,75,Hitachi Astemo,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hwashin,79,Hwashin,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+batchwise_map_reduce,gemma3:12b,36,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,36,KTX America Corporation,96,KTX America Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,36,Kyungshin America Corp,98,Kyungshin America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+batchwise_map_reduce,gemma3:12b,36,Lear Corporation,100,Lear Corporation,match,exact
+batchwise_map_reduce,gemma3:12b,36,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+batchwise_map_reduce,gemma3:12b,37,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,gemma3:12b,37,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,37,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,37,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,gemma3:12b,38,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,38,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,gemma3:12b,38,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,38,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,gemma3:12b,38,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,38,Trenton Pressing Inc,186,Trenton Pressing Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Valeo,187,Valeo,match,exact
+batchwise_map_reduce,gemma3:12b,38,Vanguard National Trailer Corp,188,Vanguard National Trailer Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Vernay,189,Vernay,match,exact
+batchwise_map_reduce,gemma3:12b,38,Vista Metals Corp,190,Vista Metals Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Voestalpine Automotive Body Parts Inc,191,Voestalpine Automotive Body Parts Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Volvo Cars USA,192,Volvo Cars USA,match,exact
+batchwise_map_reduce,gemma3:12b,38,Volvo Group North America,193,Volvo Group North America,match,exact
+batchwise_map_reduce,gemma3:12b,38,Wabash National Corp,194,Wabash National Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,38,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,gemma3:12b,38,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Woory Industrial Co,198,Woory Industrial Co.,match,exact
+batchwise_map_reduce,gemma3:12b,38,Yamaha Motor Manufacturing Corp,199,Yachiyo Manufacturing of America LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,39,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,39,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,39,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,39,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,39,YKK USA Inc,202,YKK USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,40,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,40,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,gemma3:12b,40,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,40,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,gemma3:12b,40,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,40,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,gemma3:12b,40,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,40,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,40,Yamaha Motor Manufacturing Corp,176,Teklas USA,mismatch,
+batchwise_map_reduce,gemma3:12b,41,Ascend Elements,11,Ascend Elements,match,exact
+batchwise_map_reduce,gemma3:12b,41,Aspen Aerogels,12,Aspen Aerogels,match,exact
+batchwise_map_reduce,gemma3:12b,41,Aurubis,13,Aurubis,match,exact
+batchwise_map_reduce,gemma3:12b,41,Beaver Manufacturing Co. Inc,15,Beaver Manufacturing Co. Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,41,AVS,16,AVS,match,exact
+batchwise_map_reduce,gemma3:12b,41,Blue Bird Corp,17,Blue Bird Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,41,Blue Ridge Manufacturing,18,Blue Ridge Manufacturing,match,exact
+batchwise_map_reduce,gemma3:12b,41,Dorsett Industries Inc,19,Dorsett Industries Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,41,Boogook Industries,20,Boogook Industries,match,exact
+batchwise_map_reduce,gemma3:12b,41,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+batchwise_map_reduce,gemma3:12b,41,Bosch (Automotive Division),22,Bosch (Automotive Division),match,exact
+batchwise_map_reduce,gemma3:12b,41,Bridgestone Bandag,23,Bridgestone Bandag,match,exact
+batchwise_map_reduce,gemma3:12b,41,DAEHAN Solution,30,DAEHAN Solution Georgia LLC,mismatch,
+batchwise_map_reduce,gemma3:12b,41,DAS Corp,34,DAS Corp.,match,exact
+batchwise_map_reduce,gemma3:12b,41,Ecoplastic America Corporation,170,SungEel Recycling Park Georgia,mismatch,
+batchwise_map_reduce,gemma3:12b,42,Racemark International LLC,150,Racemark International LLC,match,exact
+batchwise_map_reduce,gemma3:12b,42,Yazaki North America,201,Yazaki North America,match,exact
+batchwise_map_reduce,gemma3:12b,42,YKK USA Inc,202,YKK USA Inc.,match,exact
+batchwise_map_reduce,gemma3:12b,42,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,gemma3:12b,42,ZF Gainesville LLC,205,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,1,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,qwen2.5:14b,2,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,2,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,2,Honda Development & Manufacturing,78,Honda Development & Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,2,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,qwen2.5:14b,3,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,qwen2.5:14b,3,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,3,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,4,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Teklas USA,176,Teklas USA,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Thermal Ceramics Inc,178,Thermal Ceramics Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,5,Thomson Plastics Inc,179,Thomson Plastics Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,6,Novelis Inc,64,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,6,Novelis Inc,128,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,6,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,7,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,qwen2.5:14b,8,Jefferson Southern Corporation,91,Jefferson Southern Corporation,match,exact
+batchwise_map_reduce,qwen2.5:14b,9,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,9,TE Connectivity,175,TE Connectivity,match,exact
+batchwise_map_reduce,qwen2.5:14b,10,Kia Georgia Inc,95,Kia Georgia Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,10,Superior Essex Inc,171,Superior Essex Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,10,Suzuki Manufacturing of America Corp,172,Suzuki Manufacturing of America Corp.,match,exact
+batchwise_map_reduce,qwen2.5:14b,11,Sewon America Inc,148,Sewon America Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,11,Sewon America Inc,151,Sewon America Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,12,Ascend Elements,11,Ascend Elements,match,exact
+batchwise_map_reduce,qwen2.5:14b,12,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,12,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,12,SungEel Recycling Park Georgia,170,SungEel Recycling Park Georgia,match,exact
+batchwise_map_reduce,qwen2.5:14b,13,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,qwen2.5:14b,13,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,13,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,13,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,14,WIKA USA,196,WIKA USA,match,exact
+batchwise_map_reduce,qwen2.5:14b,14,Woodbridge Foam Corp,197,Woodbridge Foam Corp.,match,exact
+batchwise_map_reduce,qwen2.5:14b,15,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,16,Duckyang,35,Duckyang,match,exact
+batchwise_map_reduce,qwen2.5:14b,17,Bridgestone Bandag,23,Bridgestone Bandag,match,exact
+batchwise_map_reduce,qwen2.5:14b,17,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,18,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,19,Archer Aviation Inc,39,Archer Aviation Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,20,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,20,Hitachi Astemo Americas Inc,76,Hitachi Astemo Americas Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,20,Hollingsworth & Vose Co,77,Hollingsworth & Vose Co.,match,exact
+batchwise_map_reduce,qwen2.5:14b,20,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,qwen2.5:14b,20,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,qwen2.5:14b,21,Dongwon Autopart Technology Georgia LLC,14,Dongwon Autopart Technology Georgia LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,22,Arising Industries Inc,111,Arising Industries Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,23,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,24,Hyundai Motor Group,83,Hyundai Motor Group,match,exact
+batchwise_map_reduce,qwen2.5:14b,24,IMMI,86,IMMI,match,exact
+batchwise_map_reduce,qwen2.5:14b,25,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,25,Denkai America,160,Denkai America,match,exact
+batchwise_map_reduce,qwen2.5:14b,26,Enchem America Inc,51,Enchem America Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,27,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,qwen2.5:14b,27,Hitachi Astemo,75,Hitachi Astemo,match,exact
+batchwise_map_reduce,qwen2.5:14b,27,Hwashin,79,Hwashin,match,exact
+batchwise_map_reduce,qwen2.5:14b,27,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+batchwise_map_reduce,qwen2.5:14b,27,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,28,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,qwen2.5:14b,28,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,TI Fluid Systems,181,TI Fluid Systems,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,Tie Down Engineering,182,Tie Down Engineering,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,TN Americas Holding Inc,183,TN Americas Holding Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,Toyota Industries Group (TACG-TICA),184,Toyota Industries Group (TACG-TICA),match,exact
+batchwise_map_reduce,qwen2.5:14b,29,Trenton Pressing,185,Trenton Pressing,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,Yazaki North America,201,Yazaki North America,match,exact
+batchwise_map_reduce,qwen2.5:14b,29,ZF Gainesville LLC,203,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,30,Yamaha Motor Manufacturing Corp,200,Yamaha Motor Manufacturing Corp.,match,exact
+batchwise_map_reduce,qwen2.5:14b,31,Down 2 Earth Trailers,21,Down 2 Earth Trailers,match,exact
+batchwise_map_reduce,qwen2.5:14b,31,Bridgestone Bandag,23,Bridgestone Bandag,match,exact
+batchwise_map_reduce,qwen2.5:14b,32,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,33,Textron Specialized Vehicles,177,Textron Specialized Vehicles,match,exact
+batchwise_map_reduce,qwen2.5:14b,34,ZF Gainesville LLC,204,ZF Gainesville LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,35,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,qwen2.5:14b,35,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,35,Novelis Inc,129,Novelis Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,35,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Fouts Brothers Fire Equipment,10,Fouts Brothers Fire Equipment,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Hitachi Astemo,75,Hitachi Astemo,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Hyundai & LG Energy Solution (LGES),80,Hyundai & LG Energy Solution (LGES),match,exact
+batchwise_map_reduce,qwen2.5:14b,36,IMS Gear Georgia Inc,87,IMS Gear Georgia Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,JAC Products Inc,89,JAC Products Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Hyundai Industrial Co,93,Hyundai Industrial Co.,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Hyundai MOBIS (Georgia),99,Hyundai MOBIS (Georgia),match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Hyundai Transys Georgia Seating Systems,130,Hyundai Transys Georgia Seating Systems,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Inalfa Roof Systems Inc,145,Inalfa Roof Systems Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,36,Jefferson Southern Corp,165,Jefferson Southern Corp.,match,exact
+batchwise_map_reduce,qwen2.5:14b,37,Freudenberg-NOK,60,Freudenberg-NOK,match,exact
+batchwise_map_reduce,qwen2.5:14b,37,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,37,Peerless-Winsmith Inc,139,Peerless-Winsmith Inc.,match,exact
+batchwise_map_reduce,qwen2.5:14b,38,F&P Georgia Manufacturing,53,F&P Georgia Manufacturing,match,exact
+batchwise_map_reduce,qwen2.5:14b,39,Remarc International LLC,150,Racemark International LLC,match,fuzzy:0.905
+batchwise_map_reduce,qwen2.5:14b,40,GSC Steel Stamping LLC,69,GSC Steel Stamping LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,40,Hyundai Transys Georgia Powertrain,84,Hyundai Transys Georgia Powertrain,match,exact
+batchwise_map_reduce,qwen2.5:14b,41,DAEHAN Solution Georgia LLC,30,DAEHAN Solution Georgia LLC,match,exact
+batchwise_map_reduce,qwen2.5:14b,42,Remarc International LLC,150,Racemark International LLC,match,fuzzy:0.905

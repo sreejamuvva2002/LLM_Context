@@ -1,9 +1,0 @@
-=== MODEL qwen3.6:35b-a3b (safe=qwen3.6_35b-a3b) | num_ctx=65536 | kb_hash=2b74b10535a8 ===
-
---- Q1 ---
-Show all "Tier 1/2" suppliers in Georgia, list their EV Supply Chain Role and Product / Service.
-OK in 64.5s | prompt_eval_count=40276 | chars=2161
-Answer preview: Answer: There are 18 Tier 1/2 suppliers in Georgia. Their EV Supply Chain Roles and Products/Services are detailed in the Evidence table below.  Evidence: | row_id | Company | EV Supply Chain Role | Product / Service | |---|---|---|---| | 10 | Fouts Brothers Fire Equipment | General Automotive | Automotive body parts and electronics Cylinder-head and specialty gaskets, housing modules and shieldin
-
---- Q2 ---
-Which Georgia companies are classified under Battery Cell or Battery Pack roles, and what tier is each assigned?

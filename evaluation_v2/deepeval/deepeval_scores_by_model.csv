@@ -1,0 +1,8 @@
+arm,model_name,answers_judged,mean_factual_faithfulness,mean_completeness,mean_correctness,mean_evidence_grounding,mean_company_grounding,mean_usefulness,mean_deepeval_mean,mean_judge_seconds,partial_error_answers,rank_by_deepeval_mean
+direct_context,qwen3.6:35b-a3b,42,0.8095,0.5714,0.6952,0.95,0.9714,0.9143,0.8186,33.0,0,1
+direct_context,qwen3:30b,42,0.7357,0.3357,0.4857,0.9405,0.9929,0.9381,0.7381,31.87,0,2
+batchwise_map_reduce,qwen2.5:14b,42,0.6226,0.2429,0.3071,0.9119,0.9524,0.9262,0.6605,29.29,0,3
+batchwise_map_reduce,gemma3:12b,42,0.4357,0.1643,0.219,0.669,0.9381,0.7333,0.5266,36.56,0,4
+direct_context,deepseek-r1:32b,42,0.3286,0.1238,0.1452,0.6262,0.9071,0.8524,0.4972,36.88,0,5
+direct_context,mistral-small3.2:24b,42,0.2667,0.0786,0.1,0.5,0.981,0.75,0.446,32.89,0,6
+direct_context,gemma3:27b,42,0.1083,0.0071,0.0429,0.2595,0.7607,0.6286,0.3012,40.32,0,7
